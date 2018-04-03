@@ -6,4 +6,4 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-</buildpath>
+<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-core"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-farah"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-daniel"/></buildpath>

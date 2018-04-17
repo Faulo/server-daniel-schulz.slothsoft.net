@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
-	
-	
-	
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-core"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-daniel"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-farah"/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
-	<buildpathentry kind="src" path="farah">
-		<attributes>
-			<attribute name="composer" value="source"/>
-		</attributes>
-	</buildpathentry>
 	<buildpathentry kind="src" path="tests">
 		<attributes>
 			<attribute name="composer" value="source"/>
@@ -45,11 +40,6 @@
 		</attributes>
 	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/phar-io/version/src">
-		<attributes>
-			<attribute name="composer" value="vendor"/>
-		</attributes>
-	</buildpathentry>
-	<buildpathentry kind="src" path="vendor/php-ds/php-ds/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
@@ -179,6 +169,11 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/slim/http/src">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/theseer/tokenizer/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -189,4 +184,4 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-core"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-daniel"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-farah"/></buildpath>
+</buildpath>

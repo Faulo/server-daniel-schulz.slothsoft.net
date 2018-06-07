@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<assets xmlns="http://schema.slothsoft.net/farah/module">
+    <resource-directory name="css" type="text/css"/>
+    <resource-directory name="xsl" type="application/xslt+xml"/>
+    
+    <resource-directory name="dictionary" type="application/xml"/>
+    <resource name="sitemap" type="application/xml"/>
+    
+    <directory name="static">
+      <resource-directory name="images" path="images" type="image/png"/>
+      
+      <resource name="favicon" path="favicon.png" type="image/png"/>
+    </directory>
+    
+    <fragment name="pages">
+    	<fragment name="default">
+	      <import ref="/api/default" name="default"/>
+	    </fragment>
+	    <fragment name="tetris">
+	      <import ref="/api/default" name="default"/>
+	      <use-document ref="//slothsoft@tetris/game" name="content"/>
+	    </fragment>
+    </fragment>
+    
+    <fragment name="api">
+	    <fragment name="default">
+	      <use-template ref="/xsl/_default" name="_default"/>
+	      <use-document ref="//slothsoft@farah/sites" name="sites"/>
+	      <link-stylesheet ref="/css/layout" name="layout"/>
+	      <link-stylesheet ref="/css/fonts" name="fonts"/>
+	      <use-document ref="/api/navi" name="navi"/>
+	    </fragment>
+	    <fragment name="navi">
+	      <use-template ref="/xsl/navi" name="navi"/>
+	      <use-document ref="//slothsoft@farah/sites" name="sites"/>
+	    </fragment>
+	    <fragment name="images">
+	      <use-template ref="/xsl/imageList" name="imageList"/>
+	      <use-document ref="/static/images" name="images"/>
+	    </fragment>
+    </fragment>
+  </assets>

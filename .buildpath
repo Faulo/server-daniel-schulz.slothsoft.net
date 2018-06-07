@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-core"/>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-daniel"/>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-farah"/>
+	
+	
+	
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="composer" value="source"/>
+		</attributes>
+	</buildpathentry>
 	<buildpathentry kind="src" path="tests">
 		<attributes>
 			<attribute name="composer" value="source"/>
@@ -114,6 +119,11 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/psr/container/src">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/psr/http-message/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -189,4 +199,4 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-</buildpath>
+<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-core"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-farah"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-tetris"/></buildpath>

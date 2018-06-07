@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain 
+	xmlns="http://schema.slothsoft.net/farah/sitemap"
+	xmlns:sfd="http://schema.slothsoft.net/farah/dictionary"
+	xmlns:sfm="http://schema.slothsoft.net/farah/module"
+	name="daniel-schulz.slothsoft.net"
+	vendor="slothsoft"
+	module="daniel-schulz.slothsoft.net"
+	ref="pages/default" status-active="" status-public=""
+	sfd:languages="en-us">
+	<page name="AboutMe" title="AboutMe" ref="pages/default" status-active="" status-public=""/>
+	<page name="Projects" title="Projects" ref="pages/default" status-active="" status-public="">
+		<page name="Ambermoon" title="Ambermoon" ref="pages/default" status-active="" status-public=""/>
+		<page name="LODB" title="LODB" ref="pages/default" status-active="" status-public=""/>
+		<page name="Japanese" title="Japanese" ref="pages/default" status-active="" status-public=""/>
+		<page name="MTG" title="MTG" ref="pages/default" status-active="" status-public=""/>
+		<page name="Tetris" title="Tetris" ref="pages/tetris" status-active=""/>
+		<page name="Unicode" title="Unicode" ref="pages/default" status-active=""/>
+		<page name="Farah" title="Farah" ref="pages/default" status-active="" status-public=""/>
+	</page>
+	<page name="sitemap" ref="//slothsoft@farah/sitemap-generator" status-active=""/>
+</domain>

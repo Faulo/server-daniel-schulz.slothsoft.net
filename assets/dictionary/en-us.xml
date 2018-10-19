@@ -39,7 +39,7 @@
 		</article>
 		<article>
 			<h2>10.08.2014</h2>
-			<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/meishi" alt="Look at me!" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/meishi" alt="Look at me!" />
 			<p>
 				I'm at the GDC Europe this week, so if you're reading this then it's
 				probably because I threw one of my business cards at you and now
@@ -68,7 +68,7 @@
 	<p key="AboutMe/content">
 		<article>
 			<h2>03.08.2014</h2>
-			<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/meishi" alt="Daniel" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/meishi" alt="Daniel" />
 			<p>
 				I'm a software engineer from Dresden, Germany.
 				My current job is in web development,
@@ -174,14 +174,14 @@
 		<article>
 			<h2>Screenshots</h2>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/Ambermoon.character"
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Ambermoon.character"
 					alt="a form with a billion inputs" />
 				<figcaption>
 					Well, I did say it was massive.
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/Ambermoon.contextmenu"
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Ambermoon.contextmenu"
 					alt="a form with a billion inputs" />
 				<figcaption>
 					Items can be changed via an
@@ -193,7 +193,7 @@
 			</figure>
 
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/Ambermoon.original"
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Ambermoon.original"
 					alt="an AMIGA screenshot?!" />
 				<figcaption>
 					For comparison, this is what the original game looked like.
@@ -278,7 +278,7 @@
 		<article>
 			<h2>Screenshots</h2>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/Japanese.translator"
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Japanese.translator"
 					alt="Japanese-English Translator" />
 				<figcaption>
 					You search for a sequence of characters; the translator transcribes
@@ -356,19 +356,19 @@
 		<article>
 			<h2>Screenshots</h2>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/MTG.form" alt="Search Form" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/MTG.form" alt="Search Form" />
 				<figcaption>
 					That's a lot of options.
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/MTG.planeswalkers" alt="Standard Planeswalkers" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/MTG.planeswalkers" alt="Standard Planeswalkers" />
 				<figcaption>
 					Which blue planeswalkers are currently legal in Standard?
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/MTG.closeup" alt="1 card all big and stuff" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/MTG.closeup" alt="1 card all big and stuff" />
 				<figcaption>
 					Close-up for the beautiful artwork!
 				</figcaption>
@@ -547,27 +547,27 @@
 		<article>
 			<h2>Screenshots</h2>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/LODB.viewer" alt="E-Learning viewer" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/LODB.viewer" alt="E-Learning viewer" />
 				<figcaption>
 					The Viewer. To the left is the course navigation, on the right is a
 					study unit, with 3 pages, currently showing a drag-and-drop task.
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/LODB.editor" alt="E-Learning viewer" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/LODB.editor" alt="E-Learning viewer" />
 				<figcaption>
 					The same task, in the Editor. ...In the end, out of the 2
 					requirements, only "flexible" was achieved.
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/LODB.source" alt="E-Learning viewer" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/LODB.source" alt="E-Learning viewer" />
 				<figcaption>
 					The XML source of the same task. Spec-compliant!
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/LODB.documentation"
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/LODB.documentation"
 					alt="E-Learning specification header" />
 				<figcaption>
 					If you've ever seen a
@@ -577,7 +577,7 @@
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/getAsset.php/daniel-schulz.slothsoft.net/static/images/LODB.quiz" alt="E-Learning specification element" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/LODB.quiz" alt="E-Learning specification element" />
 				<figcaption>
 					Just one of many elements defined in the LODB namespace.
 				</figcaption>

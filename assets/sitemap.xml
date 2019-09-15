@@ -17,6 +17,7 @@
 		<page name="Tetris" title="Tetris" ref="pages/tetris" status-active=""/>
 		<page name="Unicode" title="Unicode" ref="pages/default" status-active=""/>
 		<page name="Farah" title="Farah" ref="pages/default" status-active="" status-public=""/>
+		<page name="PowerFantasyVR" title="PowerFantasyVR" ref="pages/default" status-active="" status-public=""/>
 	</page>
 	<page name="sitemap" ref="//slothsoft@farah/sitemap-generator" status-active=""/>
 </domain>

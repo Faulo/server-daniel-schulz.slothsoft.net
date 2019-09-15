@@ -5,6 +5,12 @@
 	<p key="daniel-schulz.slothsoft.net">News</p>
 	<p key="daniel-schulz.slothsoft.net/content">
 		<article>
+			<h2>15.09.2019</h2>
+			<p>
+				Added "Power Fantasy VR", a student project with in collaboration with the amazing Katharina Broswik and Magnus Drebenstedt.
+			</p>
+		</article>
+		<article>
 			<h2>27.04.2018</h2>
 			<p>
 				Added "Farah" to the list of projects, and met some amazing people at Quo Vadis.
@@ -592,15 +598,15 @@
 			<p>
 				In order to study software architecture, networking interfaces, and programming in general,
 				I've created my own content management system. I've been working on it since ca. 2011, tho have only
-				recently ported the codebase to <a href="https://github.com/Faulo/slothsoft-farah" rel="external">github</a>
-				and <a href="https://packagist.org/packages/slothsoft/farah" rel="external">packagist</a>. 
-				Its homepage is <a href="http://farah.slothsoft.net/" rel="external">http://farah.slothsoft.net/</a>.
+				recently ported the codebase to <a href="https://github.com/Faulo/slothsoft-farah" rel="external" target="_blank">github</a>
+				and <a href="https://packagist.org/packages/slothsoft/farah" rel="external" target="_blank">packagist</a>. 
+				Its homepage is <a href="http://farah.slothsoft.net/" rel="external" target="_blank">http://farah.slothsoft.net/</a>.
 			</p>
 			<p>Some of its features are:</p>
 			<ul>
-				<li>Serving entire websites via a <a href="http://schema.slothsoft.net/farah/sitemap/" rel="external">custom-made sitemap file</a>.</li>
-				<li>Accessing individual files, dynamically generated content, or content streams via a uniform protocol defined in a <a href="http://schema.slothsoft.net/farah/module/" rel="external">custom-made manifest file</a>.</li>
-				<li>Localization via <a href="http://schema.slothsoft.net/farah/dictionary/" rel="external">custom-made dictionary files</a>.</li>
+				<li>Serving entire websites via a <a href="http://schema.slothsoft.net/farah/sitemap/" rel="external" target="_blank">custom-made sitemap file</a>.</li>
+				<li>Accessing individual files, dynamically generated content, or content streams via a uniform protocol defined in a <a href="http://schema.slothsoft.net/farah/module/" rel="external" target="_blank">custom-made manifest file</a>.</li>
+				<li>Localization via <a href="http://schema.slothsoft.net/farah/dictionary/" rel="external" target="_blank">custom-made dictionary files</a>.</li>
 				<li>A dependency manager for CSS and JavaScript resources.</li>
 				<li>HTTP negotiation support for client language, data compression, ranged requests, and caching.</li>
 				<li>Support of a wide variety of XSLT processors, up to XSLT 3.0.</li>
@@ -608,6 +614,45 @@
 				<li>All HTML resources as served as application/xhtml+xml. Death to text/html!</li>
 				<li>Available as composer package "slothsoft/farah".</li>
 			</ul>
+		</article>
+	</p>
+	
+	<p key="PowerFantasyVR">Virtual Reality Game "Power Fantasy VR"</p>
+	<p key="PowerFantasyVR/content">
+		<article>
+			<h2>About</h2>
+			<p>
+				Power Fantasy VR was created for a seminar of the Master's study of <a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften</a> at the University of Bayreuth.
+			</p>
+			<p>
+				<a href="https://github.com/Faulo/PowerFantasyVR" rel="external" target="_blank">It's available to download on GitHub</a>.
+			</p>
+		</article>
+		<article>
+			<h2>Technical Details</h2>
+			<ul>
+				<li>Made with <a data-dict-replace="spec/unity" />.</li>
+				<li>It uses the <a data-dict-replace="spec/manus" /> gloves and the <a data-dict-replace="spec/vive" /> headset and trackers for a fully immersive virtual reality experience.</li>
+				<li>Hand gesture recognition is implemented using machine learning algorithms provided by <a data-dict-replace="spec/ml.net" />.</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Katharina Broswik (programming, game design, modelling)</li>
+				<li>Magnus Drebenstedt (level design, sound design)</li>
+				<li>Daniel Schulz (programming, game design)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Screenshots</h2>
+			<figure>
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.jetpack"
+					alt="Iron Man ripoff" />
+				<figcaption>
+					Jet Pack Hands!
+				</figcaption>
+			</figure>
 		</article>
 	</p>
 	
@@ -687,5 +732,17 @@
 	</p>
 	<p key="spec/xsd">
 		<a rel="external" target="_blank" href="https://www.w3.org/2001/XMLSchema">XML Schema</a>
+	</p>
+	<p key="spec/unity">
+		<a rel="external" target="_blank" href="https://unity.com/">Unity</a>
+	</p>
+	<p key="spec/ml.net">
+		<a rel="external" target="_blank" href="https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet">ML.NET</a>
+	</p>
+	<p key="spec/manus">
+		<a rel="external" target="_blank" href="https://manus-vr.com/">Manus VR</a>
+	</p>
+	<p key="spec/vive">
+		<a rel="external" target="_blank" href="https://www.vive.com">HTC Vive</a>
 	</p>
 </html>

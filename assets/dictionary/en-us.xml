@@ -905,6 +905,42 @@
 		</article>
 	</p>
 	
+	<p key="KeepEverybodyHappy">Democracy Jam 2019: Keep Everybody Happy</p>
+	<p key="KeepEverybodyHappy/content">
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Democracy Jam 2019</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2019-10-04">04.10.2019</time> - <time datetime="2019-10-06">06.10.2019</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Games Academy Berlin
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>Politik ist (k)ein Game</q> [politics is(n't) a game]
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Sven Schäfer (programming, art)</li>
+				<li>Daniel Schulz (programming)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="https://github.com/Faulo/KeepEverybodyHappy" rel="external">Keep Everybody Happy on GitHub</a></li>
+				<li><a href="http://slothsoft.net/downloads/games/KeepEverybodyHappy.zip" rel="external">Download (Win64)</a></li>
+			</ul>
+		</article>
+	</p>
+	
 	<p key="ReverseSlender">Winter Game Jam 2019: Reverse Slender</p>
 	<p key="ReverseSlender/content">
 		<article>

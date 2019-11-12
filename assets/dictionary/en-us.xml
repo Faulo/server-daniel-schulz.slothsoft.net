@@ -617,6 +617,14 @@
 		</article>
 	</p>
 	
+	<p key="Games">Games</p>
+	<p key="Games/content">
+		<article>
+			<h2>12.11.2019</h2>
+			<p>The closest thing I've got to finished games.</p>
+		</article>
+	</p>
+	
 	<p key="PowerFantasyVR">Virtual Reality Game "Power Fantasy VR"</p>
 	<p key="PowerFantasyVR/content">
 		<article>
@@ -656,14 +664,294 @@
 		</article>
 	</p>
 	
+	<p key="GameJams">Game Jams</p>
+	<p key="GameJams/content">
+		<article>
+			<h2>12.11.2019</h2>
+			<p>They might not be pretty, but they're mine.</p>
+		</article>
+	</p>
 	
+	<p key="WhatTheHell">mediale* Game Jam 2012: What The Hell?</p>
+	<p key="WhatTheHell/content">
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>mediale* Game Development Contest</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2012-05-21">21.05.2012</time> - <time datetime="2012-05-23">23.05.2012</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Hochschule Darmstadt
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>Die Götter müssen verrückt sein</q> [The gods must be crazy]
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Claudia Osthof (art)</li>
+				<li>Daniel Schulz (programming)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="http://slothsoft.net/WhatTheHell/" rel="external">Playable version on slothsoft.net</a></li>
+			</ul>
+		</article>
+	</p>
 	
+	<p key="HeartbeatForAll">Global Game Jam 2013: Heartbeat For All</p>
+	<p key="HeartbeatForAll/content">
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Global Game Jam 2013</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2013-01-25">25.01.2013</time> - <time datetime="2013-01-27">27.01.2013</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Hochschule Darmstadt
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<a href="https://www.youtube.com/watch?v=h_lTq6XL-AE" rel="external">[The sound of a heartbeat]</a>
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Claudia Osthof (art)</li>
+				<li>Alexander Röhrscheid (programming)</li>
+				<li>Daniel Schulz (programming)</li>
+				<li>Denise Sostre (art)</li>
+				<li>Daniel van Westen (art)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="http://2013.globalgamejam.org/2013/heartbeat-all" rel="external">Global Game Jam Entry "Heartbeat For All"</a></li>
+				<li><a href="http://slothsoft.net/WhatTheHell/" rel="external">Playable version on slothsoft.net</a></li>
+			</ul>
+		</article>
+	</p>
 	
+	<p key="Communiganda">Franken Game Jam 2018: Communiganda</p>
+	<p key="Communiganda/content">
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Franken Game Jam 2018</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2018-11-02">02.11.2018</time> - <time datetime="2018-11-04">04.11.2018</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					Niklas Luhmann
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Sven Schäfer (programming, sound design)</li>
+				<li>Daniel Schulz (programming)</li>
+				<li>Lena Voß (art)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="https://github.com/Faulo/Communiganda" rel="external">Communiganda on GitHub</a></li>
+				<li><a href="https://gamejolt.com/games/communiganda/377389" rel="external">Communiganda on Game Jolt</a></li>
+			</ul>
+		</article>
+	</p>
 	
+	<p key="FindingHome">Global Gam Jam 2019: Finding Home</p>
+	<p key="FindingHome/content">
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Franken Game Jam 2018</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2019-01-25">25.01.2019</time> - <time datetime="2019-01-27">27.01.2019</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>What home means to you</q>
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Alexander Dombert (programming, sound design)</li>
+				<li>Daniele Martines (art)</li>
+				<li>Nils Olbrecht (art)</li>
+				<li>Daniel Schulz (programming)</li>
+				<li>Lena Voß (art)</li>
+				<li>Julia Wölfle (art)</li>
+				<li>Jennifer Weber (art)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="https://globalgamejam.org/2019/games/split-artifact-finding-home" rel="external">Global Game Jam Entry "Finding Home"</a></li>
+				<li><a href="https://github.com/Faulo/FindingHome" rel="external">Finding Home on GitHub</a></li>
+			</ul>
+		</article>
+	</p>
 	
+	<p key="SpaceCape">Spring Game Jam 2019: SpaceCape</p>
+	<p key="SpaceCape/content">
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Spring Game Jam 2018</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2019-05-03">03.05.2019</time> - <time datetime="2019-05-05">05.05.2019</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>Time</q>
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Antonia Boschert (art)</li>
+				<li>Katharina Broswik (programming)</li>
+				<li>Matthias Kohn (art, sound design)</li>
+				<li>Daniel Schulz (programming)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="https://github.com/Faulo/SpaceCape" rel="external">SpaceCape on GitHub</a></li>
+			</ul>
+		</article>
+	</p>
 	
+	<p key="Orbital">Franken Game Jam 2019: Orbital</p>
+	<p key="Orbital/content">
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Franken Game Jam 2019</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2019-06-28">28.06.2019</time> - <time datetime="2019-06-28">28.06.2019</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>Back to the Couch</q>
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Carl-Philipp Hellmuth (programming)</li>
+				<li>Michael Hochmuth (music)</li>
+				<li>Jan Milosch (programming, sound design)</li>
+				<li>Marius Muehleck (programming, art)</li>
+				<li>Daniel Schulz (programming)</li>
+				<li>Ilona Treml (art)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="https://github.com/Faulo/Orbital" rel="external">Orbital on GitHub</a></li>
+				<li><a href="https://gamejolt.com/games/Orbital/423264" rel="external">Orbital on Game Jolt</a></li>
+			</ul>
+		</article>
+	</p>
 	
-	
+	<p key="ReverseSlender">Winter Game Jam 2019: Reverse Slender</p>
+	<p key="ReverseSlender/content">
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Winter Game Jam 2019</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2019-11-08">08.11.2019</time> - <time datetime="2019-11-10">10.11.2019</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>Fundstücke</q> [Found pieces]
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Hannah Kümmel (visual effects)</li>
+				<li>Aron Peterseim (level design, art)</li>
+				<li>Sven Schäfer (programming, sound design)</li>
+				<li>Daniel Schulz (programming)</li>
+				<li>Ilona Treml (art, sound design)</li>
+				<li>Lena Voß (art)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="https://github.com/Faulo/ReverseSlender" rel="external">Reverse Slender on GitHub</a></li>
+				<li><a href="http://slothsoft.net/downloads/ReverseSlender.zip" rel="external">Download (Win64)</a></li>
+			</ul>
+		</article>
+		<article>
+			<h2>Game Footage</h2>
+			<figure>
+				<video controls="controls">
+					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/ReverseSlender.mp4"
+            type="video/mp4"/>
+            </video>
+				<figcaption>
+					No trespassing in the haunted forest!
+				</figcaption>
+			</figure>
+		</article>
+	</p>
 	
 	<p key="spec/mysql">
 		<a rel="external" target="_blank" href="https://dev.mysql.com/">MySQL</a>

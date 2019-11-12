@@ -8,6 +8,8 @@
     
     <directory name="static">
       <resource-directory name="images" path="images" type="image/png"/>
+      <resource-directory name="videos" path="videos" type="video/*"/>
+      <resource-directory name="downloads" path="downloads" type="video/*"/>
       
       <resource name="favicon" path="favicon.png" type="image/png"/>
     </directory>

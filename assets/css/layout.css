@@ -64,6 +64,9 @@ main {
 	line-height: 1em;
 	border-right: 1px ridge rgba(128, 128, 128, 0.5);
 }
+.navi[data-section="GameJams"] a {
+	max-width: 11em;
+}
 .navi a:hover {
 	background-color: #7de67d !important;
 }
@@ -151,6 +154,7 @@ dl > dd {
 
 figure,
 figure > img,
+figure > video,
 figure > figcaption {
 	display: block;
 	margin: 0;
@@ -160,7 +164,8 @@ figure > figcaption {
 	margin: 0.25em 2em;
 	font-style: italic;
 }
-figure > img {
+figure > img,
+figure > video {
 	max-width: 100%;
 	margin: auto;
 }
@@ -170,4 +175,11 @@ figure + figure {
 
 .hidden {
 	display: none;
+}
+
+.gamejam-details dt {
+	display: inline;
+}
+.gamejam-details dd {
+	display: inline;
 }

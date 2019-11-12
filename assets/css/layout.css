@@ -96,6 +96,9 @@ main {
 	.navi a {
 		max-width: none !important;
 	}
+	.pointer {
+		display: none;
+	}
 }
 
 main {

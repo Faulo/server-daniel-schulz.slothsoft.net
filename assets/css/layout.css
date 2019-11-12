@@ -97,7 +97,7 @@ main {
 		max-width: none !important;
 	}
 	.pointer {
-		display: none;
+		display: none !important;
 	}
 }
 

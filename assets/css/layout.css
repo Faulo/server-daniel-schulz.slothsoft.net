@@ -79,11 +79,29 @@ main {
 	nav {
 		justify-content: flex-end;
 	}
+	html {
+		overflow: auto;
+	}
+	html, body {
+		min-height: 100%;
+		height: auto;
+		width: auto;
+	}
+	.navi {
+		justify-content: flex-start;
+	}
+	.navi a {
+		font-size: 0.75em;
+	}
+	.navi a {
+		max-width: none !important;
+	}
 }
 
 main {
 	background-color: lightblue;
 	padding: 0.5em;
+	margin-bottom: 1em;
 	min-height: 10em;
 	overflow: auto;
 }
@@ -177,9 +195,8 @@ figure + figure {
 	display: none;
 }
 
-.gamejam-details dt {
-	display: inline;
-}
-.gamejam-details dd {
-	display: inline;
+.pointer {
+	display: inline-block;
+	width: 1em;
+	text-align: left;
 }

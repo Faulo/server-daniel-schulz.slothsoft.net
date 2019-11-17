@@ -5,6 +5,12 @@
 	<p key="daniel-schulz.slothsoft.net">News</p>
 	<p key="daniel-schulz.slothsoft.net/content">
 		<article>
+			<h2>12.11.2019</h2>
+			<p>
+				Added all the game jam games I've ever worked on, in their own neat little section.
+			</p>
+		</article>
+		<article>
 			<h2>15.09.2019</h2>
 			<p>
 				Added "Power Fantasy VR", a student project with in collaboration with the amazing Katharina Broswik and Magnus Drebenstedt.
@@ -632,9 +638,6 @@
 			<p>
 				Power Fantasy VR was created for a seminar of the Master's study of <a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften</a> at the University of Bayreuth.
 			</p>
-			<p>
-				<a href="https://github.com/Faulo/PowerFantasyVR" rel="external" target="_blank">It's available to download on GitHub</a>.
-			</p>
 		</article>
 		<article>
 			<h2>Technical Details</h2>
@@ -653,12 +656,34 @@
 			</ul>
 		</article>
 		<article>
-			<h2>Screenshots</h2>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="https://github.com/Faulo/PowerFantasyVR" rel="external"><q>Power Fantasy VR</q> on GitHub</a></li>
+				<li><a href="http://slothsoft.net/downloads/games/PowerFantasyVR.zip" rel="external">Download (Win64)</a></li>
+			</ul>
+		</article>
+		<article>
+			<h2>Game Footage</h2>
+			<figure>
+				<video controls="controls">
+					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/PowerFantasyVR.mp4" type="video/mp4"/>
+            	</video>
+				<figcaption>
+					Trailer for the <a href="https://www.facebook.com/events/reichshof-kulturb%C3%BChne-bayreuth/mediennacht-2019/406618593594569/" rel="external">Mediennacht 2019</a>.
+				</figcaption>
+			</figure>
 			<figure>
 				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.jetpack"
 					alt="Iron Man ripoff" />
 				<figcaption>
 					Jet Pack Hands!
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.map"
+					alt="World map" />
+				<figcaption>
+					1st level overview.
 				</figcaption>
 			</figure>
 		</article>

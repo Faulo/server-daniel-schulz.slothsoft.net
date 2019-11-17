@@ -740,7 +740,7 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="http://2013.globalgamejam.org/2013/heartbeat-all" rel="external">Global Game Jam Entry "Heartbeat For All"</a></li>
+				<li><a href="http://2013.globalgamejam.org/2013/heartbeat-all" rel="external">Global Game Jam Entry <q>Heartbeat For All</q></a></li>
 				<li><a href="http://slothsoft.net/WhatTheHell/" rel="external">Playable version on slothsoft.net</a></li>
 			</ul>
 		</article>
@@ -777,8 +777,8 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/Communiganda" rel="external">Communiganda on GitHub</a></li>
-				<li><a href="https://gamejolt.com/games/communiganda/377389" rel="external">Communiganda on Game Jolt</a></li>
+				<li><a href="https://github.com/Faulo/Communiganda" rel="external"><q>Communiganda</q> on GitHub</a></li>
+				<li><a href="https://gamejolt.com/games/communiganda/377389" rel="external"><q>Communiganda</q> on Game Jolt</a></li>
 				<li><a href="http://slothsoft.net/downloads/games/Communiganda.zip" rel="external">Download (Win64)</a></li>
 			</ul>
 		</article>
@@ -811,7 +811,7 @@
 				<li>Daniele Martines (art)</li>
 				<li>Nils Olbrecht (art)</li>
 				<li>Daniel Schulz (programming)</li>
-				<li>Lena Voß (art)</li>
+				<li>Lena Voß (art, level design)</li>
 				<li>Julia Wölfle (art)</li>
 				<li>Jennifer Weber (art)</li>
 			</ul>
@@ -819,8 +819,8 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://globalgamejam.org/2019/games/split-artifact-finding-home" rel="external">Global Game Jam Entry "Finding Home"</a></li>
-				<li><a href="https://github.com/Faulo/FindingHome" rel="external">Finding Home on GitHub</a></li>
+				<li><a href="https://globalgamejam.org/2019/games/split-artifact-finding-home" rel="external">Global Game Jam Entry <q>Finding Home</q></a></li>
+				<li><a href="https://github.com/Faulo/FindingHome" rel="external"><q>Finding Home</q> on GitHub</a></li>
 				<li><a href="http://slothsoft.net/downloads/games/FindingHome.zip" rel="external">Download (Win64)</a></li>
 			</ul>
 		</article>
@@ -858,7 +858,7 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/SpaceCape" rel="external">SpaceCape on GitHub</a></li>
+				<li><a href="https://github.com/Faulo/SpaceCape" rel="external"><q>SpaceCape</q> on GitHub</a></li>
 				<li><a href="http://slothsoft.net/downloads/games/SpaceCape.zip" rel="external">Download (Win64)</a></li>
 			</ul>
 		</article>
@@ -892,14 +892,14 @@
 				<li>Jan Milosch (programming, sound design)</li>
 				<li>Marius Muehleck (programming, ui design)</li>
 				<li>Daniel Schulz (programming)</li>
-				<li>Ilona Treml (art, ui design)</li>
+				<li>Ilona Treml (art, level design)</li>
 			</ul>
 		</article>
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/Orbital" rel="external">Orbital on GitHub</a></li>
-				<li><a href="https://gamejolt.com/games/Orbital/423264" rel="external">Orbital on Game Jolt</a></li>
+				<li><a href="https://github.com/Faulo/Orbital" rel="external"><q>Orbital</q> on GitHub</a></li>
+				<li><a href="https://gamejolt.com/games/Orbital/423264" rel="external"><q>Orbital</q> on Game Jolt</a></li>
 				<li><a href="http://slothsoft.net/downloads/games/Orbital.zip" rel="external">Download (Win64)</a></li>
 			</ul>
 		</article>
@@ -935,7 +935,7 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/KeepEverybodyHappy" rel="external">Keep Everybody Happy on GitHub</a></li>
+				<li><a href="https://github.com/Faulo/KeepEverybodyHappy" rel="external"><q>Keep Everybody Happy</q> on GitHub</a></li>
 				<li><a href="http://slothsoft.net/downloads/games/KeepEverybodyHappy.zip" rel="external">Download (Win64)</a></li>
 			</ul>
 		</article>
@@ -975,7 +975,7 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/ReverseSlender" rel="external">Reverse Slender on GitHub</a></li>
+				<li><a href="https://github.com/Faulo/ReverseSlender" rel="external"><q>Reverse Slender</q> on GitHub</a></li>
 				<li><a href="http://slothsoft.net/downloads/games/ReverseSlender.zip" rel="external">Download (Win64)</a></li>
 			</ul>
 		</article>

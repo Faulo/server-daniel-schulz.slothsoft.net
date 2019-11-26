@@ -774,6 +774,10 @@
 	<p key="Communiganda">Franken Game Jam 2018: Communiganda</p>
 	<p key="Communiganda/content">
 		<article>
+			<h2>About</h2>
+			<p>A game about the improbability of communication.</p>
+		</article>
+		<article>
 			<h2>Jam Details</h2>
 			<dl>
 				<dt>Franken Game Jam 2018</dt>
@@ -809,12 +813,16 @@
 		</article>
 	</p>
 	
-	<p key="FindingHome">Global Gam Jam 2019: Finding Home</p>
+	<p key="FindingHome">Global Game Jam 2019: Finding Home</p>
 	<p key="FindingHome/content">
+		<article>
+			<h2>About</h2>
+			<p>A game about cooperative dungeon-crawling.</p>
+		</article>
 		<article>
 			<h2>Jam Details</h2>
 			<dl>
-				<dt>Franken Game Jam 2018</dt>
+				<dt>Global Game Jam 2019</dt>
 				<dd>
 					<strong>Date:</strong>
 					<time datetime="2019-01-25">25.01.2019</time> - <time datetime="2019-01-27">27.01.2019</time>
@@ -854,9 +862,13 @@
 	<p key="SpaceCape">Spring Game Jam 2019: SpaceCape</p>
 	<p key="SpaceCape/content">
 		<article>
+			<h2>About</h2>
+			<p>A game about time-travelling stuff.</p>
+		</article>
+		<article>
 			<h2>Jam Details</h2>
 			<dl>
-				<dt>Spring Game Jam 2018</dt>
+				<dt>Spring Game Jam 2019</dt>
 				<dd>
 					<strong>Date:</strong>
 					<time datetime="2019-05-03">03.05.2019</time> - <time datetime="2019-05-05">05.05.2019</time>
@@ -891,6 +903,10 @@
 	
 	<p key="Orbital">Franken Game Jam 2019: Orbital</p>
 	<p key="Orbital/content">
+		<article>
+			<h2>About</h2>
+			<p>A game about capturing planets with friends.</p>
+		</article>
 		<article>
 			<h2>Jam Details</h2>
 			<dl>
@@ -933,6 +949,10 @@
 	<p key="KeepEverybodyHappy">Democracy Jam 2019: Keep Everybody Happy</p>
 	<p key="KeepEverybodyHappy/content">
 		<article>
+			<h2>About</h2>
+			<p>A game about population and democracy.</p>
+		</article>
+		<article>
 			<h2>Jam Details</h2>
 			<dl>
 				<dt>Democracy Jam 2019</dt>
@@ -968,6 +988,10 @@
 	
 	<p key="ReverseSlender">Winter Game Jam 2019: Reverse Slender</p>
 	<p key="ReverseSlender/content">
+		<article>
+			<h2>About</h2>
+			<p>A game about scaring a trespasser to death.</p>
+		</article>
 		<article>
 			<h2>Jam Details</h2>
 			<dl>

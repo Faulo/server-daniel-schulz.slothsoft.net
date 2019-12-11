@@ -32,5 +32,6 @@
 		<page name="KeepEverybodyHappy" ref="pages/default" status-active="" status-public=""/>
 		<page name="ReverseSlender" ref="pages/default" status-active="" status-public=""/>
 	</page>
+	<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon" status-active=""/>
 	<page name="sitemap" ref="//slothsoft@farah/sitemap-generator" status-active=""/>
 </domain>

@@ -1042,6 +1042,49 @@
 		</article>
 	</p>
 	
+	<p key="WatchOut">Global Game Jam 2020: Watch Out!</p>
+	<p key="WatchOut/content">
+		<article>
+			<h2>About</h2>
+			<p>A game about watchmaking.</p>
+		</article>
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Global Game Jam 2020</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2020-01-31">31.01.2020</time> - <time datetime="2020-02-02">02.02.2020</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>Repair</q>
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Katharina Broswik (programming)</li>
+				<li>Eduardo Esqueche (level design, sound design)</li>
+				<li>Carl-Philipp Hellmuth (programming)</li>
+				<li>McKenzie Overby (art)</li>
+				<li>Daniel Schulz (programming)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="https://github.com/Faulo/WatchOut" rel="external"><q>Watch Out!</q> on GitHub</a></li>
+				<li><a href="http://slothsoft.net/downloads/games/WatchOut.zip" rel="external">Download (Win64)</a></li>
+			</ul>
+		</article>
+	</p>
+	
 	<p key="spec/mysql">
 		<a rel="external" target="_blank" href="https://dev.mysql.com/">MySQL</a>
 	</p>

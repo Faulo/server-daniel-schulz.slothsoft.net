@@ -11,7 +11,9 @@
 		<xsl:variable name="build" select="//build-info"/>
 		<xsl:variable name="title">
 			<xsl:value-of select="$build/@name"/>
-			v<xsl:value-of select="$build/@version"/>
+			<xsl:if test="$build/@version">
+				v<xsl:value-of select="$build/@version"/>
+			</xsl:if>
 			(<xsl:value-of select="$build/@datetime"/>)
 		</xsl:variable>
 		
@@ -41,7 +43,7 @@
 			<body>
 				<div class="webgl-content">
 				<h1><xsl:value-of select="$title"/></h1>
-			      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+			      <div id="{$build//*[@style]/@id}" style="width: 960px; height: 600px"></div>
 			      <div class="footer">
 			        <div class="webgl-logo"></div>
 			        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>

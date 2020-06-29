@@ -46,19 +46,26 @@ class BuildInfo {
         if ($this->settings) {
             yield 'name' => $this->settings['productName'];
             yield 'credits' => $this->settings['companyName'];
-            yield 'version' => $this->settings['productVersion'];;
+            if (isset($this->settings['productVersion'])) {
+                yield 'version' => $this->settings['productVersion'];
+            }
         }
     }
     
     public function isValid() : bool {
-        return file_exists($this->getIndexFile()) and file_exists($this->getSettingsFile());
+        return file_exists($this->getIndexFile());
     }
     
     private function getIndexFile() : string {
         return self::BUILD_DIRECTORY . "/$this->project/$this->branch" . self::INDEX_FILE;
     }
     private function getSettingsFile() : string {
-        return self::BUILD_DIRECTORY . "/$this->project/$this->branch" . self::SETTINGS_FILE;
+        if (preg_match('~"(Build/.+\.json)"~', $this->indexDocument->textContent, $match)) {
+            $settingsFile = "/$match[1]";
+        } else {
+            $settingsFile = self::SETTINGS_FILE;
+        }
+        return self::BUILD_DIRECTORY . "/$this->project/$this->branch" . $settingsFile;
     }
     
     private function load() {

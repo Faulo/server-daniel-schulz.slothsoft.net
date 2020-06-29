@@ -4,7 +4,11 @@
     <resource-directory name="xsl" type="application/xslt+xml"/>
     
     <resource-directory name="dictionary" type="application/xml"/>
-    <resource name="sitemap" type="application/xml"/>
+    
+    <directory name="sitemap">
+    	<resource use="template" name="template" type="application/xslt+xml"/>
+    	<use-document ref="/api/build" name="builds"/>
+    </directory>
     
     <directory name="static">
       <resource-directory name="images" path="images" type="image/png"/>
@@ -21,6 +25,10 @@
 	    <fragment name="tetris">
 	      <import ref="/api/default"/>
 	      <use-document ref="//slothsoft@tetris/game" name="content"/>
+	    </fragment>
+	    <fragment name="build">
+	      <use-template ref="/xsl/_build"/>
+	      <use-document ref="/api/build" name="content"/>
 	    </fragment>
     </fragment>
     
@@ -40,5 +48,6 @@
 	      <use-template ref="/xsl/imageList"/>
 	      <use-document ref="/static/images" name="images"/>
 	    </fragment>
-    </fragment>
+		<custom-asset name="build" executable-builder="Slothsoft\DanielSchulz\Assets\BuildInfoBuilder" parameter-filter="Slothsoft\DanielSchulz\Assets\BuildParameterFilter"/>
+	 </fragment>
   </assets>

@@ -9,6 +9,9 @@
         "farah-server"
     ],
     "autoload": {
+		"psr-0": {
+			"Slothsoft\\DanielSchulz\\": "src/"
+		},
         "files": [
             "config.php",
             "src/registerModule.php"

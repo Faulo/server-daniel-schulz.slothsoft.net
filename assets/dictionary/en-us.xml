@@ -806,6 +806,7 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+				<li><a href="/Builds/Communiganda/master/">Play browser version</a></li>
 				<li><a href="https://github.com/Faulo/Communiganda" rel="external"><q>Communiganda</q> on GitHub</a></li>
 				<li><a href="https://gamejolt.com/games/communiganda/377389" rel="external"><q>Communiganda</q> on Game Jolt</a></li>
 				<li><a href="http://slothsoft.net/downloads/games/Communiganda.zip" rel="external">Download (Win64)</a></li>
@@ -1120,7 +1121,7 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="./Game/index.html">Play browser version</a></li>
+				<li><a href="/Builds/NanoMixture/master/">Play browser version</a></li>
 				<li><a href="https://github.com/Faulo/NanoMixture" rel="external"><q>Nano Mixture</q> on GitHub</a></li>
 				<li><a href="http://slothsoft.net/downloads/games/NanoMixture.zip" rel="external">Download (Win64)</a></li>
 			</ul>

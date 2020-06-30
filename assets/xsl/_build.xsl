@@ -11,15 +11,15 @@
 		<xsl:variable name="title">
 			<xsl:value-of select="$build/@name" />
 			<xsl:if test="$build/@version">
-				v
+				<xsl:text> v</xsl:text>
 				<xsl:value-of select="$build/@version" />
 			</xsl:if>
-			(
+			<xsl:text> (</xsl:text>
 			<xsl:value-of select="$build/@datetime" />
-			)
+			<xsl:text>)</xsl:text>
 		</xsl:variable>
 		<xsl:variable name="credits">
-			©
+			<xsl:text> © </xsl:text>
 			<xsl:value-of select="$build/@credits" />
 		</xsl:variable>
 
@@ -28,8 +28,7 @@
 			<head>
 				<title>
 					<xsl:value-of select="$title" />
-					<xsl:text> © </xsl:text>
-					<xsl:value-of select="$build/@credits" />
+					<xsl:value-of select="$credits" />
 				</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="author" content="Daniel Schulz" />

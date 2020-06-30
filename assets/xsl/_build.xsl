@@ -7,7 +7,7 @@
 		<xsl:variable name="build" select="//build-info[@name]" />
 		<xsl:variable name="pages" select="*[@name='sites']//sfs:page" />
 		<xsl:variable name="requestedPage" select="$pages[@current]" />
-		<xsl:variable name="relatedPage" select="$pages[not(@current)][@name = $build/@project]" />
+		<xsl:variable name="relatedPage" select="$pages[@name = $build/@project][not(descendant-or-self::*/@current)]" />
 		<xsl:variable name="title">
 			<xsl:value-of select="$build/@name" />
 			<xsl:if test="$build/@version">

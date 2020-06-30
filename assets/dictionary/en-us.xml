@@ -5,6 +5,12 @@
 	<p key="daniel-schulz.slothsoft.net">News</p>
 	<p key="daniel-schulz.slothsoft.net/content">
 		<article>
+			<h2>30.06.2020</h2>
+			<p>
+				Added "The Cursed Broom", a student project and platforming prototype.
+			</p>
+		</article>
+		<article>
 			<h2>12.11.2019</h2>
 			<p>
 				Added all the game jam games I've ever worked on, in their own neat little section.
@@ -13,7 +19,7 @@
 		<article>
 			<h2>15.09.2019</h2>
 			<p>
-				Added "Power Fantasy VR", a student project with in collaboration with the amazing Katharina Broswik and Magnus
+				Added "Power Fantasy VR", a student project made in collaboration with the amazing Katharina Broswik and Magnus
 				Drebenstedt.
 			</p>
 		</article>
@@ -809,6 +815,87 @@
 					</a>
 				</li>
 			</ul>
+		</article>
+	</p>
+	<p key="TheCursedBroom">The Cursed Broom</p>
+	<p key="TheCursedBroom/content">
+		<article>
+			<h2>About</h2>
+			<p>
+				The Cursed Broom is being created for a seminar of the Master's study of
+				<a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
+				</a>
+				at the University of Bayreuth.
+			</p>
+		</article>
+		<article>
+			<h2>Technical Details</h2>
+			<ul>
+				<li>
+					Made with
+					<a data-dict-replace="spec/unity" />
+					.
+				</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Daniel Schulz (technical direction, game design, sound design)</li>
+    			<li>Tina Wolfrum (art direction, narrative design, level design)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li>
+					<a href="/Builds/TheCursedBroom/master/">Play browser version</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/TheCursedBroom" rel="external">
+						<q>The Cursed Broom</q>
+						on GitHub
+					</a>
+				</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Development Log</h2>
+			<p>This section presents every major milestone and which decisions went into making it.</p>
+			<p>Note that a gamepad (preferably an Xbox-ish one) is required to play these.</p>
+			<article>
+				<h3>18.06.2020 - Milestone 4</h3>
+				<p>This milestone focused on making the ground/jump movement snappy, intuitive and fun.
+				For this, the character controller of Celeste's Madeline and Super Mario World's Mario was studied and approximated. 
+				Turns are now instant, even in mid-air, and there's some coyote time when walking off of platforms.</p>
+				<p><a href="/Builds/TheCursedBroom/0.4.0/">Play v0.4.0 online</a></p>
+			</article>
+			<article>
+				<h3>18.06.2020 - Milestone 4</h3>
+				<p>This milestone focused on making the ground/jump movement snappy, intuitive and fun.
+				For this, the character controller of Celeste's Madeline and Super Mario World's Mario was studied and approximated. 
+				Turns are now instant, even in mid-air, and there's some coyote time when walking off of platforms.</p>
+				<p>There's also many more visuals and, finally, sound effects.</p>
+				<p><a href="/Builds/TheCursedBroom/0.4.0/">Play v0.4.0 online</a></p>
+			</article>
+			<article>
+				<h3>04.06.2020 - Milestone 3</h3>
+				<p>This milestone iterated the flight controls and tried to make the current avatar momentum matter a lot while mid-air.
+				Sadly, relying on momentum a lot made Maya very floaty.</p>
+				<p>On the aesthetic side we added a lot of animations and visual effects, which improved game feel a lot!</p>
+				<p><a href="/Builds/TheCursedBroom/0.3.0/">Play v0.3.0 online</a></p>
+			</article>
+			<article>
+				<h3>28.05.2020 - Milestone 2</h3>
+				<p>At this point Tina joined the project and brought a wonderful narration of a witch with a slightly malfunctioning broom.</p>
+				<p>Gameplay introduced rotation during gliding, and a kinetic energy/potential energy translation similar to Mario's wing cap flight in Super Mario 64.</p>
+				<p><a href="/Builds/TheCursedBroom/0.2.0/">Play v0.2.0 online</a></p>
+			</article>
+			<article>
+				<h3>14.05.2020 - Milestone 1</h3>
+				<p>The first prototype is the barest-bone implementation of a gliding ability. It's inspired by Knuckles' glide in Sonic 3 and Mario's dive jump in Super Mario 64.</p>
+				<p><a href="/Builds/TheCursedBroom/0.1.0/">Play v0.1.0 online</a></p>
+			</article>
 		</article>
 	</p>
 

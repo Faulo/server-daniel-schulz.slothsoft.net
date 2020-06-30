@@ -19,6 +19,7 @@
 				<page name="Tetris" ref="pages/tetris" status-active="" />
 				<page name="PowerFantasyVR" ref="pages/default" status-active="" status-public="" />
 				<page name="TrialOfTwo" ref="pages/default" status-active="" />
+				<page name="TheCursedBroom" ref="pages/default" status-active="" status-public=""/>
 			</page>
 			<page name="GameJams" ref="pages/default" status-active="" status-public="">
 				<page name="WhatTheHell" ref="pages/default" status-active="" status-public="" />

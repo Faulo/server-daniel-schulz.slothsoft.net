@@ -8,7 +8,7 @@
 	
 	<xsl:template match="/*">
 		<xsl:variable name="requestedPage" select="*[@name='sites']//*[@current]"/>
-		<xsl:variable name="build" select="//build-info"/>
+		<xsl:variable name="build" select="//build-info[@name]"/>
 		<xsl:variable name="title">
 			<xsl:value-of select="$build/@name"/>
 			<xsl:if test="$build/@version">
@@ -46,7 +46,7 @@
 			      <div id="{$build//*[@style]/@id}" style="width: 960px; height: 600px"></div>
 			      <div class="footer">
 			        <div class="webgl-logo"></div>
-			        <div class="fullscreen" onClick="{$build//*[@onclick]/@onclick}"></div>
+			        <div class="fullscreen" onclick="{$build//*[@onclick]/@onclick}"></div>
 			        <div class="title"> © <xsl:value-of select="$build/@credits"/></div>
 			      </div>
 			    </div>

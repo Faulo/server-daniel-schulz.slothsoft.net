@@ -3,11 +3,13 @@ html, body {
 	width: 100%;
 	margin: 0;
 }
+
 html {
 	overflow: hidden;
-	background: linear-gradient(160deg, #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+	background: linear-gradient(160deg, #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%);
 	font-size: 5mm;
 }
+
 .page {
 	display: flex;
 	flex-direction: column;
@@ -15,6 +17,26 @@ html {
 	align-content: stretch;
 	align-items: stretch;
 	max-width: 45em;
+	margin: auto;
+}
+
+html.build {
+	background: lightblue;
+	overflow: auto;
+}
+
+.build h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+.build .webgl-content {
+	position: static;
+	top: auto;
+	left: auto;
+	-webkit-transform: none;
+	transform: none;
+	max-width: 960px;
 	margin: auto;
 }
 
@@ -32,7 +54,7 @@ nav {
 	flex-shrink: 0;
 	overflow: hidden;
 	position: relative;
-	
+
 	/*
 	background-image: url(/getFragment.php/slothsoft/writing?text=Daniel+Schulz&color=lightblue);
 	background-clip: content-box;
@@ -40,6 +62,7 @@ nav {
 	background-repeat: no-repeat;
 	*/
 }
+
 main {
 	flex-basis: 100%;
 	overflow: auto;
@@ -52,10 +75,12 @@ main {
 	align-items: stretch;
 	margin-right: -1px;
 }
-.navi + .navi {
+
+.navi+.navi {
 	border-top: 1px ridge #87cc87;
 	font-size: smaller;
 }
+
 .navi a {
 	display: block;
 	text-align: center;
@@ -64,12 +89,15 @@ main {
 	line-height: 1em;
 	border-right: 1px ridge #87cc87;
 }
+
 .navi[data-section="GameJams"] a {
 	max-width: 11em;
 }
+
 .navi a:hover {
 	background-color: #7de67d !important;
 }
+
 .navi a.current {
 	background: #87cc87;
 	color: white;
@@ -111,11 +139,9 @@ main {
 
 h1, h2, h3 {
 	color: white;
-	text-shadow:
-		-1px -1px 0 rgba(128, 128, 256, 0.8),
-		1px -1px 0 rgba(128, 128, 256, 0.8),
-		-1px  1px 0 rgba(128, 128, 256, 0.8),
-		1px  1px 0 rgba(128, 128, 256, 0.8);
+	text-shadow: -1px -1px 0 rgba(128, 128, 256, 0.8), 1px -1px 0
+		rgba(128, 128, 256, 0.8), -1px 1px 0 rgba(128, 128, 256, 0.8), 1px 1px
+		0 rgba(128, 128, 256, 0.8);
 	margin: 0.5em 0.0em;
 }
 
@@ -141,56 +167,69 @@ header {
 	border-radius: 4em;
 	line-height: 4em;
 }
-header > h2 {
+
+header>h2 {
 	margin: 0;
 }
 
 article, section {
 	min-height: 1em;
 }
-section > h2, article > h2 {
+
+main>h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+section>h2, article>h2 {
 	font-size: 1em;
 	font-weight: normal;
 	border-bottom: 1px solid rgba(128, 128, 256, 0.5);
 }
-section > h3, article > h3 {
+
+section>h3, article>h3 {
 	font-size: 1em;
 	font-weight: normal;
 }
-article > img, section > img {
+
+article>img, section>img {
 	float: right;
 	display: block;
 	max-width: 50%;
 	margin-left: 1em;
 }
-article > *:last-child, section > *:last-child {
+
+article>*:last-child, section>*:last-child {
 	clear: both;
 }
+
 dl {
-}
-dl > dd {
-	list-style-type: circle;
-	display:  list-item;
+	
 }
 
-figure,
-figure > img,
-figure > video,
-figure > figcaption {
+dl>dd {
+	list-style-type: circle;
+	display: list-item;
+}
+
+figure, figure>img, figure>video, figure>figcaption {
 	display: block;
 	margin: 0;
 }
-figure > figcaption {
+
+figure>figcaption {
 	text-align: center;
 	margin: 0.25em 2em;
 	font-style: italic;
 }
-figure > img,
-figure > video {
+
+figure>img, figure>video {
 	max-width: 100%;
 	margin: auto;
 }
-figure + figure {
+
+figure+figure {
 	margin-top: 2em;
 }
 

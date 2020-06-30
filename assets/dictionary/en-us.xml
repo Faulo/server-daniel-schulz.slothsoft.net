@@ -13,7 +13,8 @@
 		<article>
 			<h2>15.09.2019</h2>
 			<p>
-				Added "Power Fantasy VR", a student project with in collaboration with the amazing Katharina Broswik and Magnus Drebenstedt.
+				Added "Power Fantasy VR", a student project with in collaboration with the amazing Katharina Broswik and Magnus
+				Drebenstedt.
 			</p>
 		</article>
 		<article>
@@ -25,9 +26,11 @@
 		<article>
 			<h2>10.12.2017</h2>
 			<p>
-				OK so in the future I'm gonna figure out a cool way to show off code examples of my work, but for now let it be known that 
+				OK so in the future I'm gonna figure out a cool way to show off code examples of my work, but for now let it be
+				known that
 				<a href="https://github.com/Faulo/slothsoft.net/tree/master/mod" rel="external" target="_blank">my github repository</a>
-				contains the source code responsible for all of my websites (the part of it that was written by me, anyway). Including these very words!
+				contains the source code responsible for all of my websites (the part of it that was written by me, anyway).
+				Including these very words!
 			</p>
 		</article>
 		<article>
@@ -54,7 +57,8 @@
 			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/meishi" alt="Look at me!" />
 			<p>
 				I'm at the GDC Europe this week, so if you're reading this then it's
-				probably because I threw one of my business cards at you and now
+				probably because I threw one of my business
+				cards at you and now
 				you're wondering what's up with that URL.
 			</p>
 			<p>
@@ -84,7 +88,8 @@
 			<p>
 				I'm a software engineer from Dresden, Germany.
 				My current job is in web development,
-				but I'm studying game design on the side to start working as a
+				but I'm studying game design on
+				the side to start working as a
 				videogame developer at some future point.
 			</p>
 			<p>
@@ -106,7 +111,8 @@
 			<h2>11.07.2017</h2>
 			<p>
 				This is where I put any interesting projects that illustrate my
-				programming skills in PHP/JavaScript/XHTML/CSS (as much as that can
+				programming skills in PHP/JavaScript/XHTML/CSS (as
+				much as that can
 				be done without reading their source code).
 			</p>
 		</article>
@@ -116,25 +122,27 @@
 		<article>
 			<h2>About</h2>
 			<p>
-				<a href="https://en.wikipedia.org/wiki/Ambermoon" rel="external"
-					target="_blank">Ambermoon</a>
+				<a href="https://en.wikipedia.org/wiki/Ambermoon" rel="external" target="_blank">Ambermoon</a>
 				is a 1993 video game by Thalion Software which was released for the
 				Amiga.
 			</p>
 			<p>It was one of the first games I've ever played and has kept a
-				sweet spot in my heart ever since. It's an RPG where you start out
+				sweet spot in my heart ever since. It's an RPG where
+				you start out
 				as an InsertNameHere adventurer and recruit companions as you
-				explore the game world, à la Baldur's Gate or Fallout. When I played
+				explore the game world, à la Baldur's Gate
+				or Fallout. When I played
 				it as a kid, it always bugged me that I couldn't change my party
-				members' classes, names, or faces, and was instead at the mercy of
+				members' classes, names, or
+				faces, and was instead at the mercy of
 				what pre-defined characters already existed. Well, one day I poked
-				around my savegames in a hex editor and realized that I could
+				around my
+				savegames in a hex editor and realized that I could
 				totally change these things.
 			</p>
 			<p>
 				Long story short, I created an
-				<a href="http://slothsoft.net/Ambermoon/SavegameEditor/" rel="next"
-					target="_blank">online savegame editor</a>
+				<a href="http://slothsoft.net/Ambermoon/SavegameEditor/" rel="next" target="_blank">online savegame editor</a>
 				.
 			</p>
 		</article>
@@ -144,8 +152,8 @@
 				<dt>Server-side</dt>
 				<dd>
 					PHP loads a
-					<a href="http://slothsoft.net/getResource.php/amber/AmbermoonSavegame"
-						rel="external" target="_blank">painstakingly-made XML file</a>
+					<a href="http://slothsoft.net/getResource.php/amber/AmbermoonSavegame" rel="external" target="_blank">painstakingly-made
+						XML file</a>
 					that describes the individual structure of the various savegame
 					files.
 				</dd>
@@ -153,10 +161,12 @@
 					My editor then uses
 					<a data-dict-replace="spec/dom" />
 					magic to transform this information into easily-accessible objects,
-					up to a ratio of "1 object per 1 bit of save data".
+					up to a ratio of "1 object per 1 bit of save
+					data".
 				</dd>
 				<dd>Either a default "new game" save state is loaded, or a state
-					previously saved by the user.</dd>
+					previously saved by the user.
+				</dd>
 				<dd>
 					Both the editor (generated using
 					<a data-dict-replace="spec/xslt" />
@@ -197,16 +207,14 @@
 					alt="a form with a billion inputs" />
 				<figcaption>
 					Items can be changed via an
-					<a
-						href="https://www.w3.org/TR/2016/REC-html51-20161101/interactive-elements.html#the-menu-element"
+					<a href="https://www.w3.org/TR/2016/REC-html51-20161101/interactive-elements.html#the-menu-element"
 						target="_blank" rel="external">HTML 5.1 context menu</a>
 					.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Ambermoon.original"
-					alt="an AMIGA screenshot?!" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Ambermoon.original" alt="an AMIGA screenshot?!" />
 				<figcaption>
 					For comparison, this is what the original game looked like.
 				</figcaption>
@@ -220,21 +228,25 @@
 			<p>
 				A few years ago I started learning Japanese, and along the way
 				I've created some of tools to help me do so.
-				One of those is a
-				<a href="http://slothsoft.net/Japanese/Translator/" rel="next"
-					target="_blank">Japanese-to-English Translator</a>
+				One of
+				those is a
+				<a href="http://slothsoft.net/Japanese/Translator/" rel="next" target="_blank">Japanese-to-English Translator</a>
 				.
 			</p>
 			<p>
 				One of the first things I noticed about Japanese is that, unlike
-				Latin-based languages, it's not trivial to determine where a word
+				Latin-based languages, it's not trivial to
+				determine where a word
 				ends and the next one begins (i.e., there's no "space" character). I
-				found this makes using dictionaries to look up sentences incredibly
+				found this makes using
+				dictionaries to look up sentences incredibly
 				frustrating, so I wrote a script that looks up every combination of
 				adjacant characters (in an online dictionary) until a translation
-				for every character sequence in a given sentence has been found.
+				for every character sequence in a given sentence
+				has been found.
 				This worked well enough for my needs, so I kept adding more
-				features, like audio recordings or a visual aid for drawing the
+				features, like audio recordings or a
+				visual aid for drawing the
 				characters.
 			</p>
 		</article>
@@ -243,9 +255,11 @@
 			<dl>
 				<dt>Server-Side</dt>
 				<dd>PHP receives the user input as JSON object, transcribed into
-					Latin, Hiragana, and Katana. This is done because the search
+					Latin, Hiragana, and Katana. This is done because
+					the search
 					results of online dictionaries may vary depending on which of those
-					3 encodings is searched for.</dd>
+					3 encodings is searched for.
+				</dd>
 				<dd>
 					The user input is looked up in the excellent dictionary
 					<a href="http://jisho.org" rel="external" target="_blank">jisho.org</a>
@@ -253,33 +267,36 @@
 					usual
 					<a data-dict-replace="spec/dom" />
 					magic). If no result is found, the last character of user input is
-					dropped (to be search separately later), and the process is
+					dropped (to be search separately later), and the
+					process is
 					repeated.
 				</dd>
 				<dd>
 					When all characters have been looked up, every word found is looked
 					up in the dictionary
-					<a href="http://nihongo.monash.edu/cgi-bin/wwwjdic" rel="external"
-						target="_blank">WWWJDIC</a>
+					<a href="http://nihongo.monash.edu/cgi-bin/wwwjdic" rel="external" target="_blank">WWWJDIC</a>
 					to get a link to an audio file.
 				</dd>
 				<dd>All requests made by the server are cached in a MySQL database,
-					both to improve response time and to reduce the strain I put on the
-					other dictionaries.</dd>
+					both to improve response time and to reduce the
+					strain I put on the
+					other dictionaries.
+				</dd>
 				<dd>The translations and audio links are then sent to the client as
-					XML document.</dd>
+					XML document.
+				</dd>
 				<dt>Client-Side</dt>
 				<dd>The page itself is XHTML, served by my CMS.</dd>
 				<dd>
 					User input into the translator is transcribed every which way
 					between Latin, Hiragana, and Katakana using an XML
-					<a href="http://slothsoft.net/getResource.php/slothsoft/kana"
-						rel="external" target="_blank">transcription table</a>
+					<a href="http://slothsoft.net/getResource.php/slothsoft/kana" rel="external" target="_blank">transcription table</a>
 					. This happens in real-time, so the translator can function as a
 					substitute Japanese keyboard, too.
 				</dd>
 				<dd>When user inaction is detected, the input is sent to the server
-					to be processed as described above.</dd>
+					to be processed as described above.
+				</dd>
 				<dd>
 					The server response is converted to HTML via
 					<a data-dict-replace="spec/xslt" />
@@ -294,7 +311,8 @@
 					alt="Japanese-English Translator" />
 				<figcaption>
 					You search for a sequence of characters; the translator transcribes
-					them, breaks them up into words, translates them into English,
+					them, breaks them up into words,
+					translates them into English,
 					reads them out to you, and tells you how to draw them.
 				</figcaption>
 			</figure>
@@ -305,25 +323,25 @@
 		<article>
 			<h2>About</h2>
 			<p>
-				<a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering" rel="external"
-					target="_blank">Magic: The Gathering</a>
+				<a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering" rel="external" target="_blank">Magic: The Gathering</a>
 				is a trading card game created by Richard Garfield and published by
 				Wizards of the Coast.
 			</p>
 			<p>
 				Not satisfied with the speed, reliability, and ease-of-use of their
 				official card search engine over at
-				<a href="http://gatherer.wizards.com/Pages/Default.aspx" rel="external"
-					target="_blank">gatherer.wizards.com</a>
+				<a href="http://gatherer.wizards.com/Pages/Default.aspx" rel="external" target="_blank">gatherer.wizards.com</a>
 				, I created my own:
 				<a href="http://mtg.slothsoft.net/" rel="next" target="_blank">mtg.slothsoft.net</a>
 				.
 			</p>
 			<p>
 				It regularly downloads the entirety of Wizards' card database and
-				cross-references the cards with other card databases for, among
+				cross-references the cards with other card
+				databases for, among
 				other things, higher-quality images and current market prices. Its
-				interface is designed to work on desktop as well as mobile, and a
+				interface is designed to work
+				on desktop as well as mobile, and a
 				client-side image cache ensures peak perfomance at minimal traffic.
 			</p>
 		</article>
@@ -396,11 +414,11 @@
 			</p>
 			<p>
 				This game was only supposed to be a placeholder until I cobble
-				something together that's actually worth showing, but somehow it's
+				something together that's actually worth showing, but
+				somehow it's
 				still here. I updated the code to make it use a couple fancy
 				new(ish) features like
-				<a
-					href="https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-window-requestanimationframe"
+				<a href="https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-window-requestanimationframe"
 					rel="external" target="_blank">requestAnimationFrame</a>
 				, but it's still horribly outdated and has zero support for mobile,
 				so it's gonna disappear soon. I hope.
@@ -421,7 +439,8 @@
 			<h2>About</h2>
 			<p>
 				<a href="http://slothsoft.net/UnicodeMapper/" rel="next" target="_blank">Unicode
-					Text Converter</a>
+					Text Converter
+				</a>
 			</p>
 		</article>
 		<article>
@@ -440,13 +459,16 @@
 			<p>
 				The
 				<a href="https://tu-dresden.de" rel="external" target="_blank">Technische
-					Universität Dresden</a>
+					Universität Dresden
+				</a>
 				offers language courses, and they had contracted my then-place of
 				employment,
 				<a href="http://www.ibp-dresden.de/" rel="external" target="_blank">IBP
-					Dresden</a>
+					Dresden
+				</a>
 				, with developing and maintaining an online e-learning tool. I was
-				the project lead and main designer/programmer, so I wrote nearly all
+				the project lead and main designer/programmer, so
+				I wrote nearly all
 				of its code, which I figure is a good enough reason to include it in
 				my portfolio.
 			</p>
@@ -455,17 +477,22 @@
 				log on and study languages in pre-defined
 				<abbr title="dubbed &quot;Learning Objects&quot; in the spec">study units</abbr>
 				; The material should consist of reading and listening
-				comprehensions with a variety of different tasks for the student to
+				comprehensions with a variety of different tasks for the
+				student to
 				solve, like multiple-choice questions and clozes. As this was
-				supposed to be a language learning tool, it was important that the
+				supposed to be a language learning tool, it
+				was important that the
 				user interface supported multiple languages. Furthermore, the
-				payload of each study unit should be able to contain image, video,
+				payload of each study unit should
+				be able to contain image, video,
 				and audio files. For the teachers, the tool should offer a
-				WYSIWYG-style editor to create and maintain the study units, with a
+				WYSIWYG-style editor to
+				create and maintain the study units, with a
 				particular focus on an intuitive, yet flexible interface.
 			</p>
 			<p>
-				The project consisted of 3 parts:</p>
+				The project consisted of 3 parts:
+			</p>
 			<ul>
 				<li>
 					To develop a data structure that could hold the information
@@ -474,35 +501,41 @@
 					and
 					<abbr title="a.k.a., the backend">the editor</abbr>
 					. I quickly chose XML as host language and then developed an XML
-					schema for it, both to make sure the XML produced by the editor
+					schema for it, both to make sure the XML produced
+					by the editor
 					doesn't deviate from the specification, and to give future
-					implementers of the viewer or editor something to validate against.
+					implementers of the viewer or editor
+					something to validate against.
 				</li>
 				<li>
 					To develop a viewer for
 					<abbr title="that is, the data file">the aforementioned XML</abbr>
 					. In order to reduce traffic and increase responsiveness, I
-					implemented it with very few server requests, in JavaScript. The
+					implemented it with very few server requests, in
+					JavaScript. The
 					main render routine is an XSL transformation, with an optional
-					server round-trip for those browsers that lack support for native
+					server round-trip for those browsers
+					that lack support for native
 					XSLT. Traffic only occurs, aside from the static resources, for the
-					data file of each study unit (also its media files), and to log
+					data file of each
+					study unit (also its media files), and to log
 					submitted answers for teacher review.
 				</li>
 				<li>
 					To develop an editor that spits out data files for the viewer. This
-					was, again, implemented almost entirely client-side in JavaScript,
+					was, again, implemented almost entirely
+					client-side in JavaScript,
 					with server requests only done when needed to save or load the
-					current unit. As there were a lot of user commands and data to
+					current unit. As there were
+					a lot of user commands and data to
 					handle, I implemented a Model-View-Controller sectioning to keep
-					the code mostly tidy. To work around JavaScript's class inheritance
+					the code mostly
+					tidy. To work around JavaScript's class inheritance
 					wonkiness (this was before
-					<a
-						href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/create"
+					<a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/create"
 						rel="external" target="_blank">Object.create</a>
 					), I deployed a custom-made implementation of
-					<a href="https://en.wikipedia.org/wiki/Trait_(computer_programming)"
-						rel="external" target="_blank">Traits</a>
+					<a href="https://en.wikipedia.org/wiki/Trait_(computer_programming)" rel="external" target="_blank">Traits</a>
 					.
 				</li>
 			</ul>
@@ -513,21 +546,19 @@
 				<dt>Specification</dt>
 				<dd>
 					The
-					<a href="http://schema.ibp-dresden.de/lodb/" rel="external"
-						target="_blank">spec</a>
+					<a href="http://schema.ibp-dresden.de/lodb/" rel="external" target="_blank">spec</a>
 					, written as
 					<a data-dict-replace="spec/xsd" />
 					, describes the current state of development. Internally, it uses
 					an
 					<a data-dict-replace="spec/xslt" />
 					to converts the schema into a neat
-					<a href="http://schema.ibp-dresden.de/lodb/?page=documentation"
-						rel="external" target="_blank">documentation</a>
+					<a href="http://schema.ibp-dresden.de/lodb/?page=documentation" rel="external" target="_blank">documentation</a>
 					, and a schema parser (written in PHP) to create an
-					<a href="http://schema.ibp-dresden.de/lodb/?page=dummy" rel="external"
-						target="_blank">example XML</a>
+					<a href="http://schema.ibp-dresden.de/lodb/?page=dummy" rel="external" target="_blank">example XML</a>
 					which contains 1 copy of just about every element possible and
-					arranged so as to be a valid document according to the spec.
+					arranged so as to be a valid document according to
+					the spec.
 				</dd>
 				<dt>Viewer</dt>
 				<dd>
@@ -562,7 +593,8 @@
 				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/LODB.viewer" alt="E-Learning viewer" />
 				<figcaption>
 					The Viewer. To the left is the course navigation, on the right is a
-					study unit, with 3 pages, currently showing a drag-and-drop task.
+					study unit, with 3 pages, currently
+					showing a drag-and-drop task.
 				</figcaption>
 			</figure>
 			<figure>
@@ -584,7 +616,8 @@
 				<figcaption>
 					If you've ever seen a
 					<a href="https://www.w3.org/TR/xml/" target="_blank" rel="external">W3C
-						recommendation</a>
+						recommendation
+					</a>
 					, this hopefully looks very familiar.
 				</figcaption>
 			</figure>
@@ -596,23 +629,41 @@
 			</figure>
 		</article>
 	</p>
-	
+
 	<p key="Farah">Content Management System "Farah"</p>
 	<p key="Farah/content">
 		<article>
 			<h2>About</h2>
 			<p>
 				In order to study software architecture, networking interfaces, and programming in general,
-				I've created my own content management system. I've been working on it since ca. 2011, tho have only
-				recently ported the codebase to <a href="https://github.com/Faulo/slothsoft-farah" rel="external" target="_blank">github</a>
-				and <a href="https://packagist.org/packages/slothsoft/farah" rel="external" target="_blank">packagist</a>. 
-				Its homepage is <a href="http://farah.slothsoft.net/" rel="external" target="_blank">http://farah.slothsoft.net/</a>.
+				I've created my own
+				content management system. I've been working on it since ca. 2011, tho have only
+				recently ported the codebase to
+				<a href="https://github.com/Faulo/slothsoft-farah" rel="external" target="_blank">github</a>
+				and
+				<a href="https://packagist.org/packages/slothsoft/farah" rel="external" target="_blank">packagist</a>
+				.
+				Its homepage is
+				<a href="http://farah.slothsoft.net/" rel="external" target="_blank">http://farah.slothsoft.net/</a>
+				.
 			</p>
 			<p>Some of its features are:</p>
 			<ul>
-				<li>Serving entire websites via a <a href="http://schema.slothsoft.net/farah/sitemap/" rel="external" target="_blank">custom-made sitemap file</a>.</li>
-				<li>Accessing individual files, dynamically generated content, or content streams via a uniform protocol defined in a <a href="http://schema.slothsoft.net/farah/module/" rel="external" target="_blank">custom-made manifest file</a>.</li>
-				<li>Localization via <a href="http://schema.slothsoft.net/farah/dictionary/" rel="external" target="_blank">custom-made dictionary files</a>.</li>
+				<li>
+					Serving entire websites via a
+					<a href="http://schema.slothsoft.net/farah/sitemap/" rel="external" target="_blank">custom-made sitemap file</a>
+					.
+				</li>
+				<li>
+					Accessing individual files, dynamically generated content, or content streams via a uniform protocol defined in a
+					<a href="http://schema.slothsoft.net/farah/module/" rel="external" target="_blank">custom-made manifest file</a>
+					.
+				</li>
+				<li>
+					Localization via
+					<a href="http://schema.slothsoft.net/farah/dictionary/" rel="external" target="_blank">custom-made dictionary files</a>
+					.
+				</li>
 				<li>A dependency manager for CSS and JavaScript resources.</li>
 				<li>HTTP negotiation support for client language, data compression, ranged requests, and caching.</li>
 				<li>Support of a wide variety of XSLT processors, up to XSLT 3.0.</li>
@@ -622,7 +673,7 @@
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="Games">Games</p>
 	<p key="Games/content">
 		<article>
@@ -630,21 +681,38 @@
 			<p>The closest thing I've got to finished games.</p>
 		</article>
 	</p>
-	
-	<p key="PowerFantasyVR">Virtual Reality Game "Power Fantasy VR"</p>
+
+	<p key="PowerFantasyVR">Power Fantasy VR</p>
 	<p key="PowerFantasyVR/content">
 		<article>
 			<h2>About</h2>
 			<p>
-				Power Fantasy VR was created for a seminar of the Master's study of <a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften</a> at the University of Bayreuth.
+				Power Fantasy VR was created for a seminar of the Master's study of
+				<a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
+				</a>
+				at the University of Bayreuth.
 			</p>
 		</article>
 		<article>
 			<h2>Technical Details</h2>
 			<ul>
-				<li>Made with <a data-dict-replace="spec/unity" />.</li>
-				<li>It uses the <a data-dict-replace="spec/manus" /> gloves and the <a data-dict-replace="spec/vive" /> headset and trackers for a fully immersive virtual reality experience.</li>
-				<li>Hand gesture recognition is implemented using machine learning algorithms provided by <a data-dict-replace="spec/ml.net" />.</li>
+				<li>
+					Made with
+					<a data-dict-replace="spec/unity" />
+					.
+				</li>
+				<li>
+					It uses the
+					<a data-dict-replace="spec/manus" />
+					gloves and the
+					<a data-dict-replace="spec/vive" />
+					headset and trackers for a fully immersive virtual reality experience.
+				</li>
+				<li>
+					Hand gesture recognition is implemented using machine learning algorithms provided by
+					<a data-dict-replace="spec/ml.net" />
+					.
+				</li>
 			</ul>
 		</article>
 		<article>
@@ -658,37 +726,91 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/PowerFantasyVR" rel="external"><q>Power Fantasy VR</q> on GitHub</a></li>
-				<li><a href="http://slothsoft.net/downloads/games/PowerFantasyVR.zip" rel="external">Download (Win64)</a></li>
+				<li>
+					<a href="https://github.com/Faulo/PowerFantasyVR" rel="external">
+						<q>Power Fantasy VR</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/PowerFantasyVR.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 		<article>
 			<h2>Game Footage</h2>
 			<figure>
 				<video controls="controls">
-					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/PowerFantasyVR.mp4" type="video/mp4"/>
-            	</video>
+					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/PowerFantasyVR.mp4" type="video/mp4" />
+				</video>
 				<figcaption>
-					Trailer for the <a href="https://www.facebook.com/events/reichshof-kulturb%C3%BChne-bayreuth/mediennacht-2019/406618593594569/" rel="external">Mediennacht 2019</a>.
+					Trailer for the
+					<a href="https://www.facebook.com/events/reichshof-kulturb%C3%BChne-bayreuth/mediennacht-2019/406618593594569/"
+						rel="external">Mediennacht 2019</a>
+					.
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.jetpack"
-					alt="Iron Man ripoff" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.jetpack" alt="Iron Man ripoff" />
 				<figcaption>
 					Jet Pack Hands!
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.map"
-					alt="World map" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.map" alt="World map" />
 				<figcaption>
 					1st level overview.
 				</figcaption>
 			</figure>
 		</article>
 	</p>
-	
+	<p key="TrialOfTwo">Trial of Two: The&#160;Dojo</p>
+	<p key="TrialOfTwo/content">
+		<article>
+			<h2>About</h2>
+			<p>
+				Trial of Two: The Dojo was created for a seminar of the Master's study of
+				<a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
+				</a>
+				at the University of Bayreuth.
+			</p>
+		</article>
+		<article>
+			<h2>Technical Details</h2>
+			<ul>
+				<li>
+					Made with
+					<a data-dict-replace="spec/unity" />
+					.
+				</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Katharina Broswik (art direction, level design)</li>
+				<li>Robin Daraban (creative direction, programming, sound design)</li>
+				<li>Stephi Dietzel (art, character design)</li>
+				<li>Daniel Schulz (technical direction, game design)</li>
+				<li>Lena Voß (management)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li>
+					<a href="/Builds/TrialOfTwo/master/">Play browser version</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/Oilcatz" rel="external">
+						<q>Trial of Two: The Dojo</q>
+						on GitHub
+					</a>
+				</li>
+			</ul>
+		</article>
+	</p>
+
 	<p key="GameJams">Game Jams</p>
 	<p key="GameJams/content">
 		<article>
@@ -696,7 +818,7 @@
 			<p>They might not be pretty, but they're mine.</p>
 		</article>
 	</p>
-	
+
 	<p key="WhatTheHell">mediale* Game Jam 2012: What The Hell?</p>
 	<p key="WhatTheHell/content">
 		<article>
@@ -705,7 +827,9 @@
 				<dt>mediale* Game Development Contest</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2012-05-21">21.05.2012</time> - <time datetime="2012-05-23">23.05.2012</time>
+					<time datetime="2012-05-21">21.05.2012</time>
+					-
+					<time datetime="2012-05-23">23.05.2012</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -713,7 +837,8 @@
 				</dd>
 				<dd>
 					<strong>Theme:</strong>
-					<q>Die Götter müssen verrückt sein</q> [The gods must be crazy]
+					<q>Die Götter müssen verrückt sein</q>
+					[The gods must be crazy]
 				</dd>
 			</dl>
 		</article>
@@ -727,11 +852,13 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="http://slothsoft.net/WhatTheHell/" rel="external">Playable version on slothsoft.net</a></li>
+				<li>
+					<a href="http://slothsoft.net/WhatTheHell/" rel="external">Playable version on slothsoft.net</a>
+				</li>
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="HeartbeatForAll">Global Game Jam 2013: Heartbeat For All</p>
 	<p key="HeartbeatForAll/content">
 		<article>
@@ -740,7 +867,9 @@
 				<dt>Global Game Jam 2013</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2013-01-25">25.01.2013</time> - <time datetime="2013-01-27">27.01.2013</time>
+					<time datetime="2013-01-25">25.01.2013</time>
+					-
+					<time datetime="2013-01-27">27.01.2013</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -765,12 +894,19 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="http://2013.globalgamejam.org/2013/heartbeat-all" rel="external">Global Game Jam Entry <q>Heartbeat For All</q></a></li>
-				<li><a href="http://slothsoft.net/WhatTheHell/" rel="external">Playable version on slothsoft.net</a></li>
+				<li>
+					<a href="http://2013.globalgamejam.org/2013/heartbeat-all" rel="external">
+						Global Game Jam Entry
+						<q>Heartbeat For All</q>
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/WhatTheHell/" rel="external">Playable version on slothsoft.net</a>
+				</li>
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="Communiganda">Franken Game Jam 2018: Communiganda</p>
 	<p key="Communiganda/content">
 		<article>
@@ -783,7 +919,9 @@
 				<dt>Franken Game Jam 2018</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2018-11-02">02.11.2018</time> - <time datetime="2018-11-04">04.11.2018</time>
+					<time datetime="2018-11-02">02.11.2018</time>
+					-
+					<time datetime="2018-11-04">04.11.2018</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -806,14 +944,28 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="/Builds/Communiganda/master/">Play browser version</a></li>
-				<li><a href="https://github.com/Faulo/Communiganda" rel="external"><q>Communiganda</q> on GitHub</a></li>
-				<li><a href="https://gamejolt.com/games/communiganda/377389" rel="external"><q>Communiganda</q> on Game Jolt</a></li>
-				<li><a href="http://slothsoft.net/downloads/games/Communiganda.zip" rel="external">Download (Win64)</a></li>
+				<li>
+					<a href="/Builds/Communiganda/master/">Play browser version</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/Communiganda" rel="external">
+						<q>Communiganda</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="https://gamejolt.com/games/communiganda/377389" rel="external">
+						<q>Communiganda</q>
+						on Game Jolt
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/Communiganda.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="FindingHome">Global Game Jam 2019: Finding Home</p>
 	<p key="FindingHome/content">
 		<article>
@@ -826,7 +978,9 @@
 				<dt>Global Game Jam 2019</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2019-01-25">25.01.2019</time> - <time datetime="2019-01-27">27.01.2019</time>
+					<time datetime="2019-01-25">25.01.2019</time>
+					-
+					<time datetime="2019-01-27">27.01.2019</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -853,13 +1007,25 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://globalgamejam.org/2019/games/split-artifact-finding-home" rel="external">Global Game Jam Entry <q>Finding Home</q></a></li>
-				<li><a href="https://github.com/Faulo/FindingHome" rel="external"><q>Finding Home</q> on GitHub</a></li>
-				<li><a href="http://slothsoft.net/downloads/games/FindingHome.zip" rel="external">Download (Win64)</a></li>
+				<li>
+					<a href="https://globalgamejam.org/2019/games/split-artifact-finding-home" rel="external">
+						Global Game Jam Entry
+						<q>Finding Home</q>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/FindingHome" rel="external">
+						<q>Finding Home</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/FindingHome.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="SpaceCape">Spring Game Jam 2019: SpaceCape</p>
 	<p key="SpaceCape/content">
 		<article>
@@ -872,7 +1038,9 @@
 				<dt>Spring Game Jam 2019</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2019-05-03">03.05.2019</time> - <time datetime="2019-05-05">05.05.2019</time>
+					<time datetime="2019-05-03">03.05.2019</time>
+					-
+					<time datetime="2019-05-05">05.05.2019</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -896,12 +1064,19 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/SpaceCape" rel="external"><q>SpaceCape</q> on GitHub</a></li>
-				<li><a href="http://slothsoft.net/downloads/games/SpaceCape.zip" rel="external">Download (Win64)</a></li>
+				<li>
+					<a href="https://github.com/Faulo/SpaceCape" rel="external">
+						<q>SpaceCape</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/SpaceCape.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="Orbital">Franken Game Jam 2019: Orbital</p>
 	<p key="Orbital/content">
 		<article>
@@ -914,7 +1089,9 @@
 				<dt>Franken Game Jam 2019</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2019-06-28">28.06.2019</time> - <time datetime="2019-06-28">28.06.2019</time>
+					<time datetime="2019-06-28">28.06.2019</time>
+					-
+					<time datetime="2019-06-28">28.06.2019</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -940,13 +1117,25 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/Orbital" rel="external"><q>Orbital</q> on GitHub</a></li>
-				<li><a href="https://gamejolt.com/games/Orbital/423264" rel="external"><q>Orbital</q> on Game Jolt</a></li>
-				<li><a href="http://slothsoft.net/downloads/games/Orbital.zip" rel="external">Download (Win64)</a></li>
+				<li>
+					<a href="https://github.com/Faulo/Orbital" rel="external">
+						<q>Orbital</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="https://gamejolt.com/games/Orbital/423264" rel="external">
+						<q>Orbital</q>
+						on Game Jolt
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/Orbital.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="KeepEverybodyHappy">Democracy Jam 2019: Keep Everybody Happy</p>
 	<p key="KeepEverybodyHappy/content">
 		<article>
@@ -959,7 +1148,9 @@
 				<dt>Democracy Jam 2019</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2019-10-04">04.10.2019</time> - <time datetime="2019-10-06">06.10.2019</time>
+					<time datetime="2019-10-04">04.10.2019</time>
+					-
+					<time datetime="2019-10-06">06.10.2019</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -967,7 +1158,8 @@
 				</dd>
 				<dd>
 					<strong>Theme:</strong>
-					<q>Politik ist (k)ein Game</q> [politics is(n't) a game]
+					<q>Politik ist (k)ein Game</q>
+					[politics is(n't) a game]
 				</dd>
 			</dl>
 		</article>
@@ -981,12 +1173,19 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/KeepEverybodyHappy" rel="external"><q>Keep Everybody Happy</q> on GitHub</a></li>
-				<li><a href="http://slothsoft.net/downloads/games/KeepEverybodyHappy.zip" rel="external">Download (Win64)</a></li>
+				<li>
+					<a href="https://github.com/Faulo/KeepEverybodyHappy" rel="external">
+						<q>Keep Everybody Happy</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/KeepEverybodyHappy.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="ReverseSlender">Winter Game Jam 2019: Reverse Slender</p>
 	<p key="ReverseSlender/content">
 		<article>
@@ -999,7 +1198,9 @@
 				<dt>Winter Game Jam 2019</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2019-11-08">08.11.2019</time> - <time datetime="2019-11-10">10.11.2019</time>
+					<time datetime="2019-11-08">08.11.2019</time>
+					-
+					<time datetime="2019-11-10">10.11.2019</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -1007,7 +1208,8 @@
 				</dd>
 				<dd>
 					<strong>Theme:</strong>
-					<q>Fundstücke</q> [Found pieces]
+					<q>Fundstücke</q>
+					[Found pieces]
 				</dd>
 			</dl>
 		</article>
@@ -1025,24 +1227,30 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/ReverseSlender" rel="external"><q>Reverse Slender</q> on GitHub</a></li>
-				<li><a href="http://slothsoft.net/downloads/games/ReverseSlender.zip" rel="external">Download (Win64)</a></li>
+				<li>
+					<a href="https://github.com/Faulo/ReverseSlender" rel="external">
+						<q>Reverse Slender</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/ReverseSlender.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 		<article>
 			<h2>Game Footage</h2>
 			<figure>
 				<video controls="controls">
-					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/ReverseSlender.mp4"
-            type="video/mp4"/>
-            </video>
+					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/ReverseSlender.mp4" type="video/mp4" />
+				</video>
 				<figcaption>
 					No trespassing in the haunted forest!
 				</figcaption>
 			</figure>
 		</article>
 	</p>
-	
+
 	<p key="WatchOut">Global Game Jam 2020: Watch Out!</p>
 	<p key="WatchOut/content">
 		<article>
@@ -1055,7 +1263,9 @@
 				<dt>Global Game Jam 2020</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2020-01-31">31.01.2020</time> - <time datetime="2020-02-02">02.02.2020</time>
+					<time datetime="2020-01-31">31.01.2020</time>
+					-
+					<time datetime="2020-02-02">02.02.2020</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -1080,12 +1290,19 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="https://github.com/Faulo/WatchOut" rel="external"><q>Watch Out!</q> on GitHub</a></li>
-				<li><a href="http://slothsoft.net/downloads/games/WatchOut.zip" rel="external">Download (Win64)</a></li>
+				<li>
+					<a href="https://github.com/Faulo/WatchOut" rel="external">
+						<q>Watch Out!</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/WatchOut.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="NanoMixture">Spring Game Jam 2020: Nano Mixture</p>
 	<p key="NanoMixture/content">
 		<article>
@@ -1098,7 +1315,9 @@
 				<dt>Spring Game Jam 2020</dt>
 				<dd>
 					<strong>Date:</strong>
-					<time datetime="2020-05-01">01.05.2020</time> - <time datetime="2020-05-03">03.05.2020</time>
+					<time datetime="2020-05-01">01.05.2020</time>
+					-
+					<time datetime="2020-05-03">03.05.2020</time>
 				</dd>
 				<dd>
 					<strong>Site:</strong>
@@ -1106,7 +1325,8 @@
 				</dd>
 				<dd>
 					<strong>Theme:</strong>
-					<q>Telepräsenz</q> [telepresence]
+					<q>Telepräsenz</q>
+					[telepresence]
 				</dd>
 			</dl>
 		</article>
@@ -1121,19 +1341,27 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li><a href="/Builds/NanoMixture/master/">Play browser version</a></li>
-				<li><a href="https://github.com/Faulo/NanoMixture" rel="external"><q>Nano Mixture</q> on GitHub</a></li>
-				<li><a href="http://slothsoft.net/downloads/games/NanoMixture.zip" rel="external">Download (Win64)</a></li>
+				<li>
+					<a href="/Builds/NanoMixture/master/">Play browser version</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/NanoMixture" rel="external">
+						<q>Nano Mixture</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/NanoMixture.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 	</p>
-	
+
 	<p key="spec/mysql">
 		<a rel="external" target="_blank" href="https://dev.mysql.com/">MySQL</a>
 	</p>
 	<p key="spec/pthreads">
-		<a rel="external" target="_blank"
-			href="http://de2.php.net/manual/en/book.pthreads.php">pthreads</a>
+		<a rel="external" target="_blank" href="http://de2.php.net/manual/en/book.pthreads.php">pthreads</a>
 	</p>
 	<p key="spec/xmlhttprequest">
 		<a rel="external" target="_blank" href="https://xhr.spec.whatwg.org/">XMLHttpRequest</a>
@@ -1151,8 +1379,7 @@
 		<a rel="external" target="_blank" href="https://www.w3.org/TR/workers/">Web Worker</a>
 	</p>
 	<p key="spec/html-template">
-		<a rel="external" target="_blank"
-			href="https://www.w3.org/TR/html5/scripting-1.html#the-template-element">HTML template</a>
+		<a rel="external" target="_blank" href="https://www.w3.org/TR/html5/scripting-1.html#the-template-element">HTML template</a>
 	</p>
 	<p key="spec/indexedDB">
 		<a rel="external" target="_blank" href="https://www.w3.org/TR/IndexedDB/">Indexed Database</a>
@@ -1161,27 +1388,22 @@
 		<a rel="external" target="_blank" href="https://www.w3.org/DOM/">DOM</a>
 	</p>
 	<p key="spec/content-encoding">
-		<a rel="external" target="_blank"
-			href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11">Content-Encoding</a>
+		<a rel="external" target="_blank" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11">Content-Encoding</a>
 	</p>
 	<p key="spec/transfer-encoding">
-		<a rel="external" target="_blank"
-			href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.41">Transfer-Encoding</a>
+		<a rel="external" target="_blank" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.41">Transfer-Encoding</a>
 	</p>
 	<p key="spec/ranged-requests">
-		<a rel="external" target="_blank"
-			href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.16">Ranged Requests</a>
+		<a rel="external" target="_blank" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.16">Ranged Requests</a>
 	</p>
 	<p key="spec/flexbox">
 		<a rel="external" target="_blank" href="https://www.w3.org/TR/css-flexbox-1/">Flexible Box Layout</a>
 	</p>
 	<p key="spec/image-rendering">
-		<a rel="external" target="_blank"
-			href="https://drafts.csswg.org/css-images-3/#the-image-rendering">Image-Rendering</a>
+		<a rel="external" target="_blank" href="https://drafts.csswg.org/css-images-3/#the-image-rendering">Image-Rendering</a>
 	</p>
 	<p key="spec/drag">
-		<a rel="external" target="_blank"
-			href="https://www.w3.org/TR/2010/WD-html5-20101019/dnd.html">Drag and Drop</a>
+		<a rel="external" target="_blank" href="https://www.w3.org/TR/2010/WD-html5-20101019/dnd.html">Drag and Drop</a>
 	</p>
 	<p key="spec/touch">
 		<a rel="external" target="_blank" href="https://www.w3.org/TR/touch-events/">Touch Events</a>
@@ -1190,8 +1412,7 @@
 		<a rel="external" target="_blank" href="https://www.w3.org/TR/css3-mediaqueries/">Media Queries</a>
 	</p>
 	<p key="spec/contenteditable">
-		<a rel="external" target="_blank"
-			href="https://www.w3.org/TR/2008/WD-html5-20080610/editing.html">contenteditable</a>
+		<a rel="external" target="_blank" href="https://www.w3.org/TR/2008/WD-html5-20080610/editing.html">contenteditable</a>
 	</p>
 	<p key="spec/xsd">
 		<a rel="external" target="_blank" href="https://www.w3.org/2001/XMLSchema">XML Schema</a>

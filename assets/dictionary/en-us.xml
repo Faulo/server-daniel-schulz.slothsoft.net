@@ -153,7 +153,8 @@
 				<dd>
 					PHP loads a
 					<a href="http://slothsoft.net/getResource.php/amber/AmbermoonSavegame" rel="external" target="_blank">painstakingly-made
-						XML file</a>
+						XML file
+					</a>
 					that describes the individual structure of the various savegame
 					files.
 				</dd>

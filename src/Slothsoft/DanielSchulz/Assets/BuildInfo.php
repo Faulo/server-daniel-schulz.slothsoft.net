@@ -40,8 +40,8 @@ class BuildInfo {
         yield 'project' => $this->project;
         yield 'branch' => $this->branch;
         if ($this->isValid()) {
-            yield 'timestamp' => filemtime($this->getIndexFile());
-            yield 'datetime' => date('d.m.y H:i:s', filemtime($this->getIndexFile()));
+            yield 'timestamp' => FileSystem::changetime($this->getIndexFile());
+            yield 'datetime' => date('d.m.y H:i:s', FileSystem::changetime($this->getIndexFile()));
         }
         if ($this->settings) {
             yield 'name' => $this->settings['productName'];

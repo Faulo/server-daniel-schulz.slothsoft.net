@@ -46,7 +46,7 @@
 			      <div id="{$build//*[@style]/@id}" style="width: 960px; height: 600px"></div>
 			      <div class="footer">
 			        <div class="webgl-logo"></div>
-			        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+			        <div class="fullscreen" onClick="{$build//*[@onclick]/@onclick}"></div>
 			        <div class="title"> © <xsl:value-of select="$build/@credits"/></div>
 			      </div>
 			    </div>

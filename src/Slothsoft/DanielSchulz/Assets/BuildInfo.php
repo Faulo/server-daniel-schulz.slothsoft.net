@@ -8,12 +8,17 @@ use Slothsoft\Farah\Module\Asset\ParameterFilterStrategy\AbstractMapParameterFil
 use Slothsoft\Core\DOMHelper;
 use Slothsoft\Core\FileSystem;
 
-class BuildInfo {
+class BuildInfo
+{
+
     const BUILD_DIRECTORY = 'Builds';
+
     const INDEX_FILE = '/index.html';
+
     const SETTINGS_FILE = '/Build/Game.json';
-    
-    public static function loadBuilds(string $project, string $branch) : iterable {
+
+    public static function loadBuilds(string $project, string $branch): iterable
+    {
         foreach (FileSystem::scanDir(self::BUILD_DIRECTORY, FileSystem::SCANDIR_EXCLUDE_FILES) as $p) {
             foreach (FileSystem::scanDir(self::BUILD_DIRECTORY . DIRECTORY_SEPARATOR . $p, FileSystem::SCANDIR_EXCLUDE_FILES) as $b) {
                 $build = new BuildInfo($p, $b);
@@ -26,17 +31,23 @@ class BuildInfo {
             }
         }
     }
-    
+
     public $project;
+
     public $branch;
+
     public $settings;
+
     public $indexDocument;
-    private function __construct(string $project, string $branch) {
+
+    private function __construct(string $project, string $branch)
+    {
         $this->project = $project;
         $this->branch = $branch;
     }
-    
-    public function getAttributes() : iterable {
+
+    public function getAttributes(): iterable
+    {
         yield 'project' => $this->project;
         yield 'branch' => $this->branch;
         if ($this->isValid()) {
@@ -51,15 +62,19 @@ class BuildInfo {
             }
         }
     }
-    
-    public function isValid() : bool {
+
+    public function isValid(): bool
+    {
         return file_exists($this->getIndexFile());
     }
-    
-    private function getIndexFile() : string {
+
+    private function getIndexFile(): string
+    {
         return self::BUILD_DIRECTORY . "/$this->project/$this->branch" . self::INDEX_FILE;
     }
-    private function getSettingsFile() : string {
+
+    private function getSettingsFile(): string
+    {
         if (preg_match('~"(Build/.+\.json)"~', $this->indexDocument->textContent, $match)) {
             $settingsFile = "/$match[1]";
         } else {
@@ -67,8 +82,9 @@ class BuildInfo {
         }
         return self::BUILD_DIRECTORY . "/$this->project/$this->branch" . $settingsFile;
     }
-    
-    private function load() {
+
+    private function load()
+    {
         $this->indexDocument = DOMHelper::loadDocument($this->getIndexFile(), true);
         $this->settings = json_decode(file_get_contents($this->getSettingsFile()), true);
     }

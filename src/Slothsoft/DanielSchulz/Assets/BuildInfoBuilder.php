@@ -22,14 +22,17 @@ class BuildInfoBuilder implements ExecutableBuilderStrategyInterface
     {
         $project = $args->get('project');
         $branch = $args->get('branch');
-        
+
         $closure = function (DOMDocument $targetDoc) use ($context, $args, $project, $branch): DOMElement {
             $rootNode = $targetDoc->createElement('builds');
             $rootNode->setAttribute('url', (string) $context->createUrl($args));
             $projects = [];
             foreach (BuildInfo::loadBuilds($project, $branch) as $build) {
                 $projects[$build->project] = true;
-                $url = $context->createUrl(FarahUrlArguments::createFromValueList(['project' => $build->project, 'branch' => $build->branch]));
+                $url = $context->createUrl(FarahUrlArguments::createFromValueList([
+                    'project' => $build->project,
+                    'branch' => $build->branch
+                ]));
                 $buildNode = $targetDoc->createElement('build-info');
                 $buildNode->setAttribute('url', (string) $url);
                 foreach ($build->getAttributes() as $key => $val) {

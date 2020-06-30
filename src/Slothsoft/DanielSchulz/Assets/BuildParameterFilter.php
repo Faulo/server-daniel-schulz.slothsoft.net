@@ -12,9 +12,8 @@ class BuildParameterFilter extends AbstractMapParameterFilter
     {
         return [
             'project' => new StringSanitizer(),
-            'branch' => new StringSanitizer(),
+            'branch' => new StringSanitizer()
         ];
     }
-
 }
 

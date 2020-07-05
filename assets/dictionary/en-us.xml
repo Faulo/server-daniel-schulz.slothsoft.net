@@ -1443,6 +1443,57 @@
 		</article>
 	</p>
 
+	<p key="ChartRunner">Summer Game Jam 2020: Chart Runner</p>
+	<p key="ChartRunner/content">
+		<article>
+			<h2>About</h2>
+			<p>A game about the statistics of the future.</p>
+		</article>
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Summer Game Jam 2020</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2020-07-03">03.07.2020</time>
+					-
+					<time datetime="2020-07-05">05.07.2020</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>If I ignore the future maybe it will go away</q>
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Linus Gärtig (programming, ui design)</li>
+				<li>Maximilian Meinicke (sound design)</li>
+				<li>Ivette Schmidt (art)</li>
+				<li>Daniel Schulz (programming)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li>
+					<a href="/Builds/ChartRunner/master/">Play browser version</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/ChartRunner" rel="external">
+						<q>Chart Runner</q>
+						on GitHub
+					</a>
+				</li>
+			</ul>
+		</article>
+	</p>
+
 	<p key="spec/mysql">
 		<a rel="external" target="_blank" href="https://dev.mysql.com/">MySQL</a>
 	</p>

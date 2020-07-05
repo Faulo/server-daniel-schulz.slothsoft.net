@@ -864,18 +864,16 @@
 			<p>This section presents every major milestone and which decisions went into making it.</p>
 			<p>Note that a gamepad (preferably an Xbox-ish one) is required to play these.</p>
 			<article>
-				<h3>18.06.2020 - Milestone 4</h3>
-				<p>This milestone focused on making the ground/jump movement snappy, intuitive and fun.
-				For this, the character controller of Celeste's Madeline and Super Mario World's Mario was studied and approximated. 
-				Turns are now instant, even in mid-air, and there's some coyote time when walking off of platforms.</p>
-				<p><a href="/Builds/TheCursedBroom/0.4.0/">Play v0.4.0 online</a></p>
+				<h3>??.??.2020 - Milestone 5</h3>
+				<p></p>
+				<p><a href="/Builds/TheCursedBroom/0.5.0/">Play v0.5.0 online</a></p>
 			</article>
 			<article>
 				<h3>18.06.2020 - Milestone 4</h3>
 				<p>This milestone focused on making the ground/jump movement snappy, intuitive and fun.
 				For this, the character controller of Celeste's Madeline and Super Mario World's Mario was studied and approximated. 
 				Turns are now instant, even in mid-air, and there's some coyote time when walking off of platforms.</p>
-				<p>There's also many more visuals and, finally, sound effects.</p>
+				<p>There's also many more visuals and, finally, sound effects. And collectibles!</p>
 				<p><a href="/Builds/TheCursedBroom/0.4.0/">Play v0.4.0 online</a></p>
 			</article>
 			<article>

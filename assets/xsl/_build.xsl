@@ -49,7 +49,7 @@
 					<h1>
 						<xsl:value-of select="$title" />
 					</h1>
-					<div id="{$build//*[@style]/@id}" style="width: 960px; height: 600px"></div>
+					<div id="{$build//*[@style]/@id}" style="{$build//*[@style]/@style}"></div>
 					<div class="footer">
 						<div class="webgl-logo"></div>
 						<div class="fullscreen" onclick="{$build//*[@onclick]/@onclick}"></div>

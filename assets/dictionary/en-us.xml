@@ -864,8 +864,9 @@
 			<p>This section presents every major milestone and which decisions went into making it.</p>
 			<p>Note that a gamepad (preferably an Xbox-ish one) is required to play these.</p>
 			<article>
-				<h3>??.??.2020 - Milestone 5</h3>
-				<p></p>
+				<h3>23.07.2020 - Milestone 5</h3>
+				<p>Mechanically, we added a wall-jump and a dash, both available only while flying.</p>
+				<p>Level design wise, we completed a draft of the tutorial level, and decided for the game structure to be about a vertical climb out of a cave and into the clouds.</p>
 				<p><a href="/Builds/TheCursedBroom/0.5.0/">Play v0.5.0 online</a></p>
 			</article>
 			<article>

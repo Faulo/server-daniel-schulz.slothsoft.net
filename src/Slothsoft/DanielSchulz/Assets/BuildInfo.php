@@ -94,7 +94,7 @@ class BuildInfo
     {
         $json = trim($json);
         $json = str_replace('buildUrl + "', '"Build', $json);
-        $json = preg_replace('~([\w]+):~', '"$1":', $json);
+        $json = preg_replace('~^([\w]+):~', '"$1":', $json);
         $json = preg_replace('~",\s+\}~', '"}', $json);
         return json_decode($json, true);
     }

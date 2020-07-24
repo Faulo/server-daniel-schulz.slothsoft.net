@@ -73,19 +73,35 @@ class BuildInfo
         return self::BUILD_DIRECTORY . "/$this->project/$this->branch" . self::INDEX_FILE;
     }
 
-    private function getSettingsFile(): string
+    private function getSettings($textContent): array
     {
-        if (preg_match('~"(Build/.+\.json)"~', $this->indexDocument->textContent, $match)) {
+        if (preg_match('~"(Build/.+\.json)"~', $textContent, $match)) {
             $settingsFile = "/$match[1]";
         } else {
             $settingsFile = self::SETTINGS_FILE;
         }
-        return self::BUILD_DIRECTORY . "/$this->project/$this->branch" . $settingsFile;
+        $file = self::BUILD_DIRECTORY . "/$this->project/$this->branch" . $settingsFile;
+        if (is_file($file)) {
+            return $this->parseSettings(file_get_contents($file));
+        }
+        if (preg_match('~var config = ({[^}]+})~', $textContent, $match)) {
+            return $this->parseSettings($match[1]);
+        }
+        throw new \Exception('Unable to determine settings from index.html');
+    }
+
+    private function parseSettings($json): array
+    {
+        $json = trim($json);
+        $json = str_replace('buildUrl + "', '"Build', $json);
+        $json = preg_replace('~([\w]+):~', '"$1":', $json);
+        $json = preg_replace('~",\s+\}~', '"}', $json);
+        return json_decode($json, true);
     }
 
     private function load()
     {
-        $this->indexDocument = DOMHelper::loadDocument($this->getIndexFile(), true);
-        $this->settings = json_decode(file_get_contents($this->getSettingsFile()), true);
+        $this->indexDocument = @DOMHelper::loadDocument($this->getIndexFile(), true);
+        $this->settings = $this->getSettings($this->indexDocument->textContent);
     }
 }

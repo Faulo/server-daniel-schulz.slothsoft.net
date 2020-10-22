@@ -841,8 +841,9 @@
 		<article>
 			<h2>Credits</h2>
 			<ul>
-				<li>Daniel Schulz (technical direction, game design, sound design)</li>
+				<li>Daniel Schulz (technical direction, game design)</li>
     			<li>Tina Wolfrum (art direction, narrative design, level design)</li>
+    			<li>Maximilian Meinicke (sound design, music)</li>
 			</ul>
 		</article>
 		<article>
@@ -867,35 +868,82 @@
 			<p>This section presents every major milestone and which decisions went into making it.</p>
 			<p>Note that a gamepad (preferably an Xbox-ish one) is required to play these.</p>
 			<article>
+				<h3>03.10.2020 - Milestone 6</h3>
+				<p>This milestone focused on improving the tilemap performance, polishing the particle systems, and adding the start of the 2nd level.</p>
+				<figure>
+					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v060"
+						alt="The Cursed Broom v0.6.0" />
+					<figcaption>
+						Completing the tutorial rewards you with some pretty flowers.
+					</figcaption>
+				</figure>
+				<p><a href="/Builds/TheCursedBroom/0.6.0/">Play v0.6.0 online</a></p>
+			</article>
+			<article>
 				<h3>23.07.2020 - Milestone 5</h3>
 				<p>Mechanically, we added a wall-jump and a dash, both available only while flying.</p>
 				<p>Level design wise, we completed a draft of the tutorial level, and decided for the game structure to be about a vertical climb out of a cave and into the clouds.</p>
+				<figure>
+					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v050"
+						alt="The Cursed Broom v0.5.0" />
+					<figcaption>
+						The tutorial is all about emerging from darkness.
+					</figcaption>
+				</figure>
 				<p><a href="/Builds/TheCursedBroom/0.5.0/">Play v0.5.0 online</a></p>
 			</article>
 			<article>
 				<h3>18.06.2020 - Milestone 4</h3>
 				<p>This milestone focused on making the ground/jump movement snappy, intuitive and fun.
-				For this, the character controller of Celeste's Madeline and Super Mario World's Mario was studied and approximated. 
+				For this, the character controllers of Celeste's Madeline and Super Mario World's Mario were studied and approximated. 
 				Turns are now instant, even in mid-air, and there's some coyote time when walking off of platforms.</p>
 				<p>There's also many more visuals and, finally, sound effects. And collectibles!</p>
+				<figure>
+					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v040"
+						alt="The Cursed Broom v0.4.0" />
+					<figcaption>
+						Brace for impact!
+					</figcaption>
+				</figure>
 				<p><a href="/Builds/TheCursedBroom/0.4.0/">Play v0.4.0 online</a></p>
 			</article>
 			<article>
 				<h3>04.06.2020 - Milestone 3</h3>
 				<p>This milestone iterated the flight controls and tried to make the current avatar momentum matter a lot while mid-air.
-				Sadly, relying on momentum a lot made Maya very floaty.</p>
+				Sadly, the reliance on momentum made Maya very floaty.</p>
 				<p>On the aesthetic side we added a lot of animations and visual effects, which improved game feel a lot!</p>
+				<figure>
+					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v030"
+						alt="The Cursed Broom v0.3.0" />
+					<figcaption>
+						Ground movement aside, you can fly some nice sinusoidal curves.
+					</figcaption>
+				</figure>
 				<p><a href="/Builds/TheCursedBroom/0.3.0/">Play v0.3.0 online</a></p>
 			</article>
 			<article>
 				<h3>28.05.2020 - Milestone 2</h3>
 				<p>At this point Tina joined the project and brought a wonderful narration of a witch with a slightly malfunctioning broom.</p>
 				<p>Gameplay introduced rotation during gliding, and a kinetic energy/potential energy translation similar to Mario's wing cap flight in Super Mario 64.</p>
+				<figure>
+					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v020"
+						alt="The Cursed Broom v0.2.0" />
+					<figcaption>
+						Also, particle systems.
+					</figcaption>
+				</figure>
 				<p><a href="/Builds/TheCursedBroom/0.2.0/">Play v0.2.0 online</a></p>
 			</article>
 			<article>
 				<h3>14.05.2020 - Milestone 1</h3>
 				<p>The first prototype is the barest-bone implementation of a gliding ability. It's inspired by Knuckles' glide in Sonic 3 and Mario's dive jump in Super Mario 64.</p>
+				<figure>
+					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v010"
+						alt="The Cursed Broom v0.1.0" />
+					<figcaption>
+						In retrospect, binding both jump and glide to "any key" might have been a mistake (i.e., analog joystick to move).
+					</figcaption>
+				</figure>
 				<p><a href="/Builds/TheCursedBroom/0.1.0/">Play v0.1.0 online</a></p>
 			</article>
 		</article>

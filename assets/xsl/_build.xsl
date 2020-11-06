@@ -7,7 +7,8 @@
 		<xsl:variable name="build" select="//build-info[@name]" />
 		<xsl:variable name="pages" select="*[@name='sites']//sfs:page" />
 		<xsl:variable name="requestedPage" select="$pages[@current]" />
-		<xsl:variable name="relatedPage" select="$pages[@name = $build/@project][not(descendant-or-self::*/@current)]" />
+		<xsl:variable name="relatedPage"
+			select="$pages[@name = $build/@project][not(descendant-or-self::*/@current)]" />
 		<xsl:variable name="title">
 			<xsl:value-of select="$build/@name" />
 			<xsl:if test="$build/@version">
@@ -69,17 +70,17 @@
 							<h1>
 								<xsl:value-of select="$title" />
 							</h1>
-						  <canvas id="unity-canvas"></canvas>
-						  <div id="unity-loading-bar">
-							<div id="unity-logo"></div>
-							<div id="unity-progress-bar-empty">
-							  <div id="unity-progress-bar-full"></div>
+							<canvas id="unity-canvas"></canvas>
+							<div id="unity-loading-bar">
+								<div id="unity-logo"></div>
+								<div id="unity-progress-bar-empty">
+									<div id="unity-progress-bar-full"></div>
+								</div>
 							</div>
-						  </div>
-						  <div id="unity-footer">
-							<div id="unity-webgl-logo"></div>
-							<div id="unity-fullscreen-button"></div>
-							<div id="unity-build-title">
+							<div id="unity-footer">
+								<div id="unity-webgl-logo"></div>
+								<div id="unity-fullscreen-button"></div>
+								<div id="unity-build-title">
 									<xsl:choose>
 										<xsl:when test="$relatedPage">
 											<a href="{$relatedPage/@uri}">
@@ -89,8 +90,9 @@
 										<xsl:otherwise>
 											<xsl:value-of select="$credits" />
 										</xsl:otherwise>
-									</xsl:choose></div>
-						  </div>
+									</xsl:choose>
+								</div>
+							</div>
 						</div>
 					</xsl:when>
 				</xsl:choose>

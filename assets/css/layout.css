@@ -28,9 +28,12 @@ html.build {
 .build h1 {
 	font-size: 1.5em;
 	font-weight: normal;
+	margin: 0;
+	padding: 0;
 }
 
-.build .webgl-content {
+.build .webgl-content,
+.build .unity-desktop {
 	position: static;
 	top: auto;
 	left: auto;

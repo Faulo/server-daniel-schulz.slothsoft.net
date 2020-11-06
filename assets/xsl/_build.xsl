@@ -37,36 +37,69 @@
 						<xsl:copy-of select="@*" />
 					</link>
 				</xsl:for-each>
+			</head>
+			<body>
+				<xsl:choose>
+					<xsl:when test="$build/@unityVersion = '2019'">
+						<div class="webgl-content">
+							<h1>
+								<xsl:value-of select="$title" />
+							</h1>
+							<div id="{$build//*[@style]/@id}" style="{$build//*[@style]/@style}"></div>
+							<div class="footer">
+								<div class="webgl-logo"></div>
+								<div class="fullscreen" onclick="{$build//*[@onclick]/@onclick}"></div>
+								<div class="title">
+									<xsl:choose>
+										<xsl:when test="$relatedPage">
+											<a href="{$relatedPage/@uri}">
+												<xsl:value-of select="$credits" />
+											</a>
+										</xsl:when>
+										<xsl:otherwise>
+											<xsl:value-of select="$credits" />
+										</xsl:otherwise>
+									</xsl:choose>
+								</div>
+							</div>
+						</div>
+					</xsl:when>
+					<xsl:when test="$build/@unityVersion = '2020'">
+						<div id="unity-container" class="unity-desktop">
+							<h1>
+								<xsl:value-of select="$title" />
+							</h1>
+						  <canvas id="unity-canvas"></canvas>
+						  <div id="unity-loading-bar">
+							<div id="unity-logo"></div>
+							<div id="unity-progress-bar-empty">
+							  <div id="unity-progress-bar-full"></div>
+							</div>
+						  </div>
+						  <div id="unity-footer">
+							<div id="unity-webgl-logo"></div>
+							<div id="unity-fullscreen-button"></div>
+							<div id="unity-build-title">
+									<xsl:choose>
+										<xsl:when test="$relatedPage">
+											<a href="{$relatedPage/@uri}">
+												<xsl:value-of select="$credits" />
+											</a>
+										</xsl:when>
+										<xsl:otherwise>
+											<xsl:value-of select="$credits" />
+										</xsl:otherwise>
+									</xsl:choose></div>
+						  </div>
+						</div>
+					</xsl:when>
+				</xsl:choose>
 				<xsl:for-each select="$build//script">
 					<script type="application/javascript">
 						<xsl:copy-of select="@*" />
 						<xsl:value-of select="." />
 					</script>
 				</xsl:for-each>
-			</head>
-			<body>
-				<div class="webgl-content">
-					<h1>
-						<xsl:value-of select="$title" />
-					</h1>
-					<div id="{$build//*[@style]/@id}" style="{$build//*[@style]/@style}"></div>
-					<div class="footer">
-						<div class="webgl-logo"></div>
-						<div class="fullscreen" onclick="{$build//*[@onclick]/@onclick}"></div>
-						<div class="title">
-							<xsl:choose>
-								<xsl:when test="$relatedPage">
-									<a href="{$relatedPage/@uri}">
-										<xsl:value-of select="$credits" />
-									</a>
-								</xsl:when>
-								<xsl:otherwise>
-									<xsl:value-of select="$credits" />
-								</xsl:otherwise>
-							</xsl:choose>
-						</div>
-					</div>
-				</div>
 			</body>
 		</html>
 

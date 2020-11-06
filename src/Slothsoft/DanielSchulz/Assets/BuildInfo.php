@@ -40,6 +40,8 @@ class BuildInfo
 
     public $indexDocument;
 
+    public $unityVersion;
+
     private function __construct(string $project, string $branch)
     {
         $this->project = $project;
@@ -50,6 +52,9 @@ class BuildInfo
     {
         yield 'project' => $this->project;
         yield 'branch' => $this->branch;
+		if ($this->unityVersion !== null) {
+			yield 'unityVersion' => $this->unityVersion;
+		}
         if ($this->isValid()) {
             yield 'timestamp' => FileSystem::changetime($this->getIndexFile());
             yield 'datetime' => date('d.m.y H:i:s', FileSystem::changetime($this->getIndexFile()));
@@ -82,9 +87,11 @@ class BuildInfo
         }
         $file = self::BUILD_DIRECTORY . "/$this->project/$this->branch" . $settingsFile;
         if (is_file($file)) {
+			$this->unityVersion = '2019';
             return $this->parseSettings(file_get_contents($file));
         }
         if (preg_match('~var config = ({[^}]+})~', $textContent, $match)) {
+			$this->unityVersion = '2020';
             return $this->parseSettings($match[1]);
         }
         throw new \Exception('Unable to determine settings from index.html');
@@ -96,6 +103,7 @@ class BuildInfo
         $json = str_replace('buildUrl + "', '"Build', $json);
         $json = preg_replace('~^([\w]+):~', '"$1":', $json);
         $json = preg_replace('~",\s+\}~', '"}', $json);
+        $json = preg_replace('~\s([a-zA-Z]+):\s~', ' "$1": ', $json);
         return json_decode($json, true);
     }
 

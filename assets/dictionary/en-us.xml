@@ -1565,6 +1565,99 @@
 						on GitHub
 					</a>
 				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/ChartRunner.zip" rel="external">Download (Win64)</a>
+				</li>
+			</ul>
+		</article>
+	</p>
+
+	<p key="BackToTheChicken">Franken Game Jam 2020: Back to the Chicken</p>
+	<p key="BackToTheChicken/content">
+		<figure>
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/BackToTheChicken.1"
+				alt="main menu" />
+			<figcaption>
+				What is that chicken doing there anyway?
+			</figcaption>
+		</figure>
+		<article>
+			<h2>About</h2>
+			<p>A game about the life goals of a feather.</p>
+		</article>
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Franken Game Jam 2020</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2020-11-06">06.11.2020</time>
+					-
+					<time datetime="2020-11-08">08.11.2020</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>Anticipation</q>
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Robin Daraban (vfx)</li>
+				<li>Michael Heller (sound design, art, level design)</li>
+				<li>Markus Hülß (programming)</li>
+				<li>Lisa Kast (art)</li>
+				<li>Veronica Kramme (art)</li>
+				<li>André Lautner (sound design)</li>
+				<li>Jan Martens (art, level design)</li>
+				<li>Luisa Meinlschmidt (art, level design, ui design)</li>
+				<li>Daniel Schulz (programming)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Screenshots</h2>
+			<figure>
+				<video controls="controls">
+					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/BackToTheChicken.Intro.mp4" type="video/mp4" />
+				</video>
+				<figcaption>
+					The intro!
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/BackToTheChicken.2"
+					alt="flight" />
+				<figcaption>
+					Explore a lavishly furnished house!
+				</figcaption>
+			</figure>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li>
+					<a href="/Builds/BackToTheChicken/master/">Play browser version</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/BackToTheChicken" rel="external">
+						<q>Back to the Chicken</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="https://luizamuffin.itch.io/back-to-the-chicken" rel="external">
+						<q>Back to the Chicken</q>
+						on itch.io
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/BackToTheChicken.zip" rel="external">Download (Win64)</a>
+				</li>
 			</ul>
 		</article>
 	</p>

@@ -49,7 +49,6 @@
 							<div id="{$build//*[@style]/@id}" style="{$build//*[@style]/@style}"></div>
 							<div class="footer">
 								<div class="webgl-logo"></div>
-								<div class="fullscreen" onclick="{$build//*[@onclick]/@onclick}"></div>
 								<div class="title">
 									<xsl:choose>
 										<xsl:when test="$relatedPage">
@@ -62,6 +61,7 @@
 										</xsl:otherwise>
 									</xsl:choose>
 								</div>
+								<div class="fullscreen" onclick="{$build//*[@onclick]/@onclick}"></div>
 							</div>
 						</div>
 					</xsl:when>
@@ -79,7 +79,6 @@
 							</div>
 							<div id="unity-footer">
 								<div id="unity-webgl-logo"></div>
-								<div id="unity-fullscreen-button"></div>
 								<div id="unity-build-title">
 									<xsl:choose>
 										<xsl:when test="$relatedPage">
@@ -92,6 +91,7 @@
 										</xsl:otherwise>
 									</xsl:choose>
 								</div>
+								<div id="unity-fullscreen-button"></div>
 							</div>
 						</div>
 					</xsl:when>

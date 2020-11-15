@@ -21,7 +21,7 @@ html {
 }
 
 html.build {
-	background: lightblue;
+	background: #c1d9e1;
 	overflow: auto;
 }
 
@@ -41,6 +41,32 @@ html.build {
 	transform: none;
 	max-width: 960px;
 	margin: auto;
+}
+.build #unity-footer,
+.build .footer {
+	display: table;
+	margin: 0 auto !important;
+	width: 960px;
+}
+.build #unity-footer > *,
+.build .footer > * {
+	float: none !important;
+	display: table-cell !important;
+	background-position: top center;
+}
+.build #unity-footer > #unity-build-title,
+.build .footer > .title {
+	margin: 0 !important;
+	padding-right: 0.5em;
+	line-height: 1.5em;
+	text-align: right;
+}
+.build #unity-footer a,
+.build .footer a {
+	display: block;
+}
+.build canvas {
+	display: block;
 }
 
 nav, main {
@@ -133,7 +159,7 @@ main {
 }
 
 main {
-	background-color: lightblue;
+	background-color: #c1d9e1;
 	padding: 0.5em;
 	margin-bottom: 1em;
 	min-height: 10em;
@@ -142,9 +168,9 @@ main {
 
 h1, h2, h3 {
 	color: white;
-	text-shadow: -1px -1px 0 rgba(128, 128, 256, 0.8), 1px -1px 0
-		rgba(128, 128, 256, 0.8), -1px 1px 0 rgba(128, 128, 256, 0.8), 1px 1px
-		0 rgba(128, 128, 256, 0.8);
+	text-shadow: -1px -1px 0 rgba(103, 103, 166, 1), 1px -1px 0
+		rgba(103, 103, 166, 1), -1px 1px 0 rgba(103, 103, 166, 1), 1px 1px
+		0 rgba(103, 103, 166, 1);
 	margin: 0.5em 0.0em;
 }
 

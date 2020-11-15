@@ -1520,6 +1520,10 @@
 
 	<p key="ChartRunner">Summer Game Jam 2020: Chart Runner</p>
 	<p key="ChartRunner/content">
+		<figure>
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/ChartRunner.1"
+				alt="level 1" />
+		</figure>
 		<article>
 			<h2>About</h2>
 			<p>A game about the statistics of the future.</p>
@@ -1577,9 +1581,6 @@
 		<figure>
 			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/BackToTheChicken.1"
 				alt="main menu" />
-			<figcaption>
-				What is that chicken doing there anyway?
-			</figcaption>
 		</figure>
 		<article>
 			<h2>About</h2>

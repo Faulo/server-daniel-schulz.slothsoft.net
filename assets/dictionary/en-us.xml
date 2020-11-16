@@ -1240,6 +1240,10 @@
 
 	<p key="Orbital">Franken Game Jam 2019: Orbital</p>
 	<p key="Orbital/content">
+		<figure>
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Orbital.1"
+				alt="main menu" />
+		</figure>
 		<article>
 			<h2>About</h2>
 			<p>A game about capturing planets with friends.</p>
@@ -1276,8 +1280,22 @@
 			</ul>
 		</article>
 		<article>
+			<h2>Game Footage</h2>
+			<figure>
+				<video controls="controls">
+					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/Orbital.mp4" type="video/mp4" />
+				</video>
+				<figcaption>
+					Thanks, kurzgesagt!
+				</figcaption>
+			</figure>
+		</article>
+		<article>
 			<h2>Links</h2>
 			<ul>
+				<li>
+					<a href="/Builds/Orbital/master/">Play browser version</a>
+				</li>
 				<li>
 					<a href="https://github.com/Faulo/Orbital" rel="external">
 						<q>Orbital</q>
@@ -1621,7 +1639,7 @@
 			</ul>
 		</article>
 		<article>
-			<h2>Screenshots</h2>
+			<h2>Game Footage</h2>
 			<figure>
 				<video controls="controls">
 					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/BackToTheChicken.Intro.mp4" type="video/mp4" />

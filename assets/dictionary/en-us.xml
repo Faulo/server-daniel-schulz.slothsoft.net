@@ -691,6 +691,9 @@
 
 	<p key="PowerFantasyVR">Power Fantasy VR</p>
 	<p key="PowerFantasyVR/content">
+		<figure>
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.jetpack" alt="Power Fantasy VR" />
+		</figure>
 		<article>
 			<h2>About</h2>
 			<p>
@@ -758,12 +761,6 @@
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.jetpack" alt="Iron Man ripoff" />
-				<figcaption>
-					Jet Pack Hands!
-				</figcaption>
-			</figure>
-			<figure>
 				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.map" alt="World map" />
 				<figcaption>
 					1st level overview.
@@ -773,6 +770,10 @@
 	</p>
 	<p key="TrialOfTwo">Trial of Two: The&#160;Dojo</p>
 	<p key="TrialOfTwo/content">
+		<figure>
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TrialOfTwo.1"
+				alt="Trial of Two: The Dojo" />
+		</figure>
 		<article>
 			<h2>About</h2>
 			<p>
@@ -798,6 +799,7 @@
 				<li>Katharina Broswik (art direction, level design)</li>
 				<li>Robin Daraban (creative direction, programming, sound design)</li>
 				<li>Stephi Dietzel (art, character design)</li>
+				<li>Paul Redetzky (music)</li>
 				<li>Daniel Schulz (technical direction, game design)</li>
 				<li>Lena Voß (management)</li>
 			</ul>
@@ -806,23 +808,35 @@
 			<h2>Links</h2>
 			<ul>
 				<li>
-					<a href="/Builds/TrialOfTwo/master/">Play browser version</a>
-				</li>
-				<li>
-					<a href="https://github.com/Faulo/Oilcatz" rel="external">
-						<q>Trial of Two: The Dojo</q>
-						on GitHub
-					</a>
+					<a href="http://trialoftwo.slothsoft.net" rel="external">Home page</a>
 				</li>
 			</ul>
+		</article>
+		<article>
+			<h2>Game Footage</h2>
+			<figure>
+				<video controls="controls">
+					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/TrialOfTwo.mp4" type="video/mp4" />
+				</video>
+				<figcaption>
+					Trailer for the
+					<a href="https://www.facebook.com/mediennacht.bayreuth/"
+						rel="external">Mediennacht 2020</a>
+					.
+				</figcaption>
+			</figure>
 		</article>
 	</p>
 	<p key="TheCursedBroom">The Cursed Broom</p>
 	<p key="TheCursedBroom/content">
+		<figure>
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom"
+				alt="The Cursed Broom" />
+		</figure>
 		<article>
 			<h2>About</h2>
 			<p>
-				The Cursed Broom is being created for a seminar of the Master's study of
+				The Cursed Broom was created for a seminar of the Master's study of
 				<a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
 				</a>
 				at the University of Bayreuth.

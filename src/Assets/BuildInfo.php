@@ -1,15 +1,11 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\DanielSchulz\Assets;
+namespace Slothsoft\Server\DanielSchulz\Assets;
 
-use DOMDocument;
-use Slothsoft\Core\IO\Sanitizer\StringSanitizer;
-use Slothsoft\Farah\Module\Asset\ParameterFilterStrategy\AbstractMapParameterFilter;
 use Slothsoft\Core\DOMHelper;
 use Slothsoft\Core\FileSystem;
 
-class BuildInfo
-{
+class BuildInfo {
 
     const BUILD_DIRECTORY = 'Builds';
 
@@ -17,8 +13,7 @@ class BuildInfo
 
     const SETTINGS_FILE = '/Build/Game.json';
 
-    public static function loadBuilds(string $project, string $branch): iterable
-    {
+    public static function loadBuilds(string $project, string $branch): iterable {
         foreach (FileSystem::scanDir(self::BUILD_DIRECTORY, FileSystem::SCANDIR_EXCLUDE_FILES) as $p) {
             foreach (FileSystem::scanDir(self::BUILD_DIRECTORY . DIRECTORY_SEPARATOR . $p, FileSystem::SCANDIR_EXCLUDE_FILES) as $b) {
                 $build = new BuildInfo($p, $b);
@@ -42,19 +37,17 @@ class BuildInfo
 
     public $unityVersion;
 
-    private function __construct(string $project, string $branch)
-    {
+    private function __construct(string $project, string $branch) {
         $this->project = $project;
         $this->branch = $branch;
     }
 
-    public function getAttributes(): iterable
-    {
+    public function getAttributes(): iterable {
         yield 'project' => $this->project;
         yield 'branch' => $this->branch;
-		if ($this->unityVersion !== null) {
-			yield 'unityVersion' => $this->unityVersion;
-		}
+        if ($this->unityVersion !== null) {
+            yield 'unityVersion' => $this->unityVersion;
+        }
         if ($this->isValid()) {
             yield 'timestamp' => FileSystem::changetime($this->getIndexFile());
             yield 'datetime' => date('d.m.y H:i:s', FileSystem::changetime($this->getIndexFile()));
@@ -68,18 +61,16 @@ class BuildInfo
         }
     }
 
-    public function isValid(): bool
-    {
+    public function isValid(): bool {
         return file_exists($this->getIndexFile());
     }
 
-    private function getIndexFile(): string
-    {
+    private function getIndexFile(): string {
         return self::BUILD_DIRECTORY . "/$this->project/$this->branch" . self::INDEX_FILE;
     }
 
-    private function getSettings($textContent): array
-    {
+    private function getSettings($textContent): array {
+        $match = [];
         if (preg_match('~"(Build/.+\.json)"~', $textContent, $match)) {
             $settingsFile = "/$match[1]";
         } else {
@@ -87,18 +78,17 @@ class BuildInfo
         }
         $file = self::BUILD_DIRECTORY . "/$this->project/$this->branch" . $settingsFile;
         if (is_file($file)) {
-			$this->unityVersion = '2019';
+            $this->unityVersion = '2019';
             return $this->parseSettings(file_get_contents($file));
         }
         if (preg_match('~var config = ({[^}]+})~', $textContent, $match)) {
-			$this->unityVersion = '2020';
+            $this->unityVersion = '2020';
             return $this->parseSettings($match[1]);
         }
         throw new \Exception('Unable to determine settings from index.html');
     }
 
-    private function parseSettings($json): array
-    {
+    private function parseSettings($json): array {
         $json = trim($json);
         $json = str_replace('buildUrl + "', '"Build', $json);
         $json = preg_replace('~^([\w]+):~', '"$1":', $json);
@@ -107,8 +97,7 @@ class BuildInfo
         return json_decode($json, true);
     }
 
-    private function load()
-    {
+    private function load() {
         $this->indexDocument = @DOMHelper::loadDocument($this->getIndexFile(), true);
         $this->settings = $this->getSettings($this->indexDocument->textContent);
     }

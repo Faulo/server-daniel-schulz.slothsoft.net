@@ -1,25 +1,19 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\DanielSchulz\Assets;
+namespace Slothsoft\Server\DanielSchulz\Assets;
 
-use Slothsoft\Core\DOMHelper;
 use Slothsoft\Core\IO\Writable\Delegates\DOMWriterFromElementDelegate;
-use Slothsoft\Farah\FarahUrl\FarahUrl;
 use Slothsoft\Farah\FarahUrl\FarahUrlArguments;
-use Slothsoft\Farah\Module\Module;
 use Slothsoft\Farah\Module\Asset\AssetInterface;
 use Slothsoft\Farah\Module\Asset\ExecutableBuilderStrategy\ExecutableBuilderStrategyInterface;
 use Slothsoft\Farah\Module\Executable\ExecutableStrategies;
 use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\DOMWriterResultBuilder;
-use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\NullResultBuilder;
 use DOMDocument;
 use DOMElement;
 
-class BuildInfoBuilder implements ExecutableBuilderStrategyInterface
-{
+class BuildInfoBuilder implements ExecutableBuilderStrategyInterface {
 
-    public function buildExecutableStrategies(AssetInterface $context, FarahUrlArguments $args): ExecutableStrategies
-    {
+    public function buildExecutableStrategies(AssetInterface $context, FarahUrlArguments $args): ExecutableStrategies {
         $project = $args->get('project');
         $branch = $args->get('branch');
 
@@ -43,7 +37,7 @@ class BuildInfoBuilder implements ExecutableBuilderStrategyInterface
                 }
                 $rootNode->appendChild($buildNode);
             }
-            foreach ($projects as $project => $tmp) {
+            foreach (array_keys($projects) as $project) {
                 $node = $targetDoc->createElement('project');
                 $node->textContent = $project;
                 $rootNode->appendChild($node);

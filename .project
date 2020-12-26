@@ -3,9 +3,6 @@
 	<name>server-daniel-schulz.slothsoft.net</name>
 	<comment></comment>
 	<projects>
-		<project>slothsoft-core</project>
-		<project>slothsoft-farah</project>
-		<project>slothsoft-tetris</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

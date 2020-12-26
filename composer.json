@@ -1,45 +1,45 @@
 {
-    "name": "slothsoft/daniel-schulz.slothsoft.net",
-    "type": "project",
-    "description": "daniel-schulz.slothsoft.net",
-    "license": "WTFPL",
-    "keywords": [
-        "slothsoft",
-        "farah-module",
-        "farah-server"
-    ],
-    "autoload": {
-		"psr-0": {
-			"Slothsoft\\DanielSchulz\\": "src/"
+	"name" : "slothsoft/daniel-schulz.slothsoft.net",
+	"type" : "project",
+	"description" : "daniel-schulz.slothsoft.net",
+	"license" : "WTFPL",
+	"keywords" : [
+		"slothsoft",
+		"farah-module",
+		"farah-server"
+	],
+	"autoload" : {
+		"psr-0" : {
+			"Slothsoft\\DanielSchulz\\" : "src/"
 		},
-        "files": [
-            "config.php",
-            "src/registerModule.php"
-        ]
-    },
-    "require": {
-        "php": "^7.2",
-        "slothsoft/core": "*",
-        "slothsoft/farah": "*",
-        "slothsoft/tetris": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.5"
-    },
-    "autoload-dev": {
-        "classmap": [
-            "tests/"
-        ]
-    },
-    "classmap-authoritative": true,
-    "scripts": {
-        "post-autoload-dump": "Slothsoft\\Core\\ServerEnvironment::cleanCacheDirectory"
-    },
-    "homepage": "http://daniel-schulz.slothsoft.net",
-    "authors": [
-        {
-            "name": "Daniel Schulz",
-            "email": "info.slothsoft@gmail.com"
-        }
-    ]
+		"files" : [
+			"config.php",
+			"scripts/bootstrap.php"
+		]
+	},
+	"require" : {
+		"php" : "^7.2",
+		"slothsoft/core" : "^1.2",
+		"slothsoft/farah" : "^1.1",
+		"slothsoft/tetris" : "^1.0"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^6.5"
+	},
+	"autoload-dev" : {
+		"classmap" : [
+			"tests/"
+		]
+	},
+	"scripts" : {
+		"post-autoload-dump" : "Slothsoft\\Core\\ServerEnvironment::cleanCacheDirectory",
+		"farah-asset" : "@php vendor/slothsoft/farah/scripts/farah-asset.php",
+		"farah-page" : "@php vendor/slothsoft/farah/scripts/farah-page.php"
+	},
+	"homepage" : "http://daniel-schulz.slothsoft.net",
+	"authors" : [{
+			"name" : "Daniel Schulz",
+			"email" : "info.slothsoft@gmail.com"
+		}
+	]
 }

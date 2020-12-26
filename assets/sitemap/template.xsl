@@ -43,7 +43,7 @@
 
 	<xsl:template match="*[@name = 'builds']">
 		<xsl:for-each select="builds">
-			<page name="Builds" status-active="">
+			<page name="Builds" redirect=".." status-active="">
 				<xsl:for-each select="project">
 					<page name="{.}" status-active="">
 						<sfm:param name="project" value="{.}" />

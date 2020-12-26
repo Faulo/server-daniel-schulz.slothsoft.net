@@ -51,7 +51,7 @@
 			<use-template ref="/xsl/imageList" />
 			<use-document ref="/static/images" name="images" />
 		</fragment>
-		<custom-asset name="build" executable-builder="Slothsoft\DanielSchulz\Assets\BuildInfoBuilder"
-			parameter-filter="Slothsoft\DanielSchulz\Assets\BuildParameterFilter" />
+		<custom-asset name="build" executable-builder="Slothsoft\Server\DanielSchulz\Assets\BuildInfoBuilder"
+			parameter-filter="Slothsoft\Server\DanielSchulz\Assets\BuildParameterFilter" />
 	</fragment>
 </assets>

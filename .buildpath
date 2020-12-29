@@ -281,7 +281,7 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry kind="src" path="vendor/slothsoft/tetris/src">
+	<buildpathentry kind="src" path="vendor/slothsoft/tetris/scripts">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>

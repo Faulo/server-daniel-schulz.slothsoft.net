@@ -1695,6 +1695,153 @@
 		</article>
 	</p>
 
+	<p key="NuttinToLose">Global Game Jam 2021: Nuttin' to Lose</p>
+	<p key="NuttinToLose/content">
+		<figure>
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/NuttinToLose.1"
+				alt="main menu" />
+		</figure>
+		<article>
+			<h2>About</h2>
+			<p>A game about secrecy, deception and flying squirrels.</p>
+		</article>
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Global Game Jam 2021</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2021-01-29">29.01.2021</time>
+					-
+					<time datetime="2021-01-31">31.01.2021</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>Lost &amp; Found</q>
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Katharina Broswik (2d art, ui design)</li>
+				<li>Veronika Haidmann (3d art)</li>
+				<li>Laura Rosinger (voice acting)</li>
+				<li>Nils Schwarz (level design, programming)</li>
+				<li>Daniel Schulz (programming)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Game Footage</h2>
+			<figure>
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/NuttinToLose.2"
+					alt="living room" />
+				<figcaption>
+					Explore a lavishly furnished <s>house</s> tree!
+				</figcaption>
+			</figure>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li>
+					<a href="/Builds/NuttinToLose/master/">Play browser version</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/NuttinToLose" rel="external">
+						<q>Nuttin' to Lose</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="https://globalgamejam.org/2021/games/nuttin-lose-7" rel="external">
+						Global Game Jam Entry <q>Nuttin' to Lose</q>
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/NuttinToLose.zip" rel="external">Download (Win64)</a>
+				</li>
+			</ul>
+		</article>
+	</p>
+
+	<p key="Pengwing">Pengwing</p>
+	<p key="Pengwing/content">
+		<figure>
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Pengwing.1"
+				alt="main menu" />
+		</figure>
+		<article>
+			<h2>About</h2>
+			<p>A game about flying penguins and other conspiracies.</p>
+		</article>
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Spring Game Jam 2021</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2021-04-30">30.04.2021</time>
+					-
+					<time datetime="2021-05-02">02.05.2021</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>Doppelleben</q> (<q>Doppelleben</q>)
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Nico Auerswald (art, programming)</li>
+				<li>Elisabeth Harzbecker (art, level design)</li>
+				<li>Daniel Schulz (programming)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Game Footage</h2>
+			<figure>
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Pengwing.2"
+					alt="living room" />
+				<figcaption>
+					Explore a lavishly furnished <s>house</s> zoo!
+				</figcaption>
+			</figure>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li>
+					<a href="/Builds/Pengwing/master/">Play browser version</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/Pengwing" rel="external">
+						<q>Pengwing</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="https://faulo.itch.io/pengwing" rel="external">
+						<q>Pengwing</q> 
+						on itch.io
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/Pengwing.zip" rel="external">Download (Win64)</a>
+				</li>
+			</ul>
+		</article>
+	</p>
+
 	<p key="spec/mysql">
 		<a rel="external" target="_blank" href="https://dev.mysql.com/">MySQL</a>
 	</p>

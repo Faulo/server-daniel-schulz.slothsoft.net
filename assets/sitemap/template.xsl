@@ -34,6 +34,8 @@
 				<page name="NanoMixture" ref="pages/default" status-active="" status-public="" />
 				<page name="ChartRunner" ref="pages/default" status-active="" status-public="" />
 				<page name="BackToTheChicken" ref="pages/default" status-active="" status-public="" />
+				<page name="NuttinToLose" ref="pages/default" status-active="" status-public="" />
+				<page name="Pengwing" ref="pages/default" status-active="" status-public="" />
 			</page>
 			<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon" status-active="" />
 			<page name="sitemap" ref="//slothsoft@farah/sitemap-generator" status-active="" />

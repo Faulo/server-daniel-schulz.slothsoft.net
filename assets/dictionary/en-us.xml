@@ -1402,7 +1402,7 @@
 				<dd>
 					<strong>Theme:</strong>
 					<q>Fundstücke</q>
-					[Found pieces]
+					[found pieces]
 				</dd>
 			</dl>
 		</article>
@@ -1739,9 +1739,9 @@
 			<h2>Game Footage</h2>
 			<figure>
 				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/NuttinToLose.2"
-					alt="living room" />
+					alt="flight" />
 				<figcaption>
-					Explore a lavishly furnished <s>house</s> tree!
+					Find the perfect hiding spot for your nuts!
 				</figcaption>
 			</figure>
 		</article>
@@ -1769,7 +1769,7 @@
 		</article>
 	</p>
 
-	<p key="Pengwing">Pengwing</p>
+	<p key="Pengwing">Spring Game Jam 2021: Pengwing</p>
 	<p key="Pengwing/content">
 		<figure>
 			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Pengwing.1"
@@ -1795,7 +1795,7 @@
 				</dd>
 				<dd>
 					<strong>Theme:</strong>
-					<q>Doppelleben</q> (<q>Doppelleben</q>)
+					<q>Doppelleben</q> [double lives]
 				</dd>
 			</dl>
 		</article>

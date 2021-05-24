@@ -1315,9 +1315,7 @@
 		<article>
 			<h2>Game Footage</h2>
 			<figure>
-				<video controls="controls">
-					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/Orbital.mp4" type="video/mp4" />
-				</video>
+				<iframe width="800" height="450" src="https://www.youtube.com/embed/WJ_OWL9xhEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"/>
 				<figcaption>
 					Thanks, kurzgesagt!
 				</figcaption>
@@ -1757,6 +1755,12 @@
 				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/NuttinToLose.2" alt="flight" />
 				<figcaption>
 					Find the perfect hiding spot for your nuts!
+				</figcaption>
+			</figure>
+			<figure>
+				<iframe width="800" height="450" src="https://www.youtube.com/embed/Qwrezs1kNJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"/>
+				<figcaption>
+					...team?
 				</figcaption>
 			</figure>
 		</article>

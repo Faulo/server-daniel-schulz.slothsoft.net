@@ -32,8 +32,7 @@ html.build {
 	padding: 0;
 }
 
-.build .webgl-content,
-.build .unity-desktop {
+.build .webgl-content, .build .unity-desktop {
 	position: static;
 	top: auto;
 	left: auto;
@@ -42,29 +41,30 @@ html.build {
 	max-width: 960px;
 	margin: auto;
 }
-.build #unity-footer,
-.build .footer {
+
+.build #unity-footer, .build .footer {
 	display: table;
 	margin: 0 auto !important;
 	width: 960px;
 }
-.build #unity-footer > *,
-.build .footer > * {
+
+.build #unity-footer>*, .build .footer>* {
 	float: none !important;
 	display: table-cell !important;
 	background-position: top center;
 }
-.build #unity-footer > #unity-build-title,
-.build .footer > .title {
+
+.build #unity-footer>#unity-build-title, .build .footer>.title {
 	margin: 0 !important;
 	padding-right: 0.5em;
 	line-height: 1.5em;
 	text-align: right;
 }
-.build #unity-footer a,
-.build .footer a {
+
+.build #unity-footer a, .build .footer a {
 	display: block;
 }
+
 .build canvas {
 	display: block;
 }
@@ -169,8 +169,8 @@ main {
 h1, h2, h3 {
 	color: white;
 	text-shadow: -1px -1px 0 rgba(103, 103, 166, 1), 1px -1px 0
-		rgba(103, 103, 166, 1), -1px 1px 0 rgba(103, 103, 166, 1), 1px 1px
-		0 rgba(103, 103, 166, 1);
+		rgba(103, 103, 166, 1), -1px 1px 0 rgba(103, 103, 166, 1), 1px 1px 0
+		rgba(103, 103, 166, 1);
 	margin: 0.5em 0.0em;
 }
 

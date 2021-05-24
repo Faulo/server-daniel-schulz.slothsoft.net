@@ -771,8 +771,7 @@
 	<p key="TrialOfTwo">Trial of Two: The&#160;Dojo</p>
 	<p key="TrialOfTwo/content">
 		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TrialOfTwo.1"
-				alt="Trial of Two: The Dojo" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TrialOfTwo.1" alt="Trial of Two: The Dojo" />
 		</figure>
 		<article>
 			<h2>About</h2>
@@ -820,8 +819,7 @@
 				</video>
 				<figcaption>
 					Trailer for the
-					<a href="https://www.facebook.com/mediennacht.bayreuth/"
-						rel="external">Mediennacht 2020</a>
+					<a href="https://www.facebook.com/mediennacht.bayreuth/" rel="external">Mediennacht 2020</a>
 					.
 				</figcaption>
 			</figure>
@@ -830,8 +828,7 @@
 	<p key="TheCursedBroom">The Cursed Broom</p>
 	<p key="TheCursedBroom/content">
 		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom"
-				alt="The Cursed Broom" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom" alt="The Cursed Broom" />
 		</figure>
 		<article>
 			<h2>About</h2>
@@ -856,8 +853,8 @@
 			<h2>Credits</h2>
 			<ul>
 				<li>Daniel Schulz (game design and programming)</li>
-    			<li>Tina Wolfrum (art and level design)</li>
-    			<li>Maximilian Meinicke (sound design and music)</li>
+				<li>Tina Wolfrum (art and level design)</li>
+				<li>Maximilian Meinicke (sound design and music)</li>
 			</ul>
 		</article>
 		<article>
@@ -890,11 +887,13 @@
 		</article>
 		<article>
 			<h2>Development Log</h2>
-			<p>This section presents a playable version of every major milestone and some notes on which decisions went into making it.</p>
+			<p>This section presents a playable version of every major milestone and some notes on which decisions went into
+				making it.</p>
 			<p>Note that a gamepad (preferably an Xbox-ish one) is required to play these.</p>
 			<article>
 				<h3>31.10.2020 - Milestone 7</h3>
-				<p>For the final milestone, lots of polish was applied to the level design, the sound effects and the character controller.</p>
+				<p>For the final milestone, lots of polish was applied to the level design, the sound effects and the character
+					controller.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v070"
 						alt="The Cursed Broom v0.7.0" />
@@ -902,11 +901,14 @@
 						Now with a proper main menu!
 					</figcaption>
 				</figure>
-				<p><a href="/Builds/TheCursedBroom/0.7.0/">Play v0.7.0 online</a></p>
+				<p>
+					<a href="/Builds/TheCursedBroom/0.7.0/">Play v0.7.0 online</a>
+				</p>
 			</article>
 			<article>
 				<h3>03.10.2020 - Milestone 6</h3>
-				<p>This milestone focused on improving the tilemap performance, polishing the particle systems, and adding the start of the 2nd level.</p>
+				<p>This milestone focused on improving the tilemap performance, polishing the particle systems, and adding the start
+					of the 2nd level.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v060"
 						alt="The Cursed Broom v0.6.0" />
@@ -914,12 +916,15 @@
 						Completing the tutorial rewards you with some pretty flowers.
 					</figcaption>
 				</figure>
-				<p><a href="/Builds/TheCursedBroom/0.6.0/">Play v0.6.0 online</a></p>
+				<p>
+					<a href="/Builds/TheCursedBroom/0.6.0/">Play v0.6.0 online</a>
+				</p>
 			</article>
 			<article>
 				<h3>23.07.2020 - Milestone 5</h3>
 				<p>Mechanically, we added a wall-jump and a dash, both available only while flying.</p>
-				<p>Level design wise, we completed a draft of the tutorial level, and decided for the game structure to be about a vertical climb out of a cave and into the clouds.</p>
+				<p>Level design wise, we completed a draft of the tutorial level, and decided for the game structure to be about a
+					vertical climb out of a cave and into the clouds.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v050"
 						alt="The Cursed Broom v0.5.0" />
@@ -927,13 +932,15 @@
 						The tutorial is all about emerging from darkness.
 					</figcaption>
 				</figure>
-				<p><a href="/Builds/TheCursedBroom/0.5.0/">Play v0.5.0 online</a></p>
+				<p>
+					<a href="/Builds/TheCursedBroom/0.5.0/">Play v0.5.0 online</a>
+				</p>
 			</article>
 			<article>
 				<h3>18.06.2020 - Milestone 4</h3>
 				<p>This milestone focused on making the ground/jump movement snappy, intuitive and fun.
-				For this, the character controllers of Celeste's Madeline and Super Mario World's Mario were studied and approximated. 
-				Turns are now instant, even in mid-air, and there's some coyote time when walking off of platforms.</p>
+					For this, the character controllers of Celeste's Madeline and Super Mario World's Mario were studied and approximated.
+					Turns are now instant, even in mid-air, and there's some coyote time when walking off of platforms.</p>
 				<p>There's also many more visuals and, finally, sound effects. And collectibles!</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v040"
@@ -942,12 +949,15 @@
 						Brace for impact!
 					</figcaption>
 				</figure>
-				<p><a href="/Builds/TheCursedBroom/0.4.0/">Play v0.4.0 online</a></p>
+				<p>
+					<a href="/Builds/TheCursedBroom/0.4.0/">Play v0.4.0 online</a>
+				</p>
 			</article>
 			<article>
 				<h3>04.06.2020 - Milestone 3</h3>
-				<p>This milestone iterated the flight controls and tried to make the current avatar momentum matter a lot while mid-air.
-				Sadly, the reliance on momentum made Maya very floaty.</p>
+				<p>This milestone iterated the flight controls and tried to make the current avatar momentum matter a lot while
+					mid-air.
+					Sadly, the reliance on momentum made Maya very floaty.</p>
 				<p>On the aesthetic side we added a lot of animations and visual effects, which improved game feel a lot!</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v030"
@@ -956,12 +966,16 @@
 						Ground movement aside, you can fly some nice sinusoidal curves.
 					</figcaption>
 				</figure>
-				<p><a href="/Builds/TheCursedBroom/0.3.0/">Play v0.3.0 online</a></p>
+				<p>
+					<a href="/Builds/TheCursedBroom/0.3.0/">Play v0.3.0 online</a>
+				</p>
 			</article>
 			<article>
 				<h3>28.05.2020 - Milestone 2</h3>
-				<p>At this point Tina joined the project and brought a wonderful narration of a witch with a slightly malfunctioning broom.</p>
-				<p>Gameplay introduced rotation during gliding, and a kinetic energy/potential energy translation similar to Mario's wing cap flight in Super Mario 64.</p>
+				<p>At this point Tina joined the project and brought a wonderful narration of a witch with a slightly malfunctioning
+					broom.</p>
+				<p>Gameplay introduced rotation during gliding, and a kinetic energy/potential energy translation similar to Mario's
+					wing cap flight in Super Mario 64.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v020"
 						alt="The Cursed Broom v0.2.0" />
@@ -969,19 +983,25 @@
 						Also, particle systems.
 					</figcaption>
 				</figure>
-				<p><a href="/Builds/TheCursedBroom/0.2.0/">Play v0.2.0 online</a></p>
+				<p>
+					<a href="/Builds/TheCursedBroom/0.2.0/">Play v0.2.0 online</a>
+				</p>
 			</article>
 			<article>
 				<h3>14.05.2020 - Milestone 1</h3>
-				<p>The first prototype is the barest-bone implementation of a gliding ability. It's inspired by Knuckles' glide in Sonic 3 and Mario's dive jump in Super Mario 64.</p>
+				<p>The first prototype is the barest-bone implementation of a gliding ability. It's inspired by Knuckles' glide in
+					Sonic 3 and Mario's dive jump in Super Mario 64.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v010"
 						alt="The Cursed Broom v0.1.0" />
 					<figcaption>
-						In retrospect, binding both jump and glide to "any key" might have been a mistake (i.e., analog joystick to move).
+						In retrospect, binding both jump and glide to "any key" might have been a mistake (i.e., analog
+						joystick to move).
 					</figcaption>
 				</figure>
-				<p><a href="/Builds/TheCursedBroom/0.1.0/">Play v0.1.0 online</a></p>
+				<p>
+					<a href="/Builds/TheCursedBroom/0.1.0/">Play v0.1.0 online</a>
+				</p>
 			</article>
 		</article>
 	</p>
@@ -1255,8 +1275,7 @@
 	<p key="Orbital">Franken Game Jam 2019: Orbital</p>
 	<p key="Orbital/content">
 		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Orbital.1"
-				alt="main menu" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Orbital.1" alt="main menu" />
 		</figure>
 		<article>
 			<h2>About</h2>
@@ -1553,8 +1572,7 @@
 	<p key="ChartRunner">Summer Game Jam 2020: Chart Runner</p>
 	<p key="ChartRunner/content">
 		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/ChartRunner.1"
-				alt="level 1" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/ChartRunner.1" alt="level 1" />
 		</figure>
 		<article>
 			<h2>About</h2>
@@ -1611,8 +1629,7 @@
 	<p key="BackToTheChicken">Franken Game Jam 2020: Back to the Chicken</p>
 	<p key="BackToTheChicken/content">
 		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/BackToTheChicken.1"
-				alt="main menu" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/BackToTheChicken.1" alt="main menu" />
 		</figure>
 		<article>
 			<h2>About</h2>
@@ -1656,15 +1673,15 @@
 			<h2>Game Footage</h2>
 			<figure>
 				<video controls="controls">
-					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/BackToTheChicken.Intro.mp4" type="video/mp4" />
+					<source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/BackToTheChicken.Intro.mp4"
+						type="video/mp4" />
 				</video>
 				<figcaption>
 					The intro!
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/BackToTheChicken.2"
-					alt="flight" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/BackToTheChicken.2" alt="flight" />
 				<figcaption>
 					Explore a lavishly furnished house!
 				</figcaption>
@@ -1698,8 +1715,7 @@
 	<p key="NuttinToLose">Global Game Jam 2021: Nuttin' to Lose</p>
 	<p key="NuttinToLose/content">
 		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/NuttinToLose.1"
-				alt="main menu" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/NuttinToLose.1" alt="main menu" />
 		</figure>
 		<article>
 			<h2>About</h2>
@@ -1738,8 +1754,7 @@
 		<article>
 			<h2>Game Footage</h2>
 			<figure>
-				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/NuttinToLose.2"
-					alt="flight" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/NuttinToLose.2" alt="flight" />
 				<figcaption>
 					Find the perfect hiding spot for your nuts!
 				</figcaption>
@@ -1759,7 +1774,8 @@
 				</li>
 				<li>
 					<a href="https://globalgamejam.org/2021/games/nuttin-lose-7" rel="external">
-						Global Game Jam Entry <q>Nuttin' to Lose</q>
+						Global Game Jam Entry
+						<q>Nuttin' to Lose</q>
 					</a>
 				</li>
 				<li>
@@ -1772,8 +1788,7 @@
 	<p key="Pengwing">Spring Game Jam 2021: Pengwing</p>
 	<p key="Pengwing/content">
 		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Pengwing.1"
-				alt="main menu" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Pengwing.1" alt="main menu" />
 		</figure>
 		<article>
 			<h2>About</h2>
@@ -1795,7 +1810,8 @@
 				</dd>
 				<dd>
 					<strong>Theme:</strong>
-					<q>Doppelleben</q> [double lives]
+					<q>Doppelleben</q>
+					[double lives]
 				</dd>
 			</dl>
 		</article>
@@ -1810,8 +1826,7 @@
 		<article>
 			<h2>Game Footage</h2>
 			<figure>
-				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Pengwing.2"
-					alt="zoo" />
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/Pengwing.2" alt="zoo" />
 				<figcaption>
 					To freedom!
 				</figcaption>
@@ -1831,7 +1846,7 @@
 				</li>
 				<li>
 					<a href="https://faulo.itch.io/pengwing" rel="external">
-						<q>Pengwing</q> 
+						<q>Pengwing</q>
 						on itch.io
 					</a>
 				</li>

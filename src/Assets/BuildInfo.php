@@ -91,9 +91,12 @@ class BuildInfo {
     private function parseSettings($json): array {
         $json = trim($json);
         $json = str_replace('buildUrl + "', '"Build', $json);
+        $json = str_replace('unityShowBanner', 'false', $json);
         $json = preg_replace('~^([\w]+):~', '"$1":', $json);
         $json = preg_replace('~",\s+\}~', '"}', $json);
         $json = preg_replace('~\s([a-zA-Z]+):\s~', ' "$1": ', $json);
+        $json = preg_replace('~\s([a-zA-Z]+):\s~', ' "$1": ', $json);
+        $json = preg_replace('~,\s+\}$~', '}', $json);
         return json_decode($json, true);
     }
 

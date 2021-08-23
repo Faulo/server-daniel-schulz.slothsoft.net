@@ -7,26 +7,38 @@
 		<article>
 			<h2>30.06.2020</h2>
 			<p>
-				Added "The Cursed Broom", a student project and platforming prototype.
+				Added <a href="/Games/TheCursedBroom/">The Cursed Broom</a>, a student project and 2D platforming prototype.
 			</p>
 		</article>
 		<article>
 			<h2>12.11.2019</h2>
 			<p>
-				Added all the game jam games I've ever worked on, in their own neat little section.
+				Added all the game jam games I've ever worked on, in their <a href="/GameJams/">own neat little section</a>.
+			</p>
+		</article>
+		<article>
+			<h2>27.01.2019</h2>
+			<p>
+				For the Global Game Jam we made <a href="/GameJams/FindingHome/">Finding Home</a>!.
 			</p>
 		</article>
 		<article>
 			<h2>15.09.2019</h2>
 			<p>
-				Added "Power Fantasy VR", a student project made in collaboration with the amazing Katharina Broswik and Magnus
+				Added <a href="/Games/PowerFantasyVR/">Power Fantasy VR</a>, a student project made in collaboration with the amazing Katharina Broswik and Magnus
 				Drebenstedt.
+			</p>
+		</article>
+		<article>
+			<h2>04.11.2018</h2>
+			<p>
+				At my first game jam in Bayreuth, we made <a href="/GameJams/Communiganda/">Communiganda</a>!.
 			</p>
 		</article>
 		<article>
 			<h2>27.04.2018</h2>
 			<p>
-				Added "Farah" to the list of projects, and met some amazing people at Quo Vadis.
+				Added <a href="/Projects/Farah/">Farah</a> to the list of projects, and met some amazing people at Quo Vadis.
 			</p>
 		</article>
 		<article>
@@ -891,6 +903,21 @@
 				making it.</p>
 			<p>Note that a gamepad (preferably an Xbox-ish one) is required to play these.</p>
 			<article>
+				<h3>27.03.2021 - Milestone 8</h3>
+				<p>Out composer asked for a high-performance build of the game to use in an arcade he was working on. So, we added a graphics quality menu and used nifty multithreading to make the game run much faster.
+				Sadly, this broke the browser build.</p>
+				<figure>
+					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v080"
+						alt="The Cursed Broom v0.8.0" />
+					<figcaption>
+						If you're ever in Bayreuth, come check out The Cursed Broom on this here arcade machine!
+					</figcaption>
+				</figure>
+				<p>
+					<a href="/Builds/TheCursedBroom/0.8.0/">Play v0.8.0 online (broken)</a>
+				</p>
+			</article>
+			<article>
 				<h3>31.10.2020 - Milestone 7</h3>
 				<p>For the final milestone, lots of polish was applied to the level design, the sound effects and the character
 					controller.</p>
@@ -1508,6 +1535,12 @@
 				</li>
 				<li>
 					<a href="http://slothsoft.net/downloads/games/WatchOut.zip" rel="external">Download (Win64)</a>
+				</li>
+				<li>
+					<a href="https://globalgamejam.org/2020/games/watch-out-9" rel="external">
+						Global Game Jam Entry
+						<q>Watch Out!</q>
+					</a>
 				</li>
 			</ul>
 		</article>

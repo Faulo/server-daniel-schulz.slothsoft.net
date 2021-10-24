@@ -41,6 +41,7 @@
 			<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon" status-active="" />
 			<page name="sitemap" ref="//slothsoft@farah/sitemap-generator" status-active="" />
 			<xsl:apply-templates select="*[@name = 'builds']" />
+			<xsl:apply-templates select="*[@name = 'downloads']" />
 		</domain>
 	</xsl:template>
 
@@ -56,6 +57,16 @@
 							</page>
 						</xsl:for-each>
 					</page>
+				</xsl:for-each>
+			</page>
+		</xsl:for-each>
+	</xsl:template>
+	
+	<xsl:template match="*[@name = 'downloads']">
+		<xsl:for-each select="sfm:fragment-info">
+			<page name="Downloads" redirect=".." status-active="">
+				<xsl:for-each select="sfm:manifest-info">
+					<page name="{@name}" ref="{@url}" status-active=""/>
 				</xsl:for-each>
 			</page>
 		</xsl:for-each>

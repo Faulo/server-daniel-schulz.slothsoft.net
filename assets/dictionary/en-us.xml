@@ -1903,6 +1903,70 @@
 			</ul>
 		</article>
 	</p>
+	
+	<p key="SonarUndDochSoFern">Summer Game Jam 2021: Sonar Und Doch So Fern</p>
+	<p key="SonarUndDochSoFern/content">
+		<figure>
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/SonarUndDochSoFern.1" alt="main menu" />
+		</figure>
+		<article>
+			<h2>About</h2>
+			<p>A game about hidden truths and visible particles.</p>
+		</article>
+		<article>
+			<h2>Jam Details</h2>
+			<dl>
+				<dt>Summer Game Jam 2021:</dt>
+				<dd>
+					<strong>Date:</strong>
+					<time datetime="2021-07-09">09.07.2021</time>
+					-
+					<time datetime="2021-07-11">11.07.2021</time>
+				</dd>
+				<dd>
+					<strong>Site:</strong>
+					Universität Bayreuth
+				</dd>
+				<dd>
+					<strong>Theme:</strong>
+					<q>fremd</q>
+					[unfamiliar]
+				</dd>
+			</dl>
+		</article>
+		<article>
+			<h2>Credits</h2>
+			<ul>
+				<li>Katharina Broswik (vfx design, ui design)</li>
+				<li>Elisabeth Harzbecker (2d art, sound design)</li>
+				<li>Daniel Schulz (programming)</li>
+				<li>Lena Voß (level design)</li>
+			</ul>
+		</article>
+		<article>
+			<h2>Links</h2>
+			<ul>
+				<li>
+					<a href="/Builds/SonarUndDochSoFern/master/">Play browser version</a>
+				</li>
+				<li>
+					<a href="https://github.com/Faulo/SonarUndDochSoFern" rel="external">
+						<q>Sonar Und Doch So Fern</q>
+						on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="https://petrichorgames.itch.io/sonar-und-doch-so-fern" rel="external">
+						<q>Sonar Und Doch So Fern</q>
+						on itch.io
+					</a>
+				</li>
+				<li>
+					<a href="http://slothsoft.net/downloads/games/SonarUndDochSoFern.zip" rel="external">Download (Win64)</a>
+				</li>
+			</ul>
+		</article>
+	</p>
 
 	<p key="spec/mysql">
 		<a rel="external" target="_blank" href="https://dev.mysql.com/">MySQL</a>

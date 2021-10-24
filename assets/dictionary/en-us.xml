@@ -146,7 +146,7 @@
 				it as a kid, it always bugged me that I couldn't change my party
 				members' classes, names, or
 				faces, and was instead at the mercy of
-				what pre-defined characters already existed. Well, one day I poked
+				what predefined characters already existed. Well, one day I poked
 				around my
 				savegames in a hex editor and realized that I could
 				totally change these things.
@@ -239,7 +239,7 @@
 			<h2>About</h2>
 			<p>
 				A few years ago I started learning Japanese, and along the way
-				I've created some of tools to help me do so.
+				I've created some tools to help me do so.
 				One of
 				those is a
 				<a href="http://slothsoft.net/Japanese/Translator/" rel="next" target="_blank">Japanese-to-English Translator</a>
@@ -253,7 +253,7 @@
 				found this makes using
 				dictionaries to look up sentences incredibly
 				frustrating, so I wrote a script that looks up every combination of
-				adjacant characters (in an online dictionary) until a translation
+				adjacent characters (in an online dictionary) until a translation
 				for every character sequence in a given sentence
 				has been found.
 				This worked well enough for my needs, so I kept adding more
@@ -266,7 +266,7 @@
 			<h2>Technical Details</h2>
 			<dl>
 				<dt>Server-Side</dt>
-				<dd>PHP receives the user input as JSON object, transcribed into
+				<dd>PHP receives the user input as a JSON object, transcribed into
 					Latin, Hiragana, and Katana. This is done because
 					the search
 					results of online dictionaries may vary depending on which of those
@@ -279,7 +279,7 @@
 					usual
 					<a data-dict-replace="spec/dom" />
 					magic). If no result is found, the last character of user input is
-					dropped (to be search separately later), and the
+					dropped (to be searched separately later), and the
 					process is
 					repeated.
 				</dd>
@@ -295,7 +295,7 @@
 					other dictionaries.
 				</dd>
 				<dd>The translations and audio links are then sent to the client as
-					XML document.
+					an XML document.
 				</dd>
 				<dt>Client-Side</dt>
 				<dd>The page itself is XHTML, served by my CMS.</dd>
@@ -354,7 +354,7 @@
 				other things, higher-quality images and current market prices. Its
 				interface is designed to work
 				on desktop as well as mobile, and a
-				client-side image cache ensures peak perfomance at minimal traffic.
+				client-side image cache ensures peak performance at minimal traffic.
 			</p>
 		</article>
 		<article>
@@ -494,7 +494,7 @@
 				solve, like multiple-choice questions and clozes. As this was
 				supposed to be a language learning tool, it
 				was important that the
-				user interface supported multiple languages. Furthermore, the
+				user interface supports multiple languages. Furthermore, the
 				payload of each study unit should
 				be able to contain image, video,
 				and audio files. For the teachers, the tool should offer a
@@ -678,10 +678,10 @@
 				</li>
 				<li>A dependency manager for CSS and JavaScript resources.</li>
 				<li>HTTP negotiation support for client language, data compression, ranged requests, and caching.</li>
-				<li>Support of a wide variety of XSLT processors, up to XSLT 3.0.</li>
+				<li>Support for a wide variety of XSLT processors, up to XSLT 3.0.</li>
 				<li>Support for multithreaded content generation.</li>
-				<li>All HTML resources as served as application/xhtml+xml. Death to text/html!</li>
-				<li>Available as composer package "slothsoft/farah".</li>
+				<li>All HTML resources served as application/xhtml+xml. Death to text/html!</li>
+				<li>Available as the composer package "slothsoft/farah".</li>
 			</ul>
 		</article>
 	</p>
@@ -898,7 +898,7 @@
 			<article>
 				<h3>23.10.2021 - Milestone 9</h3>
 				<p>This milestone focused on lots of changes to the backend that will make further development easier.
-                First was, of course, the fix to the WebGL version of the game which broke v0.8.0.
+                First was, of course, a fix to the WebGL version of the game which broke v0.8.0.
                 We  also rewrote the character controller from scratch to get a more granular 
                 control of when all the good game juice stuff happens: Animations, sounds, rumble, particles, camera movement, and of course the movement of the avatar herself.</p>
 				<figure>
@@ -914,7 +914,7 @@
 			</article>
 			<article>
 				<h3>27.03.2021 - Milestone 8</h3>
-				<p>Out composer asked for a high-performance build of the game to use in an arcade he was working on. So, we added a graphics quality menu and used nifty multithreading to make the game run much faster.
+				<p>Our composer asked for a high-performance build of the game to use in an arcade he was working on. So, we added a graphics quality menu and used nifty multithreading to make the game run much faster.
 				Sadly, this broke the browser build.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v080"

@@ -1,1 +1,2 @@
-for /r %%i in (images\*.png) do optipng -i 1 %%i
+cd images
+for /r %%i in (*.png) do optipng -i 1 %%i

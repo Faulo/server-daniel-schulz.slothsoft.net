@@ -896,6 +896,23 @@
 				making it.</p>
 			<p>Note that a gamepad (preferably an Xbox-ish one) is required to play these.</p>
 			<article>
+				<h3>23.10.2021 - Milestone 9</h3>
+				<p>This milestone focused on lots of changes to the backend that will make further development easier.
+                First was, of course, the fix to the WebGL version of the game which broke v0.8.0.
+                We  also rewrote the character controller from scratch to get a more granular 
+                control of when all the good game juice stuff happens: Animations, sounds, rumble, particles, camera movement, and of course the movement of the avatar herself.</p>
+				<figure>
+					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v090"
+						alt="The Cursed Broom v0.9.0" />
+					<figcaption>
+						The new character controller uses Unity's Timeline to allow for frame-perfect tuning of effects.
+					</figcaption>
+				</figure>
+				<p>
+					<a href="/Builds/TheCursedBroom/0.9.0/">Play v0.9.0 online</a>
+				</p>
+			</article>
+			<article>
 				<h3>27.03.2021 - Milestone 8</h3>
 				<p>Out composer asked for a high-performance build of the game to use in an arcade he was working on. So, we added a graphics quality menu and used nifty multithreading to make the game run much faster.
 				Sadly, this broke the browser build.</p>

@@ -1297,16 +1297,16 @@
         },
         {
             "name": "slothsoft/core",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-core.git",
-                "reference": "83baae5ca10feed572d9e8d3dbbd355d4e53cbaf"
+                "reference": "faa460cd6f439bb5aa0599f69fcc60b476474d22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/83baae5ca10feed572d9e8d3dbbd355d4e53cbaf",
-                "reference": "83baae5ca10feed572d9e8d3dbbd355d4e53cbaf",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/faa460cd6f439bb5aa0599f69fcc60b476474d22",
+                "reference": "faa460cd6f439bb5aa0599f69fcc60b476474d22",
                 "shasum": ""
             },
             "require": {
@@ -1357,9 +1357,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-core/issues",
-                "source": "https://github.com/Faulo/slothsoft-core/tree/1.4.0"
+                "source": "https://github.com/Faulo/slothsoft-core/tree/1.4.1"
             },
-            "time": "2022-01-04T23:03:04+00:00"
+            "time": "2022-01-08T17:45:47+00:00"
         },
         {
             "name": "slothsoft/farah",
@@ -1440,20 +1440,20 @@
         },
         {
             "name": "slothsoft/tetris",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-tetris.git",
-                "reference": "2ed3fdf8cd6fc9fd3cf1ba103cbb0d89d1f4bbc6"
+                "reference": "79b917dc54c2f0931980d043403a87f1300fb166"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-tetris/zipball/2ed3fdf8cd6fc9fd3cf1ba103cbb0d89d1f4bbc6",
-                "reference": "2ed3fdf8cd6fc9fd3cf1ba103cbb0d89d1f4bbc6",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-tetris/zipball/79b917dc54c2f0931980d043403a87f1300fb166",
+                "reference": "79b917dc54c2f0931980d043403a87f1300fb166",
                 "shasum": ""
             },
             "require": {
-                "php": "7.2 - 7.4",
+                "php": "7.2 - 8.0",
                 "slothsoft/farah": "^1.0"
             },
             "require-dev": {
@@ -1488,9 +1488,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-tetris/issues",
-                "source": "https://github.com/Faulo/slothsoft-tetris/tree/1.0.3"
+                "source": "https://github.com/Faulo/slothsoft-tetris/tree/1.0.4"
             },
-            "time": "2020-12-27T12:05:06+00:00"
+            "time": "2022-01-08T17:16:07+00:00"
         },
         {
             "name": "slothsoft/w3c",
@@ -1777,9 +1777,6 @@
             },
             "require": {
                 "php": "^7.1 || ^8.0"
-            },
-            "replace": {
-                "myclabs/deep-copy": "self.version"
             },
             "require-dev": {
                 "doctrine/collections": "^1.0",
@@ -3480,5 +3477,5 @@
         "php": "7.2 - 8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.2.0"
 }

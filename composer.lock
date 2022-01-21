@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55bd50dc2dcddc303d3bb8f919d0a722",
+    "content-hash": "5e9d272208376961599f426b20ac3ec4",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -1363,21 +1363,21 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "4dc6d799f0b79c77a92ff8652311129bbd211adb"
+                "reference": "1c19e3c5434c10bf7a5f019fd3ff390ce7fef787"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/4dc6d799f0b79c77a92ff8652311129bbd211adb",
-                "reference": "4dc6d799f0b79c77a92ff8652311129bbd211adb",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/1c19e3c5434c10bf7a5f019fd3ff390ce7fef787",
+                "reference": "1c19e3c5434c10bf7a5f019fd3ff390ce7fef787",
                 "shasum": ""
             },
             "require": {
                 "ext-sockets": "*",
-                "guzzlehttp/psr7": "^1.4",
+                "guzzlehttp/psr7": "^1.8",
                 "krakjoe/pthreads-polyfill": "^1.1",
                 "laminas/laminas-router": "^3.2",
                 "matthiasmullie/minify": "^1.3",
@@ -1404,7 +1404,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "1.4.x-dev"
+                    "dev-develop": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -1434,9 +1434,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.4.2"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.5.0"
             },
-            "time": "2022-01-04T23:38:32+00:00"
+            "time": "2022-01-21T14:30:05+00:00"
         },
         {
             "name": "slothsoft/tetris",

@@ -17,6 +17,11 @@
 			"scripts/bootstrap.php"
 		]
 	},
+	"config" : {
+		"platform" : {
+			"php" : "7.4"
+		}
+	},
 	"require" : {
 		"php" : "7.4 - 8.0",
 		"slothsoft/core" : "^1.5",

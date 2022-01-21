@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0678c0a4ffaaf16271135b7dc087fb9a",
+    "content-hash": "a5fbd80480a6e0d8f23eef513b16ca9a",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -1240,16 +1240,16 @@
         },
         {
             "name": "slothsoft/core",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-core.git",
-                "reference": "96c6dc60f2767561e2aeb6de9927a0070a96f524"
+                "reference": "de99d5bc58da29c961f604ad4beb98a29e3251a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/96c6dc60f2767561e2aeb6de9927a0070a96f524",
-                "reference": "96c6dc60f2767561e2aeb6de9927a0070a96f524",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/de99d5bc58da29c961f604ad4beb98a29e3251a8",
+                "reference": "de99d5bc58da29c961f604ad4beb98a29e3251a8",
                 "shasum": ""
             },
             "require": {
@@ -1300,22 +1300,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-core/issues",
-                "source": "https://github.com/Faulo/slothsoft-core/tree/1.5.0"
+                "source": "https://github.com/Faulo/slothsoft-core/tree/1.5.1"
             },
-            "time": "2022-01-18T17:09:40+00:00"
+            "time": "2022-01-21T19:55:43+00:00"
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "3e010aa100e7b1c18e025b102dfb405e8f6e45e9"
+                "reference": "ce1ba035235295b28a098fd63070baf30d1109d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/3e010aa100e7b1c18e025b102dfb405e8f6e45e9",
-                "reference": "3e010aa100e7b1c18e025b102dfb405e8f6e45e9",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/ce1ba035235295b28a098fd63070baf30d1109d3",
+                "reference": "ce1ba035235295b28a098fd63070baf30d1109d3",
                 "shasum": ""
             },
             "require": {
@@ -1377,9 +1377,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.6.0"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.6.1"
             },
-            "time": "2022-01-21T17:19:51+00:00"
+            "time": "2022-01-21T20:00:26+00:00"
         },
         {
             "name": "slothsoft/tetris",
@@ -3420,5 +3420,8 @@
         "php": "7.4 - 8.0"
     },
     "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.4"
+    },
     "plugin-api-version": "2.2.0"
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "870fbc50733c16fba4c9992355bc688d",
+    "content-hash": "55bd50dc2dcddc303d3bb8f919d0a722",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -1297,16 +1297,16 @@
         },
         {
             "name": "slothsoft/core",
-            "version": "1.4.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-core.git",
-                "reference": "faa460cd6f439bb5aa0599f69fcc60b476474d22"
+                "reference": "96c6dc60f2767561e2aeb6de9927a0070a96f524"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/faa460cd6f439bb5aa0599f69fcc60b476474d22",
-                "reference": "faa460cd6f439bb5aa0599f69fcc60b476474d22",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/96c6dc60f2767561e2aeb6de9927a0070a96f524",
+                "reference": "96c6dc60f2767561e2aeb6de9927a0070a96f524",
                 "shasum": ""
             },
             "require": {
@@ -1328,7 +1328,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "1.4.x-dev"
+                    "dev-develop": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -1357,9 +1357,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-core/issues",
-                "source": "https://github.com/Faulo/slothsoft-core/tree/1.4.1"
+                "source": "https://github.com/Faulo/slothsoft-core/tree/1.5.0"
             },
-            "time": "2022-01-08T17:45:47+00:00"
+            "time": "2022-01-18T17:09:40+00:00"
         },
         {
             "name": "slothsoft/farah",
@@ -2453,16 +2453,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.22",
+            "version": "8.5.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ddd05b9d844260353895a3b950a9258126c11503"
+                "reference": "efb20ff3623b9d09bf190a68fdfe574538a8d496"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ddd05b9d844260353895a3b950a9258126c11503",
-                "reference": "ddd05b9d844260353895a3b950a9258126c11503",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/efb20ff3623b9d09bf190a68fdfe574538a8d496",
+                "reference": "efb20ff3623b9d09bf190a68fdfe574538a8d496",
                 "shasum": ""
             },
             "require": {
@@ -2534,7 +2534,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.22"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.23"
             },
             "funding": [
                 {
@@ -2546,7 +2546,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-25T06:58:09+00:00"
+            "time": "2022-01-21T05:50:34+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",

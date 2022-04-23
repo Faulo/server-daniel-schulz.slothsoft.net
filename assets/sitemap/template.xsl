@@ -5,7 +5,9 @@
 	<xsl:template match="/*">
 		<domain name="daniel-schulz.slothsoft.net" vendor="slothsoft" module="daniel-schulz.slothsoft.net"
 			ref="pages/default" status-active="" status-public="" sfd:languages="en-us">
+			
 			<page name="AboutMe" ref="pages/default" status-active="" status-public="" />
+			
 			<page name="Projects" ref="pages/default" status-active="" status-public="">
 				<page name="Ambermoon" ref="pages/default" status-active="" status-public="" />
 				<page name="LODB" ref="pages/default" status-active="" status-public="" />
@@ -15,12 +17,14 @@
 				<page name="Farah" ref="pages/default" status-active="" status-public="" />
 				<page name="PowerFantasyVR" redirect="/Games/PowerFantasyVR" />
 			</page>
+			
 			<page name="Games" ref="pages/default" status-active="" status-public="">
 				<page name="Tetris" ref="pages/tetris" status-active="" />
 				<page name="PowerFantasyVR" ref="pages/default" status-active="" status-public="" />
 				<page name="TrialOfTwo" ref="pages/default" status-active="" status-public="" />
 				<page name="TheCursedBroom" ref="pages/default" status-active="" status-public="" />
 			</page>
+			
 			<page name="GameJams" ref="pages/default" status-active="" status-public="">
 				<page name="WhatTheHell" ref="pages/default" status-active="" status-public="" />
 				<page name="HeartbeatForAll" ref="pages/default" status-active="" status-public="" />
@@ -36,11 +40,16 @@
 				<page name="BackToTheChicken" ref="pages/default" status-active="" status-public="" />
 				<page name="NuttinToLose" ref="pages/default" status-active="" status-public="" />
 				<page name="Pengwing" ref="pages/default" status-active="" status-public="" />
-				<page name="SonarUndDochSoFern" ref="pages/default" status-active="" status-public="" />
+                <page name="SonarUndDochSoFern" ref="pages/default" status-active="" status-public="" />
+                <page name="SheepThrills" ref="pages/default" status-active="" status-public="" />
+                <page name="BattleOfTheGods" ref="pages/default" status-active="" status-public="" />
 			</page>
+			
 			<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon" status-active="" />
 			<page name="sitemap" ref="//slothsoft@farah/sitemap-generator" status-active="" />
+			
 			<xsl:apply-templates select="*[@name = 'builds']" />
+			
 			<xsl:apply-templates select="*[@name = 'downloads']" />
 		</domain>
 	</xsl:template>

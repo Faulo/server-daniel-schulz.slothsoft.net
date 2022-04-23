@@ -1903,70 +1903,174 @@
 			</ul>
 		</article>
 	</p>
-	
-	<p key="SonarUndDochSoFern">Summer Game Jam 2021: Sonar Und Doch So Fern</p>
-	<p key="SonarUndDochSoFern/content">
-		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/SonarUndDochSoFern.1" alt="main menu" />
-		</figure>
-		<article>
-			<h2>About</h2>
-			<p>A game about hidden truths and visible particles.</p>
-		</article>
-		<article>
-			<h2>Jam Details</h2>
-			<dl>
-				<dt>Summer Game Jam 2021:</dt>
-				<dd>
-					<strong>Date:</strong>
-					<time datetime="2021-07-09">09.07.2021</time>
-					-
-					<time datetime="2021-07-11">11.07.2021</time>
-				</dd>
-				<dd>
-					<strong>Site:</strong>
-					Universität Bayreuth
-				</dd>
-				<dd>
-					<strong>Theme:</strong>
-					<q>fremd</q>
-					[unfamiliar]
-				</dd>
-			</dl>
-		</article>
-		<article>
-			<h2>Credits</h2>
-			<ul>
-				<li>Katharina Broswik (vfx design, ui design)</li>
-				<li>Elisabeth Harzbecker (2d art, sound design)</li>
+    
+    <p key="SonarUndDochSoFern">Summer Game Jam 2021: Sonar Und Doch So Fern</p>
+    <p key="SonarUndDochSoFern/content">
+        <figure>
+            <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/SonarUndDochSoFern.1" alt="main menu" />
+        </figure>
+        <article>
+            <h2>About</h2>
+            <p>A game about hidden truths and visible particles.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Summer Game Jam 2021:</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2021-07-09">09.07.2021</time>
+                    -
+                    <time datetime="2021-07-11">11.07.2021</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>fremd</q>
+                    [unfamiliar]
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Katharina Broswik (vfx design, ui design)</li>
+                <li>Elisabeth Harzbecker (2d art, sound design)</li>
+                <li>Daniel Schulz (programming)</li>
+                <li>Lena Voß (level design)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="/Builds/SonarUndDochSoFern/master/">Play browser version</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Faulo/SonarUndDochSoFern" rel="external">
+                        <q>Sonar Und Doch So Fern</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://petrichorgames.itch.io/sonar-und-doch-so-fern" rel="external">
+                        <q>Sonar Und Doch So Fern</q>
+                        on itch.io
+                    </a>
+                </li>
+                <li>
+                    <a href="/Downloads/SonarUndDochSoFern.zip" rel="external">Download (Win64)</a>
+                </li>
+            </ul>
+        </article>
+    </p>
+    
+    <p key="SheepThrills">Franken Game Jam 2021: Sheep Thrills</p>
+    <p key="SheepThrills/content">
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Franken Game Jam 2021:</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2021-11-05">05.11.2021</time>
+                    -
+                    <time datetime="2021-11-07">07.11.2021</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>grwoth</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+				<li>Luke Brose (level design)</li>
+				<li>Annie Keiler (art)</li>
+				<li>Rose Lachner (management)</li>
 				<li>Daniel Schulz (programming)</li>
-				<li>Lena Voß (level design)</li>
-			</ul>
-		</article>
-		<article>
-			<h2>Links</h2>
-			<ul>
-				<li>
-					<a href="/Builds/SonarUndDochSoFern/master/">Play browser version</a>
-				</li>
-				<li>
-					<a href="https://github.com/Faulo/SonarUndDochSoFern" rel="external">
-						<q>Sonar Und Doch So Fern</q>
-						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://petrichorgames.itch.io/sonar-und-doch-so-fern" rel="external">
-						<q>Sonar Und Doch So Fern</q>
-						on itch.io
-					</a>
-				</li>
-				<li>
-					<a href="/Downloads/SonarUndDochSoFern.zip" rel="external">Download (Win64)</a>
-				</li>
-			</ul>
-		</article>
-	</p>
+				<li>Gregor Sönnichsen (sound design, art)</li>
+				<li>Nicolas Teichtweier (programming)</li>
+				<li>Laura Wünsch (art)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/Faulo/SheepThrills" rel="external">
+                        <q>SheepThrills</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://pietzkepopov.itch.io/sheep-thrills" rel="external">
+                        <q>SheepThrills</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
+    
+    <p key="BattleOfTheGods">Global Game Jam 2022: Battle of the Gods</p>
+    <p key="BattleOfTheGods/content">
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Global Game Jam 2022:</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2022-01-28">28.01.2022</time>
+                    -
+                    <time datetime="2022-01-30">30.01.2022</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>Duality</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Natalie Kuhrt (2d art)</li>
+				<li>Luisa Meinlschmidt (3d art)</li>
+				<li>Paul Redetzky (programming)</li>
+				<li>Steffen Schreiber (sound design)</li>
+				<li>Daniel Schulz (programming)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/Faulo/BattleOfTheGods" rel="external">
+                        <q>Battle of the Gods</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://paulrdy.itch.io/battle-of-the-gods-epic" rel="external">
+                        <q>Battle of the Gods</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
 
 	<p key="spec/mysql">
 		<a rel="external" target="_blank" href="https://dev.mysql.com/">MySQL</a>

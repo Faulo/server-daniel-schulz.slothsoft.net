@@ -43,6 +43,7 @@
                 <page name="SonarUndDochSoFern" ref="pages/default" status-active="" status-public="" />
                 <page name="SheepThrills" ref="pages/default" status-active="" status-public="" />
                 <page name="BattleOfTheGods" ref="pages/default" status-active="" status-public="" />
+                <page name="BrieYourself" ref="pages/default" status-active="" status-public="" />
 			</page>
 			
 			<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon" status-active="" />

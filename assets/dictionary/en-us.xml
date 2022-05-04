@@ -2047,10 +2047,10 @@
             <h2>Credits</h2>
             <ul>
                 <li>Natalie Kuhrt (2d art)</li>
-				<li>Luisa Meinlschmidt (3d art)</li>
-				<li>Paul Redetzky (programming)</li>
-				<li>Steffen Schreiber (sound design)</li>
-				<li>Daniel Schulz (programming)</li>
+                <li>Luisa Meinlschmidt (3d art)</li>
+                <li>Paul Redetzky (programming)</li>
+                <li>Steffen Schreiber (sound design)</li>
+                <li>Daniel Schulz (programming)</li>
             </ul>
         </article>
         <article>
@@ -2065,6 +2065,61 @@
                 <li>
                     <a href="https://paulrdy.itch.io/battle-of-the-gods-epic" rel="external">
                         <q>Battle of the Gods</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
+    
+    
+    
+    <p key="BrieYourself">Spring Game Jam 2022: Brie Yourself</p>
+    <p key="BrieYourself/content">
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Spring Game Jam 2022:</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2022-04-29">29.04.2022</time>
+                    -
+                    <time datetime="2022-05-01">01.05.2022</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>little boxes</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Nico Auerswald (programming)</li>
+                <li>Katharina Broswik (3d art, sound design, vfx, voice acting)</li>
+                <li>Elisabeth Harzbecker (3d art, animation)</li>
+                <li>Ruben Schäfer (level design, animation)</li>
+                <li>Nic Schilling (music)</li>
+                <li>Daniel Schulz (programming)</li>
+                <li>Lena Voß (3d art, ui design)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/Faulo/BrieYourself" rel="external">
+                        <q>Brie Yourselfs</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://elisabeth-harzbecker.itch.io/brie-yourself" rel="external">
+                        <q>Brie Yourself</q>
                         on itch.io
                     </a>
                 </li>

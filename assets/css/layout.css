@@ -6,7 +6,8 @@ html, body {
 
 html {
 	overflow: hidden;
-	background: linear-gradient(160deg, #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%);
+	background: #161616;
+	color: #161616;
 	font-size: 5mm;
 }
 
@@ -27,7 +28,6 @@ html.build {
 
 .build h1 {
 	font-size: 1.5em;
-	font-weight: normal;
 	margin: 0;
 	padding: 0;
 }
@@ -70,16 +70,12 @@ html.build {
 }
 
 nav, main {
-	border: 1px ridge rgba(128, 128, 128, 0.5);
-	box-shadow: 0.25em 0.25em 0.25em rgba(128, 128, 128, 0.5);
-	border-radius: 0.125em;
 	box-sizing: border-box;
-	margin: 0.25em;
 }
 
 nav {
 	padding: 0;
-	background-color: lightgreen;
+	background-color: #9dd738;
 	flex-shrink: 0;
 	overflow: hidden;
 	position: relative;
@@ -102,11 +98,10 @@ main {
 	flex-flow: row wrap;
 	justify-content: flex-end;
 	align-items: stretch;
-	margin-right: -1px;
 }
 
 .navi+.navi {
-	border-top: 1px ridge #87cc87;
+	border-top: 1px ridge #fafafa;
 	font-size: smaller;
 }
 
@@ -116,19 +111,29 @@ main {
 	max-width: 10em;
 	padding: 0.5em 0.5em;
 	line-height: 1em;
-	border-right: 1px ridge #87cc87;
+	text-decoration: none;
+	/* border-right: 1px ridge #87cc87; */
+    color: #161616;
+}
+
+.navi:first-child a {
+	padding: 1em 0.75em 1em 0.5em;
 }
 
 .navi[data-section="GameJams"] a {
-	padding: 0.5em 0.25em;
+	padding: 0.5em 0.5em 0.5em 0.25em;
 }
 
 .navi a:hover {
-	background-color: #7de67d !important;
+	background-color: #b2e75a !important;
+}
+
+.navi a:visited {
+    color: #555;
 }
 
 .navi a.current {
-	background: #87cc87;
+	background: #7fc10e;
 	color: white;
 }
 /* Medium screens */
@@ -159,19 +164,19 @@ main {
 }
 
 main {
-	background-color: #c1d9e1;
-	padding: 0.5em;
-	margin-bottom: 1em;
+	background-color: #fafafa;
+	padding: 1em;
 	min-height: 10em;
 	overflow: auto;
 }
 
 h1, h2, h3 {
-	color: white;
-	text-shadow: -1px -1px 0 rgba(103, 103, 166, 1), 1px -1px 0
+	color: #578509;
+	/* text-shadow: -1px -1px 0 rgba(103, 103, 166, 1), 1px -1px 0
 		rgba(103, 103, 166, 1), -1px 1px 0 rgba(103, 103, 166, 1), 1px 1px 0
-		rgba(103, 103, 166, 1);
+		rgba(103, 103, 166, 1); */
 	margin: 0.5em 0.0em;
+	font-weight: bold;
 }
 
 p {
@@ -207,14 +212,12 @@ article, section {
 
 main>h1 {
 	font-size: 1.5em;
-	font-weight: normal;
 	margin-top: 0;
 }
 
 section>h2, article>h2 {
 	font-size: 1em;
-	font-weight: normal;
-	border-bottom: 1px solid rgba(128, 128, 256, 0.5);
+	border-bottom: 1px solid #578509;
 }
 
 section>h3, article>h3 {

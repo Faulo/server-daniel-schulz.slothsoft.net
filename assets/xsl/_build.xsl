@@ -75,7 +75,7 @@
 					</xsl:when>
 					<xsl:when test="$build/@unityVersion = '2020'">
 						<div id="unity-container" class="unity-desktop">
-							<h1>
+							<h1 class="myBody">
 								<xsl:value-of select="$title" />
 							</h1>
 							<canvas id="unity-canvas"></canvas>

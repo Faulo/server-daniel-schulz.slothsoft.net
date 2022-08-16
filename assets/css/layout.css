@@ -1,3 +1,5 @@
+/* Color palette: https://lospec.com/palette-list/gender-queer-6 */
+
 html, body {
 	height: 100%;
 	width: 100%;
@@ -75,7 +77,7 @@ nav, main {
 
 nav {
 	padding: 0;
-	background-color: #9dd738;
+	background-color: #48821e;
 	flex-shrink: 0;
 	overflow: hidden;
 	position: relative;
@@ -102,7 +104,7 @@ nav figure figcaption {
 	padding: 0.5em 0;
 	line-height: 1em;
 	font-weight: bold;
-	color: #578509;
+	color: #214d27;
 }
 
 nav figure img {
@@ -126,7 +128,7 @@ main {
 }
 
 .navi+.navi {
-	background-color: #7fc10e;
+	background-color: #214d27;
 	font-size: 0.65em;
 }
 
@@ -138,7 +140,7 @@ main {
 	line-height: 1em;
 	text-decoration: none;
 	/* border-right: 1px ridge #87cc87; */
-	color: #161616;
+	color: #fff;
 }
 
 .navi:first-child a {
@@ -150,16 +152,16 @@ main {
 }
 
 .navi a:hover {
-	background-color: #b2e75a !important;
+	background-color: #714675 !important;
 }
 
 .navi a:visited {
-	color: #555;
+	color: #c1c1c1;
 }
 
 .navi a.current {
-	background: #7fc10e;
-	color: white;
+	background-color: #214d27;
+	color: #a37acc;
 }
 /* Medium screens */
 @media all and (max-width: 800px) {
@@ -196,7 +198,7 @@ main {
 }
 
 h1, h2, h3 {
-	color: #578509;
+	color: #714675;
 	/* text-shadow: -1px -1px 0 rgba(103, 103, 166, 1), 1px -1px 0
 		rgba(103, 103, 166, 1), -1px 1px 0 rgba(103, 103, 166, 1), 1px 1px 0
 		rgba(103, 103, 166, 1); */

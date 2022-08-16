@@ -20,5 +20,7 @@ $RECYCLE.BIN/
 /log/
 
 # == Slothsoft ==
-/public/Builds/
+/public/Builds/*/*.*
+/public/Builds/*/*/
+!/public/Builds/*/master/
 /assets/Downloads/

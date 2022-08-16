@@ -10,6 +10,10 @@
 		<xsl:variable name="row2" select="$pageList[count(ancestor::sfs:page) = 1][../@current or ../*/@current]" />
 
 		<div>
+		    <figure>
+		      <img src="/slothsoft@daniel-schulz.slothsoft.net/static/face"/>
+		      <figcaption>Daniel Schulz</figcaption>
+		    </figure>
 			<xsl:if test="count($row1)">
 				<div class="navi">
 					<xsl:apply-templates select="$row1" />

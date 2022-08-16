@@ -79,13 +79,34 @@ nav {
 	flex-shrink: 0;
 	overflow: hidden;
 	position: relative;
-
+    font-size: 24px;
 	/*
 	background-image: url(/getFragment.php/slothsoft/writing?text=Daniel+Schulz&color=lightblue);
 	background-clip: content-box;
 	background-size: cover;
 	background-repeat: no-repeat;
 	*/
+}
+nav figure {  
+    float: left;
+    image-rendering: crisp-edges;
+    margin: 0;
+}
+nav figure > * {
+    display: inline-block;
+}
+nav figure figcaption {
+    padding: 0.5em 0;
+    line-height: 1em;
+    font-weight: bold;
+color: #578509;
+}
+nav figure img {
+    image-rendering: crisp-edges;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: top;
+    padding: 0.25em;
 }
 
 main {
@@ -102,7 +123,7 @@ main {
 
 .navi+.navi {
 	border-top: 1px ridge #fafafa;
-	font-size: smaller;
+	font-size: 0.65em;
 }
 
 .navi a {
@@ -242,19 +263,19 @@ dl>dd {
 	display: list-item;
 }
 
-figure, figure>img, figure>video, figure>figcaption, figure>iframe {
+main figure, main figure>img, main figure>video, main figure>figcaption, main figure>iframe {
 	max-width: 100%;
 	display: block;
 	margin: auto;
 }
 
-figure>figcaption {
+main figure>figcaption {
 	text-align: center;
 	margin: 0.25em 2em;
 	font-style: italic;
 }
 
-figure+figure {
+main figure+figure {
 	margin-top: 2em;
 }
 

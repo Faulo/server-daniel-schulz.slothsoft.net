@@ -18,7 +18,8 @@
 		<resource-directory name="videos" path="videos" type="video/*" />
 		<resource-directory name="downloads" path="downloads" type="video/*" />
 
-		<resource name="favicon" path="favicon.png" type="image/png" />
+        <resource name="face" path="face.png" type="image/png" />
+        <resource name="favicon" path="favicon.png" type="image/png" />
 	</directory>
 
 	<fragment name="pages">

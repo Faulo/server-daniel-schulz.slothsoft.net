@@ -130,26 +130,33 @@ main {
 
 .navi+.navi {
 	background-color: #214d27;
-	font-size: 0.65em;
 }
 
 .navi a {
 	display: block;
 	text-align: center;
-	max-width: 10em;
-	padding: 0.5em 0.5em;
+	padding: 0.5em;
 	line-height: 1em;
 	text-decoration: none;
 	/* border-right: 1px ridge #87cc87; */
 	color: #fff;
 }
 
-.navi:first-child a {
-	padding: 1em 0.75em 1em 0.5em;
+.navi a.category {
+	padding-right: 0.75em;
 }
 
-.navi[data-section="GameJams"] a {
+.navi+.navi a {
+	max-width: 20%;
+	box-sizing: border-box;
+	font-size: 0.6em;
 	padding: 0.5em 0.5em 0.5em 0.25em;
+}
+
+.navi[data-section="Games"] a {
+	font-size: 0.9em;
+	max-width: 50%;
+	padding-left: 0.5em;
 }
 
 .navi a:hover {

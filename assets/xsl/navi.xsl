@@ -51,6 +51,9 @@
 					<xsl:if test="@ext">
 						<xsl:text>extern</xsl:text>
 					</xsl:if>
+                    <xsl:if test="$childPages">
+                        <xsl:text> category</xsl:text>
+                    </xsl:if>
 					<xsl:if test="descendant-or-self::*[@current]">
 						<xsl:text> current</xsl:text>
 					</xsl:if>

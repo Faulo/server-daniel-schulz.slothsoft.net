@@ -48,7 +48,7 @@
 			<body>
 				<xsl:choose>
 					<xsl:when test="$build/@unityVersion = '2019'">
-						<div class="webgl-content">
+						<div id="unity-container" class="unity-desktop webgl-content">
 							<h1 class="myBody">
 								<xsl:value-of select="$title" />
 							</h1>
@@ -73,8 +73,7 @@
 							</div>
 						</div>
 					</xsl:when>
-					<xsl:when
-						test="$build/@unityVersion = '2020' or $build/@unityVersion = '2021'">
+					<xsl:when test="$build/@unityVersion = '2020'">
 						<div id="unity-container" class="unity-desktop">
 							<h1 class="myBody">
 								<xsl:value-of select="$title" />
@@ -102,6 +101,18 @@
 								</div>
 								<div id="unity-fullscreen-button"></div>
 							</div>
+						</div>
+					</xsl:when>
+					<xsl:when test="$build/@unityVersion = '2021'">
+						<div id="unity-container" class="unity-desktop">
+							<h1 class="myBody">
+								<xsl:value-of select="$title" />
+							</h1>
+							<xsl:for-each select="$build//canvas">
+								<canvas>
+									<xsl:copy-of select="@*" />
+								</canvas>
+							</xsl:for-each>
 						</div>
 					</xsl:when>
 				</xsl:choose>

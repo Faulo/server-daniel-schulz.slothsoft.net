@@ -36,13 +36,13 @@ html.build {
 }
 
 .build .webgl-content, .build .unity-desktop {
-	position: static;
-	top: auto;
-	left: auto;
-	-webkit-transform: none;
-	transform: none;
 	max-width: 960px;
-	margin: auto;
+	position: static !important;
+	top: auto !important;
+	left: auto !important;
+	-webkit-transform: none !important;
+	transform: none !important;
+	margin: auto !important;
 }
 
 .build #unity-footer, .build .footer {

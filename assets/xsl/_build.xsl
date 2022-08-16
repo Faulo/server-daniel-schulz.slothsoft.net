@@ -49,7 +49,7 @@
 				<xsl:choose>
 					<xsl:when test="$build/@unityVersion = '2019'">
 						<div class="webgl-content">
-							<h1>
+							<h1 class="myBody">
 								<xsl:value-of select="$title" />
 							</h1>
 							<div id="{$build//*[@style]/@id}"

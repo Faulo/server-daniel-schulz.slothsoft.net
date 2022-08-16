@@ -79,7 +79,7 @@ nav {
 	flex-shrink: 0;
 	overflow: hidden;
 	position: relative;
-    font-size: 24px;
+	font-size: 24px;
 	/*
 	background-image: url(/getFragment.php/slothsoft/writing?text=Daniel+Schulz&color=lightblue);
 	background-clip: content-box;
@@ -87,26 +87,30 @@ nav {
 	background-repeat: no-repeat;
 	*/
 }
-nav figure {  
-    float: left;
-    image-rendering: crisp-edges;
-    margin: 0;
+
+nav figure {
+	float: left;
+	image-rendering: crisp-edges;
+	margin: 0;
 }
-nav figure > * {
-    display: inline-block;
+
+nav figure>* {
+	display: inline-block;
 }
+
 nav figure figcaption {
-    padding: 0.5em 0;
-    line-height: 1em;
-    font-weight: bold;
-color: #578509;
+	padding: 0.5em 0;
+	line-height: 1em;
+	font-weight: bold;
+	color: #578509;
 }
+
 nav figure img {
-    image-rendering: crisp-edges;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: top;
-    padding: 0.25em;
+	image-rendering: crisp-edges;
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: top;
+	padding: 0.25em;
 }
 
 main {
@@ -134,7 +138,7 @@ main {
 	line-height: 1em;
 	text-decoration: none;
 	/* border-right: 1px ridge #87cc87; */
-    color: #161616;
+	color: #161616;
 }
 
 .navi:first-child a {
@@ -150,7 +154,7 @@ main {
 }
 
 .navi a:visited {
-    color: #555;
+	color: #555;
 }
 
 .navi a.current {
@@ -263,7 +267,8 @@ dl>dd {
 	display: list-item;
 }
 
-main figure, main figure>img, main figure>video, main figure>figcaption, main figure>iframe {
+main figure, main figure>img, main figure>video, main figure>figcaption,
+	main figure>iframe {
 	max-width: 100%;
 	display: block;
 	margin: auto;

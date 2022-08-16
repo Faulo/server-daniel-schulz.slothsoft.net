@@ -113,6 +113,20 @@
 									<xsl:copy-of select="@*" />
 								</canvas>
 							</xsl:for-each>
+							<div id="unity-footer">
+								<div id="unity-build-title">
+									<xsl:choose>
+										<xsl:when test="$relatedPage">
+											<a href="{$relatedPage/@uri}">
+												<xsl:value-of select="$credits" />
+											</a>
+										</xsl:when>
+										<xsl:otherwise>
+											<xsl:value-of select="$credits" />
+										</xsl:otherwise>
+									</xsl:choose>
+								</div>
+							</div>
 						</div>
 					</xsl:when>
 				</xsl:choose>

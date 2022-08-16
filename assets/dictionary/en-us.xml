@@ -7,7 +7,7 @@
 		<article>
 			<h2>30.06.2020</h2>
 			<p>
-				Added <a href="/Games/TheCursedBroom/">The Cursed Broom</a>, a student project and 2D platforming prototype.
+				Added <a href="/Games/TheCursedBroom/">Cursed Broom</a>, a student project and 2D platforming prototype.
 			</p>
 		</article>
 		<article>
@@ -829,15 +829,15 @@
 			</figure>
 		</article>
 	</p>
-	<p key="TheCursedBroom">The Cursed Broom</p>
+	<p key="TheCursedBroom">Cursed Broom</p>
 	<p key="TheCursedBroom/content">
 		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom" alt="The Cursed Broom" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom" alt="Cursed Broom" />
 		</figure>
 		<article>
 			<h2>About</h2>
 			<p>
-				The Cursed Broom was created for a seminar of the Master's study of
+				Cursed Broom was created for a seminar of the Master's study of
 				<a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
 				</a>
 				at the University of Bayreuth.
@@ -869,7 +869,7 @@
 				</li>
 				<li>
 					<a href="https://github.com/Faulo/TheCursedBroom" rel="external">
-						<q>The Cursed Broom</q>
+						<q>Cursed Broom</q>
 						on GitHub
 					</a>
 				</li>
@@ -902,7 +902,7 @@
                 control of when all the good game juice stuff happens: Animations, sounds, rumble, particles, camera movement, and of course the movement of the avatar herself.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v090"
-						alt="The Cursed Broom v0.9.0" />
+						alt="Cursed Broom v0.9.0" />
 					<figcaption>
 						The new character controller uses Unity's Timeline to allow for frame-perfect tuning of effects.
 					</figcaption>
@@ -917,9 +917,9 @@
 				Sadly, this broke the browser build.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v080"
-						alt="The Cursed Broom v0.8.0" />
+						alt="Cursed Broom v0.8.0" />
 					<figcaption>
-						If you're ever in Bayreuth, come check out The Cursed Broom on this here arcade machine!
+						If you're ever in Bayreuth, come check out Cursed Broom on this here arcade machine!
 					</figcaption>
 				</figure>
 				<p>
@@ -932,7 +932,7 @@
 					controller.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v070"
-						alt="The Cursed Broom v0.7.0" />
+						alt="Cursed Broom v0.7.0" />
 					<figcaption>
 						Now with a proper main menu!
 					</figcaption>
@@ -947,7 +947,7 @@
 					of the 2nd level.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v060"
-						alt="The Cursed Broom v0.6.0" />
+						alt="Cursed Broom v0.6.0" />
 					<figcaption>
 						Completing the tutorial rewards you with some pretty flowers.
 					</figcaption>
@@ -963,7 +963,7 @@
 					vertical climb out of a cave and into the clouds.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v050"
-						alt="The Cursed Broom v0.5.0" />
+						alt="Cursed Broom v0.5.0" />
 					<figcaption>
 						The tutorial is all about emerging from darkness.
 					</figcaption>
@@ -980,7 +980,7 @@
 				<p>There's also many more visuals and, finally, sound effects. And collectibles!</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v040"
-						alt="The Cursed Broom v0.4.0" />
+						alt="Cursed Broom v0.4.0" />
 					<figcaption>
 						Brace for impact!
 					</figcaption>
@@ -997,7 +997,7 @@
 				<p>On the aesthetic side we added a lot of animations and visual effects, which improved game feel a lot!</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v030"
-						alt="The Cursed Broom v0.3.0" />
+						alt="Cursed Broom v0.3.0" />
 					<figcaption>
 						Ground movement aside, you can fly some nice sinusoidal curves.
 					</figcaption>
@@ -1014,7 +1014,7 @@
 					wing cap flight in Super Mario 64.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v020"
-						alt="The Cursed Broom v0.2.0" />
+						alt="Cursed Broom v0.2.0" />
 					<figcaption>
 						Also, particle systems.
 					</figcaption>
@@ -1029,7 +1029,7 @@
 					Sonic 3 and Mario's dive jump in Super Mario 64.</p>
 				<figure>
 					<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v010"
-						alt="The Cursed Broom v0.1.0" />
+						alt="Cursed Broom v0.1.0" />
 					<figcaption>
 						In retrospect, binding both jump and glide to "any key" might have been a mistake (i.e., analog
 						joystick to move).

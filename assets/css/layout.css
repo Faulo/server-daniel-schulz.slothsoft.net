@@ -126,7 +126,7 @@ main {
 }
 
 .navi+.navi {
-	border-top: 1px ridge #fafafa;
+	background-color: #7fc10e;
 	font-size: 0.65em;
 }
 

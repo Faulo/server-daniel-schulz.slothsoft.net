@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:sfs="http://schema.slothsoft.net/farah/sitemap" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:svg="http://www.w3.org/2000/svg" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:sfs="http://schema.slothsoft.net/farah/sitemap"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:template match="/*">
 		<xsl:variable name="build" select="//build-info[@name]" />
-		<xsl:variable name="pages" select="*[@name='sites']//sfs:page" />
-		<xsl:variable name="requestedPage" select="$pages[@current]" />
+		<xsl:variable name="pages"
+			select="*[@name='sites']//sfs:page" />
+		<xsl:variable name="requestedPage"
+			select="$pages[@current]" />
 		<xsl:variable name="relatedPage"
 			select="$pages[@name = $build/@project][not(descendant-or-self::*/@current)]" />
 		<xsl:variable name="title">
@@ -31,7 +36,8 @@
 					<xsl:value-of select="$title" />
 					<xsl:value-of select="$credits" />
 				</title>
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta name="viewport"
+					content="width=device-width, initial-scale=1" />
 				<meta name="author" content="Daniel Schulz" />
 				<xsl:for-each select="$build//link">
 					<link>
@@ -46,7 +52,8 @@
 							<h1>
 								<xsl:value-of select="$title" />
 							</h1>
-							<div id="{$build//*[@style]/@id}" style="{$build//*[@style]/@style}"></div>
+							<div id="{$build//*[@style]/@id}"
+								style="{$build//*[@style]/@style}"></div>
 							<div class="footer">
 								<div class="webgl-logo"></div>
 								<div class="title">
@@ -61,7 +68,8 @@
 										</xsl:otherwise>
 									</xsl:choose>
 								</div>
-								<div class="fullscreen" onclick="{$build//*[@onclick]/@onclick}"></div>
+								<div class="fullscreen"
+									onclick="{$build//*[@onclick]/@onclick}"></div>
 							</div>
 						</div>
 					</xsl:when>

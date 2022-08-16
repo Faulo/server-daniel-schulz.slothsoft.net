@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:sfs="http://schema.slothsoft.net/farah/sitemap" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:sfs="http://schema.slothsoft.net/farah/sitemap"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:template match="/*">
-		<xsl:variable name="domain" select="*[@name='sites']/sfs:domain" />
+		<xsl:variable name="domain"
+			select="*[@name='sites']/sfs:domain" />
 		<xsl:variable name="pageList"
 			select="$domain | $domain//sfs:page[@status-active][@status-public or @current][@ref]" />
-		<xsl:variable name="row1" select="$pageList[count(ancestor::sfs:page) = 0]" />
-		<xsl:variable name="row2" select="$pageList[count(ancestor::sfs:page) = 1][../@current or ../*/@current]" />
+		<xsl:variable name="row1"
+			select="$pageList[count(ancestor::sfs:page) = 0]" />
+		<xsl:variable name="row2"
+			select="$pageList[count(ancestor::sfs:page) = 1][../@current or ../*/@current]" />
 
 		<div>
-		    <figure>
-		      <img src="/slothsoft@daniel-schulz.slothsoft.net/static/face"/>
-		      <figcaption>Daniel Schulz</figcaption>
-		    </figure>
+			<figure>
+				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/face" />
+				<figcaption>Daniel Schulz</figcaption>
+			</figure>
 			<xsl:if test="count($row1)">
 				<div class="navi">
 					<xsl:apply-templates select="$row1" />
 				</div>
 			</xsl:if>
 			<xsl:if test="count($row2)">
-				<div class="navi" data-section="{$pageList[@current]/ancestor-or-self::sfs:page/@name}">
+				<div class="navi"
+					data-section="{$pageList[@current]/ancestor-or-self::sfs:page/@name}">
 					<xsl:apply-templates select="$row2" />
 				</div>
 			</xsl:if>
@@ -34,10 +40,12 @@
 		<a href="{@uri}">
 			<xsl:if test="self::sfs:page or @current">
 				<xsl:attribute name="class">
-					<xsl:if test="$childPages and (descendant-or-self::*[@current])">
+					<xsl:if
+					test="$childPages and (descendant-or-self::*[@current])">
 						<xsl:text>open</xsl:text>
 					</xsl:if>
-					<xsl:if test="$childPages and not(descendant-or-self::*[@current])">
+					<xsl:if
+					test="$childPages and not(descendant-or-self::*[@current])">
 						<xsl:text>close</xsl:text>
 					</xsl:if>
 					<xsl:if test="@ext">

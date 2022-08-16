@@ -1,25 +1,32 @@
 <?xml version="1.0"?>
 <assets xmlns="http://schema.slothsoft.net/farah/module">
 	<resource-directory name="css" type="text/css" />
-	<resource-directory name="xsl" type="application/xslt+xml" />
+	<resource-directory name="xsl"
+		type="application/xslt+xml" />
 
-	<resource-directory name="dictionary" type="application/xml" />
+	<resource-directory name="dictionary"
+		type="application/xml" />
 
 	<directory name="sitemap">
-		<resource use="template" name="template" type="application/xslt+xml" />
+		<resource use="template" name="template"
+			type="application/xslt+xml" />
 		<use-document ref="/api/build" name="builds" />
 		<use-document ref="/downloads" name="downloads" />
 	</directory>
-	
-	<resource-directory name="downloads" path="downloads" type="*/*" />
+
+	<resource-directory name="downloads"
+		path="downloads" type="*/*" />
 
 	<directory name="static">
-		<resource-directory name="images" path="images" type="image/png" />
-		<resource-directory name="videos" path="videos" type="video/*" />
-		<resource-directory name="downloads" path="downloads" type="video/*" />
+		<resource-directory name="images" path="images"
+			type="image/png" />
+		<resource-directory name="videos" path="videos"
+			type="video/*" />
+		<resource-directory name="downloads"
+			path="downloads" type="video/*" />
 
-        <resource name="face" path="face.png" type="image/png" />
-        <resource name="favicon" path="favicon.png" type="image/png" />
+		<resource name="face" path="face.png" type="image/png" />
+		<resource name="favicon" path="favicon.png" type="image/png" />
 	</directory>
 
 	<fragment name="pages">
@@ -28,7 +35,8 @@
 		</fragment>
 		<fragment name="tetris">
 			<import ref="/api/default" />
-			<use-document ref="//slothsoft@tetris/game" name="content" />
+			<use-document ref="//slothsoft@tetris/game"
+				name="content" />
 		</fragment>
 		<fragment name="build">
 			<use-template ref="/xsl/_build" />
@@ -55,7 +63,8 @@
 			<use-template ref="/xsl/imageList" />
 			<use-document ref="/static/images" name="images" />
 		</fragment>
-		<custom-asset name="build" executable-builder="Slothsoft\Server\DanielSchulz\Assets\BuildInfoBuilder"
+		<custom-asset name="build"
+			executable-builder="Slothsoft\Server\DanielSchulz\Assets\BuildInfoBuilder"
 			parameter-filter="Slothsoft\Server\DanielSchulz\Assets\BuildParameterFilter" />
 	</fragment>
 </assets>

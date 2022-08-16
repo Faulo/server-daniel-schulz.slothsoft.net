@@ -73,7 +73,8 @@
 							</div>
 						</div>
 					</xsl:when>
-					<xsl:when test="$build/@unityVersion = '2020'">
+					<xsl:when
+						test="$build/@unityVersion = '2020' or $build/@unityVersion = '2021'">
 						<div id="unity-container" class="unity-desktop">
 							<h1 class="myBody">
 								<xsl:value-of select="$title" />

@@ -85,6 +85,10 @@ class BuildInfo {
             $this->unityVersion = '2020';
             return $this->parseSettings($match[1]);
         }
+        if (preg_match('~document.querySelector\("#unity-canvas"\), ({[^}]+})~', $textContent, $match)) {
+            $this->unityVersion = '2021';
+            return $this->parseSettings($match[1]);
+        }
         throw new \Exception('Unable to determine settings from index.html');
     }
 
@@ -96,6 +100,7 @@ class BuildInfo {
         $json = preg_replace('~",\s+\}~', '"}', $json);
         $json = preg_replace('~\s([a-zA-Z]+):\s~', ' "$1": ', $json);
         $json = preg_replace('~\s([a-zA-Z]+):\s~', ' "$1": ', $json);
+        $json = preg_replace('~//.+~', '', $json);
         $json = preg_replace('~,\s+\}$~', '}', $json);
         return json_decode($json, true);
     }

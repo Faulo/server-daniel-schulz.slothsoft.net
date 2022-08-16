@@ -1970,6 +1970,10 @@
     <p key="SheepThrills">Franken Game Jam 2021: Sheep Thrills</p>
     <p key="SheepThrills/content">
         <article>
+            <h2>About</h2>
+            <p>A game about the need for sheep.</p>
+        </article>
+        <article>
             <h2>Jam Details</h2>
             <dl>
                 <dt>Franken Game Jam 2021:</dt>
@@ -2022,6 +2026,10 @@
     
     <p key="BattleOfTheGods">Global Game Jam 2022: Battle of the Gods</p>
     <p key="BattleOfTheGods/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about nature and nurture.</p>
+        </article>
         <article>
             <h2>Jam Details</h2>
             <dl>
@@ -2076,6 +2084,10 @@
     <p key="BrieYourself">Spring Game Jam 2022: Brie Yourself</p>
     <p key="BrieYourself/content">
         <article>
+            <h2>About</h2>
+            <p>A game about the circle of life from the perspective of a block of cheese.</p>
+        </article>
+        <article>
             <h2>Jam Details</h2>
             <dl>
                 <dt>Spring Game Jam 2022:</dt>
@@ -2112,13 +2124,66 @@
             <ul>
                 <li>
                     <a href="https://github.com/Faulo/BrieYourself" rel="external">
-                        <q>Brie Yourselfs</q>
+                        <q>Brie Yourself</q>
                         on GitHub
                     </a>
                 </li>
                 <li>
                     <a href="https://elisabeth-harzbecker.itch.io/brie-yourself" rel="external">
                         <q>Brie Yourself</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
+    
+    
+    
+    <p key="MizuKiri">Summer Game Jam 2022: Mizu Kiri</p>
+    <p key="MizuKiri/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about skipping and skimming.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Summer Game Jam 2022: Mizu Kiri:</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2022-07-15">15.07.2022</time>
+                    -
+                    <time datetime="2022-07-17">17.07.2022</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>Minimum Viable</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Daniel Schulz (everything)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/Faulo/MizuKiri" rel="external">
+                        <q>Mizu Kiri</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://faulo.itch.io/mizu-kiri" rel="external">
+                        <q>Mizu Kiri</q>
                         on itch.io
                     </a>
                 </li>

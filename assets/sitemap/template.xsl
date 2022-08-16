@@ -75,8 +75,10 @@
 					status-public="" />
 				<page name="BattleOfTheGods" ref="pages/default"
 					status-active="" status-public="" />
-				<page name="BrieYourself" ref="pages/default" status-active=""
-					status-public="" />
+                <page name="BrieYourself" ref="pages/default" status-active=""
+                    status-public="" />
+                <page name="MizuKiri" ref="pages/default" status-active=""
+                    status-public="" />
 			</page>
 
 			<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon"

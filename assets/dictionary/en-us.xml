@@ -772,15 +772,15 @@
 			</figure>
 		</article>
 	</p>
-	<p key="TrialOfTwo">Trial of Two: The&#160;Dojo</p>
+	<p key="TrialOfTwo">Trial of Two</p>
 	<p key="TrialOfTwo/content">
 		<figure>
-			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TrialOfTwo.1" alt="Trial of Two: The Dojo" />
+			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TrialOfTwo.1" alt="Trial of Two" />
 		</figure>
 		<article>
 			<h2>About</h2>
 			<p>
-				Trial of Two: The Dojo was created for a seminar of the Master's study of
+				Trial of Two was created for a seminar of the Master's study of
 				<a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
 				</a>
 				at the University of Bayreuth.
@@ -865,7 +865,7 @@
 			<h2>Links</h2>
 			<ul>
 				<li>
-					<a href="/Builds/TheCursedBroom/develop/">Play browser version</a>
+					<a href="/Builds/TheCursedBroom/master/">Play browser version</a>
 				</li>
 				<li>
 					<a href="https://github.com/Faulo/TheCursedBroom" rel="external">

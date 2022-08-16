@@ -23,11 +23,11 @@ html {
 }
 
 html.build {
-	background: #c1d9e1;
 	overflow: auto;
 }
 
 .build h1 {
+	color: #a37acc;
 	font-size: 1.5em;
 	margin: 0;
 	padding: 0;
@@ -243,7 +243,7 @@ main>h1 {
 
 section>h2, article>h2 {
 	font-size: 1em;
-	border-bottom: 1px solid #578509;
+	border-bottom: 1px solid #714675;
 }
 
 section>h3, article>h3 {

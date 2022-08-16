@@ -27,10 +27,11 @@ html.build {
 }
 
 .build h1 {
-	color: #a37acc;
+	background-color: #48821e;
+	color: #214d27;
 	font-size: 1.5em;
 	margin: 0;
-	padding: 0;
+	padding: 0.5em;
 }
 
 .build .webgl-content, .build .unity-desktop {

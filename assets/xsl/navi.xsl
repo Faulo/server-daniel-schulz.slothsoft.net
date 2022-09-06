@@ -15,12 +15,12 @@
 			select="$pageList[count(ancestor::sfs:page) = 1][../@current or ../*/@current]" />
 
 		<div>
-			<figure>
-				<img src="/slothsoft@daniel-schulz.slothsoft.net/static/face" />
-				<figcaption>Daniel Schulz</figcaption>
-			</figure>
 			<xsl:if test="count($row1)">
 				<div class="navi">
+		            <figure>
+		                <img src="/slothsoft@daniel-schulz.slothsoft.net/static/face" />
+		                <figcaption>Daniel Schulz</figcaption>
+		            </figure>
 					<xsl:apply-templates select="$row1" />
 				</div>
 			</xsl:if>

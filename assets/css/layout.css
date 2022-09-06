@@ -92,7 +92,7 @@ nav {
 }
 
 nav figure {
-	float: left;
+	flex-grow: 4;
 	image-rendering: crisp-edges;
 	margin: 0;
 }
@@ -102,18 +102,19 @@ nav figure>* {
 }
 
 nav figure figcaption {
-	padding: 0.5em 0;
-	line-height: 1em;
-	font-weight: bold;
+	padding-left: 8px;
+	line-height: 48px;
+	font-size: 22px; font-weight : bold;
 	color: #214d27;
+	font-weight: bold;
 }
 
 nav figure img {
 	image-rendering: crisp-edges;
-	width: 1.5em;
-	height: 1.5em;
+	width: 32px;
+	height: 32px;
 	vertical-align: top;
-	padding: 0.25em;
+	padding: 8px 0 8px 8px;
 }
 
 main {
@@ -135,11 +136,12 @@ main {
 .navi a {
 	display: block;
 	text-align: center;
-	padding: 0.5em;
-	line-height: 1em;
+	padding: 0 0.5em;
+	line-height: 48px;
 	text-decoration: none;
 	/* border-right: 1px ridge #87cc87; */
 	color: #fff;
+	flex-grow: 1;
 }
 
 .navi a.category {
@@ -150,6 +152,7 @@ main {
 	max-width: 20%;
 	box-sizing: border-box;
 	font-size: 0.6em;
+	line-height: 1em;
 	padding: 0.5em 0.5em 0.5em 0.25em;
 }
 
@@ -171,11 +174,9 @@ main {
 	background-color: #214d27;
 	color: #a37acc;
 }
+
 /* Medium screens */
-@media all and (max-width: 800px) {
-	nav {
-		justify-content: flex-end;
-	}
+@media all and (max-width: 799px) {
 	html {
 		overflow: auto;
 	}
@@ -184,17 +185,29 @@ main {
 		height: auto;
 		width: auto;
 	}
+	nav {
+		font-size: 18px;
+	}
 	.navi {
 		justify-content: flex-start;
 	}
 	.navi a {
-		font-size: 0.75em;
-	}
-	.navi a {
 		max-width: none !important;
+		padding-left: 0.25em !important;
+		padding-right: 0.25em !important;
 	}
 	.pointer {
 		display: none !important;
+	}
+	.navi figure figcaption {
+		display: none;
+	}
+}
+
+/* Small screens */
+@media all and (max-width: 399px) {
+	.navi figure {
+		display: none;
 	}
 }
 

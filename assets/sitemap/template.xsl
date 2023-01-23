@@ -79,6 +79,8 @@
                     status-public="" />
                 <page name="MizuKiri" ref="pages/default" status-active=""
                     status-public="" />
+                <page name="IAmSusi" ref="pages/default" status-active=""
+                    status-public="" />
 			</page>
 
 			<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon"

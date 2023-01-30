@@ -36,7 +36,7 @@
 				<page name="TrialOfTwo" ref="pages/default" status-active=""
 					status-public="" />
 				<page name="TheCursedBroom" ref="pages/default"
-					status-active="" status-public="" />
+					status-active="" />
 			</page>
 
 			<page name="GameJams" ref="pages/default" status-active=""

@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-				bat "$PHP composer.phar install --no-interaction --no-progress"
+				bat "$PHP composer.phar update --no-interaction --no-progress"
             }
         }
         stage('Test') { 

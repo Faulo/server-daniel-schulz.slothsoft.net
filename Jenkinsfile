@@ -23,7 +23,7 @@ pipeline {
 			}
             steps {
 				dir("$VHOST") {
-					bat "git fetch"
+					checkout scm
 					bat "git reset --hard $BRANCH_NAME"
 					bat "$PHP composer.phar update --no-interaction --no-progress --no-dev"
 				}

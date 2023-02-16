@@ -3,7 +3,7 @@ pipeline {
 	environment {
 		PHP_VERSION = powershell(script:'composer config platform.php', returnStdout: true).trim()
 		PHP = "C:\\Webserver\\php-${env.PHP_VERSION}\\php.exe"
-		VHOST = powershell(script:'composer config name', returnStdout: true).trim().replace("slothsoft/", "C:\\Webserver\\htdocs\\vhosts\\")
+		VHOST = powershell(script:'composer config name', returnStdout: true).trim().replace("cursedcreations/", "C:\\Webserver\\htdocs\\vhosts\\")
 	}
     stages {
         stage('Build') { 
@@ -24,7 +24,7 @@ pipeline {
             steps {
 				dir("$VHOST") {
 					checkout scm
-					bat "git reset --hard $BRANCH_NAME"
+					bat "git checkout --force origin/$BRANCH_NAME"
 					bat "$PHP composer.phar update --no-interaction --no-progress --no-dev"
 				}
 			}

@@ -2243,6 +2243,63 @@
             </ul>
         </article>
     </p>
+    
+    
+    <p key="RootRush">Global Game Jam 2023: Root&#160;Rush&#160;</p>
+    <p key="RootRush/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about bright lines and exponential growth.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Global Game Jam 2023</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2023-02-03">03.02.2023</time>
+                    -
+                    <time datetime="2023-02-05">05.02.2023</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>Roots</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Daniel Schulz (technical direction)</li>
+                <li>Nadine Jachman (game design, art)</li>
+                <li>Sofia Haufe (art)</li>
+                <li>Philip (sound design)</li>
+                <li>Pilipp Carl (programming)</li>
+                <li>Nico Auerswald (project management, tech art)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/nicoexport/Rootlesnake" rel="external">
+                        <q>Root Rush</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://nico-export.itch.io/root-rush" rel="external">
+                        <q>Root Rush</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
 
 	<p key="spec/mysql">
 		<a rel="external" target="_blank" href="https://dev.mysql.com/">MySQL</a>

@@ -81,6 +81,8 @@
                     status-public="" />
                 <page name="IAmSusi" ref="pages/default" status-active=""
                     status-public="" />
+                <page name="RootRush" ref="pages/default" status-active=""
+                    status-public="" />
 			</page>
 
 			<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon"

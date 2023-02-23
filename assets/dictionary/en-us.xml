@@ -823,18 +823,18 @@
 			</figure>
 		</article>
 	</p>
-	<p key="TheCursedBroom">Cursed Broom</p>
-	<p key="TheCursedBroom/content">
+	<p key="CursedBroom">Cursed Broom</p>
+	<p key="CursedBroom/content">
 		<figure>
 			<img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom" alt="Cursed Broom" />
 		</figure>
 		<article>
 			<h2>About</h2>
 			<p>
-				Cursed Broom was created for a seminar of the Master's study of
+				The initial concept for <em>Cursed Broom</em> was created for a seminar of the Master's study of
 				<a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
 				</a>
-				at the University of Bayreuth.
+				at the University of Bayreuth. It is currently in development.
 			</p>
 		</article>
 		<article>
@@ -852,26 +852,21 @@
 			<ul>
 				<li>Daniel Schulz (game design and programming)</li>
 				<li>Tina Wolfrum (art and level design)</li>
-				<li>Maximilian Meinicke (sound design and music)</li>
+                <li>Nic Schilling (sound design and music)</li>
 			</ul>
 		</article>
 		<article>
 			<h2>Links</h2>
 			<ul>
 				<li>
-					<a href="/Builds/TheCursedBroom/master/">Play browser version</a>
+					<a href="https://store.steampowered.com/app/1823030/Cursed_Broom/" rel="external"><q>Cursed Broom</q> on Steam</a>
 				</li>
 				<li>
-					<a href="https://github.com/Faulo/TheCursedBroom" rel="external">
-						<q>Cursed Broom</q>
-						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="/Downloads/TheCursedBroom.zip" rel="external">Download (Win64)</a>
+					<a href="http://cursedcreations.slothsoft.net/CursedBroom/" rel="external">Presskit</a>
 				</li>
 			</ul>
 		</article>
+        <!-- 
 		<article>
 			<h2>Game Footage</h2>
 			<figure>
@@ -1034,6 +1029,7 @@
 				</p>
 			</article>
 		</article>
+            -->
 	</p>
 
 	<p key="GameJams">Game Jams</p>

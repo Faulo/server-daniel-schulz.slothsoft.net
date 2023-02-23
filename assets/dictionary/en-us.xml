@@ -804,8 +804,11 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://store.steampowered.com/app/1580040/Trial_of_Two/" rel="external"><q>Trial of Two</q> on Steam</a>
+                </li>
 				<li>
-					<a href="http://trialoftwo.slothsoft.net" rel="external">Home page</a>
+					<a href="http://trialoftwo.slothsoft.net/" rel="external">Presskit</a>
 				</li>
 			</ul>
 		</article>

@@ -1169,7 +1169,7 @@
 			<h2>Links</h2>
 			<ul>
 				<li>
-					<a href="/Builds/Communiganda/master/">Play browser version</a>
+					<a href="https://faulo.itch.io/communiganda">Play <q>Communiganda</q> on itch.io</a>
 				</li>
 				<li>
 					<a href="https://github.com/Faulo/Communiganda" rel="external">
@@ -1177,15 +1177,12 @@
 						on GitHub
 					</a>
 				</li>
-				<li>
-					<a href="https://gamejolt.com/games/communiganda/377389" rel="external">
-						<q>Communiganda</q>
-						on Game Jolt
-					</a>
-				</li>
-				<li>
-					<a href="/Downloads/Communiganda.zip" rel="external">Download (Win64)</a>
-				</li>
+                <li>
+                    <a href="https://gamejolt.com/games/communiganda/377389" rel="external">
+                        <q>Communiganda</q>
+                        on Game Jolt
+                    </a>
+                </li>
 			</ul>
 		</article>
 	</p>

@@ -24,7 +24,7 @@
 	},
 	"require" : {
 		"php" : "7.4 - 8.0",
-		"slothsoft/core" : "^1.5",
+		"slothsoft/core" : "^1.10",
 		"slothsoft/farah" : "^1.6",
 		"slothsoft/tetris" : "^1.0"
 	},

@@ -2,7 +2,7 @@
 	"name" : "slothsoft/daniel-schulz.slothsoft.net",
 	"type" : "project",
 	"description" : "daniel-schulz.slothsoft.net",
-	"license" : "WTFPL",
+	"license" : "MIT",
 	"keywords" : [
 		"slothsoft",
 		"farah-module",

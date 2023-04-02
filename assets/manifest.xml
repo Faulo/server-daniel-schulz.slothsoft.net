@@ -11,11 +11,18 @@
 		<resource use="template" name="template"
 			type="application/xslt+xml" />
 		<use-document ref="/api/build" name="builds" />
-		<use-document ref="/downloads" name="downloads" />
+        <use-document ref="/downloads" name="downloads" />
+        <use-document ref="/game-jam-index" name="game-jams" />
 	</directory>
 
-	<resource-directory name="downloads"
-		path="downloads" type="*/*" />
+    <resource-directory name="downloads"
+        path="downloads" type="*/*" />
+
+    <resource name="game-jam-index"
+        path="game-jams/index.xml" type="application/xml" />
+        
+    <resource-directory name="game-jam-games"
+        path="game-jams" type="application/xhtml+xml" />
 
 	<directory name="static">
 		<resource-directory name="images" path="images"

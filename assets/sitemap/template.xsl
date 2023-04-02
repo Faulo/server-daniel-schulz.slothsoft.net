@@ -25,29 +25,7 @@
 				<page name="CursedBroom" ref="pages/default" status-active="" status-public="" />
 			</page>
 
-			<page name="GameJams" ref="pages/default" status-active="" status-public="">
-				<page name="WhatTheHell" ref="pages/default" status-active="" status-public="" />
-				<page name="HeartbeatForAll" ref="pages/default" status-active="" status-public="" />
-				<page name="Communiganda" ref="pages/default" status-active="" status-public="" />
-				<page name="FindingHome" ref="pages/default" status-active="" status-public="" />
-				<page name="SpaceCape" ref="pages/default" status-active="" status-public="" />
-				<page name="Orbital" ref="pages/default" status-active="" status-public="" />
-				<page name="KeepEverybodyHappy" ref="pages/default" status-active="" status-public="" />
-				<page name="ReverseSlender" ref="pages/default" status-active="" status-public="" />
-				<page name="WatchOut" ref="pages/default" status-active="" status-public="" />
-				<page name="NanoMixture" ref="pages/default" status-active="" status-public="" />
-				<page name="ChartRunner" ref="pages/default" status-active="" status-public="" />
-				<page name="BackToTheChicken" ref="pages/default" status-active="" status-public="" />
-				<page name="NuttinToLose" ref="pages/default" status-active="" status-public="" />
-				<page name="Pengwing" ref="pages/default" status-active="" status-public="" />
-				<page name="SonarUndDochSoFern" ref="pages/default" status-active="" status-public="" />
-				<page name="SheepThrills" ref="pages/default" status-active="" status-public="" />
-				<page name="BattleOfTheGods" ref="pages/default" status-active="" status-public="" />
-				<page name="BrieYourself" ref="pages/default" status-active="" status-public="" />
-				<page name="MizuKiri" ref="pages/default" status-active="" status-public="" />
-				<page name="IAmSusi" ref="pages/default" status-active="" status-public="" />
-				<page name="RootRush" ref="pages/default" status-active="" status-public="" />
-			</page>
+			<xsl:apply-templates select="*[@name = 'game-jams']" />
 
 			<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon" status-active="" />
 			<page name="sitemap" ref="//slothsoft@farah/sitemap-generator" status-active="" />
@@ -80,6 +58,16 @@
 			<page name="Downloads" redirect=".." status-active="">
 				<xsl:for-each select="sfm:manifest-info">
 					<page name="{@name}" ref="{@url}" status-active="" />
+				</xsl:for-each>
+			</page>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template match="*[@name = 'game-jams']">
+		<xsl:for-each select=".//games">
+			<page name="GameJams" ref="pages/default" status-active="" status-public="">
+				<xsl:for-each select="game">
+					<page name="{@name}" ref="pages/default" status-active="" status-public="" />
 				</xsl:for-each>
 			</page>
 		</xsl:for-each>

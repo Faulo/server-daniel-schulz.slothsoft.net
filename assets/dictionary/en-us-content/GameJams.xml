@@ -1274,58 +1274,111 @@
 		</article>
 	</p>
 
-	<p key="FollowYourDreams">Game Dev Week 2023: Follow&#160;Your&#160;Dreams</p>
-	<p key="FollowYourDreams/content">
-		<article>
-			<h2>About</h2>
-			<p>A game about the dreams within dreams.</p>
-		</article>
-		<article>
-			<h2>Jam Details</h2>
-			<dl>
-				<dt>Game Dev Week 2023</dt>
-				<dd>
-					<strong>Date:</strong>
-					<time datetime="2023-03-13">13.03.2023</time>
-					-
-					<time datetime="2023-03-19">19.03.2023</time>
-				</dd>
-				<dd>
-					<strong>Site:</strong>
-					Hochschule Trier
-				</dd>
-				<dd>
-					<strong>Theme:</strong>
-					<q>Dream Logic</q>
-					and
-					<q>Dimensional Chaos</q>
-				</dd>
-			</dl>
-		</article>
-		<article>
-			<h2>Credits</h2>
-			<ul>
-				<li>Katharina Broswik (2D art, UI, game design)</li>
-				<li>Daniel Schulz (programming, game design)</li>
-				<li>Fabian Nausner (2d art, sound design)</li>
-			</ul>
-		</article>
-		<article>
-			<h2>Links</h2>
-			<ul>
-				<li>
-					<a href="https://stumbleduck.itch.io/follow-your-dreams" rel="external">
-						<q>Follow Your Dreams</q>
-						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/Faulo/FollowYourDreams" rel="external">
-						<q>Follow Your Dreams</q>
-						on itch.io
-					</a>
-				</li>
-			</ul>
-		</article>
-	</p>
+    <p key="FollowYourDreams">Game Dev Week 2023: Follow&#160;Your&#160;Dreams</p>
+    <p key="FollowYourDreams/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about the dreams within dreams.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Game Dev Week 2023</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2023-03-13">13.03.2023</time>
+                    -
+                    <time datetime="2023-03-19">19.03.2023</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Hochschule Trier
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>Dream Logic</q>
+                    and
+                    <q>Dimensional Chaos</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Katharina Broswik (2D art, UI, game design)</li>
+                <li>Daniel Schulz (programming, game design)</li>
+                <li>Fabian Nausner (2d art, sound design)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://stumbleduck.itch.io/follow-your-dreams" rel="external">
+                        <q>Follow Your Dreams</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Faulo/FollowYourDreams" rel="external">
+                        <q>Follow Your Dreams</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
+
+    <p key="ZooSmashBaseballBash">XR Jam 2023: Zoo&#160;Smash&#160;Baseball&#160;Bash</p>
+    <p key="ZooSmashBaseballBash/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about helping animals with violence.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>XR Jam 2023</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2023-04-21">21.04.2023</time>
+                    -
+                    <time datetime="2023-04-24">24.04.2023</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>Sphären</q>
+                    [spheres]
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Ruben Schäfer (programming, level design, tech art)</li>
+                <li>Daniel Schulz (programming, character controller design)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/Faulo/ZooSmashBaseballBash/" rel="external">
+                        <q>Zoo Smash Baseball Bash/</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://faulo.itch.io/zoo-smash-baseball-bash" rel="external">
+                        <q>Zoo Smash Baseball Bash</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
 </html>

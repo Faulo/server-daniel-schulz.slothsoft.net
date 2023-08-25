@@ -1381,4 +1381,59 @@
             </ul>
         </article>
     </p>
+
+    <p key="DokoDont">Mixed Media Jam 2023: Doko&#160;Don't</p>
+    <p key="DokoDont/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about time management and shifting priorities.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Mixed Media Jam 2023</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2023-06-30">30.06.2023</time>
+                    -
+                    <time datetime="2023-07-02">02.07.2023</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    <s>Universität Bayreuth</s>
+					DoKomi, Düsseldorf
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>Lieber Nicht...</q>
+                    [better not...]
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Nic Schilling (music, art)</li>
+                <li>Daniel Schulz (programming, game design)</li>
+                <li>Tina Wolfrum (art)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/Cursed-Creations/MixedMediaJam2023/" rel="external">
+                        <q>Doko Don't</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://faulo.itch.io/doko-dont" rel="external">
+                        <q>Doko Don't</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
 </html>

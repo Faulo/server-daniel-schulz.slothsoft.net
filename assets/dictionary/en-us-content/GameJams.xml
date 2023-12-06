@@ -1442,4 +1442,113 @@
             </ul>
         </article>
     </p>
+
+    <p key="SpillTheTea">Franken Game Jam 2023: Spill the Tea</p>
+    <p key="SpillTheTea/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about making friends and sharing secrets.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Franken Game Jam 2023</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2023-11-03">03.11.2023</time>
+                    -
+                    <time datetime="2023-11-05">05.11.2023</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>give or take</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+				<li>Elisabeth Harzbecker (narrative design)</li>
+                <li>Aki Withers (ui design, 2d art)</li>
+                <li>Daniel Schulz (programming, game design)</li>
+                <li>Tina Wolfrum (project management, ux design, 2d art)</li>
+                <li>Marie-Charleen Wrenger (narrative design)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/Faulo/SpillTheTea" rel="external">
+                        <q>Spill the Tea</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://faulo.itch.io/spill-the-tea" rel="external">
+                        <q>Spill the Tea</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
+
+    <p key="LiarLiarForestFire">Auswärtsspiel 2023: Liar, Liar, Forest Fire</p>
+    <p key="LiarLiarForestFire/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about making decisions with the best of intentions.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt><a href="https://www.stiftung-digitale-spielekultur.de/project/auswaertsspiel/" rel="external">Auswärtsspiel 2023</a></dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2023-11-09">09.11.2023</time>
+                    -
+                    <time datetime="2023-11-11">11.11.2023</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    DE:Hive HTW Berlin
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>Klimaaußenpolitik</q>
+					[foreign climate policy]
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Nic Schilling (sound design, game design)</li>
+                <li>Daniel Schulz (programming)</li>
+                <li>Tina Wolfrum (2d art)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/Cursed-Creations/LiarLiarForestFire" rel="external">
+                        <q>Liar, Liar, Forest Fire</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://faulo.itch.io/liar-liar-forest-fire" rel="external">
+                        <q>Liar, Liar, Forest Fire</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
 </html>

@@ -1551,4 +1551,64 @@
             </ul>
         </article>
     </p>
+
+    <p key="CatsInCostumes">Global Game Jam 2024: Cats in Costumes</p>
+    <p key="CatsInCostumes/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about a lord, some rings, and lots of noisy cats.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt><a href="https://globalgamejam.org/jam-sites/2024/bayreuth" rel="external">Global Game Jam 2024</a></dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2024-01-26">26.01.2024</time>
+                    -
+                    <time datetime="2024-01-28">28.01.2024</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>make me laugh</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Katharina Broswik (2d art)</li>
+                <li>Steffen Schreiber (sound design, writing)</li>
+                <li>Daniel Schulz (programming, ux design)</li>
+                <li>Gregor Sönnichsen (writing, ui art)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+				<li>
+					<a href="https://globalgamejam.org/games/2024/cats-costumes-1" rel="external">
+						Global Game Jam Entry
+                        <q>Cats in Costumes</q>
+					</a>
+				</li>
+                <li>
+                    <a href="https://github.com/KaddaStrophe/GGJ24_CatsInCostumes" rel="external">
+                        <q>Cats in Costumes</q>
+                        on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://stumbleduck.itch.io/cats-in-costumes" rel="external">
+                        <q>Cats in Costumes</q>
+                        on itch.io
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
 </html>

@@ -136,13 +136,14 @@
 			<ul>
 				<li>
 					<a href="https://faulo.itch.io/communiganda">
-						Play
+						Play and download
 						<q>Communiganda</q>
 						on itch.io
 					</a>
 				</li>
 				<li>
 					<a href="https://github.com/Faulo/Communiganda" rel="external">
+					   Browse source code of
 						<q>Communiganda</q>
 						on GitHub
 					</a>
@@ -198,6 +199,13 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://faulo.itch.io/finding-home">
+                        Play and download
+                        <q>Finding Home</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://globalgamejam.org/2019/games/split-artifact-finding-home" rel="external">
 						Global Game Jam Entry
@@ -206,6 +214,7 @@
 				</li>
 				<li>
 					<a href="https://github.com/Faulo/FindingHome" rel="external">
+                       Browse source code of
 						<q>Finding Home</q>
 						on GitHub
 					</a>
@@ -255,8 +264,16 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://stumbleduck.itch.io/spacecape">
+                        Play and download
+                        <q>SpaceCape</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/SpaceCape" rel="external">
+                       Browse source code of
 						<q>SpaceCape</q>
 						on GitHub
 					</a>
@@ -321,11 +338,16 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li>
-					<a href="/Builds/Orbital/master/">Play browser version</a>
-				</li>
+                <li>
+                    <a href="https://faulo.itch.io/orbital">
+                        Play and download
+                        <q>Orbital</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/Orbital" rel="external">
+                       Browse source code of
 						<q>Orbital</q>
 						on GitHub
 					</a>
@@ -380,16 +402,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://faulo.itch.io/keep-everybody-happy" rel="external">
+                       Play and download
+                        <q>Keep Everybody Happy</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/KeepEverybodyHappy" rel="external">
+                       Browse source code of
 						<q>Keep Everybody Happy</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://faulo.itch.io/keep-everybody-happy" rel="external">
-						<q>Keep Everybody Happy</q>
-						on itch.io
 					</a>
 				</li>
 				<li>
@@ -440,8 +464,16 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://faulo.itch.io/reverse-slender">
+                        Download
+                        <q>Reverse Slender</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/ReverseSlender" rel="external">
+                       Browse source code of
 						<q>Reverse Slender</q>
 						on GitHub
 					</a>
@@ -503,8 +535,16 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://faulo.itch.io/watch-out">
+                        Download
+                        <q>Watch Out!</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/WatchOut" rel="external">
+                       Browse source code of
 						<q>Watch Out!</q>
 						on GitHub
 					</a>
@@ -560,19 +600,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li>
-					<a href="/Builds/NanoMixture/master/">Play browser version</a>
-				</li>
+                <li>
+                    <a href="https://faulo.itch.io/nano-mixture" rel="external">
+                       Play and download
+                        <q>Nano Mixture</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/NanoMixture" rel="external">
+                       Browse source code of
 						<q>Nano Mixture</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://faulo.itch.io/nano-mixture" rel="external">
-						<q>Nano Mixture</q>
-						on itch.io
 					</a>
 				</li>
 				<li>
@@ -623,11 +662,16 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li>
-					<a href="/Builds/ChartRunner/master/">Play browser version</a>
-				</li>
+                <li>
+                    <a href="https://faulo.itch.io/chart-runner">
+                        Download
+                        <q>Chart Runner</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/ChartRunner" rel="external">
+                       Browse source code of
 						<q>Chart Runner</q>
 						on GitHub
 					</a>
@@ -702,19 +746,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li>
-					<a href="/Builds/BackToTheChicken/master/">Play browser version</a>
-				</li>
+                <li>
+                    <a href="https://luizamuffin.itch.io/back-to-the-chicken" rel="external">
+                       Play and download
+                        <q>Back to the Chicken</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/BackToTheChicken" rel="external">
+					   Browse source code of
 						<q>Back to the Chicken</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://luizamuffin.itch.io/back-to-the-chicken" rel="external">
-						<q>Back to the Chicken</q>
-						on itch.io
 					</a>
 				</li>
 				<li>
@@ -782,11 +825,16 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li>
-					<a href="/Builds/NuttinToLose/master/">Play browser version</a>
-				</li>
+                <li>
+                    <a href="https://faulo.itch.io/nuttin-to-lose">
+                        Play and download
+                        <q>Nuttin' to Lose</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/NuttinToLose" rel="external">
+                       Browse source code of
 						<q>Nuttin' to Lose</q>
 						on GitHub
 					</a>
@@ -854,19 +902,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li>
-					<a href="/Builds/Pengwing/master/">Play browser version</a>
-				</li>
+                <li>
+                    <a href="https://faulo.itch.io/pengwing" rel="external">
+                       Play and download
+                        <q>Pengwing</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/Pengwing" rel="external">
+                       Browse source code of
 						<q>Pengwing</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://faulo.itch.io/pengwing" rel="external">
-						<q>Pengwing</q>
-						on itch.io
 					</a>
 				</li>
 				<li>
@@ -918,19 +965,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li>
-					<a href="/Builds/SonarUndDochSoFern/master/">Play browser version</a>
-				</li>
+                <li>
+                    <a href="https://petrichorgames.itch.io/sonar-und-doch-so-fern" rel="external">
+                       Play and download
+                        <q>Sonar Und Doch So Fern</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/SonarUndDochSoFern" rel="external">
+                       Browse source code of
 						<q>Sonar Und Doch So Fern</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://petrichorgames.itch.io/sonar-und-doch-so-fern" rel="external">
-						<q>Sonar Und Doch So Fern</q>
-						on itch.io
 					</a>
 				</li>
 				<li>
@@ -981,16 +1027,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://pietzkepopov.itch.io/sheep-thrills" rel="external">
+                       Play and download
+                        <q>SheepThrills</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/SheepThrills" rel="external">
+                       Browse source code of
 						<q>SheepThrills</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://pietzkepopov.itch.io/sheep-thrills" rel="external">
-						<q>SheepThrills</q>
-						on itch.io
 					</a>
 				</li>
 			</ul>
@@ -1036,16 +1084,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://paulrdy.itch.io/battle-of-the-gods-epic" rel="external">
+                       Play and download
+                        <q>Battle of the Gods</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/BattleOfTheGods" rel="external">
+                       Browse source code of
 						<q>Battle of the Gods</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://paulrdy.itch.io/battle-of-the-gods-epic" rel="external">
-						<q>Battle of the Gods</q>
-						on itch.io
 					</a>
 				</li>
 			</ul>
@@ -1095,19 +1145,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
-				<li>
-					<a href="/Builds/BrieYourself/master/">Play browser version</a>
-				</li>
+                <li>
+                    <a href="https://elisabeth-harzbecker.itch.io/brie-yourself" rel="external">
+                       Play and download
+                        <q>Brie Yourself</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/BrieYourself" rel="external">
+                       Browse source code of
 						<q>Brie Yourself</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://elisabeth-harzbecker.itch.io/brie-yourself" rel="external">
-						<q>Brie Yourself</q>
-						on itch.io
 					</a>
 				</li>
 			</ul>
@@ -1151,16 +1200,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://faulo.itch.io/mizu-kiri" rel="external">
+                       Play and download
+                        <q>Mizu Kiri</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Faulo/MizuKiri" rel="external">
+                       Browse source code of
 						<q>Mizu Kiri</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://faulo.itch.io/mizu-kiri" rel="external">
-						<q>Mizu Kiri</q>
-						on itch.io
 					</a>
 				</li>
 			</ul>
@@ -1207,16 +1258,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://faulo.itch.io/i-am-susi" rel="external">
+                       Play and download
+                        <q>I Am Susi</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/Glowdragon/i-am-susi-game" rel="external">
+                       Browse source code of
 						<q>I Am Susi</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://faulo.itch.io/i-am-susi" rel="external">
-						<q>I Am Susi</q>
-						on itch.io
 					</a>
 				</li>
 			</ul>
@@ -1264,16 +1317,18 @@
 		<article>
 			<h2>Links</h2>
 			<ul>
+                <li>
+                    <a href="https://nico-export.itch.io/root-rush" rel="external">
+                        Play and download
+                        <q>Root Rush</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://github.com/nicoexport/Rootlesnake" rel="external">
+                       Browse source code of
 						<q>Root Rush</q>
 						on GitHub
-					</a>
-				</li>
-				<li>
-					<a href="https://nico-export.itch.io/root-rush" rel="external">
-						<q>Root Rush</q>
-						on itch.io
 					</a>
 				</li>
 			</ul>
@@ -1320,15 +1375,17 @@
             <h2>Links</h2>
             <ul>
                 <li>
-                    <a href="https://stumbleduck.itch.io/follow-your-dreams" rel="external">
+                    <a href="https://github.com/Faulo/FollowYourDreams" rel="external">
+                        Play and download
                         <q>Follow Your Dreams</q>
-                        on GitHub
+                        on itch.io
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/Faulo/FollowYourDreams" rel="external">
+                    <a href="https://stumbleduck.itch.io/follow-your-dreams" rel="external">
+                       Browse source code of
                         <q>Follow Your Dreams</q>
-                        on itch.io
+                        on GitHub
                     </a>
                 </li>
             </ul>
@@ -1373,15 +1430,17 @@
             <h2>Links</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/Faulo/ZooSmashBaseballBash/" rel="external">
+                    <a href="https://faulo.itch.io/zoo-smash-baseball-bash" rel="external">
+                        Download
                         <q>Zoo Smash Baseball Bash</q>
-                        on GitHub
+                        on itch.io
                     </a>
                 </li>
                 <li>
-                    <a href="https://faulo.itch.io/zoo-smash-baseball-bash" rel="external">
+                    <a href="https://github.com/Faulo/ZooSmashBaseballBash/" rel="external">
+                       Browse source code of
                         <q>Zoo Smash Baseball Bash</q>
-                        on itch.io
+                        on GitHub
                     </a>
                 </li>
             </ul>
@@ -1428,15 +1487,17 @@
             <h2>Links</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/Cursed-Creations/MixedMediaJam2023/" rel="external">
+                    <a href="https://faulo.itch.io/doko-dont" rel="external">
+                        Play and download
                         <q>Doko Don't</q>
-                        on GitHub
+                        on itch.io
                     </a>
                 </li>
                 <li>
-                    <a href="https://faulo.itch.io/doko-dont" rel="external">
+                    <a href="https://github.com/Cursed-Creations/MixedMediaJam2023/" rel="external">
+                       Browse source code of
                         <q>Doko Don't</q>
-                        on itch.io
+                        on GitHub
                     </a>
                 </li>
             </ul>
@@ -1483,15 +1544,17 @@
             <h2>Links</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/Faulo/SpillTheTea" rel="external">
+                    <a href="https://faulo.itch.io/spill-the-tea" rel="external">
+                        Play and download
                         <q>Spill the Tea</q>
-                        on GitHub
+                        on itch.io
                     </a>
                 </li>
                 <li>
-                    <a href="https://faulo.itch.io/spill-the-tea" rel="external">
+                    <a href="https://github.com/Faulo/SpillTheTea" rel="external">
+                       Browse source code of
                         <q>Spill the Tea</q>
-                        on itch.io
+                        on GitHub
                     </a>
                 </li>
             </ul>
@@ -1537,15 +1600,17 @@
             <h2>Links</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/Cursed-Creations/LiarLiarForestFire" rel="external">
+                    <a href="https://faulo.itch.io/liar-liar-forest-fire" rel="external">
+                        Play and download
                         <q>Liar, Liar, Forest Fire</q>
-                        on GitHub
+                        on itch.io
                     </a>
                 </li>
                 <li>
-                    <a href="https://faulo.itch.io/liar-liar-forest-fire" rel="external">
+                    <a href="https://github.com/Cursed-Creations/LiarLiarForestFire" rel="external">
+                       Browse source code of
                         <q>Liar, Liar, Forest Fire</q>
-                        on itch.io
+                        on GitHub
                     </a>
                 </li>
             </ul>
@@ -1590,6 +1655,13 @@
         <article>
             <h2>Links</h2>
             <ul>
+                <li>
+                    <a href="https://stumbleduck.itch.io/cats-in-costumes" rel="external">
+                        Play and download
+                        <q>Cats in Costumes</q>
+                        on itch.io
+                    </a>
+                </li>
 				<li>
 					<a href="https://globalgamejam.org/games/2024/cats-costumes-1" rel="external">
 						Global Game Jam Entry
@@ -1598,14 +1670,69 @@
 				</li>
                 <li>
                     <a href="https://github.com/KaddaStrophe/GGJ24_CatsInCostumes" rel="external">
+                       Browse source code of
                         <q>Cats in Costumes</q>
                         on GitHub
                     </a>
                 </li>
+            </ul>
+        </article>
+    </p>
+
+    <p key="LostNotes">Game Dev Week 2024: Lost&#160;Notes</p>
+    <p key="LostNotes/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about the difference between violins and violence.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Game Dev Week 2024</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2024-03-18">18.03.2024</time>
+                    -
+                    <time datetime="2024-03-24">24.03.2024</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Hochschule Trier
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>Underground Wonderland</q>
+                    and
+                    <q>Celestial Symphony</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Jan Bade (project management, ui design, level design, sound design)</li>
+                <li>Ako Gertheiss (music, sound design)</li>
+                <li>Sunna Linn (2d art, corporate design, level design)</li>
+                <li>Finn Macri (2d art, level design)</li>
+                <li>Florian Oetke (programming)</li>
+                <li>Daniel Schulz (programming)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
                 <li>
-                    <a href="https://stumbleduck.itch.io/cats-in-costumes" rel="external">
-                        <q>Cats in Costumes</q>
+                    <a href="https://github.com/lowkey42/lost_notes" rel="external">
+                        Play and download
+                       <q>Lost Notes</q>
                         on itch.io
+                    </a>
+                </li>
+                <li>
+                    <a href="https://faulo.itch.io/lost-notes" rel="external">
+                       Browse source code of
+                        <q>Lost Notes</q>
+                        on GitHub
                     </a>
                 </li>
             </ul>

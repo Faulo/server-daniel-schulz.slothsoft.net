@@ -1,50 +1,52 @@
 {
-	"name" : "slothsoft/daniel-schulz.slothsoft.net",
-	"type" : "project",
-	"description" : "daniel-schulz.slothsoft.net",
-	"license" : "MIT",
-	"keywords" : [
+	"name": "slothsoft/daniel-schulz.slothsoft.net",
+	"type": "project",
+	"description": "daniel-schulz.slothsoft.net",
+	"license": "MIT",
+	"keywords": [
 		"slothsoft",
 		"farah-module",
 		"farah-server"
 	],
-	"autoload" : {
-		"psr-4" : {
-			"Slothsoft\\Server\\DanielSchulz\\" : "src"
+	"autoload": {
+		"psr-4": {
+			"Slothsoft\\Server\\DanielSchulz\\": "src"
 		},
-		"files" : [
+		"files": [
 			"config.php",
 			"scripts/bootstrap.php"
 		]
 	},
-	"config" : {
-		"platform" : {
-			"php" : "7.4"
+	"config": {
+		"platform": {
+			"php": "7.4"
 		}
 	},
-	"require" : {
-		"php" : "7.4 - 8.0",
-		"slothsoft/core" : "^1.10",
-		"slothsoft/farah" : "^1.10",
-		"slothsoft/tetris" : "^1.0"
+	"require": {
+		"php": "^7.4",
+		"slothsoft/core": "^1.11",
+		"slothsoft/farah": "^1.11",
+		"slothsoft/tetris": "^1.0"
 	},
-	"require-dev" : {
-		"phpunit/phpunit" : "8.5.*"
+	"require-dev": {
+		"phpunit/phpunit": "8.5.*"
 	},
-	"autoload-dev" : {
-		"psr-4" : {
-			"Slothsoft\\Server\\DanielSchulz\\" : "tests"
+	"autoload-dev": {
+		"psr-4": {
+			"Slothsoft\\Server\\DanielSchulz\\": "tests"
 		}
 	},
-	"scripts" : {
-		"post-update-cmd" : "composer exec server-clean cache",
-		"farah-asset" : "@php vendor/slothsoft/farah/scripts/farah-asset.php",
-		"farah-page" : "@php vendor/slothsoft/farah/scripts/farah-page.php"
+	"scripts": {
+		"post-autoload-dump": "composer exec server-clean cache",
+		"farah-asset": "@php vendor/slothsoft/farah/scripts/farah-asset.php",
+		"farah-page": "@php vendor/slothsoft/farah/scripts/farah-page.php"
 	},
-	"homepage" : "http://daniel-schulz.slothsoft.net",
-	"authors" : [{
-			"name" : "Daniel Schulz",
-			"email" : "info.slothsoft@gmail.com"
+	"homepage": "http://daniel-schulz.slothsoft.net",
+	"authors": [
+		{
+			"name": "Daniel Schulz",
+			"email": "info.slothsoft@gmail.com"
 		}
-	]
+	],
+	"classmap-authoritative": true
 }

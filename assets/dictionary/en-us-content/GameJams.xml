@@ -1722,16 +1722,69 @@
             <h2>Links</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/lowkey42/lost_notes" rel="external">
+                    <a href="https://faulo.itch.io/lost-notes" rel="external">
                         Play and download
                        <q>Lost Notes</q>
                         on itch.io
                     </a>
                 </li>
                 <li>
-                    <a href="https://faulo.itch.io/lost-notes" rel="external">
+                    <a href="https://github.com/lowkey42/lost_notes" rel="external">
                        Browse source code of
                         <q>Lost Notes</q>
+                        on GitHub
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
+
+    <p key="SuperManual64">Spring Game Jam 2024: Super&#160;Manual&#160;64</p>
+    <p key="SuperManual64/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about running and jumping.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Spring Game Jam 2024</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2022-04-26">26.04.2024</time>
+                    -
+                    <time datetime="2022-04-28">28.04.2024</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>When ich das nur gewusst hätte...</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Daniel Schulz (everything)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://faulo.itch.io/super-manual-64" rel="external">
+                        Play and download
+                       <q>Super Manual 64</q>
+                        on itch.io
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Faulo/SuperManual64" rel="external">
+                       Browse source code of
+                        <q>Super Manual 64</q>
                         on GitHub
                     </a>
                 </li>

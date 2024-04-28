@@ -26,5 +26,6 @@
 	<game name="SpillTheTea" />
 	<game name="LiarLiarForestFire" />
 	<game name="CatsInCostumes" />
-	<game name="LostNotes" />
+    <game name="LostNotes" />
+    <game name="SuperManual64" />
 </games>

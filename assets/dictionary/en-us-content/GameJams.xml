@@ -1792,4 +1792,59 @@
             </ul>
         </article>
     </p>
+
+    <p key="SnailsInTheSky">Summer Game Jam 2024: Snails in the Sky</p>
+    <p key="SnailsInTheSky/content">
+        <article>
+            <h2>About</h2>
+            <p>A game about snails on a plane.</p>
+        </article>
+        <article>
+            <h2>Jam Details</h2>
+            <dl>
+                <dt>Summer Game Jam 2024</dt>
+                <dd>
+                    <strong>Date:</strong>
+                    <time datetime="2024-07-12">12.07.2024</time>
+                    -
+                    <time datetime="2024-07-14">14.07.2024</time>
+                </dd>
+                <dd>
+                    <strong>Site:</strong>
+                    Universität Bayreuth
+                </dd>
+                <dd>
+                    <strong>Theme:</strong>
+                    <q>binary and beyond</q>
+                </dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Credits</h2>
+            <ul>
+                <li>Katharina Broswik (3d art, tech art)</li>
+                <li>Daniel Schulz (programming, game design)</li>
+                <li>Gregor Sönnichsen (level design)</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li>
+                    <a href="https://faulo.itch.io/snails-in-the-sky" rel="external">
+                        Play and download
+                        <q>Cats in Costumes</q>
+                        on itch.io
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Faulo/SnailsInTheSky" rel="external">
+                       Browse source code of
+                        <q>Cats in Costumes</q>
+                        on GitHub
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </p>
 </html>

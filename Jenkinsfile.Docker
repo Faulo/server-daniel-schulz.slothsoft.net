@@ -1,0 +1,10 @@
+pipeline {
+	agent 'docker'
+    stages {
+        stage('Docker Build') {
+            steps {
+                sh 'docker build -t daniel-schulz.slothsoft.net:latest .'
+            }
+        }
+    }
+}

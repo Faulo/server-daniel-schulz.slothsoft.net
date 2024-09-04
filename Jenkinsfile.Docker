@@ -1,15 +1,11 @@
 pipeline {
-	dockerfile {
-        filename 'Dockerfile'
-        dir '.'
-        label 'latest'
-        additionalBuildArgs  ''
-        args ''
-    }
+	agent {
+		label 'jenkins && docker'
+	}
     stages {
         stage('Docker Build') {
             steps {
-                sh 'composer install --dev'
+                sh 'docker build -t daniel-schulz.slothsoft.net:latest .'
             }
         }
     }

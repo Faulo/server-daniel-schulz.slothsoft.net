@@ -1,11 +1,29 @@
 pipeline {
 	agent {
-		label 'jenkins && docker'
+	    label 'jenkins && docker'
 	}
     stages {
-        stage('Docker Build') {
+        stage('Run Tests') {
+        	agent {
+        	    dockerfile {
+        		    reuseNode true
+        	    }
+        	}
             steps {
-                sh 'docker build -t daniel-schulz.slothsoft.net:latest .'
+                sh 'composer install --dev'
+                sh 'composer exec phpunit -- --log-junit report.xml'
+            }
+            post {
+                always {
+                    junit 'report.xml'
+                }
+            }
+        }
+        stage('Publish vhost') {
+            steps {
+                script {
+                    docker.build("daniel-schulz.slothsoft.net:latest")
+                }
             }
         }
     }

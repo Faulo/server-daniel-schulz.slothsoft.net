@@ -1,9 +1,15 @@
 pipeline {
-	agent 'docker'
+	dockerfile {
+        filename 'Dockerfile'
+        dir '.'
+        label 'latest'
+        additionalBuildArgs  ''
+        args ''
+    }
     stages {
         stage('Docker Build') {
             steps {
-                sh 'docker build -t daniel-schulz.slothsoft.net:latest .'
+                sh 'composer install --dev'
             }
         }
     }

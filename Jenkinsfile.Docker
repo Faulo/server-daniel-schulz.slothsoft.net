@@ -22,7 +22,9 @@ pipeline {
         }
         stage('Deploy vhost') {
             steps {
-                sh "docker service update $SERVICE"
+                dir('/var/vhosts') {
+                    sh "docker stack deploy --detach=true --prune --resolve-image=changed --compose-file=docker-compose.yml vhosts"
+                }
             }
         }
     }

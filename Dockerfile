@@ -40,7 +40,6 @@ COPY src src
 COPY public html
 COPY php.ini /usr/local/etc/php/conf.d/custom.ini
 COPY composer.json composer.json
-COPY composer.lock composer.lock
 COPY config.php config.php
 
 # Composer

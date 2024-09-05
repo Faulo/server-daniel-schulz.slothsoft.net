@@ -45,7 +45,7 @@ COPY config.php config.php
 
 # Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
-RUN composer install --no-dev
+RUN composer update --no-dev
 
 # Apache
 RUN echo "ServerName daniel-schulz.slothsoft.net" >> /etc/apache2/apache2.conf

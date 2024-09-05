@@ -9,7 +9,7 @@ RUN apt install -y libcurl4-openssl-dev && \
 RUN apt install -y libxslt1-dev && \
     docker-php-ext-install xsl && \
 	docker-php-ext-enable xsl
-RUN apt install -y libzip-dev && \
+RUN apt install -y libzip-dev unzip p7zip && \
 	docker-php-ext-install zip && \
 	docker-php-ext-enable zip
 RUN apt install -y libonig-dev && \
@@ -45,6 +45,7 @@ COPY config.php config.php
 
 # Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+ARG COMPOSER_ALLOW_SUPERUSER=1
 RUN composer update --no-dev
 
 # Apache

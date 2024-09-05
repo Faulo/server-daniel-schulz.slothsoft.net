@@ -9,7 +9,7 @@ RUN apt install -y libcurl4-openssl-dev && \
 RUN apt install -y libxslt1-dev && \
     docker-php-ext-install xsl && \
 	docker-php-ext-enable xsl
-RUN apt install -y libzip-dev unzip p7zip && \
+RUN apt install -y libzip-dev p7zip && \
 	docker-php-ext-install zip && \
 	docker-php-ext-enable zip
 RUN apt install -y libonig-dev && \
@@ -48,5 +48,6 @@ ARG COMPOSER_ALLOW_SUPERUSER=1
 RUN composer update --no-dev
 
 # Apache
-RUN echo "ServerName daniel-schulz.slothsoft.net" >> /etc/apache2/apache2.conf
+ARG VHOST
+RUN echo "ServerName $VHOST" >> /etc/apache2/apache2.conf
 EXPOSE 80

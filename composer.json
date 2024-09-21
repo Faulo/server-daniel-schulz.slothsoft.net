@@ -13,7 +13,6 @@
 			"Slothsoft\\Server\\DanielSchulz\\": "src"
 		},
 		"files": [
-			"config.php",
 			"scripts/bootstrap.php"
 		]
 	},

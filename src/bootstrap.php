@@ -1,5 +1,6 @@
 <?php
 declare(strict_types = 1);
+namespace Slothsoft\Server\DanielSchulz;
 
 use Slothsoft\Core\ServerEnvironment;
 use Slothsoft\Farah\Dictionary;
@@ -18,9 +19,8 @@ ServerEnvironment::setCacheDirectory($root . DIRECTORY_SEPARATOR . 'cache');
 ServerEnvironment::setLogDirectory($root . DIRECTORY_SEPARATOR . 'log');
 ServerEnvironment::setDataDirectory($root . DIRECTORY_SEPARATOR . 'data');
 
-Kernel::setCurrentSitemap('farah://slothsoft@daniel-schulz.slothsoft.net/sitemap');
+Kernel::setCurrentSitemap('farah://slothsoft/daniel-schulz.slothsoft.net/sitemap');
 Kernel::setTrackingEnabled(false);
 Dictionary::setSupportedLanguages('en-us');
 
 Module::registerWithXmlManifestAndDefaultAssets('slothsoft@daniel-schulz.slothsoft.net', $root . DIRECTORY_SEPARATOR . 'assets');
-

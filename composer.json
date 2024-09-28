@@ -13,12 +13,12 @@
 			"Slothsoft\\Server\\DanielSchulz\\" : "src"
 		},
 		"files" : [
-			"scripts/bootstrap.php"
+			"src/bootstrap.php"
 		]
 	},
 	"require" : {
 		"slothsoft/core" : "^1.11",
-		"slothsoft/farah" : "^1.11",
+		"slothsoft/farah" : "^1.12",
 		"slothsoft/tetris" : "^1.0"
 	},
 	"require-dev" : {

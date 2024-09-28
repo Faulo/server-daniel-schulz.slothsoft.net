@@ -26,7 +26,7 @@
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"Slothsoft\\Server\\DanielSchulz\\" : "tests"
+			"Slothsoft\\Server\\DanielSchulz\\Tests\\" : "tests"
 		}
 	},
 	"scripts" : {

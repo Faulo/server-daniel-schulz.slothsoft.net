@@ -7,11 +7,14 @@ pipeline {
 			steps {
 				script {
 					withEnv(readFile('.env').split('\n') as List) {
-						env.DOCKER_OS_TYPE = callShellStdout 'docker info --format {{.OSType}}'
-						env.DOCKER_WORKDIR = callShellStdout 'docker image inspect faulo/farah:${PHP_VERSION} --format={{.Config.WorkingDir}}'
+						stage('Setup dependencies') {
+							callShell "docker pull faulo/farah:${PHP_VERSION}"
 
+							env.DOCKER_OS_TYPE = callShellStdout 'docker info --format {{.OSType}}'
+							env.DOCKER_WORKDIR = callShellStdout 'docker image inspect faulo/farah:${PHP_VERSION} --format={{.Config.WorkingDir}}'
+						}
 						stage('Build image') {
-							callShell "docker compose build --pull -c=.jenkins/docker-compose.yml"
+							callShell "docker compose -f .jenkins/docker-compose.yml build"
 						}
 						stage ('Run tests') {
 							docker.image("tmp/${STACK_NAME}:latest").inside {

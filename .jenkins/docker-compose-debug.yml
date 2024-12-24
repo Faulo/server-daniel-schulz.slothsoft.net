@@ -1,0 +1,9 @@
+services:
+    daniel-schulz:
+        image: faulo/farah:${PHP_VERSION}
+        volumes:
+            - ..:/var/www
+        ports:
+            - 8080:80
+volumes:
+    data:

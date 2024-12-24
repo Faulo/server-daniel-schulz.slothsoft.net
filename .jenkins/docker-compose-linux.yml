@@ -1,0 +1,19 @@
+services:
+    daniel-schulz:
+        image: tmp/daniel-schulz:latest
+        volumes:
+            - data:/var/www/data
+        networks:
+            - vhosts_default
+        deploy:
+            mode: global
+            restart_policy:
+                condition: on-failure
+                delay: 5s
+                max_attempts: 3
+                window: 120s
+volumes:
+    data:
+networks:
+    vhosts_default:
+        external: true

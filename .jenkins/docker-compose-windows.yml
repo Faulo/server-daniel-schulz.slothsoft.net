@@ -1,6 +1,6 @@
 services:
-    daniel-schulz:
-        image: tmp/daniel-schulz:latest
+    frontend:
+        image: tmp/${STACK_NAME}:latest
         volumes:
             - data:C:/www/data
         ports:

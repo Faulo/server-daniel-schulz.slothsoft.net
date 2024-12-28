@@ -12,8 +12,10 @@ services:
                 delay: 5s
                 max_attempts: 3
                 window: 120s
+
 volumes:
     data:
+
 networks:
     vhosts_default:
         external: true

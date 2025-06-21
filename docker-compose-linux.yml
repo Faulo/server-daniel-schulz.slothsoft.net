@@ -1,6 +1,6 @@
 services:
     frontend:
-        container_name: daniel-schulz_frontend
+        container_name: ${STACK_NAME}_frontend
         build:
             dockerfile: Dockerfile.linux
             args:
@@ -9,17 +9,11 @@ services:
             SERVER_NAME: ${SERVER_NAME}
             VIRTUAL_HOST: ${SERVER_NAME}
             LETSENCRYPT_HOST: ${SERVER_NAME}
-        volumes:
-            - daniel-schulz_data:/var/www/data
         networks:
             - vhosts
         expose:
             - 80
         restart: unless-stopped
-
-volumes:
-    daniel-schulz_data:
-        external: true
 
 networks:
     vhosts:

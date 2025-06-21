@@ -2,20 +2,19 @@ services:
     frontend:
         container_name: daniel-schulz_frontend
         build:
-            context: .
-            dockerfile_inline: |
-                FROM faulo/farah:${PHP_VERSION}
-                RUN apt update && apt upgrade -y
-                COPY --chown=www-data:www-data . .
-                RUN chmod 777 .
-                USER www-data
-                RUN composer update --no-interaction --no-dev --optimize-autoloader --classmap-authoritative
+            dockerfile: Dockerfile.linux
             args:
                 PHP_VERSION: ${PHP_VERSION}
+        environment:
+            SERVER_NAME: ${SERVER_NAME}
+            VIRTUAL_HOST: ${SERVER_NAME}
+            LETSENCRYPT_HOST: ${SERVER_NAME}
         volumes:
             - daniel-schulz_data:/var/www/data
         networks:
             - vhosts
+        expose:
+            - 80
         restart: unless-stopped
 
 volumes:

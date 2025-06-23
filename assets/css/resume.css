@@ -3,23 +3,34 @@ img {
 	width: 4em;
 	height: 4em;
 	float: left;
+	margin-right: 0.5cm;
 }
 
 html {
 	background: black;
 }
 
+html, body, main {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	justify-content: center;
+}
+
 main {
+	width: 210mm;
+	height: 297mm;
 	background: white;
-	width: 20cm;
-	height: 30cm;
 	display: table;
 	margin: auto;
 }
 
 section {
 	display: table-cell;
-	padding: 1cm;
+	padding: 1cm 1.5cm;
+	vertical-align: top;
 }
 
 section:first-child {
@@ -27,8 +38,9 @@ section:first-child {
 }
 
 section:last-child {
-	background: green;
+	background: #48821e;
 	color: white;
+    padding-top: 4cm;
 }
 
 section:last-child a {
@@ -39,4 +51,19 @@ section:last-child a {
 	font-variant: small-caps;
 	font-size: 1rem;
 	font-weight: normal;
+}
+
+@page {
+	size: A4 portrait;
+	margin: 0;
+}
+
+@media print {
+	body {
+		background: none;
+	}
+	@page {
+		size: A4 portrait;
+		margin: 0;
+	}
 }

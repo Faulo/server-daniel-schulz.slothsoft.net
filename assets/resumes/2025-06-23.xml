@@ -1,0 +1,40 @@
+<resume>
+	<name>Daniel Schulz</name>
+	<phone>+4915784518211</phone>
+	<email>daniel.lio.schulz@gmail.com</email>
+	<nationality>German</nationality>
+
+	<address>
+		<street>Bussardweg 23</street>
+		<city>Bayreuth</city>
+		<country>Germany</country>
+		<postal-code>95445</postal-code>
+	</address>
+
+	<photo>/slothsoft@daniel-schulz.slothsoft.net/static/images/Daniel-face</photo>
+
+	<job>Game Developer</job>
+	<profile>I'm a video game programmer/designer with a knack for physics-based character controllers. My games are about having fun and not hurting people. I aim to make the world a cuter place. &lt;3
+	</profile>
+
+	<employment>
+		<job>Game Developer</job>
+		<employer>Ulisses Digital</employer>
+		<location>Remote</location>
+		<start month="06" year="2022" />
+		<end month="06" year="2025" />
+		<description>Gameplay &amp; Backend Programming, DevOps Engineering</description>
+	</employment>
+
+
+	<employment>
+		<job>Tutor</job>
+		<employer>Angewandte Informatik V</employer>
+		<location>University of Bayreuth</location>
+		<start month="10" year="2019" />
+		<end month="03" year="2021" />
+		<description>Teaching Unity and C#</description>
+	</employment>
+
+
+</resume>

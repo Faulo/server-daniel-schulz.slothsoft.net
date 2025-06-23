@@ -2,6 +2,7 @@
 <assets xmlns="http://schema.slothsoft.net/farah/module" version="1.1">
 	<resource-directory name="css" type="text/css" />
 	<resource-directory name="xsl" type="application/xslt+xml" />
+	<resource-directory name="resumes" type="application/xml" />
 
 	<directory name="dictionary">
 		<resource-directory name="en-us-content" type="application/xml" />
@@ -16,6 +17,7 @@
 		<use-document ref="/api/build" name="builds" />
 		<use-document ref="/downloads" name="downloads" />
 		<use-document ref="/game-jams" name="game-jams" />
+		<use-document ref="/resumes" name="resumes" />
 	</directory>
 
 	<resource-directory name="downloads" path="downloads" type="*/*" />
@@ -48,6 +50,12 @@
 			<link-stylesheet ref="/css/layout" />
 			<link-stylesheet ref="/css/fonts" />
 			<use-document ref="/api/build" name="content" />
+		</fragment>
+		<fragment name="resume">
+			<use-template ref="/xsl/_resume" />
+			<link-stylesheet ref="/css/fonts" />
+			<link-stylesheet ref="/css/resume" />
+			<use-document ref="//slothsoft@farah/sites" name="sites" />
 		</fragment>
 	</fragment>
 

@@ -1,0 +1,42 @@
+img {
+	border-radius: 4em;
+	width: 4em;
+	height: 4em;
+	float: left;
+}
+
+html {
+	background: black;
+}
+
+main {
+	background: white;
+	width: 20cm;
+	height: 30cm;
+	display: table;
+	margin: auto;
+}
+
+section {
+	display: table-cell;
+	padding: 1cm;
+}
+
+section:first-child {
+	width: 67%;
+}
+
+section:last-child {
+	background: green;
+	color: white;
+}
+
+section:last-child a {
+	color: #ffe;
+}
+
+.important {
+	font-variant: small-caps;
+	font-size: 1rem;
+	font-weight: normal;
+}

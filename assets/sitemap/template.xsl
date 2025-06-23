@@ -2,10 +2,11 @@
 <xsl:stylesheet version="1.0" xmlns="http://schema.slothsoft.net/farah/sitemap" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary"
 	xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/*">
-		<domain name="daniel-schulz.slothsoft.net" vendor="slothsoft" module="daniel-schulz.slothsoft.net" ref="pages/default" status-active=""
-			status-public="" sfd:languages="en-us">
+		<domain name="daniel-schulz.slothsoft.net" vendor="slothsoft" module="daniel-schulz.slothsoft.net" ref="pages/default" status-active="" status-public="" sfd:languages="en-us">
 
-			<page name="AboutMe" ref="pages/default" status-active="" status-public="" />
+			<page name="AboutMe" ref="pages/default" status-active="" status-public="">
+				<xsl:apply-templates select="*[@name = 'resumes']" />
+			</page>
 
 			<page name="Projects" ref="pages/default" status-active="" status-public="">
 				<page name="Ambermoon" ref="pages/default" status-active="" status-public="" />
@@ -34,6 +35,14 @@
 
 			<xsl:apply-templates select="*[@name = 'downloads']" />
 		</domain>
+	</xsl:template>
+
+	<xsl:template match="*[@name = 'resumes']">
+		<xsl:for-each select="sfm:fragment-info/sfm:manifest-info">
+			<page name="{@name}" ref="pages/resume" status-active="">
+				<sfm:param name="source" value="{@url}" />
+			</page>
+		</xsl:for-each>
 	</xsl:template>
 
 	<xsl:template match="*[@name = 'builds']">

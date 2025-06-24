@@ -1,7 +1,7 @@
 img {
-	border-radius: 4em;
-	width: 4em;
-	height: 4em;
+	border-radius: 2cm;
+	width: 1.5cm;
+	height: 1.5cm;
 	float: left;
 	margin-right: 0.5cm;
 }
@@ -29,18 +29,18 @@ main {
 
 section {
 	display: table-cell;
-	padding: 1cm 1.5cm;
 	vertical-align: top;
 }
 
 section:first-child {
+	padding: 1.5cm 1cm 0 1.5cm;
 	width: 67%;
 }
 
 section:last-child {
+	padding: 4cm 1.5cm 0 1.2cm;
 	background: #48821e;
 	color: white;
-    padding-top: 4cm;
 }
 
 section:last-child a {
@@ -49,8 +49,57 @@ section:last-child a {
 
 .important {
 	font-variant: small-caps;
-	font-size: 1rem;
-	font-weight: normal;
+}
+
+h1, h2 {
+	font-family: "Oswald", sans-serif;
+}
+
+main, h3, h4, .important {
+	font-family: "Lexend", sans-serif;
+}
+
+html {
+	font-size: 3.2mm;
+}
+
+* {
+	line-height: 1em;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 8mm;
+	line-height: 10mm;
+	font-weight: 500;
+	margin: 0;
+}
+
+h2 {
+	font-size: 5mm;
+	line-height: 6mm;
+	font-weight: 400;
+	margin: 0.75cm 0 0.25cm 0;
+}
+
+h3 {
+	font-weight: 400;
+	margin: 0.25cm 0 0.15cm 0;
+}
+
+p {
+	margin: 0;
+	line-height: 5mm;
+}
+
+article .important {
+	font-size: 2.8mm; color : gray;
+	margin: 0.15cm 0;
+	color: gray;
+}
+
+hgroup p {
+	font-size: 3mm;
 }
 
 @page {

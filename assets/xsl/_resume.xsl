@@ -24,7 +24,9 @@
 				<xsl:copy-of select="$source" />
 			</head>
 			<body>
-				<xsl:apply-templates select="$source" mode="resume" />
+				<div class="page">
+					<xsl:apply-templates select="$source" mode="resume" />
+				</div>
 			</body>
 		</html>
 	</xsl:template>
@@ -43,15 +45,16 @@
 				</hgroup>
 				<article>
 					<h2>Profile</h2>
-					<p>
-						<xsl:value-of select="profile" />
-					</p>
+					<xsl:copy-of select="profile/node()" />
 				</article>
 
 				<xsl:apply-templates select="section" mode="resume" />
 			</section>
-			<section>
-				<h2>Details</h2>
+			<section class="sidebar">
+				<h2>Contact</h2>
+				<p>
+					<xsl:value-of select="name" />
+				</p>
 				<xsl:apply-templates select="address" mode="resume" />
 				<p>
 					<xsl:value-of select="phone" />
@@ -61,6 +64,17 @@
 						<xsl:value-of select="email" />
 					</a>
 				</p>
+
+				<xsl:apply-templates select="skills" mode="resume" />
+
+				<h2>Links</h2>
+				<xsl:for-each select="link">
+					<p>
+						<a href="{@href}>" rel="external" target="_blank">
+							<xsl:value-of select="." />
+						</a>
+					</p>
+				</xsl:for-each>
 			</section>
 		</main>
 	</xsl:template>
@@ -101,6 +115,22 @@
 				</article>
 			</xsl:for-each>
 		</article>
+	</xsl:template>
+
+	<xsl:template match="skills" mode="resume">
+		<h2>
+			<xsl:value-of select="@name" />
+		</h2>
+		<dl class="skills">
+			<xsl:for-each select="skill">
+				<dt>
+					<xsl:value-of select="." />
+				</dt>
+				<dd>
+					<div style="width: {@level div 0.05}%" />
+				</dd>
+			</xsl:for-each>
+		</dl>
 	</xsl:template>
 
 	<xsl:template match="address" mode="resume">

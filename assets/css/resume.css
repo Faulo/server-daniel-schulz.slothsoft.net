@@ -15,13 +15,20 @@ html, body, main {
 }
 
 body {
-	margin: 0;
+	margin: auto;
 	justify-content: center;
 }
 
-main {
+.page {
 	width: 210mm;
 	height: 297mm;
+	overflow: hidden;
+	margin: auto;
+}
+
+main {
+	width: 100%;
+	height: 100%;
 	background: white;
 	display: table;
 	margin: auto;
@@ -47,6 +54,21 @@ section:last-child a {
 	color: #ffe;
 }
 
+.skills dt {
+	line-height: 7mm;
+}
+
+.skills dd {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 1mm;
+}
+
+.skills dd div {
+    background:rgba(255, 255, 125527, 0.8);
+    height: 1mm;
+}
+
 .important {
 	font-variant: small-caps;
 }
@@ -55,12 +77,12 @@ h1, h2 {
 	font-family: "Oswald", sans-serif;
 }
 
-main, h3, h4, .important {
+main, h3, h4, .important, p, li {
 	font-family: "Lexend", sans-serif;
 }
 
 html {
-	font-size: 3.2mm;
+	font-size: 2.8mm;
 }
 
 * {
@@ -79,12 +101,17 @@ h2 {
 	font-size: 5mm;
 	line-height: 6mm;
 	font-weight: 400;
-	margin: 0.75cm 0 0.25cm 0;
+	margin: 0.5cm 0 0.25cm 0;
+}
+
+.sidebar h2 {
+    font-size: 4mm;
+    line-height: 4mm;
 }
 
 h3 {
 	font-weight: 400;
-	margin: 0.25cm 0 0.15cm 0;
+	margin: 0.35cm 0 0.15cm 0;
 }
 
 p {
@@ -93,7 +120,8 @@ p {
 }
 
 article .important {
-	font-size: 2.8mm; color : gray;
+	font-size: 2.8mm;
+	color: gray;
 	margin: 0.15cm 0;
 	color: gray;
 }

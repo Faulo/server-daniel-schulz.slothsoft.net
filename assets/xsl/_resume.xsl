@@ -20,8 +20,6 @@
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
 				<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;family=Oswald:wght@200..700&amp;display=swap" rel="stylesheet" />
-
-				<xsl:copy-of select="$source" />
 			</head>
 			<body>
 				<div class="page">

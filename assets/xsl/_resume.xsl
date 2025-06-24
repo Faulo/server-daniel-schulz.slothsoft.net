@@ -68,7 +68,7 @@
 				<h2>Links</h2>
 				<xsl:for-each select="link">
 					<p>
-						<a href="{@href}>" rel="external" target="_blank">
+						<a href="{@href}" rel="external" target="_blank">
 							<xsl:value-of select="." />
 						</a>
 					</p>

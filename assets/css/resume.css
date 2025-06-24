@@ -40,12 +40,12 @@ section {
 }
 
 section:first-child {
-	padding: 1.5cm 1cm 0 1.5cm;
+	padding: 1cm 1cm 0 1.5cm;
 	width: 67%;
 }
 
 section:last-child {
-	padding: 4cm 1.5cm 0 1.2cm;
+	padding: 3.5cm 1cm 0 1.2cm;
 	background: #48821e;
 	color: white;
 }
@@ -59,7 +59,7 @@ section:last-child a {
 }
 
 .skills dd {
-    margin: 0;
+    margin: 0 0.5cm 0 0;
     background: rgba(0, 0, 0, 0.3);
     border-radius: 1mm;
 }

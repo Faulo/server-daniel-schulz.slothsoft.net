@@ -11,6 +11,8 @@
 			<use-document ref="/dictionary/en-us-content" />
 		</fragment>
 	</directory>
+	
+	<resource-directory name="jam-games" type="application/xml" />
 
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />

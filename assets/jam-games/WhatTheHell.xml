@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>mediale* Game Development Contest</title>
+	<site>Hochschule Darmstadt</site>
+	<theme>
+		<html:q>Die Götter müssen verrückt sein</html:q>
+		<html:span>[The gods must be crazy]</html:span>
+	</theme>
+	<start-date datetime="2012-05-21" />
+	<end-date datetime="2012-05-23" />
+
+	<games>
+		<game>
+			<title>What the Hell, God?</title>
+			<additionals>
+				<additional>
+					<title>Playable version on slothsoft.net</title>
+					<link>https://slothsoft.net/WhatTheHell/</link>
+				</additional>
+				<additional>
+					<title>Source code on GitHub</title>
+					<link>https://github.com/Faulo/slothsoft-whatthehell/</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Arden Osthof</person>
+					<website>https://ardenosthof.com/</website>
+					<role>Art</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

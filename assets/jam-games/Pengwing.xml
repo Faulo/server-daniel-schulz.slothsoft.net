@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Spring Game Jam 2021</title>
+	<site>Universität Bayreuth</site>
+	<theme>Doppelleben</theme>
+	<start-date datetime="2021-04-30" />
+	<end-date datetime="2021-05-02" />
+	<games>
+		<game>
+			<title>Pengwing</title>
+			<description>A game about flying penguins and other conspiracies.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Pengwing on itch.io</title>
+					<link>https://faulo.itch.io/pengwing</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Pengwing on GitHub</title>
+					<link>https://github.com/Faulo/Pengwing</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Nico Auerswald</person>
+					<role>Art</role>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Elisabeth Harzbecker</person>
+					<role>Art</role>
+					<role>Level Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

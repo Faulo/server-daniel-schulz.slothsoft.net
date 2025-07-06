@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">
-<p key="Die Götter müssen verrückt sein">the gods must be crazy</p>
-<p key="Zeit">time</p>
-<p key="Politik ist (k)ein Game">politics is(n't) a game</p>
-<p key="Fundstücke">found pieces</p>
-<p key="Telepräsenz">telepresence</p>
-<p key="Doppelleben">double lives</p>
-<p key="fremd">unfamiliar</p>
-<p key="Sphären">spheres</p>
-<p key="Lieber Nicht...">better not...</p>
-<p key="Klimaaußenpolitik">foreign climate policy</p>
-<p key="Wenn ich das nur gewusst hätte...">if only I'd known...</p>
+	<p key="Die Götter müssen verrückt sein">the gods must be crazy</p>
+	<p key="Zeit">time</p>
+	<p key="Politik ist (k)ein Game">politics is(n't) a game</p>
+	<p key="Fundstücke">found pieces</p>
+	<p key="Telepräsenz">telepresence</p>
+	<p key="Doppelleben">double lives</p>
+	<p key="fremd">unfamiliar</p>
+	<p key="Sphären">spheres</p>
+	<p key="Lieber Nicht...">better not...</p>
+	<p key="Klimaaußenpolitik">foreign climate policy</p>
+	<p key="Wenn ich das nur gewusst hätte...">if only I'd known...</p>
+	<p key="BackToTheChicken.Intro.mp4">The intro didn't make it into the game, so watch it here!</p>
+	<p key="BackToTheChicken.Gameplay">Explore a lavishly furnished house!</p>
+	<p key="ReverseSlender.mp4">No trespassing in the haunted forest!</p>
+	<p key="NuttinToLose.HidingSpots">Find the perfect hiding spot for your nuts!</p>
+	<p key="Pengwing.Gameplay">To freedom!</p>
+
 
 
 	<p key="GameJams">Game Jams</p>

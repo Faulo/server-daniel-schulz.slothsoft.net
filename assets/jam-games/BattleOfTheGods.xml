@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+  <title>Global Game Jam 2022</title>
+  <site>Universität Bayreuth</site>
+  <theme>Duality</theme>
+  <start-date datetime="2022-01-28"/>
+  <end-date datetime="2022-01-30"/>
+  <games>
+    <game>
+      <title>Battle of the Gods</title>
+      <description>A game about dual mythologies and divine brawling.</description>
+      <additionals>
+        <additional>
+          <title>Play and download Battle of the Gods on itch.io</title>
+          <link>https://faulo.itch.io/battle-of-the-gods</link>
+        </additional>
+        <additional>
+          <title>Browse source code of Battle of the Gods on GitHub</title>
+          <link>https://github.com/Faulo/BattleOfTheGods</link>
+        </additional>
+        <additional>
+          <title>Global Game Jam Entry Battle of the Gods</title>
+          <link>https://globalgamejam.org/2022/games/battle-gods-2</link>
+        </additional>
+        <additional>
+          <title>Download (Win64)</title>
+          <link>/Downloads/BattleOfTheGods.zip</link>
+        </additional>
+      </additionals>
+      <credits>
+        <credit>
+          <person>Katharina Broswik</person>
+          <role>UI Design</role>
+        </credit>
+        <credit>
+          <person>Maximilian Eichler</person>
+          <role>Art</role>
+        </credit>
+        <credit>
+          <person>Dominik Fehringer</person>
+          <role>Level Design</role>
+        </credit>
+        <credit>
+          <person>Elisabeth Harzbecker</person>
+          <role>3D Art</role>
+        </credit>
+        <credit>
+          <person>Timo Kaufmann</person>
+          <role>Art</role>
+          <role>Animation</role>
+        </credit>
+        <credit>
+          <person>Daniel Schulz</person>
+          <role>Programming</role>
+        </credit>
+        <credit>
+          <person>Nils Schwarz</person>
+          <role>Game Design</role>
+        </credit>
+      </credits>
+    </game>
+  </games>
+</jam>

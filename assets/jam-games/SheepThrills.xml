@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Franken Game Jam 2021</title>
+	<site>Universität Bayreuth</site>
+	<theme>growth</theme>
+	<start-date datetime="2021-11-05" />
+	<end-date datetime="2021-11-07" />
+	<website>https://itch.io/jam/franken-game-jam-2021/entries</website>
+	<games>
+		<game>
+			<title>Sheep Thrills</title>
+			<description>A game about the need for sheep.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Sheep Thrills on itch.io</title>
+					<link>https://pietzkepopov.itch.io/sheep-thrills</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Sheep Thrills on GitHub</title>
+					<link>https://github.com/Faulo/SheepThrills</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Luke Brose</person>
+					<role>Level Design</role>
+				</credit>
+				<credit>
+					<person>Annie Keiler</person>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>Rose Lachner</person>
+					<role>Management</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Gregor Sönnichsen</person>
+					<role>Sound Design</role>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>Nicolas Teichtweier</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Laura Wünsch</person>
+					<role>Art</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

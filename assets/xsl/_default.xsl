@@ -32,8 +32,10 @@
 						<xsl:choose>
 							<xsl:when test="$documentURI">
 								<xsl:apply-templates select="document($documentURI)" mode="content">
-									<xsl:with-param name="images" select="*[@name='images']//sfm:manifest-info[starts-with(@name, $requestedPage/@name)]" />
+									<xsl:with-param name="header" select="*[@name='images']//sfm:manifest-info[@name = $requestedPage/@name]" />
+									<xsl:with-param name="images" select="*[@name='images']//sfm:manifest-info[starts-with(@name, concat($requestedPage/@name, '.'))]" />
 									<xsl:with-param name="downloads" select="*[@name='downloads']//sfm:manifest-info[starts-with(@name, $requestedPage/@name)]" />
+									<xsl:with-param name="videos" select="*[@name='videos']//sfm:manifest-info[starts-with(@name, $requestedPage/@name)]" />
 								</xsl:apply-templates>
 							</xsl:when>
 							<xsl:when test="$content">
@@ -57,7 +59,9 @@
 	</xsl:template>
 
 	<xsl:template match="ssp:jam" mode="content">
+		<xsl:param name="header" select="/.." />
 		<xsl:param name="images" select="/.." />
+		<xsl:param name="videos" select="/.." />
 		<xsl:param name="downloads" select="/.." />
 
 		<xsl:variable name="jam" select="." />
@@ -69,7 +73,7 @@
 			<xsl:value-of select="$game/ssp:title" />
 		</h1>
 
-		<xsl:for-each select="$images[1]">
+		<xsl:for-each select="$header">
 			<figure>
 				<img src="{@href}" alt="{@name}" />
 			</figure>
@@ -160,6 +164,45 @@
 				</dl>
 			</article>
 		</xsl:for-each>
+
+		<xsl:if test="$game/ssp:trailers | $videos">
+			<article>
+				<h2>Videos</h2>
+				<xsl:for-each select="$game/ssp:trailers/ssp:trailer">
+					<figure>
+						<iframe width="800" height="450" src="https://www.youtube.com/embed/{ssp:youtube}" title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" />
+						<figcaption>
+							<xsl:value-of select="ssp:name" />
+						</figcaption>
+					</figure>
+				</xsl:for-each>
+				<xsl:for-each select="$videos">
+					<figure>
+						<video controls="controls">
+							<source src="{@href}" type="video/mp4" />
+						</video>
+						<figcaption data-dict="">
+							<xsl:value-of select="@name" />
+						</figcaption>
+					</figure>
+				</xsl:for-each>
+			</article>
+		</xsl:if>
+
+		<xsl:if test="$images">
+			<article>
+				<h2>Screenshots</h2>
+				<xsl:for-each select="$images">
+					<figure>
+						<img src="{@href}" alt="{@name}" />
+						<figcaption data-dict="">
+							<xsl:value-of select="@name" />
+						</figcaption>
+					</figure>
+				</xsl:for-each>
+			</article>
+		</xsl:if>
 
 		<xsl:for-each select="$game/ssp:additionals">
 			<article>

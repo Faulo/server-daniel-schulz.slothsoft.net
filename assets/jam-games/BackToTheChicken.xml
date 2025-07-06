@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Franken Game Jam 2020</title>
+	<site>Universität Bayreuth</site>
+	<theme>Anticipation</theme>
+	<start-date datetime="2020-11-06" />
+	<end-date datetime="2020-11-08" />
+	<website>https://itch.io/jam/franken-game-jam-2020/entries</website>
+	<games>
+		<game>
+			<title>Back to the Chicken</title>
+			<description>A game about the life goals of a feather.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Back to the Chicken on itch.io</title>
+					<link>https://luizamuffin.itch.io/back-to-the-chicken</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Back to the Chicken on GitHub</title>
+					<link>https://github.com/Faulo/BackToTheChicken</link>
+				</additional>
+				<additional>
+					<title>Download (Win64)</title>
+					<link>/Downloads/BackToTheChicken.zip</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Robin Daraban</person>
+					<role>VFX</role>
+				</credit>
+				<credit>
+					<person>Michael Heller</person>
+					<role>Sound Design</role>
+					<role>Art</role>
+					<role>Level Design</role>
+				</credit>
+				<credit>
+					<person>Markus Hülß</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Lisa Kast</person>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>Veronica Kramme</person>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>André Lautner</person>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Jan Martens</person>
+					<role>Art</role>
+					<role>Level Design</role>
+				</credit>
+				<credit>
+					<person>Luisa Meinlschmidt</person>
+					<role>Art</role>
+					<role>Level Design</role>
+					<role>UI Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

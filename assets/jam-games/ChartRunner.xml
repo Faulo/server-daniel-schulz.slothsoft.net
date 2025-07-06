@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+  <title>Summer Game Jam 2020</title>
+  <site>Universität Bayreuth</site>
+  <theme>If I ignore the future maybe it will go away</theme>
+  <start-date datetime="2020-07-03"/>
+  <end-date datetime="2020-07-05"/>
+  <games>
+    <game>
+      <title>Chart Runner</title>
+      <description>A game about the statistics of the future.</description>
+      <additionals>
+        <additional>
+          <title>Download Chart Runner on itch.io</title>
+          <link>https://faulo.itch.io/chart-runner</link>
+        </additional>
+        <additional>
+          <title>Browse source code of Chart Runner on GitHub</title>
+          <link>https://github.com/Faulo/ChartRunner</link>
+        </additional>
+        <additional>
+          <title>Download (Win64)</title>
+          <link>/Downloads/ChartRunner.zip</link>
+        </additional>
+      </additionals>
+      <credits>
+        <credit>
+          <person>Linus Gärtig</person>
+          <role>Programming</role>
+          <role>UI Design</role>
+        </credit>
+        <credit>
+          <person>Maximilian Meinicke</person>
+          <role>Sound Design</role>
+        </credit>
+        <credit>
+          <person>Ivette Schmidt</person>
+          <role>Art</role>
+        </credit>
+        <credit>
+          <person>Daniel Schulz</person>
+          <role>Programming</role>
+        </credit>
+      </credits>
+    </game>
+  </games>
+</jam>

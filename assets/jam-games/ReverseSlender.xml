@@ -2,9 +2,10 @@
 <jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
 	<title>Winter Game Jam 2019</title>
 	<site>Universität Bayreuth</site>
-	<theme>Fundstücke</theme>
+	<theme xml:lang="de-de">Fundstücke</theme>
 	<start-date datetime="2019-11-08" />
 	<end-date datetime="2019-11-10" />
+	<website>https://gamejam.uni-bayreuth.de/wp-content/uploads/sites/9/2019/11/GameJam2019.4.pdf</website>
 	<games>
 		<game>
 			<title>Reverse Slender</title>
@@ -17,14 +18,6 @@
 				<additional>
 					<title>Browse source code of Reverse Slender on GitHub</title>
 					<link>https://github.com/Faulo/ReverseSlender</link>
-				</additional>
-				<additional>
-					<title>Download (Win64)</title>
-					<link>/Downloads/ReverseSlender.zip</link>
-				</additional>
-				<additional>
-					<title>Game Footage (Video)</title>
-					<link>/slothsoft@daniel-schulz.slothsoft.net/static/videos/ReverseSlender.mp4</link>
 				</additional>
 			</additionals>
 			<credits>

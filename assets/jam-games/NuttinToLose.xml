@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Global Game Jam 2021</title>
+	<site>Universität Bayreuth</site>
+	<theme>Lost &amp; Found</theme>
+	<start-date datetime="2021-01-29" />
+	<end-date datetime="2021-01-31" />
+	<website>https://globalgamejam.org/2021/jam-sites/bayreuth</website>
+	<games>
+		<game>
+			<title>Nuttin' to Lose</title>
+			<description>A game about secrecy, deception and flying squirrels.</description>
+			<trailers>
+				<trailer>
+					<name>...team?</name>
+					<youtube>Qwrezs1kNJ8</youtube>
+				</trailer>
+			</trailers>
+			<additionals>
+				<additional>
+					<title>Play and download Nuttin' to Lose on itch.io</title>
+					<link>https://faulo.itch.io/nuttin-to-lose</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Nuttin' to Lose on GitHub</title>
+					<link>https://github.com/Faulo/NuttinToLose</link>
+				</additional>
+				<additional>
+					<title>Global Game Jam Entry Nuttin' to Lose</title>
+					<link>https://globalgamejam.org/2021/games/nuttin-lose-7</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Katharina Broswik</person>
+					<role>2D Art</role>
+					<role>UI Design</role>
+				</credit>
+				<credit>
+					<person>Veronika Haidmann</person>
+					<role>3D Art</role>
+				</credit>
+				<credit>
+					<person>Laura Rosinger</person>
+					<role>Voice Acting</role>
+				</credit>
+				<credit>
+					<person>Nils Schwarz</person>
+					<role>Level Design</role>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

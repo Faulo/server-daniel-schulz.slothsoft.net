@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Spring Game Jam 2020</title>
+	<site>Universität Bayreuth</site>
+	<theme xml:lang="de-de">Telepräsenz</theme>
+	<start-date datetime="2020-05-01" />
+	<end-date datetime="2020-05-03" />
+	<games>
+		<game>
+			<title>Nano Mixture</title>
+			<description>A game about nanomachines and candy.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Nano Mixture on itch.io</title>
+					<link>https://faulo.itch.io/nano-mixture</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Nano Mixture on GitHub</title>
+					<link>https://github.com/Faulo/NanoMixture</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Tristan Heck</person>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>Jan Milosch</person>
+					<role>Level Design</role>
+					<role>UI Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

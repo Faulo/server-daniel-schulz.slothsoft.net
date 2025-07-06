@@ -10,6 +10,12 @@
 		<game>
 			<title>Orbital</title>
 			<description>A game about capturing planets with friends.</description>
+			<trailers>
+				<trailer>
+					<name>Thanks, kurzgesagt!</name>
+					<youtube>WJ_OWL9xhEA</youtube>
+				</trailer>
+			</trailers>
 			<additionals>
 				<additional>
 					<title>Play and download Orbital on itch.io</title>
@@ -22,14 +28,6 @@
 				<additional>
 					<title>Orbital on Game Jolt</title>
 					<link>https://gamejolt.com/games/Orbital/423264</link>
-				</additional>
-				<additional>
-					<title>Download (Win64)</title>
-					<link>/Downloads/Orbital.zip</link>
-				</additional>
-				<additional>
-					<title>Game Footage on YouTube</title>
-					<link>https://www.youtube.com/watch?v=WJ_OWL9xhEA</link>
 				</additional>
 			</additionals>
 			<credits>

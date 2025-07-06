@@ -148,6 +148,7 @@
 				<h2>Credits</h2>
 				<dl>
 					<xsl:for-each select="ssp:credit">
+						<xsl:sort select="ssp:person" />
 						<dt data-dict="">
 							<xsl:call-template name="ssp:link">
 								<xsl:with-param name="link" select="ssp:website" />

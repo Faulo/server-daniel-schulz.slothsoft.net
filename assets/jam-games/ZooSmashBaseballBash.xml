@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>XR Jam 2023</title>
+	<site>Universität Bayreuth</site>
+	<theme xml:lang="de-de">Sphären</theme>
+	<start-date datetime="2023-04-21" />
+	<end-date datetime="2023-04-23" />
+	<website>https://xrhub-bavaria.de/21-23-04-2023-mixed-reality-jam-an-der-uni-bayreuth/</website>
+	<games>
+		<game>
+			<title>Zoo Smash Baseball Bash</title>
+			<description>A game about helping animals with violence.</description>
+			<additionals>
+				<additional>
+					<title>Download Zoo Smash Baseball Bash on itch.io</title>
+					<link>https://faulo.itch.io/zoo-smash-baseball-bash</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Zoo Smash Baseball Bash on GitHub</title>
+					<link>https://github.com/Faulo/ZooSmashBaseballBash/</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Ruben Schäfer</person>
+					<role>Programming</role>
+					<role>Level Design</role>
+					<role>Tech Art</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+					<role>Character Controller Design</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

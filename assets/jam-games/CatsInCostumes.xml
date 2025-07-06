@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Global Game Jam 2024</title>
+	<site>Universität Bayreuth</site>
+	<theme>make me laugh</theme>
+	<start-date datetime="2024-01-26" />
+	<end-date datetime="2024-01-28" />
+	<website>https://globalgamejam.org/jam-sites/2024/bayreuth</website>
+	<games>
+		<game>
+			<title>Cats in Costumes</title>
+			<description>A game about a lord, some rings, and lots of noisy cats.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Cats in Costumes on itch.io</title>
+					<link>https://stumbleduck.itch.io/cats-in-costumes</link>
+				</additional>
+				<additional>
+					<title>Global Game Jam Entry Cats in Costumes</title>
+					<link>https://globalgamejam.org/games/2024/cats-costumes-1</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Cats in Costumes on GitHub</title>
+					<link>https://github.com/KaddaStrophe/GGJ24_CatsInCostumes</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Katharina Broswik</person>
+					<role>2D Art</role>
+				</credit>
+				<credit>
+					<person>Steffen Schreiber</person>
+					<role>Sound Design</role>
+					<role>Writing</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+					<role>UX Design</role>
+				</credit>
+				<credit>
+					<person>Gregor Sönnichsen</person>
+					<role>Writing</role>
+					<role>UI Art</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

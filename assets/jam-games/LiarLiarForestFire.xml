@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Auswärtsspiel 2023</title>
+	<site>DE:Hive HTW Berlin</site>
+	<theme>Klimaaußenpolitik [foreign climate policy]</theme>
+	<start-date datetime="2023-11-09" />
+	<end-date datetime="2023-11-11" />
+	<website>https://www.stiftung-digitale-spielekultur.de/project/auswaertsspiel/</website>
+	<games>
+		<game>
+			<title>Liar, Liar, Forest Fire</title>
+			<description>A game about making decisions with the best of intentions.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Liar, Liar, Forest Fire on itch.io</title>
+					<link>https://faulo.itch.io/liar-liar-forest-fire</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Liar, Liar, Forest Fire on GitHub</title>
+					<link>https://github.com/Cursed-Creations/LiarLiarForestFire</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Nic Schilling</person>
+					<role>Sound Design</role>
+					<role>Game Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Tina Wolfrum</person>
+					<role>2D Art</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

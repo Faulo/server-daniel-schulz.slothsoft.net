@@ -1,46 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
-  <title>Global Game Jam 2022</title>
-  <site>Universität Bayreuth</site>
-  <theme>Duality</theme>
-  <start-date datetime="2022-01-28"/>
-  <end-date datetime="2022-01-30"/>
-  <games>
-    <game>
-      <title>Battle of the Gods</title>
-      <description>A game about nature and nurture.</description>
-      <additionals>
-        <additional>
-          <title>Play and download Battle of the Gods on itch.io</title>
-          <link>https://paulrdy.itch.io/battle-of-the-gods-epic</link>
-        </additional>
-        <additional>
-          <title>Browse source code of Battle of the Gods on GitHub</title>
-          <link>https://github.com/Faulo/BattleOfTheGods</link>
-        </additional>
-      </additionals>
-      <credits>
-        <credit>
-          <person>Natalie Kuhrt</person>
-          <role>2D Art</role>
-        </credit>
-        <credit>
-          <person>Luisa Meinlschmidt</person>
-          <role>3D Art</role>
-        </credit>
-        <credit>
-          <person>Paul Redetzky</person>
-          <role>Programming</role>
-        </credit>
-        <credit>
-          <person>Steffen Schreiber</person>
-          <role>Sound Design</role>
-        </credit>
-        <credit>
-          <person>Daniel Schulz</person>
-          <role>Programming</role>
-        </credit>
-      </credits>
-    </game>
-  </games>
+	<title>Global Game Jam 2022</title>
+	<site>Universität Bayreuth</site>
+	<theme>Duality</theme>
+	<start-date datetime="2022-01-28" />
+	<end-date datetime="2022-01-30" />
+	<website>https://v3.globalgamejam.org/2022/jam-sites/universit%C3%A4t-bayreuth</website>
+	<games>
+		<game>
+			<title>Battle of the Gods</title>
+			<description>A game about nature and nurture.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Battle of the Gods on itch.io</title>
+					<link>https://paulrdy.itch.io/battle-of-the-gods-epic</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Battle of the Gods on GitHub</title>
+					<link>https://github.com/Faulo/BattleOfTheGods</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Natalie Kuhrt</person>
+					<role>2D Art</role>
+				</credit>
+				<credit>
+					<person>Luisa Meinlschmidt</person>
+					<role>3D Art</role>
+				</credit>
+				<credit>
+					<person>Paul Redetzky</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Steffen Schreiber</person>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
 </jam>

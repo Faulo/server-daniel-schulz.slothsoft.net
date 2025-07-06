@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Spring Game Jam 2024</title>
+	<site>Universität Bayreuth</site>
+	<theme xml:lang="de-de">Wenn ich das nur gewusst hätte...</theme>
+	<start-date datetime="2024-04-26" />
+	<end-date datetime="2024-04-28" />
+	<games>
+		<game>
+			<title>Super Manual 64</title>
+			<description>A game about running and jumping.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Super Manual 64 on itch.io</title>
+					<link>https://faulo.itch.io/super-manual-64</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Super Manual 64 on GitHub</title>
+					<link>https://github.com/Faulo/SuperManual64</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Everything</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

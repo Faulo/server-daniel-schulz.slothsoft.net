@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Game Dev Week 2024</title>
+	<site>Hochschule Trier</site>
+	<theme>Underground Wonderland</theme>
+	<theme>Celestial Symphony</theme>
+	<start-date datetime="2024-03-18" />
+	<end-date datetime="2024-03-24" />
+	<website>https://itch.io/jam/gamedevweek-2024</website>
+	<games>
+		<game>
+			<title>Lost Notes</title>
+			<description>A game about the difference between violins and violence.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Lost Notes on itch.io</title>
+					<link>https://faulo.itch.io/lost-notes</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Lost Notes on GitHub</title>
+					<link>https://github.com/lowkey42/lost_notes</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Jan Bade</person>
+					<role>Project Management</role>
+					<role>UI Design</role>
+					<role>Level Design</role>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Ako Gertheiss</person>
+					<role>Music</role>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Sunna Linn</person>
+					<role>2D Art</role>
+					<role>Corporate Design</role>
+					<role>Level Design</role>
+				</credit>
+				<credit>
+					<person>Finn Macri</person>
+					<role>2D Art</role>
+					<role>Level Design</role>
+				</credit>
+				<credit>
+					<person>Florian Oetke</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

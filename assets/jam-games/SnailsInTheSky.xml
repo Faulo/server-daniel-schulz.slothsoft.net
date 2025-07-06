@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Summer Game Jam 2024</title>
+	<site>Universität Bayreuth</site>
+	<theme>binary and beyond</theme>
+	<start-date datetime="2024-07-12" />
+	<end-date datetime="2024-07-14" />
+	<games>
+		<game>
+			<title>Snails in the Sky</title>
+			<description>A game about snails on a plane.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Snails in the Sky on itch.io</title>
+					<link>https://faulo.itch.io/snails-in-the-sky</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Snails in the Sky on GitHub</title>
+					<link>https://github.com/Faulo/SnailsInTheSky</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Katharina Broswik</person>
+					<role>3D Art</role>
+					<role>Tech Art</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+					<role>Game Design</role>
+				</credit>
+				<credit>
+					<person>Gregor Sönnichsen</person>
+					<role>Level Design</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

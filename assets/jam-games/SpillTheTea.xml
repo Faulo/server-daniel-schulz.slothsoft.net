@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Franken Game Jam 2023</title>
+	<site>Universität Bayreuth</site>
+	<theme>give or take</theme>
+	<start-date datetime="2023-11-03" />
+	<end-date datetime="2023-11-05" />
+	<website>https://itch.io/jam/franken-game-jam-2023/entries</website>
+	<games>
+		<game>
+			<title>Spill the Tea</title>
+			<description>A game about making friends and sharing secrets.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Spill the Tea on itch.io</title>
+					<link>https://faulo.itch.io/spill-the-tea</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Spill the Tea on GitHub</title>
+					<link>https://github.com/Faulo/SpillTheTea</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Elisabeth Harzbecker</person>
+					<role>Narrative Design</role>
+				</credit>
+				<credit>
+					<person>Aki Withers</person>
+					<role>UI Design</role>
+					<role>2D Art</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+					<role>Game Design</role>
+				</credit>
+				<credit>
+					<person>Tina Wolfrum</person>
+					<role>Project Management</role>
+					<role>UX Design</role>
+					<role>2D Art</role>
+				</credit>
+				<credit>
+					<person>Marie-Charleen Wrenger</person>
+					<role>Narrative Design</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

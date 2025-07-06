@@ -1,48 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
-  <title>Summer Game Jam 2021</title>
-  <site>Universität Bayreuth</site>
-  <theme>fremd</theme>
-  <start-date datetime="2021-07-09"/>
-  <end-date datetime="2021-07-11"/>
-  <games>
-    <game>
-      <title>Sonar Und Doch So Fern</title>
-      <description>A game about hidden truths and visible particles.</description>
-      <additionals>
-        <additional>
-          <title>Play and download Sonar Und Doch So Fern on itch.io</title>
-          <link>https://petrichorgames.itch.io/sonar-und-doch-so-fern</link>
-        </additional>
-        <additional>
-          <title>Browse source code of Sonar Und Doch So Fern on GitHub</title>
-          <link>https://github.com/Faulo/SonarUndDochSoFern</link>
-        </additional>
-        <additional>
-          <title>Download (Win64)</title>
-          <link>/Downloads/SonarUndDochSoFern.zip</link>
-        </additional>
-      </additionals>
-      <credits>
-        <credit>
-          <person>Katharina Broswik</person>
-          <role>VFX Design</role>
-          <role>UI Design</role>
-        </credit>
-        <credit>
-          <person>Elisabeth Harzbecker</person>
-          <role>2D Art</role>
-          <role>Sound Design</role>
-        </credit>
-        <credit>
-          <person>Daniel Schulz</person>
-          <role>Programming</role>
-        </credit>
-        <credit>
-          <person>Lena Voß</person>
-          <role>Level Design</role>
-        </credit>
-      </credits>
-    </game>
-  </games>
+	<title>Summer Game Jam 2021</title>
+	<site>Universität Bayreuth</site>
+	<theme>fremd</theme>
+	<start-date datetime="2021-07-09" />
+	<end-date datetime="2021-07-11" />
+	<games>
+		<game>
+			<title>Sonar Und Doch So Fern</title>
+			<description>A game about hidden truths and visible particles.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Sonar Und Doch So Fern on itch.io</title>
+					<link>https://petrichorgames.itch.io/sonar-und-doch-so-fern</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Sonar Und Doch So Fern on GitHub</title>
+					<link>https://github.com/Faulo/SonarUndDochSoFern</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Katharina Broswik</person>
+					<role>VFX Design</role>
+					<role>UI Design</role>
+				</credit>
+				<credit>
+					<person>Elisabeth Harzbecker</person>
+					<role>2D Art</role>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Lena Voß</person>
+					<role>Level Design</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
 </jam>

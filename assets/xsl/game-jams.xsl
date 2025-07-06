@@ -32,7 +32,7 @@
 					their contributions are not forgotten.
 				</p>
 				<p>
-					<xsl:text>If you find yourself listed in the credits of one of these games and would like me to update your portfolio (or equivalent), let me know. My Discord tag is: </xsl:text>
+					<xsl:text>If you find yourself listed in the credits of one of these games and would like me to update the URL to your portfolio (or equivalent), let me know. My Discord tag is: </xsl:text>
 					<code>faulolio</code>
 				</p>
 				<p>Just for fun, here are my most frequent collaborateurs: (Thanks, Kadda ♥)</p>

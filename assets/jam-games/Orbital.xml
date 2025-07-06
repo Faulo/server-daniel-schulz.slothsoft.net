@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Franken Game Jam 2019</title>
+	<site>Universität Bayreuth</site>
+	<theme>Back to the Couch</theme>
+	<start-date datetime="2019-06-28" />
+	<end-date datetime="2019-06-28" />
+	<website>https://www.games-bavaria.com/franken-gamejam-2019-am-28-juni-gehts-los/</website>
+	<games>
+		<game>
+			<title>Orbital</title>
+			<description>A game about capturing planets with friends.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Orbital on itch.io</title>
+					<link>https://faulo.itch.io/orbital</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Orbital on GitHub</title>
+					<link>https://github.com/Faulo/Orbital</link>
+				</additional>
+				<additional>
+					<title>Orbital on Game Jolt</title>
+					<link>https://gamejolt.com/games/Orbital/423264</link>
+				</additional>
+				<additional>
+					<title>Download (Win64)</title>
+					<link>/Downloads/Orbital.zip</link>
+				</additional>
+				<additional>
+					<title>Game Footage on YouTube</title>
+					<link>https://www.youtube.com/watch?v=WJ_OWL9xhEA</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Carl-Philipp Hellmuth</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Michael Hochmuth</person>
+					<role>Music</role>
+				</credit>
+				<credit>
+					<person>Jan Milosch</person>
+					<role>Programming</role>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Marius Muehleck</person>
+					<role>Programming</role>
+					<role>UI Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Ilona Treml</person>
+					<role>Art</role>
+					<role>Level Design</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

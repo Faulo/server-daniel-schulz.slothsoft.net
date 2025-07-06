@@ -2,12 +2,10 @@
 <jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
 	<title>mediale* 2012</title>
 	<site>Hochschule Darmstadt</site>
-	<theme>
-		<html:q>Die Götter müssen verrückt sein</html:q>
-		<html:span>[The gods must be crazy]</html:span>
-	</theme>
+	<theme xml:lang="de-de">Die Götter müssen verrückt sein</theme>
 	<start-date datetime="2012-05-21" />
 	<end-date datetime="2012-05-23" />
+	<website>http://www.mediale.org/</website>
 
 	<games>
 		<game>
@@ -26,7 +24,6 @@
 			<credits>
 				<credit>
 					<person>Arden Osthof</person>
-					<website>https://ardenosthof.com/</website>
 					<role>Art</role>
 				</credit>
 				<credit>

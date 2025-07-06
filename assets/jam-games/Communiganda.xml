@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Franken Game Jam 2018</title>
+	<site>Universität Bayreuth</site>
+	<theme>Niklas Luhmann</theme>
+	<start-date datetime="2018-11-02" />
+	<end-date datetime="2018-11-04" />
+	<website>https://medienwissenschaft.uni-bayreuth.de/wp-content/uploads/GameJam2018.4.pdf</website>
+	<games>
+		<game>
+			<title>Communiganda</title>
+			<description>A game about the futility of communication.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Communiganda on itch.io</title>
+					<link>https://faulo.itch.io/communiganda</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Communiganda on GitHub</title>
+					<link>https://github.com/Faulo/Communiganda</link>
+				</additional>
+				<additional>
+					<title>Communiganda on Game Jolt</title>
+					<link>https://gamejolt.com/games/communiganda/377389</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Sven Schäfer</person>
+					<role>Programming</role>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Lena Voß</person>
+					<role>Art</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

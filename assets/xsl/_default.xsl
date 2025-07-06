@@ -88,7 +88,11 @@
 			<h2>Jam Details</h2>
 			<dl>
 				<dt>
-					<xsl:value-of select="$jam/ssp:title" />
+					<xsl:call-template name="ssp:link">
+						<xsl:with-param name="link" select="$jam/ssp:website" />
+						<xsl:with-param name="name" select="$jam/ssp:title" />
+						<xsl:with-param name="rel" select="'external'" />
+					</xsl:call-template>
 				</dt>
 				<dt>Date:</dt>
 				<dd>
@@ -104,10 +108,34 @@
 				<dd>
 					<xsl:value-of select="$jam/ssp:site" />
 				</dd>
-				<dt>Theme:</dt>
-				<dd>
-					<xsl:copy-of select="$jam/ssp:theme/node()" />
-				</dd>
+				<xsl:for-each select="$jam/ssp:theme">
+					<dt>Theme:</dt>
+					<dd>
+						<xsl:choose>
+							<xsl:when test="*">
+								<xsl:copy-of select="node()" />
+							</xsl:when>
+							<xsl:when test="@xml:lang and @xml:lang != 'en-us'">
+								<q lang="{@xml:lang}">
+									<xsl:value-of select="." />
+								</q>
+								<xsl:text> </xsl:text>
+								<span>
+									<xsl:text>[</xsl:text>
+									<q data-dict=".">
+										<xsl:value-of select="." />
+									</q>
+									<xsl:text>]</xsl:text>
+								</span>
+							</xsl:when>
+							<xsl:otherwise>
+								<q>
+									<xsl:value-of select="." />
+								</q>
+							</xsl:otherwise>
+						</xsl:choose>
+					</dd>
+				</xsl:for-each>
 			</dl>
 		</article>
 
@@ -116,7 +144,7 @@
 				<h2>Credits</h2>
 				<dl>
 					<xsl:for-each select="ssp:credit">
-						<dt>
+						<dt data-dict="">
 							<xsl:call-template name="ssp:link">
 								<xsl:with-param name="link" select="ssp:website" />
 								<xsl:with-param name="name" select="ssp:person" />
@@ -163,6 +191,7 @@
 							<xsl:call-template name="ssp:link">
 								<xsl:with-param name="link" select="@href" />
 								<xsl:with-param name="name" select="concat(@name, '.zip')" />
+								<xsl:with-param name="rel" select="'me'" />
 							</xsl:call-template>
 						</li>
 					</xsl:for-each>

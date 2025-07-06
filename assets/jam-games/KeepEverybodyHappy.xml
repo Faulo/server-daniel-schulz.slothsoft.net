@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Democracy Jam 2019</title>
+	<site>Games Academy Berlin</site>
+	<theme xml:lang="de-de">Politik ist (k)ein Game</theme>
+	<start-date datetime="2019-10-04" />
+	<end-date datetime="2019-10-06" />
+	<website>https://www.stiftung-digitale-spielekultur.de/project/democracy-jam/</website>
+	<games>
+		<game>
+			<title>Keep Everybody Happy</title>
+			<description>A game about population and democracy.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Keep Everybody Happy on itch.io</title>
+					<link>https://faulo.itch.io/keep-everybody-happy</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Keep Everybody Happy on GitHub</title>
+					<link>https://github.com/Faulo/KeepEverybodyHappy</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Sven Schäfer</person>
+					<role>Programming</role>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

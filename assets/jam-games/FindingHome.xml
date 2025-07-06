@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Global Game Jam 2019</title>
+	<site>Universität Bayreuth</site>
+	<theme>What home means to you</theme>
+	<start-date datetime="2019-01-25" />
+	<end-date datetime="2019-01-27" />
+	<website>https://v3.globalgamejam.org/2019/jam-sites/universit%C3%A4t-bayreuth</website>
+	<games>
+		<game>
+			<title>Finding Home</title>
+			<description>A game about cooperative dungeon-crawling.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Finding Home on itch.io</title>
+					<link>https://faulo.itch.io/finding-home</link>
+				</additional>
+				<additional>
+					<title>Global Game Jam Entry Finding Home</title>
+					<link>https://globalgamejam.org/2019/games/split-artifact-finding-home</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Finding Home on GitHub</title>
+					<link>https://github.com/Faulo/FindingHome</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Alexander Dombert</person>
+					<role>Programming</role>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Daniele Schwanhäuser</person>
+					<role>3D Art</role>
+				</credit>
+				<credit>
+					<person>Nils Olbrecht</person>
+					<role>2D Art</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Lena Voß</person>
+					<role>3D Art</role>
+					<role>Level Design</role>
+				</credit>
+				<credit>
+					<person>Julia Wölfle</person>
+					<role>3D Art</role>
+				</credit>
+				<credit>
+					<person>Jennifer Weber</person>
+					<role>2D Art</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

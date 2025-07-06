@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Global Game Jam 2020</title>
+	<site>Universität Bayreuth</site>
+	<theme>Repair</theme>
+	<start-date datetime="2020-01-31" />
+	<end-date datetime="2020-02-02" />
+	<games>
+		<game>
+			<title>Watch Out!</title>
+			<description>A game about watchmaking.</description>
+			<additionals>
+				<additional>
+					<title>Download Watch Out! on itch.io</title>
+					<link>https://faulo.itch.io/watch-out</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Watch Out! on GitHub</title>
+					<link>https://github.com/Faulo/WatchOut</link>
+				</additional>
+				<additional>
+					<title>Download (Win64)</title>
+					<link>/Downloads/WatchOut.zip</link>
+				</additional>
+				<additional>
+					<title>Global Game Jam Entry Watch Out!</title>
+					<link>https://globalgamejam.org/2020/games/watch-out-9</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Katharina Broswik</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Eduardo Esqueche</person>
+					<role>Level Design</role>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Carl-Philipp Hellmuth</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>McKenzie Overby</person>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

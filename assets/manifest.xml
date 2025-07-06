@@ -6,9 +6,11 @@
 
 	<directory name="dictionary">
 		<resource-directory name="en-us-content" type="application/xml" />
+		<resource name="people" type="application/xml" />
 		<fragment name="en-us">
 			<use-template ref="/xsl/_dictionary" />
 			<use-document ref="/dictionary/en-us-content" />
+			<use-document ref="/dictionary/people" />
 		</fragment>
 	</directory>
 

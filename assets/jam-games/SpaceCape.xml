@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Spring Game Jam 2019</title>
+	<site>Universität Bayreuth</site>
+	<theme xml:lang="de-de">Zeit</theme>
+	<start-date datetime="2019-05-03" />
+	<end-date datetime="2019-05-05" />
+	<website>https://medienwissenschaft.uni-bayreuth.de/wp-content/uploads/GameJam2019.2.pdf</website>
+	<games>
+		<game>
+			<title>SpaceCape</title>
+			<description>A game about time-travelling stuff.</description>
+			<additionals>
+				<additional>
+					<title>Play and download SpaceCape on itch.io</title>
+					<link>https://stumbleduck.itch.io/spacecape</link>
+				</additional>
+				<additional>
+					<title>Browse source code of SpaceCape on GitHub</title>
+					<link>https://github.com/Faulo/SpaceCape</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Antonia Boschert</person>
+					<role>3D Art</role>
+					<role>2D Art</role>
+				</credit>
+				<credit>
+					<person>Katharina Broswik</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Matthias Kohn</person>
+					<role>3D Art</role>
+					<role>Sound Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

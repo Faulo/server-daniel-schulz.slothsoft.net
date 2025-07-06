@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+  <title>Global Game Jam 2023</title>
+  <site>Universität Bayreuth</site>
+  <theme>Roots</theme>
+  <start-date datetime="2023-02-03"/>
+  <end-date datetime="2023-02-05"/>
+  <games>
+    <game>
+      <title>Root Rush</title>
+      <description>A game about bright lines and exponential growth.</description>
+      <additionals>
+        <additional>
+          <title>Play and download Root Rush on itch.io</title>
+          <link>https://nico-export.itch.io/root-rush</link>
+        </additional>
+        <additional>
+          <title>Browse source code of Root Rush on GitHub</title>
+          <link>https://github.com/nicoexport/Rootlesnake</link>
+        </additional>
+      </additionals>
+      <credits>
+        <credit>
+          <person>Daniel Schulz</person>
+          <role>Technical Direction</role>
+        </credit>
+        <credit>
+          <person>Nadine Jachman</person>
+          <role>Game Design</role>
+          <role>Art</role>
+        </credit>
+        <credit>
+          <person>Sofia Haufe</person>
+          <role>Art</role>
+        </credit>
+        <credit>
+          <person>Philip</person>
+          <role>Sound Design</role>
+        </credit>
+        <credit>
+          <person>Pilipp Carl</person>
+          <role>Programming</role>
+        </credit>
+        <credit>
+          <person>Nico Auerswald</person>
+          <role>Project Management</role>
+          <role>Tech Art</role>
+        </credit>
+      </credits>
+    </game>
+  </games>
+</jam>

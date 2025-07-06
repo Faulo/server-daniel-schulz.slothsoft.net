@@ -80,7 +80,7 @@
 		</xsl:for-each>
 
 		<xsl:for-each select="$game/ssp:description">
-			<article>
+			<article class="about">
 				<h2>About</h2>
 				<p>
 					<xsl:copy-of select="node()" />
@@ -88,16 +88,16 @@
 			</article>
 		</xsl:for-each>
 
-		<article>
+		<article class="jam">
 			<h2>Jam Details</h2>
+			<p>
+				<xsl:call-template name="ssp:link">
+					<xsl:with-param name="link" select="$jam/ssp:website" />
+					<xsl:with-param name="name" select="$jam/ssp:title" />
+					<xsl:with-param name="rel" select="'external'" />
+				</xsl:call-template>
+			</p>
 			<dl>
-				<dt>
-					<xsl:call-template name="ssp:link">
-						<xsl:with-param name="link" select="$jam/ssp:website" />
-						<xsl:with-param name="name" select="$jam/ssp:title" />
-						<xsl:with-param name="rel" select="'external'" />
-					</xsl:call-template>
-				</dt>
 				<dt>Date:</dt>
 				<dd>
 					<xsl:call-template name="ssp:date">
@@ -112,8 +112,8 @@
 				<dd>
 					<xsl:value-of select="$jam/ssp:site" />
 				</dd>
+				<dt>Theme:</dt>
 				<xsl:for-each select="$jam/ssp:theme">
-					<dt>Theme:</dt>
 					<dd>
 						<xsl:choose>
 							<xsl:when test="*">
@@ -144,7 +144,7 @@
 		</article>
 
 		<xsl:for-each select="$game/ssp:credits">
-			<article>
+			<article class="credits">
 				<h2>Credits</h2>
 				<dl>
 					<xsl:for-each select="ssp:credit">
@@ -166,7 +166,7 @@
 		</xsl:for-each>
 
 		<xsl:if test="$game/ssp:trailers | $videos">
-			<article>
+			<article class="videos">
 				<h2>Videos</h2>
 				<xsl:for-each select="$game/ssp:trailers/ssp:trailer">
 					<figure>
@@ -191,7 +191,7 @@
 		</xsl:if>
 
 		<xsl:if test="$images">
-			<article>
+			<article class="screenshots">
 				<h2>Screenshots</h2>
 				<xsl:for-each select="$images">
 					<figure>
@@ -205,7 +205,7 @@
 		</xsl:if>
 
 		<xsl:for-each select="$game/ssp:additionals">
-			<article>
+			<article class="links">
 				<h2>Links</h2>
 				<ul>
 					<xsl:for-each select="ssp:additional">
@@ -226,7 +226,7 @@
 		</xsl:for-each>
 
 		<xsl:if test="$downloads">
-			<article>
+			<article class="downloads">
 				<h2>Downloads</h2>
 				<ul>
 					<xsl:for-each select="$downloads">

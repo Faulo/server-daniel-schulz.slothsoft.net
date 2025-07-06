@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Game Dev Week 2023</title>
+	<site>Hochschule Trier</site>
+	<theme>Dream Logic</theme>
+	<theme>Dimensional Chaos</theme>
+	<start-date datetime="2023-03-13" />
+	<end-date datetime="2023-03-19" />
+	<website>https://itch.io/jam/gamedevweek-2023</website>
+	<games>
+		<game>
+			<title>Follow Your Dreams</title>
+			<description>A game about the dreams within dreams.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Follow Your Dreams on itch.io</title>
+					<link>https://stumbleduck.itch.io/follow-your-dreams</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Follow Your Dreams on GitHub</title>
+					<link>https://github.com/Faulo/FollowYourDreams</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Katharina Broswik</person>
+					<role>2D Art</role>
+					<role>UI</role>
+					<role>Game Design</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+					<role>Game Design</role>
+				</credit>
+				<credit>
+					<person>Fabian Nausner</person>
+					<role>2D Art</role>
+					<role>Sound Design</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

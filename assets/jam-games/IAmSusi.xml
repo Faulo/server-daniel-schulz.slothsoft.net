@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+  <title>Franken Game Jam 2022</title>
+  <site>Universität Bayreuth</site>
+  <theme>Two Worlds</theme>
+  <start-date datetime="2022-11-04"/>
+  <end-date datetime="2022-11-06"/>
+  <games>
+    <game>
+      <title>I Am Susi</title>
+      <description>A game about migration and annihilation.</description>
+      <additionals>
+        <additional>
+          <title>Play and download I Am Susi on itch.io</title>
+          <link>https://faulo.itch.io/i-am-susi</link>
+        </additional>
+        <additional>
+          <title>Browse source code of I Am Susi on GitHub</title>
+          <link>https://github.com/Glowdragon/i-am-susi-game</link>
+        </additional>
+      </additionals>
+      <credits>
+        <credit>
+          <person>Daniel Schulz</person>
+          <role>Programming</role>
+        </credit>
+        <credit>
+          <person>Benedikt Hülsmann</person>
+          <role>Art</role>
+        </credit>
+        <credit>
+          <person>Daniel Kreitsch</person>
+          <role>Programming</role>
+        </credit>
+        <credit>
+          <person>Konrad</person>
+          <role>Audio</role>
+        </credit>
+      </credits>
+    </game>
+  </games>
+</jam>

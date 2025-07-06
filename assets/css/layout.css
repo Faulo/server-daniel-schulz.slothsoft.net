@@ -104,7 +104,8 @@ nav figure>* {
 nav figure figcaption {
 	padding-left: 8px;
 	line-height: 48px;
-	font-size: 22px; font-weight : bold;
+	font-size: 22px;
+	font-weight: bold;
 	color: #214d27;
 	font-weight: bold;
 }
@@ -315,4 +316,36 @@ main figure+figure {
 	display: inline-block;
 	width: 1em;
 	text-align: left;
+}
+
+.jam dl, .credits dl {
+	margin: 0;
+	padding-left: 1em;
+}
+
+.jam dt, .credits dt {
+	font-weight: bold;
+	display: inline;
+}
+
+.jam dd, .credits dd {
+	margin: 0;
+	display: inline;
+}
+
+.jam dd::before {
+	content: " ";
+}
+
+.credits dt+dd::before {
+	content: " - ";
+}
+
+.jam dd+dd::before, .credits dd+dd::before {
+	content: " | ";
+}
+
+.jam dd+dt::before, .credits dd+dt::before {
+	content: "\A";
+	white-space: pre;
 }

@@ -1351,16 +1351,16 @@
         },
         {
             "name": "slothsoft/schema",
-            "version": "1.3.3",
+            "version": "1.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-schema.git",
-                "reference": "966fef80d992742e4769dc167f21b68a11857f68"
+                "reference": "a81fd555639829bd97045ed176069eade1a112ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-schema/zipball/966fef80d992742e4769dc167f21b68a11857f68",
-                "reference": "966fef80d992742e4769dc167f21b68a11857f68",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-schema/zipball/a81fd555639829bd97045ed176069eade1a112ba",
+                "reference": "a81fd555639829bd97045ed176069eade1a112ba",
                 "shasum": ""
             },
             "require": {
@@ -1404,9 +1404,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-schema/issues",
-                "source": "https://github.com/Faulo/slothsoft-schema/tree/1.3.3"
+                "source": "https://github.com/Faulo/slothsoft-schema/tree/1.3.4"
             },
-            "time": "2025-07-06T13:30:03+00:00"
+            "time": "2025-07-06T15:10:21+00:00"
         },
         {
             "name": "slothsoft/tetris",

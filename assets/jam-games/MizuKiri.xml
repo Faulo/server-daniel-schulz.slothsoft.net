@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+  <title>Summer Game Jam 2022</title>
+  <site>Universität Bayreuth</site>
+  <theme>Minimum Viable</theme>
+  <start-date datetime="2022-07-15"/>
+  <end-date datetime="2022-07-17"/>
+  <games>
+    <game>
+      <title>Mizu Kiri</title>
+      <description>A game about skipping and skimming.</description>
+      <additionals>
+        <additional>
+          <title>Play and download Mizu Kiri on itch.io</title>
+          <link>https://faulo.itch.io/mizu-kiri</link>
+        </additional>
+        <additional>
+          <title>Browse source code of Mizu Kiri on GitHub</title>
+          <link>https://github.com/Faulo/MizuKiri</link>
+        </additional>
+      </additionals>
+      <credits>
+        <credit>
+          <person>Daniel Schulz</person>
+          <role>Everything</role>
+        </credit>
+      </credits>
+    </game>
+  </games>
+</jam>

@@ -83,7 +83,7 @@
 	</xsl:template>
 
 	<xsl:template match="*[@name = 'jam-games']">
-		<page name="GameJams" ref="pages/default" status-active="" status-public="">
+		<page name="GameJams" ref="pages/game-jams" status-active="" status-public="">
 			<xsl:for-each select=".//sfm:document-info">
 				<xsl:sort select=".//ssp:start-date/@datetime" />
 				<xsl:variable name="title" select="concat(translate(.//ssp:jam/ssp:title, ' ', '&#160;'), ': ', translate(.//ssp:game/ssp:title, ' ', '&#160;'))" />

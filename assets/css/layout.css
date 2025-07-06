@@ -319,17 +319,17 @@ main figure+figure {
 	text-align: left;
 }
 
-.jam dl, .credits dl {
+dl.tabled-list {
 	margin: 0;
 	padding-left: 1em;
 }
 
-.jam dt, .credits dt {
+dl.tabled-list dt {
 	font-weight: bold;
 	display: inline;
 }
 
-.jam dd, .credits dd {
+dl.tabled-list dd {
 	margin: 0;
 	display: inline;
 }
@@ -342,11 +342,27 @@ main figure+figure {
 	content: " - ";
 }
 
-.jam dd+dd::before, .credits dd+dd::before {
+dl.tabled-list dd+dd::before {
 	content: " | ";
 }
 
-.jam dd+dt::before, .credits dd+dt::before {
+dl.tabled-list dd+dt::before {
 	content: "\A";
 	white-space: pre;
+}
+
+.collab dl.tabled-list {
+	padding-left: 2em;
+}
+
+.collab dl.tabled-list dt {
+	display: block;
+}
+
+.collab dl.tabled-list dt {
+	margin-left: -1em;
+}
+
+.collab dl.tabled-list dd {
+	font-size: smaller;
 }

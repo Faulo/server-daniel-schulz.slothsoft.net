@@ -44,6 +44,14 @@
 		<fragment name="default">
 			<import ref="/api/default" />
 		</fragment>
+		<fragment name="game-jams">
+			<import ref="/api/default" />
+			<fragment use="document" name="content">
+				<use-template ref="/xsl/game-jams" />
+				<use-document ref="//slothsoft@farah/sites" name="sites" />
+				<use-document ref="/jam-games?load=tree" name="jam-games" />
+			</fragment>
+		</fragment>
 		<fragment name="game-jam">
 			<import ref="/api/default" />
 			<use-document ref="/jam-game-images" name="images" />

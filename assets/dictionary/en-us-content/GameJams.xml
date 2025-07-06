@@ -20,11 +20,4 @@
 	<p key="Pengwing.Gameplay">To freedom!</p>
 
 	<p key="GameJams">Game Jams</p>
-	<p key="GameJams/content">
-		<article>
-			<h2>06.07.2025</h2>
-			<p>This is a catalog of every game jam game I've ever worked on, the game jam that inspired them, and the people that were involved in their creation. It's become quite a list.</p>
-			<p><![CDATA[Most of these link to ]]><a href="https://faulo.itch.io/" rel="external" target="_blank">my itch.io profile</a><![CDATA[ (or someone else's), where they can be played, too.]]></p>
-		</article>
-	</p>
 </html>

@@ -39,14 +39,13 @@
 								</xsl:apply-templates>
 							</xsl:when>
 							<xsl:when test="$content">
-								<xsl:copy-of select="$content/node()" />
+								<xsl:copy-of select="$content/*/node()" />
 							</xsl:when>
 							<xsl:otherwise>
 								<h1 data-dict="">
 									<xsl:value-of select="$requestedPage/@title" />
 								</h1>
-
-								<div data-dict="">
+								<div data-dict=".">
 									<xsl:value-of select="$requestedPage/@name" />
 									<xsl:text>/content</xsl:text>
 								</div>

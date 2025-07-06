@@ -22,7 +22,7 @@
 			<body>
 				<div class="page">
 					<nav>
-						<h2 class="hidden">Navigation</h2>
+						<!-- <h2 class="hidden">Navigation</h2> -->
 						<xsl:copy-of select="*[@name='navi']/node()" />
 					</nav>
 					<main>

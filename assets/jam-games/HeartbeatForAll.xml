@@ -11,6 +11,7 @@
 	<games>
 		<game>
 			<title>Heartbeat for All</title>
+			<description>A game about making friends and letting go.</description>
 			<additionals>
 				<additional>
 					<title>Global Game Jam Entry</title>
@@ -37,6 +38,7 @@
 				</credit>
 				<credit>
 					<person>Denise Sostre</person>
+					<website>https://denise-sostre.carrd.co/</website>
 					<role>Art</role>
 				</credit>
 				<credit>

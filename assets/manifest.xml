@@ -19,6 +19,7 @@
 		<use-document ref="/api/build" name="builds" />
 		<use-document ref="/downloads" name="downloads" />
 		<use-document ref="/resumes" name="resumes" />
+		<use-document ref="/jam-games?load=tree" name="jam-games" />
 	</directory>
 
 	<resource-directory name="downloads" path="downloads" type="*/*" />
@@ -40,7 +41,7 @@
 		</fragment>
 		<fragment name="game-jam">
 			<import ref="/api/default" />
-            <use-document ref="//slothsoft@farah/request" name="request" />
+			<use-document ref="//slothsoft@farah/request" name="request" />
 		</fragment>
 		<fragment name="tetris">
 			<import ref="/api/default" />

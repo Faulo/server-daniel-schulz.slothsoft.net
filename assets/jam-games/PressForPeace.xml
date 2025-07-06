@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>One Button Jam 2025</title>
+	<site>Universität Bayreuth</site>
+	<theme>SOLO</theme>
+	<start-date datetime="2025-06-13" />
+	<end-date datetime="2025-06-15" />
+	<website>https://gamejam.uni-bayreuth.de/wp-content/uploads/sites/9/2025/06/GameJam2025.2-One-Button-1.pdf</website>
+	<games>
+		<game>
+			<title>Press for Peace</title>
+			<description>A game about the burden of unlimited wealth.</description>
+			<additionals>
+				<additional>
+					<title>Play on itch.io</title>
+					<link>https://gregorsoenn.itch.io/press-for-peace</link>
+				</additional>
+				<additional>
+					<title>Browse source code on GitHub</title>
+					<link>https://github.com/gregorhcs/SpringGameJam25_Reigns</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>2D Art</role>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Gregor Sönnichsen</person>
+					<role>Programming</role>
+					<role>Sound Design</role>
+					<role>Music</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

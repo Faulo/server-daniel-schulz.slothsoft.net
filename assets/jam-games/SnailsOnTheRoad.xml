@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Franken Game Jam 2024</title>
+	<site>Universität Bayreuth</site>
+	<theme>end where you begin</theme>
+	<start-date datetime="2024-11-15" />
+	<end-date datetime="2024-11-17" />
+	<website>https://itch.io/jam/franken-game-jam-2024/entries</website>
+	<games>
+		<game>
+			<title>Snails on the Road</title>
+			<description>A game about about going fast.</description>
+			<additionals>
+				<additional>
+					<title>Play on itch.io</title>
+					<link>https://faulo.itch.io/snails-on-the-road</link>
+				</additional>
+				<additional>
+					<title>Browse source code on GitHub</title>
+					<link>https://github.com/Faulo/SnailsOnTheRoad</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Katharina Broswik</person>
+					<role>2D Art</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+					<role>Game Design</role>
+				</credit>
+				<credit>
+					<person>Gregor Sönnichsen</person>
+					<role>Music</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

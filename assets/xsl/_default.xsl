@@ -31,7 +31,10 @@
 
 						<xsl:choose>
 							<xsl:when test="$documentURI">
-								<xsl:apply-templates select="document($documentURI)" mode="content" />
+								<xsl:apply-templates select="document($documentURI)" mode="content">
+									<xsl:with-param name="images" select="*[@name='images']//sfm:manifest-info[starts-with(@name, $requestedPage/@name)]" />
+									<xsl:with-param name="downloads" select="*[@name='downloads']//sfm:manifest-info[starts-with(@name, $requestedPage/@name)]" />
+								</xsl:apply-templates>
 							</xsl:when>
 							<xsl:when test="$content">
 								<xsl:copy-of select="$content/node()" />
@@ -54,6 +57,9 @@
 	</xsl:template>
 
 	<xsl:template match="ssp:jam" mode="content">
+		<xsl:param name="images" select="/.." />
+		<xsl:param name="downloads" select="/.." />
+
 		<xsl:variable name="jam" select="." />
 		<xsl:variable name="game" select=".//ssp:game" />
 
@@ -62,6 +68,12 @@
 			<xsl:text>: </xsl:text>
 			<xsl:value-of select="$game/ssp:title" />
 		</h1>
+
+		<xsl:for-each select="$images[1]">
+			<figure>
+				<img src="{@href}" alt="{@name}" />
+			</figure>
+		</xsl:for-each>
 
 		<xsl:for-each select="$game/ssp:description">
 			<article>
@@ -108,6 +120,7 @@
 							<xsl:call-template name="ssp:link">
 								<xsl:with-param name="link" select="ssp:website" />
 								<xsl:with-param name="name" select="ssp:person" />
+								<xsl:with-param name="rel" select="'external'" />
 							</xsl:call-template>
 						</dt>
 						<xsl:for-each select="ssp:role">
@@ -129,6 +142,7 @@
 							<xsl:call-template name="ssp:link">
 								<xsl:with-param name="link" select="ssp:link" />
 								<xsl:with-param name="name" select="ssp:title" />
+								<xsl:with-param name="rel" select="'external'" />
 							</xsl:call-template>
 							<xsl:if test="ssp:description">
 								<br />
@@ -139,5 +153,21 @@
 				</ul>
 			</article>
 		</xsl:for-each>
+
+		<xsl:if test="$downloads">
+			<article>
+				<h2>Downloads</h2>
+				<ul>
+					<xsl:for-each select="$downloads">
+						<li>
+							<xsl:call-template name="ssp:link">
+								<xsl:with-param name="link" select="@href" />
+								<xsl:with-param name="name" select="concat(@name, '.zip')" />
+							</xsl:call-template>
+						</li>
+					</xsl:for-each>
+				</ul>
+			</article>
+		</xsl:if>
 	</xsl:template>
 </xsl:stylesheet>

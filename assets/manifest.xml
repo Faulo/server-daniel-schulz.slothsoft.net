@@ -13,6 +13,8 @@
 	</directory>
 
 	<resource-directory name="jam-games" type="application/xml" />
+	<resource-directory name="jam-game-images" path="jam-games" type="image/png" />
+	<resource-directory name="jam-game-downloads" path="jam-games" type="application/zip" />
 
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />
@@ -41,7 +43,8 @@
 		</fragment>
 		<fragment name="game-jam">
 			<import ref="/api/default" />
-			<use-document ref="//slothsoft@farah/request" name="request" />
+			<use-document ref="/jam-game-images" name="images" />
+			<use-document ref="/jam-game-downloads" name="downloads" />
 		</fragment>
 		<fragment name="tetris">
 			<import ref="/api/default" />

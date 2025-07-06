@@ -85,7 +85,9 @@
 	<xsl:template match="*[@name = 'jam-games']">
 		<page name="GameJams" ref="pages/default" status-active="" status-public="">
 			<xsl:for-each select=".//sfm:document-info">
-				<page name="{@name}" ref="pages/game-jam?document={@url}" status-active="" status-public="" />
+				<xsl:sort select=".//ssp:start-date/@datetime" />
+				<xsl:variable name="title" select="concat(translate(.//ssp:jam/ssp:title, ' ', '&#160;'), ': ', translate(.//ssp:game/ssp:title, ' ', '&#160;'))" />
+				<page name="{@name}" title="{$title}" ref="pages/game-jam?document={@url}" status-active="" status-public="" />
 			</xsl:for-each>
 		</page>
 	</xsl:template>

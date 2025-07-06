@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
-	<title>mediale* Game Development Contest</title>
+	<title>mediale* 2012</title>
 	<site>Hochschule Darmstadt</site>
 	<theme>
 		<html:q>Die Götter müssen verrückt sein</html:q>
@@ -16,7 +16,7 @@
 			<additionals>
 				<additional>
 					<title>Playable version on slothsoft.net</title>
-					<link>https://slothsoft.net/WhatTheHell/</link>
+					<link>https://slothsoft.net/WhatTheHell/Game/</link>
 				</additional>
 				<additional>
 					<title>Source code on GitHub</title>

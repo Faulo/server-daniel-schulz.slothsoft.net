@@ -12,16 +12,16 @@
 			<description>A game about cooperative dungeon-crawling.</description>
 			<additionals>
 				<additional>
-					<title>Play and download Finding Home on itch.io</title>
+					<title>Play on itch.io</title>
 					<link>https://faulo.itch.io/finding-home</link>
 				</additional>
 				<additional>
-					<title>Global Game Jam Entry Finding Home</title>
-					<link>https://globalgamejam.org/2019/games/split-artifact-finding-home</link>
+					<title>Browse source code on GitHub</title>
+					<link>https://github.com/Faulo/FindingHome</link>
 				</additional>
 				<additional>
-					<title>Browse source code of Finding Home on GitHub</title>
-					<link>https://github.com/Faulo/FindingHome</link>
+					<title>Global Game Jam Entry</title>
+					<link>https://globalgamejam.org/2019/games/split-artifact-finding-home</link>
 				</additional>
 			</additionals>
 			<credits>

@@ -11,8 +11,8 @@
 	<p key="Lieber Nicht...">better not...</p>
 	<p key="Klimaaußenpolitik">foreign climate policy</p>
 	<p key="Wenn ich das nur gewusst hätte...">if only I'd known...</p>
-	
-	
+	<p key="Kaputt">broken</p>
+
 	<p key="BackToTheChicken.Intro.mp4">The intro didn't make it into the game, so watch it here!</p>
 	<p key="BackToTheChicken.Gameplay">Explore a lavishly furnished house!</p>
 	<p key="ReverseSlender.mp4">No trespassing in the haunted forest!</p>
@@ -24,8 +24,9 @@
 	<p key="GameJams">Game Jams</p>
 	<p key="GameJams/content">
 		<article>
-			<h2>12.11.2019</h2>
-			<p>They might not be pretty, but they're mine.</p>
+			<h2>06.07.2025</h2>
+			<p>This is a catalog of every game jam game I've ever worked on, the game jam that inspired them, and the people that were involved in their creation. It's become quite a list.</p>
+			<p><![CDATA[Most of these link to ]]><a href="https://faulo.itch.io/" rel="external" target="_blank">my itch.io profile</a><![CDATA[ (or someone else's), where they can be played, too.]]></p>
 		</article>
 	</p>
 

@@ -12,16 +12,16 @@
 			<description>A game about a lord, some rings, and lots of noisy cats.</description>
 			<additionals>
 				<additional>
-					<title>Play and download Cats in Costumes on itch.io</title>
+					<title>Play on itch.io</title>
 					<link>https://stumbleduck.itch.io/cats-in-costumes</link>
 				</additional>
 				<additional>
-					<title>Global Game Jam Entry Cats in Costumes</title>
-					<link>https://globalgamejam.org/games/2024/cats-costumes-1</link>
+					<title>Browse source code on GitHub</title>
+					<link>https://github.com/KaddaStrophe/GGJ24_CatsInCostumes</link>
 				</additional>
 				<additional>
-					<title>Browse source code of Cats in Costumes on GitHub</title>
-					<link>https://github.com/KaddaStrophe/GGJ24_CatsInCostumes</link>
+					<title>Global Game Jam Entry</title>
+					<link>https://globalgamejam.org/games/2024/cats-costumes-1</link>
 				</additional>
 			</additionals>
 			<credits>

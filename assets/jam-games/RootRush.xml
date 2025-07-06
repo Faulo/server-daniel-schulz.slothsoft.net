@@ -12,12 +12,16 @@
 			<description>A game about bright lines and exponential growth.</description>
 			<additionals>
 				<additional>
-					<title>Play and download Root Rush on itch.io</title>
+					<title>Play on itch.io</title>
 					<link>https://nico-export.itch.io/root-rush</link>
 				</additional>
 				<additional>
-					<title>Browse source code of Root Rush on GitHub</title>
+					<title>Browse source code on GitHub</title>
 					<link>https://github.com/nicoexport/Rootlesnake</link>
+				</additional>
+				<additional>
+					<title>Global Game Jam Entry</title>
+					<link>https://v3.globalgamejam.org/2023/games/rootrush-9</link>
 				</additional>
 			</additionals>
 			<credits>

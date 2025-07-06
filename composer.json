@@ -19,6 +19,7 @@
 	"require" : {
 		"slothsoft/core" : "^1.11",
 		"slothsoft/farah" : "^1.12",
+		"slothsoft/schema" : "^1.3",
 		"slothsoft/tetris" : "^1.0"
 	},
 	"require-dev" : {

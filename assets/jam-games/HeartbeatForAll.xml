@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Global Game Jam 2013</title>
+	<site>Hochschule Darmstadt</site>
+	<theme>
+		<html:a href="https://www.youtube.com/watch?v=h_lTq6XL-AE" rel="external">[The sound of a heartbeat]</html:a>
+	</theme>
+	<start-date datetime="2013-01-25" />
+	<end-date datetime="2013-01-27" />
+
+	<games>
+		<game>
+			<title>Heartbeat for All</title>
+			<additionals>
+				<additional>
+					<title>Global Game Jam Entry</title>
+					<link>http://2013.globalgamejam.org/2013/heartbeat-all</link>
+				</additional>
+				<additional>
+					<title>Download (Win32)</title>
+					<link>/Downloads/HeartbeatForAll.zip</link>
+				</additional>
+				<additional>
+					<title>Source code on GitHub</title>
+					<link>https://github.com/Faulo/HeartbeatForAll/</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Arden Osthof</person>
+					<website>https://ardenosthof.com/</website>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Denise Sostre</person>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>Daniel van Westen</person>
+					<role>Art</role>
+				</credit>
+				<credit>
+					<person>Alexander Röhrscheid</person>
+					<role>Programming</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

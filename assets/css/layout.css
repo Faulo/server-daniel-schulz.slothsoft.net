@@ -296,6 +296,7 @@ main figure, main figure>img, main figure>video, main figure>figcaption,
 	max-width: 100%;
 	display: block;
 	margin: auto;
+	border: none;
 }
 
 main figure>figcaption {

@@ -171,7 +171,7 @@
 				<h2>Videos</h2>
 				<xsl:for-each select="$game/ssp:trailers/ssp:trailer">
 					<figure>
-						<iframe width="800" height="450" src="https://www.youtube.com/embed/{ssp:youtube}" title="YouTube video player" frameborder="0"
+						<iframe width="800" height="450" src="https://www.youtube.com/embed/{ssp:youtube}" title="YouTube video player"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" />
 						<figcaption>
 							<xsl:value-of select="ssp:name" />
@@ -180,7 +180,7 @@
 				</xsl:for-each>
 				<xsl:for-each select="$videos">
 					<figure>
-						<video controls="controls">
+						<video width="800" height="450" controls="controls">
 							<source src="{@href}" type="video/mp4" />
 						</video>
 						<figcaption data-dict="">

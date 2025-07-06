@@ -11,7 +11,11 @@
 
 			<article>
 				<h2>About</h2>
-				<p>This is a catalog of every game jam game I've ever worked on, the game jam that inspired them, and the people that were involved in their creation. It's become quite a list.</p>
+				<p>This is a catalog of every game jam game I've ever worked on.
+					It includes some screenshots, the game jam that inspired them, and the people that were involved in their creation.
+					It's become quite
+					a list.
+				</p>
 				<p>
 					<xsl:text>Most of these link to </xsl:text>
 					<a href="https://faulo.itch.io/" rel="external" target="_blank">my itch.io profile</a>
@@ -21,6 +25,12 @@
 
 			<article class="collab">
 				<h2>Collaborateurs</h2>
+				<p>
+					I could not have made these games on my own.
+					Other than the games that I did make on my own.
+					Point is, I'm grateful for all the cool peeps that helped me along the way, and I want to make sure
+					their contributions are not forgotten.
+				</p>
 				<p>
 					<xsl:text>If you find yourself listed in the credits of one of these games and would like me to update your portfolio (or equivalent), let me know. My Discord tag is: </xsl:text>
 					<code>faulolio</code>

@@ -1,60 +1,60 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
-  <title>Spring Game Jam 2022</title>
-  <site>Universität Bayreuth</site>
-  <theme>little boxes</theme>
-  <start-date datetime="2022-04-29"/>
-  <end-date datetime="2022-05-01"/>
-  <games>
-    <game>
-      <title>Brie Yourself</title>
-      <description>A game about the circle of life from the perspective of a block of cheese.</description>
-      <additionals>
-        <additional>
-          <title>Play and download Brie Yourself on itch.io</title>
-          <link>https://elisabeth-harzbecker.itch.io/brie-yourself</link>
-        </additional>
-        <additional>
-          <title>Browse source code of Brie Yourself on GitHub</title>
-          <link>https://github.com/Faulo/BrieYourself</link>
-        </additional>
-      </additionals>
-      <credits>
-        <credit>
-          <person>Nico Auerswald</person>
-          <role>Programming</role>
-        </credit>
-        <credit>
-          <person>Katharina Broswik</person>
-          <role>3D Art</role>
-          <role>Sound Design</role>
-          <role>VFX</role>
-          <role>Voice Acting</role>
-        </credit>
-        <credit>
-          <person>Elisabeth Harzbecker</person>
-          <role>3D Art</role>
-          <role>Animation</role>
-        </credit>
-        <credit>
-          <person>Ruben Schäfer</person>
-          <role>Level Design</role>
-          <role>Animation</role>
-        </credit>
-        <credit>
-          <person>Nic Schilling</person>
-          <role>Music</role>
-        </credit>
-        <credit>
-          <person>Daniel Schulz</person>
-          <role>Programming</role>
-        </credit>
-        <credit>
-          <person>Lena Voß</person>
-          <role>3D Art</role>
-          <role>UI Design</role>
-        </credit>
-      </credits>
-    </game>
-  </games>
+	<title>Spring Game Jam 2022</title>
+	<site>Universität Bayreuth</site>
+	<theme>little boxes</theme>
+	<start-date datetime="2022-04-29" />
+	<end-date datetime="2022-05-01" />
+	<games>
+		<game>
+			<title>Brie Yourself</title>
+			<description>A game about the circle of life from the perspective of a block of cheese.</description>
+			<additionals>
+				<additional>
+					<title>Play and download Brie Yourself on itch.io</title>
+					<link>https://elisabeth-harzbecker.itch.io/brie-yourself</link>
+				</additional>
+				<additional>
+					<title>Browse source code of Brie Yourself on GitHub</title>
+					<link>https://github.com/Faulo/BrieYourself</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Nico Auerswald</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Katharina Broswik</person>
+					<role>3D Art</role>
+					<role>Sound Design</role>
+					<role>VFX</role>
+					<role>Voice Acting</role>
+				</credit>
+				<credit>
+					<person>Elisabeth Harzbecker</person>
+					<role>3D Art</role>
+					<role>Animation</role>
+				</credit>
+				<credit>
+					<person>Ruben Schäfer</person>
+					<role>Level Design</role>
+					<role>Animation</role>
+				</credit>
+				<credit>
+					<person>Nic Schilling</person>
+					<role>Music</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Lena Voß</person>
+					<role>3D Art</role>
+					<role>UI Design</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
 </jam>

@@ -96,7 +96,7 @@
 					<xsl:with-param name="rel" select="'external'" />
 				</xsl:call-template>
 			</p>
-			<dl>
+			<dl class="tabled-list">
 				<dt>Date:</dt>
 				<dd>
 					<xsl:call-template name="ssp:date">
@@ -145,7 +145,7 @@
 		<xsl:for-each select="$game/ssp:credits">
 			<article class="credits">
 				<h2>Credits</h2>
-				<dl>
+				<dl class="tabled-list">
 					<xsl:for-each select="ssp:credit">
 						<xsl:sort select="ssp:person" />
 						<dt data-dict="">

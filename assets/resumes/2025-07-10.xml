@@ -1,0 +1,167 @@
+<resume xmlns:html="http://www.w3.org/1999/xhtml">
+	<name>Daniel Schulz</name>
+	<phone>+4915784518211</phone>
+	<email>daniel.lio.schulz@gmail.com</email>
+	<nationality>German</nationality>
+
+	<address>
+		<street>Bussardweg 23</street>
+		<city>Bayreuth</city>
+		<country>Germany</country>
+		<postal-code>95445</postal-code>
+	</address>
+
+	<photo>/slothsoft@daniel-schulz.slothsoft.net/static/images/Daniel-face</photo>
+
+	<job>Game Developer</job>
+	<profile>
+		<html:p>As a designer, my games are about satisfying character controllers and not hurting people.</html:p>
+		<html:p>As a programmer, my code is clean and test-driven, with a particular focus on tools for automation and easy content authoring.</html:p>
+		<html:p>Let's make the world a cuter place! &lt;3</html:p>
+	</profile>
+
+	<link href="https://faulo.itch.io/">Play my games on itch.io</link>
+	<link href="https://www.linkedin.com/in/daniel-schulz-39abb5236/">Message me via LinkedIn</link>
+	<link href="https://daniel-schulz.slothsoft.net/">See side projects on my portfolio</link>
+
+	<skills name="Languages">
+		<skill level="5">German</skill>
+		<skill level="5">English</skill>
+	</skills>
+
+	<skills name="Skills">
+		<skill level="5">C#</skill>
+		<skill level="5">Unity</skill>
+		<skill level="4">DevOps, Docker, Jenkins</skill>
+		<skill level="4">PHP, XML, HTML, CSS</skill>
+		<skill level="3">Game Design</skill>
+		<skill level="4">Magic: The Gathering</skill>
+		<skill level="3">Beat Saber</skill>
+	</skills>
+
+	<section name="Employment History">
+
+		<occupation>
+			<job>Game Developer</job>
+			<employer>Ulisses Digital</employer>
+			<location>Remote</location>
+			<start month="06" year="2022" />
+			<end month="06" year="2025" />
+			<description>
+				<html:p>
+					Gameplay Programming and DevOps Engineering for
+					<html:a href="https://store.steampowered.com/app/2100400/Hexxen_Hunters/" rel="external" target="_blank">Hexxen: Hunters</html:a><![CDATA[.]]></html:p>
+			</description>
+		</occupation>
+
+
+		<occupation>
+			<job>Tutor</job>
+			<employer>Angewandte Informatik V</employer>
+			<location>University of Bayreuth</location>
+			<start month="10" year="2019" />
+			<end month="03" year="2021" />
+			<description>
+				<html:p>
+					Teaching Unity and C# to first-year students of
+					<html:a href="https://www.uni-bayreuth.de/master/computerspielwissenschaften">Computer Game Studies</html:a><![CDATA[.]]></html:p>
+			</description>
+		</occupation>
+
+
+		<occupation>
+			<job>Software Developer</job>
+			<employer>Antavent Solutions GmbH</employer>
+			<location>Dresden</location>
+			<start month="09" year="2018" />
+			<end month="07" year="2019" />
+			<description>
+				<html:p>Backend Programming in PHP.</html:p>
+			</description>
+		</occupation>
+
+
+		<occupation>
+			<job>Software Developer</job>
+			<employer>Ingenieurbüro Paul</employer>
+			<location>Dresden</location>
+			<start month="03" year="2012" />
+			<end month="08" year="2017" />
+			<description>
+				<html:p>Web Design &amp; Development for various websites, Backend Programming in PHP.</html:p>
+			</description>
+		</occupation>
+
+	</section>
+
+	<section name="Education">
+		<occupation>
+			<job>Master of Science</job>
+			<employer>University of Bayreuth</employer>
+			<location>Bayreuth</location>
+			<start month="10" year="2018" />
+			<end month="03" year="2025" />
+			<description>
+				<html:p>
+					Computerspielwissenschaften
+					<html:i>(video game studies)</html:i>
+				</html:p>
+			</description>
+		</occupation>
+
+		<occupation>
+			<job>Diplom-Ingenieur (BA)</job>
+			<employer>Berufsakademie Sachsen</employer>
+			<location>Dresden</location>
+			<start month="10" year="2008" />
+			<end month="09" year="2011" />
+			<description>
+				<html:p>
+					Netzwerk- und Medientechnik
+					<html:i>(computer science)</html:i>
+				</html:p>
+			</description>
+		</occupation>
+	</section>
+
+	<section name="Independent Work">
+		<occupation>
+			<function>Cursed Creations</function>
+			<start month="05" year="2020" />
+			<end month="09" year="2024" />
+			<description>
+				<html:p>
+					Co-founder with the role of Game Director and Technical Director for
+					<html:a href="https://store.steampowered.com/app/1823030/Cursed_Broom/" rel="external" target="_blank">Cursed Broom</html:a><![CDATA[.]]>
+				</html:p>
+			</description>
+		</occupation>
+
+		<occupation>
+			<function>Oilcatz</function>
+			<location>Bayreuth</location>
+			<start month="11" year="2019" />
+			<end month="12" year="2021" />
+			<description>
+				<html:p>
+					Co-founder with the role of Technical Director and Combat Designer for
+					<html:a href="https://store.steampowered.com/app/1580040/Trial_of_Two/" rel="external" target="_blank">Trial of Two</html:a><![CDATA[.]]>
+				</html:p>
+			</description>
+		</occupation>
+
+		<occupation>
+			<function>Volunteering at games conferences</function>
+			<start year="2014" />
+			<description>
+				<html:ul>
+					<html:li>devcom (2017-2023)</html:li>
+					<html:li>Indie Campus (2021)</html:li>
+					<html:li>Ludicious (2019)</html:li>
+					<html:li>Quo Vadis (2018)</html:li>
+					<html:li>GDC Europe (2014-2016)</html:li>
+				</html:ul>
+			</description>
+		</occupation>
+	</section>
+</resume>

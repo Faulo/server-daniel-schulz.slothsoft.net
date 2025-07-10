@@ -6,6 +6,8 @@
 	<xsl:variable name="sourceURI" select="//sfs:page[@current]/sfm:param/@value" />
 	<xsl:variable name="source" select="document($sourceURI)/resume" />
 
+	<xsl:variable name="job" select="//sfm:param[@name = 'job']/@value" />
+
 	<xsl:template match="/*">
 		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 		<html>
@@ -38,7 +40,14 @@
 						<xsl:value-of select="name" />
 					</h1>
 					<p class="important">
-						<xsl:value-of select="job" />
+						<xsl:choose>
+							<xsl:when test="$job">
+								<xsl:value-of select="$job" />
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:value-of select="job" />
+							</xsl:otherwise>
+						</xsl:choose>
 					</p>
 				</hgroup>
 				<article>
@@ -66,13 +75,18 @@
 				<xsl:apply-templates select="skills" mode="resume" />
 
 				<h2>Links</h2>
-				<xsl:for-each select="link">
-					<p>
-						<a href="{@href}" rel="external" target="_blank">
+				<dl class="links">
+					<xsl:for-each select="link">
+						<dt>
 							<xsl:value-of select="." />
-						</a>
-					</p>
-				</xsl:for-each>
+						</dt>
+						<dd>
+							<a href="{@href}" rel="external" target="_blank">
+								<xsl:value-of select="@href" />
+							</a>
+						</dd>
+					</xsl:for-each>
+				</dl>
 			</section>
 		</main>
 	</xsl:template>

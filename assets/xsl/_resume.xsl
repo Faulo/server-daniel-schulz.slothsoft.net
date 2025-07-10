@@ -6,7 +6,16 @@
 	<xsl:variable name="sourceURI" select="//sfs:page[@current]/sfm:param/@value" />
 	<xsl:variable name="source" select="document($sourceURI)/resume" />
 
-	<xsl:variable name="job" select="//sfm:param[@name = 'job']/@value" />
+	<xsl:variable name="job">
+		<xsl:choose>
+			<xsl:when test="//sfm:param[@name = 'job']">
+				<xsl:value-of select="//sfm:param[@name = 'job']/@value" />
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="//job" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
 
 	<xsl:template match="/*">
 		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
@@ -14,6 +23,8 @@
 			<head>
 				<title>
 					<xsl:value-of select="$source/name" />
+					<xsl:text> - </xsl:text>
+					<xsl:value-of select="$job" />
 				</title>
 				<link rel="icon" type="image/png" href="/slothsoft@daniel-schulz.slothsoft.net/static/favicon" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -40,14 +51,7 @@
 						<xsl:value-of select="name" />
 					</h1>
 					<p class="important">
-						<xsl:choose>
-							<xsl:when test="$job">
-								<xsl:value-of select="$job" />
-							</xsl:when>
-							<xsl:otherwise>
-								<xsl:value-of select="job" />
-							</xsl:otherwise>
-						</xsl:choose>
+						<xsl:value-of select="$job" />
 					</p>
 				</hgroup>
 				<article>

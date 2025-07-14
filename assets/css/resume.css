@@ -162,3 +162,167 @@ hgroup p {
 		margin: 0;
 	}
 }
+
+html[lang="de"] .profile h2::before {
+	content: "Kurzprofil";
+}
+
+html[lang="en"] .profile h2::before {
+	content: "Profile";
+}
+
+html[lang="de"] .skills h2::before {
+	content: "Kompetenzen";
+}
+
+html[lang="en"] .skills h2::before {
+	content: "Skills";
+}
+
+html[lang] .links h2::before {
+	content: "Links";
+}
+
+html[lang="de"] .contact h2::before {
+	content: "Anschrift";
+}
+
+html[lang="en"] .contact h2::before {
+	content: "Contact";
+}
+
+html[lang="de"] .languages h2::before {
+	content: "Sprachen";
+}
+
+html[lang="en"] .languages h2::before {
+	content: "Languages";
+}
+
+html[lang="de"] .employment h2::before {
+	content: "Berufserfahrung";
+}
+
+html[lang="en"] .employment h2::before {
+	content: "Employment History";
+}
+
+html[lang="de"] .education h2::before {
+	content: "Bildungsweg";
+}
+
+html[lang="en"] .education h2::before {
+	content: "Education";
+}
+
+html[lang="de"] .independent h2::before {
+	content: "Eigenständiges";
+}
+
+html[lang="en"] .independent h2::before {
+	content: "Independent Work";
+}
+
+html[lang="de"] [data-word="present"]::before {
+	content: "heute";
+}
+
+html[lang="en"] [data-word="present"]::before {
+	content: "present";
+}
+
+html[lang="de"] [data-month="1"]::before {
+	content: "Januar";
+}
+
+html[lang="en"] [data-month="1"]::before {
+	content: "January";
+}
+
+html[lang="de"] [data-month="2"]::before {
+	content: "Februar";
+}
+
+html[lang="en"] [data-month="2"]::before {
+	content: "February";
+}
+
+html[lang="de"] [data-month="3"]::before {
+	content: "März";
+}
+
+html[lang="en"] [data-month="3"]::before {
+	content: "March";
+}
+
+html[lang="de"] [data-month="4"]::before {
+	content: "April";
+}
+
+html[lang="en"] [data-month="4"]::before {
+	content: "April";
+}
+
+html[lang="de"] [data-month="5"]::before {
+	content: "Mai";
+}
+
+html[lang="en"] [data-month="5"]::before {
+	content: "May";
+}
+
+html[lang="de"] [data-month="6"]::before {
+	content: "Juni";
+}
+
+html[lang="en"] [data-month="6"]::before {
+	content: "June";
+}
+
+html[lang="de"] [data-month="7"]::before {
+	content: "Juli";
+}
+
+html[lang="en"] [data-month="7"]::before {
+	content: "July";
+}
+
+html[lang="de"] [data-month="8"]::before {
+	content: "August";
+}
+
+html[lang="en"] [data-month="8"]::before {
+	content: "August";
+}
+
+html[lang="de"] [data-month="9"]::before {
+	content: "September";
+}
+
+html[lang="en"] [data-month="9"]::before {
+	content: "September";
+}
+
+html[lang="de"] [data-month="10"]::before {
+	content: "Oktober";
+}
+
+html[lang="en"] [data-month="10"]::before {
+	content: "October";
+}
+
+html[lang="de"] [data-month="11"]::before {
+	content: "November";
+}
+
+html[lang="en"] [data-month="11"]::before {
+	content: "November";
+}
+
+html[lang="de"] [data-month="12"]::before {
+	content: "Dezember";
+}
+
+html[lang="en"] [data-month="12"]::before {
+	content: "December";
+}

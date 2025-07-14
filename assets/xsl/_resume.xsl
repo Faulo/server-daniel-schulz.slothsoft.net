@@ -12,14 +12,25 @@
 				<xsl:value-of select="//sfm:param[@name = 'job']/@value" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:value-of select="//job" />
+				<xsl:value-of select="$source//job" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+
+	<xsl:variable name="lang">
+		<xsl:choose>
+			<xsl:when test="//sfm:param[@name = 'lang']">
+				<xsl:value-of select="//sfm:param[@name = 'lang']/@value" />
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:text>en</xsl:text>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
 
 	<xsl:template match="/*">
 		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-		<html>
+		<html lang="{$lang}">
 			<head>
 				<title>
 					<xsl:value-of select="$source/name" />
@@ -54,65 +65,70 @@
 						<xsl:value-of select="$job" />
 					</p>
 				</hgroup>
-				<article>
-					<h2>Profile</h2>
-					<xsl:copy-of select="profile/node()" />
-				</article>
 
-				<xsl:apply-templates select="section" mode="resume" />
+				<xsl:for-each select="profile[not(@xml:lang) or @xml:lang = $lang]">
+					<article class="profile">
+						<h2 />
+						<xsl:copy-of select="node()" />
+					</article>
+				</xsl:for-each>
+
+				<xsl:apply-templates select="section[not(@xml:lang) or @xml:lang = $lang]" mode="resume" />
 			</section>
 			<section class="sidebar">
-				<h2>Contact</h2>
-				<p>
-					<xsl:value-of select="name" />
-				</p>
-				<xsl:apply-templates select="address" mode="resume" />
-				<p>
-					<xsl:value-of select="phone" />
-				</p>
-				<p>
-					<a href="mailto:{name} &lt;{email}>">
-						<xsl:value-of select="email" />
-					</a>
-				</p>
+				<article class="contact">
+					<h2 />
+					<p>
+						<xsl:value-of select="name" />
+					</p>
+					<xsl:apply-templates select="address" mode="resume" />
+					<p>
+						<xsl:value-of select="phone" />
+					</p>
+					<p>
+						<a href="mailto:{name} &lt;{email}>">
+							<xsl:value-of select="email" />
+						</a>
+					</p>
+				</article>
 
 				<xsl:apply-templates select="skills" mode="resume" />
 
-				<h2>Links</h2>
-				<dl class="links">
-					<xsl:for-each select="link">
-						<dt>
-							<xsl:value-of select="." />
-						</dt>
-						<dd>
-							<a href="{@href}" rel="external" target="_blank">
-								<xsl:value-of select="@href" />
-							</a>
-						</dd>
-					</xsl:for-each>
-				</dl>
+				<article class="links">
+					<h2 />
+					<dl class="links">
+						<xsl:for-each select="link[not(@xml:lang) or @xml:lang = $lang]">
+							<dt>
+								<xsl:value-of select="." />
+							</dt>
+							<dd>
+								<a href="{@href}" rel="external" target="_blank">
+									<xsl:value-of select="@href" />
+								</a>
+							</dd>
+						</xsl:for-each>
+					</dl>
+				</article>
 			</section>
 		</main>
 	</xsl:template>
 
 	<xsl:template match="section" mode="resume">
-		<article>
-			<h2>
-				<xsl:value-of select="@name" />
-			</h2>
+		<article class="{@name}">
+			<h2 />
 			<xsl:for-each select="occupation">
 				<article>
 					<h3>
 						<xsl:choose>
 							<xsl:when test="function">
-								<xsl:value-of select="function" />
+								<xsl:value-of select="function[not(@xml:lang) or @xml:lang = $lang]" />
 							</xsl:when>
 							<xsl:otherwise>
-								<xsl:value-of select="job" />
+								<xsl:value-of select="job[not(@xml:lang) or @xml:lang = $lang]" />
 								<xsl:text>, </xsl:text>
-								<xsl:value-of select="employer" />
+								<xsl:value-of select="employer[not(@xml:lang) or @xml:lang = $lang]" />
 								<xsl:text>, </xsl:text>
-								<xsl:value-of select="location" />
+								<xsl:value-of select="location[not(@xml:lang) or @xml:lang = $lang]" />
 							</xsl:otherwise>
 						</xsl:choose>
 					</h3>
@@ -125,39 +141,39 @@
 							<xsl:with-param name="date" select="end" />
 						</xsl:call-template>
 					</p>
-					<div>
-						<xsl:copy-of select="description/node()" />
-					</div>
+					<xsl:for-each select="description[not(@xml:lang) or @xml:lang = $lang]">
+						<xsl:copy-of select="node()" />
+					</xsl:for-each>
 				</article>
 			</xsl:for-each>
 		</article>
 	</xsl:template>
 
 	<xsl:template match="skills" mode="resume">
-		<h2>
-			<xsl:value-of select="@name" />
-		</h2>
-		<dl class="skills">
-			<xsl:for-each select="skill">
-				<dt>
-					<xsl:value-of select="." />
-				</dt>
-				<dd>
-					<div style="width: {@level div 0.05}%" />
-				</dd>
-			</xsl:for-each>
-		</dl>
+		<article class="{@name}">
+			<h2 />
+			<dl class="skills">
+				<xsl:for-each select="skill[not(@xml:lang) or @xml:lang = $lang]">
+					<dt>
+						<xsl:value-of select="." />
+					</dt>
+					<dd>
+						<div style="width: {@level div 0.05}%" />
+					</dd>
+				</xsl:for-each>
+			</dl>
+		</article>
 	</xsl:template>
 
 	<xsl:template match="address" mode="resume">
 		<p>
 			<xsl:value-of select="street" />
 			<br />
-			<xsl:value-of select="city" />
-			<xsl:text>, </xsl:text>
 			<xsl:value-of select="postal-code" />
+			<xsl:text> </xsl:text>
+			<xsl:value-of select="city" />
 			<br />
-			<xsl:value-of select="country" />
+			<xsl:value-of select="country[not(@xml:lang) or @xml:lang = $lang]" />
 		</p>
 	</xsl:template>
 
@@ -166,13 +182,14 @@
 		<xsl:choose>
 			<xsl:when test="$date">
 				<xsl:if test="$date/@month">
-					<xsl:value-of select="php:functionString('date', 'F', number(php:functionString('mktime', 0, 0, 0, number($date/@month), 10)))" />
+					<span data-month="{number($date/@month)}" />
+					<!-- <xsl:value-of select="php:functionString('date', 'F', number(php:functionString('mktime', 0, 0, 0, number($date/@month), 10)))" /> -->
 					<xsl:text> </xsl:text>
 				</xsl:if>
 				<xsl:value-of select="$date/@year" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:text>present</xsl:text>
+				<span data-word="present" />
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>

@@ -18,7 +18,10 @@
 
 	<profile xml:lang="de">
 		<html:p>
-			Erfahrener Full-Stack-Entwickler mit Passion für Computerspieldesign. Liebt sauberen, testgetriebenen Code gepaart mit Continuous Delivery.
+			Erfahrener Full-Stack-Entwickler mit Passion für Computerspieldesign.
+		</html:p>
+		<html:p>
+			Liebt sauberen, testgetriebenen Code gepaart mit Continuous Delivery.
 		</html:p>
 		<html:p>
 			Spezialisiert auf C# und PHP, aber fließend in vielen anderen Programmiersprachen.
@@ -27,14 +30,26 @@
 			Entwickelt am liebsten Systeme, die sich angenehm bedienen lassen - im Frontend wie im Backend, in Spielen wie in Anwendungen.
 		</html:p>
 		<html:p>
-			Am glücklichsten, wenn er sein Wissen im Team teilen oder mehren kann.
+			Am glücklichsten, wenn er sein Wissen im Team teilen oder weiterentwickeln kann.
 		</html:p>
 	</profile>
 
 	<profile xml:lang="en">
-		<html:p>As a designer, my games are about satisfying character controllers and not hurting people.</html:p>
-		<html:p>As a programmer, my code is clean and test-driven, with a particular focus on tools for automation and easy content authoring.</html:p>
-		<html:p>Let's make the world a cuter place! &lt;3</html:p>
+		<html:p>
+			Experienced full-stack developer with a passion for game design.
+		</html:p>
+		<html:p>
+			Loves clean, test-driven code paired with continuous delivery.
+		</html:p>
+		<html:p>
+			Specialized in C# and PHP, but fluent in many other programming languages.
+		</html:p>
+		<html:p>
+			Most happy building systems that feel good to use - whether it's frontend or backend, games or applications.
+		</html:p>
+		<html:p>
+			Happiest when sharing knowledge with the team or learning something new.
+		</html:p>
 	</profile>
 
 	<link xml:lang="de" href="https://faulo.itch.io/">Spielbare Prototypen auf itch.io</link>

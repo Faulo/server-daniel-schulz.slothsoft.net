@@ -40,7 +40,7 @@ section {
 }
 
 section:first-child {
-	padding: 1cm 0 0 1.5cm;
+	padding: 1cm 0.5cm 0 1.5cm;
 	width: 67%;
 }
 
@@ -123,7 +123,7 @@ h2 {
 	line-height: 4mm;
 }
 
-.sidebar p {
+.sidebar p, li {
 	line-height: 4mm;
 }
 

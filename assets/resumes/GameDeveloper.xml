@@ -68,13 +68,16 @@
 	</skills>
 
 	<skills name="skills">
-		<skill level="5">C#</skill>
 		<skill level="5">Unity</skill>
+		<skill level="5">C# / .NET</skill>
+		<skill level="5">Clean Code</skill>
 		<skill level="4">DevOps, Docker, Jenkins</skill>
 		<skill level="4">PHP, XML, HTML, CSS</skill>
+		<skill level="3">Tech Art, Shader, VFX</skill>
+		<skill level="2">XR / VR Development</skill>
 		<skill level="3">Game Design</skill>
-		<skill level="4">Magic: The Gathering</skill>
-		<skill level="3">Beat Saber</skill>
+		<skill level="5">Magic: The Gathering</skill>
+		<skill level="4">Beat Saber</skill>
 	</skills>
 
 	<section name="employment">

@@ -6,16 +6,6 @@
 	<xsl:variable name="sourceURI" select="//sfs:page[@current]/sfm:param/@value" />
 	<xsl:variable name="source" select="document($sourceURI)/resume" />
 
-	<xsl:variable name="job">
-		<xsl:choose>
-			<xsl:when test="//sfm:param[@name = 'job']">
-				<xsl:value-of select="//sfm:param[@name = 'job']/@value" />
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:value-of select="$source//job" />
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:variable>
 
 	<xsl:variable name="lang">
 		<xsl:choose>
@@ -24,6 +14,17 @@
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:text>en</xsl:text>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+
+	<xsl:variable name="job">
+		<xsl:choose>
+			<xsl:when test="//sfm:param[@name = 'job']">
+				<xsl:value-of select="//sfm:param[@name = 'job']/@value" />
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$source//job[not(@xml:lang) or @xml:lang = $lang]" />
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>

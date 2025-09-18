@@ -15,7 +15,7 @@
 					</p>
 					<xsl:text> | Daniel Schulz</xsl:text>
 				</title>
-				<link rel="icon" type="image/png" href="/slothsoft@daniel-schulz.slothsoft.net/static/favicon" />
+				<link rel="icon" type="image/png" href="/favicon.ico" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="author" content="Daniel Schulz" />
 			</head>

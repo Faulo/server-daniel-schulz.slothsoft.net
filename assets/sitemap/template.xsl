@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns="http://schema.slothsoft.net/farah/sitemap" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary"
 	xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ssp="http://schema.slothsoft.net/schema/presskit">
 	<xsl:template match="/*">
-		<domain name="daniel-schulz.slothsoft.net" vendor="slothsoft" module="daniel-schulz.slothsoft.net" ref="pages/default" status-active="" status-public="" sfd:languages="en-us">
+		<domain name="daniel-schulz.slothsoft.net" vendor="slothsoft" module="daniel-schulz.slothsoft.net" ref="pages/default" status-active="" status-public="" sfd:languages="en-us" version="1.1">
 
 			<page name="AboutMe" ref="pages/default" status-active="" status-public="">
 				<xsl:apply-templates select="*[@name = 'resumes']" />
@@ -28,7 +28,7 @@
 
 			<xsl:apply-templates select="*[@name = 'jam-games']" />
 
-			<page name="favicon.ico" ext="/favicon.ico" ref="static/favicon" status-active="" />
+			<file name="favicon.ico" ref="static/favicon" status-active="" />
 			<page name="sitemap" ref="//slothsoft@farah/sitemap-generator" status-active="" />
 
 			<xsl:apply-templates select="*[@name = 'builds']" />

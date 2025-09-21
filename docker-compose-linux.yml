@@ -9,6 +9,8 @@ services:
             SERVER_NAME: ${SERVER_NAME}
             VIRTUAL_HOST: ${SERVER_NAME}
             LETSENCRYPT_HOST: ${SERVER_NAME}
+        volumes:
+            - /var/vhosts/${SERVER_NAME}/:/var/www/data/
         networks:
             - vhosts
         expose:

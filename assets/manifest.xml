@@ -27,7 +27,7 @@
 		<use-document ref="/jam-games?load=tree" name="jam-games" />
 	</directory>
 
-	<resource-directory name="downloads" path="downloads" type="*/*" />
+	<resource-directory name="downloads" path="../data/downloads" type="*/*" />
 
 	<resource name="game-jams" type="application/xml" />
 

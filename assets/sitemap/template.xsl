@@ -66,7 +66,7 @@
 		<xsl:for-each select="sfm:fragment-info">
 			<page name="Downloads" redirect=".." status-active="">
 				<xsl:for-each select="sfm:manifest-info">
-					<page name="{@name}" ref="{@url}" status-active="" />
+					<file name="{@name}" ref="{@url}" status-active="" />
 				</xsl:for-each>
 			</page>
 		</xsl:for-each>

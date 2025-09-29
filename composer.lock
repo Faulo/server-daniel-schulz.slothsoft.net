@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76124babd5d9b58acc5d79ebb32946e7",
+    "content-hash": "413e29f9c4e544dda1b451aceb36dd9f",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -1281,16 +1281,16 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.21.15",
+            "version": "1.21.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "769f847cba4ac4eee6858ad2513b2571f21a97a8"
+                "reference": "d0e746acd11de05367521cae1a360792ab5729d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/769f847cba4ac4eee6858ad2513b2571f21a97a8",
-                "reference": "769f847cba4ac4eee6858ad2513b2571f21a97a8",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/d0e746acd11de05367521cae1a360792ab5729d2",
+                "reference": "d0e746acd11de05367521cae1a360792ab5729d2",
                 "shasum": ""
             },
             "require": {
@@ -1353,9 +1353,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.21.15"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.21.17"
             },
-            "time": "2025-09-28T18:59:52+00:00"
+            "time": "2025-09-29T11:32:18+00:00"
         },
         {
             "name": "slothsoft/schema",
@@ -1415,60 +1415,6 @@
                 "source": "https://github.com/Faulo/slothsoft-schema/tree/1.5.5"
             },
             "time": "2025-09-23T01:53:31+00:00"
-        },
-        {
-            "name": "slothsoft/tetris",
-            "version": "1.0.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Faulo/slothsoft-tetris.git",
-                "reference": "3a74a5474945fe757734aaeb735e7e493f8a581a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-tetris/zipball/3a74a5474945fe757734aaeb735e7e493f8a581a",
-                "reference": "3a74a5474945fe757734aaeb735e7e493f8a581a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.4",
-                "slothsoft/farah": "^1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "8.5.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "scripts/bootstrap.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel Schulz",
-                    "email": "info.slothsoft@gmail.com"
-                }
-            ],
-            "description": "An example Farah module that contains a simple HTML Tetris implementation.",
-            "homepage": "http://farah.slothsoft.net/modules/tetris",
-            "keywords": [
-                "farah-module",
-                "slothsoft"
-            ],
-            "support": {
-                "issues": "https://github.com/Faulo/slothsoft-tetris/issues",
-                "source": "https://github.com/Faulo/slothsoft-tetris/tree/1.0.10"
-            },
-            "time": "2025-07-04T16:41:54+00:00"
         },
         {
             "name": "slothsoft/w3c",

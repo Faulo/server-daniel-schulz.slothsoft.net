@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<assets xmlns="http://schema.slothsoft.net/farah/module" version="1.1">
+	<resource-directory name="css" type="text/css" />
+	<resource-directory name="js" type="application/javascript" />
+	<resource-directory name="xsl" type="application/xslt+xml" />
+
+	<directory name="static">
+		<resource name="game" type="application/xml" />
+	</directory>
+
+	<fragment name="game">
+		<use-template ref="/tetris/xsl/home" />
+		<link-stylesheet ref="/tetris/css/game" />
+		<link-script ref="/tetris/js/core" />
+		<link-script ref="/tetris/js/Tetris" />
+		<link-script ref="/tetris/js/Tetris.Block" />
+		<link-script ref="/tetris/js/Tetris.Board" />
+		<link-script ref="/tetris/js/Tetris.Controls" />
+		<link-script ref="/tetris/js/Tetris.Game" />
+		<link-script ref="/tetris/js/Tetris.Pos" />
+		<link-script ref="/tetris/js/Tetris.Shape" />
+		<link-script ref="/tetris/js/Tetris.Storage" />
+	</fragment>
+</assets>

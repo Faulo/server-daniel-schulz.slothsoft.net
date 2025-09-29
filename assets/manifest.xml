@@ -31,6 +31,8 @@
 
 	<resource name="game-jams" type="application/xml" />
 
+	<manifest-directory name="tetris" />
+
 	<directory name="static">
 		<resource-directory name="images" path="images" type="image/png" />
 		<resource-directory name="videos" path="videos" type="video/*" />
@@ -60,7 +62,7 @@
 		</fragment>
 		<fragment name="tetris">
 			<import ref="/api/default" />
-			<use-document ref="//slothsoft@tetris/game" name="content" />
+			<use-document ref="/tetris/game" name="content" />
 		</fragment>
 		<fragment name="build">
 			<use-template ref="/xsl/_build" />

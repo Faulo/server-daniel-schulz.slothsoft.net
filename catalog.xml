@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/sitemap/template" uri="assets/sitemap/template.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/tetris/xsl/game" uri="assets/tetris/xsl/game.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/tetris/xsl/home" uri="assets/tetris/xsl/home.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/xsl/_build" uri="assets/xsl/_build.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/xsl/_default" uri="assets/xsl/_default.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/xsl/_dictionary" uri="assets/xsl/_dictionary.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/xsl/_resume" uri="assets/xsl/_resume.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/xsl/game-jams" uri="assets/xsl/game-jams.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/xsl/imageList" uri="assets/xsl/imageList.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/xsl/navi" uri="assets/xsl/navi.xsl"/>
+</catalog>

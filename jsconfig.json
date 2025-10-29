@@ -2,13 +2,13 @@
   "compilerOptions": {
     "paths": {
       "/slothsoft@daniel-schulz.slothsoft.net/*": [
-        "./assets/*"
+        "assets/*"
       ],
       "/slothsoft@farah/*": [
-        "../slothsoft-farah/assets/*"
+        "vendor/slothsoft/farah/assets/*"
       ],
       "/slothsoft@schema/*": [
-        "../slothsoft-schema/assets/*"
+        "vendor/slothsoft/schema/assets/*"
       ]
     }
   }

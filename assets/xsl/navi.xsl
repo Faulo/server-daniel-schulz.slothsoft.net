@@ -2,7 +2,8 @@
 <xsl:stylesheet version="1.0"
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:sfs="http://schema.slothsoft.net/farah/sitemap"
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:sfd="http://schema.slothsoft.net/farah/dictionary">
 
 	<xsl:template match="/*">
 		<xsl:variable name="domain"
@@ -69,7 +70,7 @@
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:if>
-			<span data-dict="">
+			<span sfd:dict="">
 				<xsl:value-of select="@title" />
 			</span>
 		</a>

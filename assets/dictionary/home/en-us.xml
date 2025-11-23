@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfd:dictionary xmlns="http://www.w3.org/1999/xhtml" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" version="1.0">
+    <sfd:text xml:id="daniel-schulz.slothsoft.net">News</sfd:text>
+    <sfd:fragment xml:id="daniel-schulz.slothsoft.net.content">
+        <article>
+            <h2>12.11.2019</h2>
+            <p>
+                Added all the game jam games I've ever worked on, in their
+                <a href="/GameJams/">own neat little section</a>
+                .
+            </p>
+        </article>
+        <article>
+            <h2>27.01.2019</h2>
+            <p>
+                For the Global Game Jam we made
+                <a href="/GameJams/FindingHome/">Finding Home</a>
+                !
+            </p>
+        </article>
+        <article>
+            <h2>15.09.2019</h2>
+            <p>
+                Added
+                <a href="/Games/PowerFantasyVR/">Power Fantasy VR</a>
+                , a student project made in collaboration with the amazing Katharina Broswik and Magnus
+                Drebenstedt.
+            </p>
+        </article>
+        <article>
+            <h2>04.11.2018</h2>
+            <p>
+                At my first game jam in Bayreuth, we made
+                <a href="/GameJams/Communiganda/">Communiganda</a>
+                !
+            </p>
+        </article>
+        <article>
+            <h2>27.04.2018</h2>
+            <p>
+                Added
+                <a href="/Projects/Farah/">Farah</a>
+                to the list of projects, and met some amazing people at Quo Vadis.
+            </p>
+        </article>
+        <article>
+            <h2>10.12.2017</h2>
+            <p>
+                OK so in the future I'm gonna figure out a cool way to show off code examples of my work, but for now let it be
+                known that
+                <a href="https://github.com/Faulo/slothsoft.net/tree/master/mod" rel="external" target="_blank">my github repository</a>
+                contains the source code responsible for all of my websites (the part of it that was written by me, anyway).
+                Including these very words!
+            </p>
+        </article>
+        <article>
+            <h2>31.07.2017</h2>
+            <p>
+                There we go. Added more projects, and screenshots. This should suffice
+                for a while.
+            </p>
+            <p>
+                I'll be at
+                <a href="https://www.devcom.global/" rel="external" target="_blank">Devcom</a>
+                August 20-24, if we met each other there, hello again, and welcome!
+                \o/
+            </p>
+        </article>
+        <article>
+            <h2>04.07.2017</h2>
+            <p>
+                I'm finally getting around to updating this website...
+            </p>
+        </article>
+        <article>
+            <h2>10.08.2014</h2>
+            <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/meishi" alt="Look at me!" />
+            <p>
+                I'm at the GDC Europe this week, so if you're reading this then it's
+                probably because I threw one of my business
+                cards at you and now
+                you're wondering what's
+                up with that URL.
+            </p>
+            <p>
+                Well, hello! Thanks for stopping by. \o/ ...I'm sorry to say but I failed
+                to upload more stuff to here. orz
+            </p>
+            <p>
+                If you want to get a glimpse of what I do, maybe check out my
+                other, not-portfolio website
+                <a href="http://slothsoft.net/">slothsoft.net</a>
+                . Come back here later for some vaguely defined awesome stuff. /o/
+            </p>
+        </article>
+        <article>
+            <h2>03.08.2014</h2>
+            <p>
+                This is the portfolio-to-be of Daniel Schulz.
+            </p>
+        </article>
+    </sfd:fragment>
+
+    <sfd:fragment xml:id="spec.mysql">
+        <a rel="external" target="_blank" href="https://dev.mysql.com/">MySQL</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.pthreads">
+        <a rel="external" target="_blank" href="http://de2.php.net/manual/en/book.pthreads.php">pthreads</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.xmlhttprequest">
+        <a rel="external" target="_blank" href="https://xhr.spec.whatwg.org/">XMLHttpRequest</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.xpath">
+        <a rel="external" target="_blank" href="http://www.w3.org/TR/xpath/">XPath</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.xslt">
+        <a rel="external" target="_blank" href="http://www.w3.org/TR/xslt/">XSLT</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.exslt">
+        <a rel="external" target="_blank" href="http://exslt.org/exsl/index.html">EXSLT</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.webworkers">
+        <a rel="external" target="_blank" href="https://www.w3.org/TR/workers/">Web Worker</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.html-template">
+        <a rel="external" target="_blank" href="https://www.w3.org/TR/html5/scripting-1.html#the-template-element">HTML template</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.indexedDB">
+        <a rel="external" target="_blank" href="https://www.w3.org/TR/IndexedDB/">Indexed Database</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.dom">
+        <a rel="external" target="_blank" href="https://www.w3.org/DOM/">DOM</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.content-encoding">
+        <a rel="external" target="_blank" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.11">Content-Encoding</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.transfer-encoding">
+        <a rel="external" target="_blank" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.41">Transfer-Encoding</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.ranged-requests">
+        <a rel="external" target="_blank" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.16">Ranged Requests</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.flexbox">
+        <a rel="external" target="_blank" href="https://www.w3.org/TR/css-flexbox-1/">Flexible Box Layout</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.image-rendering">
+        <a rel="external" target="_blank" href="https://drafts.csswg.org/css-images-3/#the-image-rendering">Image-Rendering</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.drag">
+        <a rel="external" target="_blank" href="https://www.w3.org/TR/2010/WD-html5-20101019/dnd.html">Drag and Drop</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.touch">
+        <a rel="external" target="_blank" href="https://www.w3.org/TR/touch-events/">Touch Events</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.media-queries">
+        <a rel="external" target="_blank" href="https://www.w3.org/TR/css3-mediaqueries/">Media Queries</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.contenteditable">
+        <a rel="external" target="_blank" href="https://www.w3.org/TR/2008/WD-html5-20080610/editing.html">contenteditable</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.xsd">
+        <a rel="external" target="_blank" href="https://www.w3.org/2001/XMLSchema">XML Schema</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.unity">
+        <a rel="external" target="_blank" href="https://unity.com/">Unity</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.ml.net">
+        <a rel="external" target="_blank" href="https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet">ML.NET</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.manus">
+        <a rel="external" target="_blank" href="https://manus-vr.com/">Manus VR</a>
+    </sfd:fragment>
+    <sfd:fragment xml:id="spec.vive">
+        <a rel="external" target="_blank" href="https://www.vive.com">HTC Vive</a>
+    </sfd:fragment>
+</sfd:dictionary>

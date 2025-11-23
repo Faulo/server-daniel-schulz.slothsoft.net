@@ -1,100 +1,110 @@
 <?xml version="1.0"?>
 <assets xmlns="http://schema.slothsoft.net/farah/module" version="1.1">
-	<resource-directory name="css" type="text/css" />
-	<resource-directory name="xsl" type="application/xslt+xml" />
-	<resource-directory name="resumes" type="application/xml" />
+    <resource-directory name="css" type="text/css" />
+    <resource-directory name="xsl" type="application/xslt+xml" />
+    <resource-directory name="resumes" type="application/xml" />
 
-	<directory name="dictionary">
-		<resource-directory name="en-us-content" type="application/xml" />
-		<resource name="people" type="application/xml" />
-		<fragment name="en-us">
-			<use-template ref="/xsl/_dictionary" />
-			<use-document ref="/dictionary/en-us-content" />
-			<use-document ref="/dictionary/people" />
-		</fragment>
-	</directory>
+    <directory name="dictionary">
+        <resource-directory name="game-jams" type="application/xml" />
+        <resource-directory name="games" type="application/xml" />
+        <resource-directory name="home" type="application/xml" />
+        <resource-directory name="projects" type="application/xml" />
 
-	<resource-directory name="jam-games" type="application/xml" />
-	<resource-directory name="jam-game-images" path="jam-games" type="image/png" />
-	<resource-directory name="jam-game-videos" path="jam-games" type="video/*" />
-	<resource-directory name="jam-game-downloads" path="jam-games" type="application/zip" />
+        <resource name="people" type="application/xml" />
 
-	<directory name="sitemap">
-		<resource use="template" name="template" type="application/xslt+xml" />
-		<use-document ref="/api/build" name="builds" />
-		<use-document ref="/downloads" name="downloads" />
-		<use-document ref="/resumes" name="resumes" />
-		<use-document ref="/jam-games?load=tree" name="jam-games" />
-	</directory>
+        <fragment name="en-us">
+            <use-template ref="/xsl/_dictionary" />
+            <use-document ref="/dictionary/people" />
+        </fragment>
+    </directory>
 
-	<resource-directory name="downloads" path="../data/downloads" type="*/*" />
+    <resource-directory name="jam-games" type="application/xml" />
+    <resource-directory name="jam-game-images" path="jam-games" type="image/png" />
+    <resource-directory name="jam-game-videos" path="jam-games" type="video/*" />
+    <resource-directory name="jam-game-downloads" path="jam-games" type="application/zip" />
 
-	<resource name="game-jams" type="application/xml" />
+    <directory name="sitemap">
+        <resource use="template" name="template" type="application/xslt+xml" />
+        <use-document ref="/api/build" name="builds" />
+        <use-document ref="/downloads" name="downloads" />
+        <use-document ref="/resumes" name="resumes" />
+        <use-document ref="/jam-games?load=tree" name="jam-games" />
+    </directory>
 
-	<manifest-directory name="tetris" />
+    <resource-directory name="downloads" path="../data/downloads" type="*/*" />
 
-	<directory name="static">
-		<resource-directory name="images" path="images" type="image/png" />
-		<resource-directory name="videos" path="videos" type="video/*" />
-		<resource-directory name="downloads" path="downloads" type="video/*" />
+    <resource name="game-jams" type="application/xml" />
 
-		<resource name="face" path="face.png" type="image/png" />
-		<resource name="favicon" path="favicon.png" type="image/png" />
-	</directory>
+    <manifest-directory name="tetris" />
 
-	<fragment name="pages">
-		<fragment name="default">
-			<import ref="/api/default" />
-		</fragment>
-		<fragment name="game-jams">
-			<import ref="/api/default" />
-			<fragment use="document" name="content">
-				<use-template ref="/xsl/game-jams" />
-				<use-document ref="//slothsoft@farah/sites" name="sites" />
-				<use-document ref="/jam-games?load=tree" name="jam-games" />
-			</fragment>
-		</fragment>
-		<fragment name="game-jam">
-			<import ref="/api/default" />
-			<use-document ref="/jam-game-images" name="images" />
-			<use-document ref="/jam-game-videos" name="videos" />
-			<use-document ref="/jam-game-downloads" name="downloads" />
-		</fragment>
-		<fragment name="tetris">
-			<import ref="/api/default" />
-			<use-document ref="/tetris/game" name="content" />
-		</fragment>
-		<fragment name="build">
-			<use-template ref="/xsl/_build" />
-			<use-document ref="//slothsoft@farah/sites" name="sites" />
-			<link-stylesheet ref="/css/layout" />
-			<link-stylesheet ref="/css/fonts" />
-			<use-document ref="/api/build" name="content" />
-		</fragment>
-		<fragment name="resume">
-			<use-template ref="/xsl/_resume" />
-			<link-stylesheet ref="/css/fonts" />
-			<link-stylesheet ref="/css/resume" />
-			<use-document ref="//slothsoft@farah/sites" name="sites" />
-		</fragment>
-	</fragment>
+    <directory name="static">
+        <resource-directory name="images" path="images" type="image/png" />
+        <resource-directory name="videos" path="videos" type="video/*" />
+        <resource-directory name="downloads" path="downloads" type="video/*" />
 
-	<fragment name="api">
-		<fragment name="default">
-			<use-template ref="/xsl/_default" />
-			<use-document ref="//slothsoft@farah/sites" name="sites" />
-			<link-stylesheet ref="/css/layout" />
-			<link-stylesheet ref="/css/fonts" />
-			<use-document ref="/api/navi" name="navi" />
-		</fragment>
-		<fragment name="navi">
-			<use-template ref="/xsl/navi" />
-			<use-document ref="//slothsoft@farah/sites" name="sites" />
-		</fragment>
-		<fragment name="images">
-			<use-template ref="/xsl/imageList" />
-			<use-document ref="/static/images" name="images" />
-		</fragment>
-		<custom-asset name="build" executable-builder="Slothsoft\Server\DanielSchulz\Assets\BuildInfoBuilder" parameter-filter="Slothsoft\Server\DanielSchulz\Assets\BuildParameterFilter" />
-	</fragment>
+        <resource name="face" path="face.png" type="image/png" />
+        <resource name="favicon" path="favicon.png" type="image/png" />
+    </directory>
+
+    <fragment name="pages">
+        <fragment name="default">
+            <import ref="/api/default" />
+        </fragment>
+        <fragment name="game-jams">
+            <import ref="/api/default" />
+            <fragment use="document" name="content">
+                <use-template ref="/xsl/game-jams" />
+                <use-document ref="//slothsoft@farah/sites" name="sites" />
+                <use-document ref="/jam-games?load=tree" name="jam-games" />
+            </fragment>
+        </fragment>
+        <fragment name="game-jam">
+            <import ref="/api/default" />
+            <use-document ref="/jam-game-images" name="images" />
+            <use-document ref="/jam-game-videos" name="videos" />
+            <use-document ref="/jam-game-downloads" name="downloads" />
+        </fragment>
+        <fragment name="tetris">
+            <import ref="/api/default" />
+            <use-document ref="/tetris/game" name="content" />
+        </fragment>
+        <fragment name="build">
+            <use-template ref="/xsl/_build" />
+            <use-document ref="//slothsoft@farah/sites" name="sites" />
+            <link-stylesheet ref="/css/layout" />
+            <link-stylesheet ref="/css/fonts" />
+            <use-document ref="/api/build" name="content" />
+        </fragment>
+        <fragment name="resume">
+            <use-template ref="/xsl/_resume" />
+            <link-stylesheet ref="/css/fonts" />
+            <link-stylesheet ref="/css/resume" />
+            <use-document ref="//slothsoft@farah/sites" name="sites" />
+        </fragment>
+    </fragment>
+
+    <fragment name="api">
+        <fragment name="default">
+            <use-template ref="/xsl/_default" />
+            <use-document ref="//slothsoft@farah/sites" name="sites" />
+            <link-stylesheet ref="/css/layout" />
+            <link-stylesheet ref="/css/fonts" />
+            <use-document ref="/api/navi" name="navi" />
+            <link-dictionary ref="/dictionary" />
+            <link-dictionary ref="/dictionary/game-jams" />
+            <link-dictionary ref="/dictionary/games" />
+            <link-dictionary ref="/dictionary/home" />
+            <link-dictionary ref="/dictionary/projects" />
+            <link-dictionary ref="/dictionary/home" />
+        </fragment>
+        <fragment name="navi">
+            <use-template ref="/xsl/navi" />
+            <use-document ref="//slothsoft@farah/sites" name="sites" />
+        </fragment>
+        <fragment name="images">
+            <use-template ref="/xsl/imageList" />
+            <use-document ref="/static/images" name="images" />
+        </fragment>
+        <custom-asset name="build" executable-builder="Slothsoft\Server\DanielSchulz\Assets\BuildInfoBuilder" parameter-filter="Slothsoft\Server\DanielSchulz\Assets\BuildParameterFilter" />
+    </fragment>
 </assets>

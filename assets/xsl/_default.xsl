@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:svg="http://www.w3.org/2000/svg" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:ssp="http://schema.slothsoft.net/schema/presskit">
+	xmlns:svg="http://www.w3.org/2000/svg" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:ssp="http://schema.slothsoft.net/schema/presskit" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary">
 
 	<xsl:import href="farah://slothsoft@schema/xsl/presskit.functions" />
 
@@ -10,7 +10,7 @@
 		<html>
 			<head>
 				<title>
-					<p data-dict=".">
+					<p sfd:dict=".">
 						<xsl:value-of select="$requestedPage/@title" />
 					</p>
 					<xsl:text> | Daniel Schulz</xsl:text>
@@ -42,12 +42,12 @@
 								<xsl:copy-of select="$content/*/node()" />
 							</xsl:when>
 							<xsl:otherwise>
-								<h1 data-dict="">
+								<h1 sfd:dict="">
 									<xsl:value-of select="$requestedPage/@title" />
 								</h1>
-								<div data-dict=".">
+								<div sfd:dict=".">
 									<xsl:value-of select="$requestedPage/@name" />
-									<xsl:text>/content</xsl:text>
+									<xsl:text>.content</xsl:text>
 								</div>
 							</xsl:otherwise>
 						</xsl:choose>
@@ -125,7 +125,7 @@
 								<xsl:text> </xsl:text>
 								<span>
 									<xsl:text>[</xsl:text>
-									<q data-dict=".">
+									<q sfd:dict=".">
 										<xsl:value-of select="." />
 									</q>
 									<xsl:text>]</xsl:text>
@@ -148,7 +148,7 @@
 				<dl class="tabled-list">
 					<xsl:for-each select="ssp:credit">
 						<xsl:sort select="ssp:person" />
-						<dt data-dict="">
+						<dt sfd:dict="">
 							<xsl:call-template name="ssp:link">
 								<xsl:with-param name="link" select="ssp:website" />
 								<xsl:with-param name="name" select="ssp:person" />
@@ -182,7 +182,7 @@
 						<video width="800" height="450" controls="controls">
 							<source src="{@href}" type="video/mp4" />
 						</video>
-						<figcaption data-dict="">
+						<figcaption sfd:dict="">
 							<xsl:value-of select="@name" />
 						</figcaption>
 					</figure>
@@ -196,7 +196,7 @@
 				<xsl:for-each select="$images">
 					<figure>
 						<img src="{@href}" alt="{@name}" />
-						<figcaption data-dict="">
+						<figcaption sfd:dict="">
 							<xsl:value-of select="@name" />
 						</figcaption>
 					</figure>

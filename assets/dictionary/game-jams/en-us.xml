@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">
-	<p key="Die Götter müssen verrückt sein">the gods must be crazy</p>
-	<p key="Zeit">time</p>
-	<p key="Politik ist (k)ein Game">politics is(n't) a game</p>
-	<p key="Fundstücke">found pieces</p>
-	<p key="Telepräsenz">telepresence</p>
-	<p key="Doppelleben">double lives</p>
-	<p key="fremd">unfamiliar</p>
-	<p key="Sphären">spheres</p>
-	<p key="Lieber Nicht...">better not...</p>
-	<p key="Klimaaußenpolitik">foreign climate policy</p>
-	<p key="Wenn ich das nur gewusst hätte...">if only I'd known...</p>
-	<p key="Kaputt">broken</p>
+<sfd:dictionary xmlns="http://www.w3.org/1999/xhtml" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" version="1.0">
+    <sfd:text xml:id="DieGöttermüssenverrücktsein">the gods must be crazy</sfd:text>
+    <sfd:text xml:id="Zeit">time</sfd:text>
+    <sfd:text xml:id="PolitikistkeinGame">politics is(n't) a game</sfd:text>
+    <sfd:text xml:id="Fundstücke">found pieces</sfd:text>
+    <sfd:text xml:id="Telepräsenz">telepresence</sfd:text>
+    <sfd:text xml:id="Doppelleben">double lives</sfd:text>
+    <sfd:text xml:id="fremd">unfamiliar</sfd:text>
+    <sfd:text xml:id="Sphären">spheres</sfd:text>
+    <sfd:text xml:id="LieberNicht...">better not...</sfd:text>
+    <sfd:text xml:id="Klimaaußenpolitik">foreign climate policy</sfd:text>
+    <sfd:text xml:id="Wennichdasnurgewussthätte...">if only I'd known...</sfd:text>
+    <sfd:text xml:id="Kaputt">broken</sfd:text>
+    <sfd:text xml:id="Überwachungsspiele">surveillance games</sfd:text>
 
-	<p key="BackToTheChicken.Intro.mp4">The intro didn't make it into the game, so watch it here!</p>
-	<p key="BackToTheChicken.Gameplay">Explore a lavishly furnished house!</p>
-	<p key="ReverseSlender.mp4">No trespassing in the haunted forest!</p>
-	<p key="NuttinToLose.HidingSpots">Find the perfect hiding spot for your nuts!</p>
-	<p key="Pengwing.Gameplay">To freedom!</p>
+    <sfd:text xml:id="BackToTheChicken.Intro.mp4">The intro didn't make it into the game, so watch it here!</sfd:text>
+    <sfd:text xml:id="BackToTheChicken.Gameplay">Explore a lavishly furnished house!</sfd:text>
+    <sfd:text xml:id="ReverseSlender.mp4">No trespassing in the haunted forest!</sfd:text>
+    <sfd:text xml:id="NuttinToLose.HidingSpots">Find the perfect hiding spot for your nuts!</sfd:text>
+    <sfd:text xml:id="Pengwing.Gameplay">To freedom!</sfd:text>
 
-	<p key="GameJams">Game Jams</p>
-</html>
+    <sfd:text xml:id="GameJams">Game Jams</sfd:text>
+</sfd:dictionary>

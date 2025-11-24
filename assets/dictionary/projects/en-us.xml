@@ -84,7 +84,7 @@
                 </dd>
                 <dd>
                     My editor then uses
-                    <a data-dict-replace="spec/dom" />
+                    <sfd:lookup key="spec.dom" />
                     magic to transform this information into easily-accessible objects,
                     up to a ratio of "1 object per 1 bit of save
                     data".
@@ -94,26 +94,26 @@
                 </dd>
                 <dd>
                     Both the editor (generated using
-                    <a data-dict-replace="spec/xslt" />
+                    <sfd:lookup key="spec.xslt" />
                     ) and any requested file downloads are then transferred via my
                     implementation of some usual HTTP goodstuff:
-                    <a data-dict-replace="spec/content-encoding" />
+                    <sfd:lookup key="spec.content-encoding" />
                     ,
-                    <a data-dict-replace="spec/transfer-encoding" />
+                    <sfd:lookup key="spec.transfer-encoding" />
                     ,
-                    <a data-dict-replace="spec/ranged-requests" />
+                    <sfd:lookup key="spec.ranged-requests" />
                     , and others.
                 </dd>
                 <dt>Client-side</dt>
                 <dd>HTML to display the (massive) editor.</dd>
                 <dd>
                     CSS to make it look like the original game;
-                    <a data-dict-replace="spec/image-rendering" />
+                    <sfd:lookup key="spec.image-rendering" />
                     "pixelated" in particular is a godsend.
                 </dd>
                 <dd>
                     Also cool new stuff like
-                    <a data-dict-replace="spec/flexbox" />
+                    <sfd:lookup key="spec.flexbox" />
                     .
                 </dd>
             </dl>
@@ -195,7 +195,7 @@
                     <a href="http://jisho.org" rel="external" target="_blank">jisho.org</a>
                     (There's no special API for this, I just parse the HTML via the
                     usual
-                    <a data-dict-replace="spec/dom" />
+                    <sfd:lookup key="spec.dom" />
                     magic). If no result is found, the last character of user input is
                     dropped (to be searched separately later), and the
                     process is
@@ -229,7 +229,7 @@
                 </dd>
                 <dd>
                     The server response is converted to HTML via
-                    <a data-dict-replace="spec/xslt" />
+                    <sfd:lookup key="spec.xslt" />
                     .
                 </dd>
             </dl>
@@ -285,34 +285,34 @@
                 <dt>Server-side</dt>
                 <dd>
                     Multi-threaded PHP (via
-                    <a data-dict-replace="spec/pthreads" />
+                    <sfd:lookup key="spec.pthreads" />
                     ) to download and parse the card data (using my personal
                     implementation of
-                    <a data-dict-replace="spec/xmlhttprequest" />
+                    <sfd:lookup key="spec.xmlhttprequest" />
                     , and PHP's native implementation of
-                    <a data-dict-replace="spec/xpath" />
+                    <sfd:lookup key="spec.xpath" />
                     ).
                 </dd>
                 <dd>
                     Stored in a
-                    <a data-dict-replace="spec/mysql" />
+                    <sfd:lookup key="spec.mysql" />
                     database.
                 </dd>
                 <dd>
-                    <a data-dict-replace="spec/xslt" />
+                    <sfd:lookup key="spec.xslt" />
                     (with some
-                    <a data-dict-replace="spec/exslt" />
+                    <sfd:lookup key="spec.exslt" />
                     ) to generate the frontend.
                 </dd>
                 <dt>Client-side</dt>
                 <dd>HTML to display the search form and the results.</dd>
                 <dd>
                     The image cache is based on a (shared)
-                    <a data-dict-replace="spec/webworkers" />
+                    <sfd:lookup key="spec.webworkers" />
                     and stores all previously requested card images in a local
-                    <a data-dict-replace="spec/indexedDB" />
+                    <sfd:lookup key="spec.indexedDB" />
                     , and it displays its status via an
-                    <a data-dict-replace="spec/html-template" />
+                    <sfd:lookup key="spec.html-template" />
                     .
                 </dd>
             </dl>
@@ -500,10 +500,10 @@
                     The
                     <a href="http://schema.ibp-dresden.de/lodb/" rel="external" target="_blank">spec</a>
                     , written as
-                    <a data-dict-replace="spec/xsd" />
+                    <sfd:lookup key="spec.xsd" />
                     , describes the current state of development. Internally, it uses
                     an
-                    <a data-dict-replace="spec/xslt" />
+                    <sfd:lookup key="spec.xslt" />
                     to converts the schema into a neat
                     <a href="http://schema.ibp-dresden.de/lodb/?page=documentation" rel="external" target="_blank">documentation</a>
                     , and a schema parser (written in PHP) to create an
@@ -515,26 +515,26 @@
                 <dt>Viewer</dt>
                 <dd>
                     The viewer is written in JavaScript and uses
-                    <a data-dict-replace="spec/xslt" />
+                    <sfd:lookup key="spec.xslt" />
                     , with
-                    <a data-dict-replace="spec/xpath" />
+                    <sfd:lookup key="spec.xpath" />
                     to access the interactive elements of the GUI. To do drag'n'drop it
                     uses the HTML5
-                    <a data-dict-replace="spec/drag" />
+                    <sfd:lookup key="spec.drag" />
                     API. In order to support mobile, the
-                    <a data-dict-replace="spec/touch" />
+                    <sfd:lookup key="spec.touch" />
                     API was used, as well as
-                    <a data-dict-replace="spec/media-queries" />
+                    <sfd:lookup key="spec.media-queries" />
                     .
                 </dd>
                 <dt>Editor</dt>
                 <dd>
                     The editor uses the same code base as the viewer. Editing is done
                     via the HTML5 attribute
-                    <a data-dict-replace="spec/contenteditable" />
+                    <sfd:lookup key="spec.contenteditable" />
                     , and its related functions. The data file is manipulated via the
                     usual
-                    <a data-dict-replace="spec/dom" />
+                    <sfd:lookup key="spec.dom" />
                     magic.
                 </dd>
             </dl>

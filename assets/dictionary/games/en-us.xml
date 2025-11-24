@@ -27,19 +27,19 @@
             <ul>
                 <li>
                     Made with
-                    <a data-dict-replace="spec/unity" />
+                    <sfd:lookup key="spec.unity" />
                     .
                 </li>
                 <li>
                     It uses the
-                    <a data-dict-replace="spec/manus" />
+                    <sfd:lookup key="spec.manus" />
                     gloves and the
-                    <a data-dict-replace="spec/vive" />
+                    <sfd:lookup key="spec.vive" />
                     headset and trackers for a fully immersive virtual reality experience.
                 </li>
                 <li>
                     Hand gesture recognition is implemented using machine learning algorithms provided by
-                    <a data-dict-replace="spec/ml.net" />
+                    <sfd:lookup key="spec.ml.net" />
                     .
                 </li>
             </ul>
@@ -105,7 +105,7 @@
             <ul>
                 <li>
                     Made with
-                    <a data-dict-replace="spec/unity" />
+                    <sfd:lookup key="spec.unity" />
                     .
                 </li>
             </ul>
@@ -170,7 +170,7 @@
             <ul>
                 <li>
                     Made with
-                    <a data-dict-replace="spec/unity" />
+                    <sfd:lookup key="spec.unity" />
                     .
                 </li>
             </ul>

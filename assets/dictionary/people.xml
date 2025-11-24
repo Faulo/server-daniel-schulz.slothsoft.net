@@ -207,4 +207,7 @@
     <sfd:entry xml:id="AlexanderGrzimek">
         <a href="https://www.artstation.com/alexandergrzimek" rel="external" target="_blank">Alexander Grzimek</a>
     </sfd:entry>
+    <sfd:entry xml:id="SaraKleyman">
+        <a href="https://itch.io/profile/mewo00" rel="external" target="_blank">Sara Kleyman</a>
+    </sfd:entry>
 </sfd:dictionary>

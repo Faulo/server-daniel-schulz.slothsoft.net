@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+    <title>Franken Game Jam 2025</title>
+    <site>Universität Bayreuth</site>
+    <theme>everything is connected</theme>
+    <start-date datetime="2025-11-07" />
+    <end-date datetime="2025-11-09" />
+    <website>https://itch.io/jam/franken-game-jam-2025</website>
+    <games>
+        <game>
+            <title>Blooming Community</title>
+            <description>A game about communication, time, and healing.</description>
+            <additionals>
+                <additional>
+                    <title>Play on itch.io</title>
+                    <link>https://stumbleduck.itch.io/blooming-community</link>
+                </additional>
+                <additional>
+                    <title>GitHub repository</title>
+                    <link>https://github.com/Faulo/BloomingCommunity</link>
+                </additional>
+            </additionals>
+            <credits>
+                <credit>
+                    <person>Katharina Broswik</person>
+                    <role>2D Art</role>
+                    <role>UI Design</role>
+                </credit>
+                <credit>
+                    <person>Daniel Schulz</person>
+                    <role>Programming</role>
+                    <role>Game Design</role>
+                </credit>
+                <credit>
+                    <person>Sara Kleyman</person>
+                    <role>Writing</role>
+                    <role>Sound Design</role>
+                </credit>
+            </credits>
+        </game>
+    </games>
+</jam>

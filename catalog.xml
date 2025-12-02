@@ -1,6 +1,51 @@
 <?xml version="1.0"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/dictionary/game-jams/en-us" uri="assets/dictionary/game-jams/en-us.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/dictionary/games/en-us" uri="assets/dictionary/games/en-us.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/dictionary/home/en-us" uri="assets/dictionary/home/en-us.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/dictionary/people" uri="assets/dictionary/people.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/dictionary/projects/en-us" uri="assets/dictionary/projects/en-us.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/game-jams" uri="assets/game-jams.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/BackToTheChicken" uri="assets/jam-games/BackToTheChicken.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/BattleOfTheGods" uri="assets/jam-games/BattleOfTheGods.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/BloomingCommunity" uri="assets/jam-games/BloomingCommunity.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/BrieYourself" uri="assets/jam-games/BrieYourself.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/BubbleWand" uri="assets/jam-games/BubbleWand.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/CatsInCostumes" uri="assets/jam-games/CatsInCostumes.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/ChartRunner" uri="assets/jam-games/ChartRunner.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/Communiganda" uri="assets/jam-games/Communiganda.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/DokoDont" uri="assets/jam-games/DokoDont.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/FindingHome" uri="assets/jam-games/FindingHome.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/FollowYourDreams" uri="assets/jam-games/FollowYourDreams.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/HeartbeatForAll" uri="assets/jam-games/HeartbeatForAll.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/IAmSusi" uri="assets/jam-games/IAmSusi.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/KeepEverybodyHappy" uri="assets/jam-games/KeepEverybodyHappy.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/LiarLiarForestFire" uri="assets/jam-games/LiarLiarForestFire.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/LostNotes" uri="assets/jam-games/LostNotes.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/MizuKiri" uri="assets/jam-games/MizuKiri.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/NanoMixture" uri="assets/jam-games/NanoMixture.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/NuttinToLose" uri="assets/jam-games/NuttinToLose.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/Orbital" uri="assets/jam-games/Orbital.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/Pengwing" uri="assets/jam-games/Pengwing.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/PressForPeace" uri="assets/jam-games/PressForPeace.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/Retropair" uri="assets/jam-games/Retropair.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/ReverseSlender" uri="assets/jam-games/ReverseSlender.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/RootRush" uri="assets/jam-games/RootRush.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/SheepThrills" uri="assets/jam-games/SheepThrills.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/SlothGarden" uri="assets/jam-games/SlothGarden.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/SnailsInTheSky" uri="assets/jam-games/SnailsInTheSky.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/SnailsOnTheRoad" uri="assets/jam-games/SnailsOnTheRoad.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/SonarUndDochSoFern" uri="assets/jam-games/SonarUndDochSoFern.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/SpaceCape" uri="assets/jam-games/SpaceCape.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/SpillTheTea" uri="assets/jam-games/SpillTheTea.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/SuperManual64" uri="assets/jam-games/SuperManual64.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/WatchOut" uri="assets/jam-games/WatchOut.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/WhatTheHell" uri="assets/jam-games/WhatTheHell.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/ZooSmashBaseballBash" uri="assets/jam-games/ZooSmashBaseballBash.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/resumes/2025-06-23" uri="assets/resumes/2025-06-23.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/resumes/GameDeveloper" uri="assets/resumes/GameDeveloper.xml"/>
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/sitemap/template" uri="assets/sitemap/template.xsl"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/tetris/static/game" uri="assets/tetris/static/game.xml"/>
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/tetris/xsl/game" uri="assets/tetris/xsl/game.xsl"/>
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/tetris/xsl/home" uri="assets/tetris/xsl/home.xsl"/>
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/xsl/_build" uri="assets/xsl/_build.xsl"/>

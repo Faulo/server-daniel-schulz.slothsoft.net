@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://schema.slothsoft.net/schema/presskit" version="1.0">
+    <title>Cursed Broom</title>
+    <release-date>2024</release-date>
+
+    <credits>
+        <credit>
+            <person>Tina Wolfrum</person>
+            <role>Art Direction</role>
+            <role>Narrative Design</role>
+        </credit>
+        <credit>
+            <person>Nic Schilling</person>
+            <role>Music</role>
+            <role>Sound Design</role>
+            <role>Level Design</role>
+        </credit>
+        <credit>
+            <person>Daniel Schulz</person>
+            <role>Technical Direction</role>
+            <role>Game Design</role>
+            <role>Level Design</role>
+        </credit>
+        <credit>
+            <person>Nadine Jachmann</person>
+            <role>2D Art</role>
+        </credit>
+        <credit>
+            <person>Nico Auerswald</person>
+            <role>Programming</role>
+        </credit>
+    </credits>
+</game>

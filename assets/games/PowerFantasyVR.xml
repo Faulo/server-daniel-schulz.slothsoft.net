@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://schema.slothsoft.net/schema/presskit" version="1.0">
+    <title>Power Fantasy VR</title>
+    <release-date>2020</release-date>
+
+    <credits>
+        <credit>
+            <person>Katharina Broswik</person>
+            <role>Programming</role>
+            <role>Game Design</role>
+            <role>3D Art</role>
+        </credit>
+        <credit>
+            <person>Magnus Drebenstedt</person>
+            <role>Level Design</role>
+            <role>Sound Design</role>
+        </credit>
+        <credit>
+            <person>Daniel Schulz</person>
+            <role>Programming</role>
+            <role>Game Design</role>
+        </credit>
+    </credits>
+</game>

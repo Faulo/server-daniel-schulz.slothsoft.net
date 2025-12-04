@@ -3,13 +3,14 @@
     <sfd:text xml:id="Games">Games</sfd:text>
     <sfd:fragment xml:id="Games.content">
         <article>
-            <h2>12.11.2019</h2>
-            <p>The closest thing I've got to finished games.</p>
+            <h2>04.12.2025</h2>
+            <p>These are the commercial(ish) games I've worked on.</p>
+            <p>You may have heard of them (but you probably haven't).</p>
         </article>
     </sfd:fragment>
 
     <sfd:text xml:id="PowerFantasyVR">Power Fantasy VR</sfd:text>
-    <sfd:fragment xml:id="PowerFantasyVR.content">
+    <sfd:fragment xml:id="PowerFantasyVR.content" xml:space="preserve">
         <figure>
             <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.jetpack" alt="Power Fantasy VR" />
         </figure>
@@ -17,41 +18,20 @@
             <h2>About</h2>
             <p>
                 Power Fantasy VR was created for a seminar of the Master's study of
-                <a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
-                </a>
+                <a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften</a>
                 at the University of Bayreuth.
             </p>
+            <p>It was a really fun prototype, but since it needed the Manus VR gloves to function, wasn't pursued for a commercial release.</p>
         </article>
         <article>
             <h2>Technical Details</h2>
             <ul>
-                <li>
-                    Made with
-                    <sfd:lookup key="spec.unity" />
-                    .
-                </li>
-                <li>
-                    It uses the
-                    <sfd:lookup key="spec.manus" />
-                    gloves and the
-                    <sfd:lookup key="spec.vive" />
-                    headset and trackers for a fully immersive virtual reality experience.
-                </li>
-                <li>
-                    Hand gesture recognition is implemented using machine learning algorithms provided by
-                    <sfd:lookup key="spec.ml.net" />
-                    .
-                </li>
+                <li>Made with <sfd:lookup key="spec.unity" />.</li>
+                <li>It uses the <sfd:lookup key="spec.manus" /> gloves and the <sfd:lookup key="spec.vive" /> headset and trackers for a fully immersive virtual reality experience.</li>
+                <li>Hand gesture recognition is implemented via machine learning provided by <sfd:lookup key="spec.ml.net" />.</li>
             </ul>
         </article>
-        <article>
-            <h2>Credits</h2>
-            <ul>
-                <li>Katharina Broswik (programming, game design, modelling)</li>
-                <li>Magnus Drebenstedt (level design, sound design)</li>
-                <li>Daniel Schulz (programming, game design)</li>
-            </ul>
-        </article>
+        <sfd:lookup key="PowerFantasyVR.credits" />
         <article>
             <h2>Links</h2>
             <ul>
@@ -72,11 +52,7 @@
                 <video controls="controls">
                     <source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/PowerFantasyVR.mp4" type="video/mp4" />
                 </video>
-                <figcaption>
-                    Trailer for the
-                    <a href="https://www.facebook.com/events/reichshof-kulturb%C3%BChne-bayreuth/mediennacht-2019/406618593594569/" rel="external">Mediennacht 2019</a>
-                    .
-                </figcaption>
+                <figcaption>Trailer for the <a href="https://www.facebook.com/events/reichshof-kulturb%C3%BChne-bayreuth/mediennacht-2019/406618593594569/" rel="external">Mediennacht 2019</a>.</figcaption>
             </figure>
             <figure>
                 <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/PowerFantasyVR.map" alt="World map" />
@@ -86,8 +62,9 @@
             </figure>
         </article>
     </sfd:fragment>
+
     <sfd:text xml:id="TrialOfTwo">Trial of Two</sfd:text>
-    <sfd:fragment xml:id="TrialOfTwo.content">
+    <sfd:fragment xml:id="TrialOfTwo.content" xml:space="preserve">
         <figure>
             <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TrialOfTwo.1" alt="Trial of Two" />
         </figure>
@@ -95,39 +72,24 @@
             <h2>About</h2>
             <p>
                 Trial of Two was created for a seminar of the Master's study of
-                <a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
-                </a>
+                <a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften</a>
                 at the University of Bayreuth.
             </p>
+            <p>It shipped in 2021 to <a href="https://store.steampowered.com/app/1580040/Trial_of_Two/" rel="external">Steam</a>.</p>
         </article>
         <article>
             <h2>Technical Details</h2>
             <ul>
-                <li>
-                    Made with
-                    <sfd:lookup key="spec.unity" />
-                    .
-                </li>
+                <li>Made with <sfd:lookup key="spec.unity" />.</li>
             </ul>
         </article>
-        <article>
-            <h2>Credits</h2>
-            <ul>
-                <li>Katharina Broswik (art direction, level design)</li>
-                <li>Robin Daraban (creative direction, programming, sound design)</li>
-                <li>Stephi Dietzel (art, character design)</li>
-                <li>Paul Redetzky (music)</li>
-                <li>Daniel Schulz (technical direction, game design)</li>
-                <li>Lena Voß (management)</li>
-            </ul>
-        </article>
+        <sfd:lookup key="TrialOfTwo.credits" />
         <article>
             <h2>Links</h2>
             <ul>
                 <li>
                     <a href="https://store.steampowered.com/app/1580040/Trial_of_Two/" rel="external">
-                        <q>Trial of Two</q>
-                        on Steam
+                        <q>Trial of Two</q> on Steam
                     </a>
                 </li>
                 <li>
@@ -141,16 +103,13 @@
                 <video controls="controls">
                     <source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/TrialOfTwo.mp4" type="video/mp4" />
                 </video>
-                <figcaption>
-                    Trailer for the
-                    <a href="https://www.facebook.com/mediennacht.bayreuth/" rel="external">Mediennacht 2020</a>
-                    .
-                </figcaption>
+                <figcaption>Trailer for the <a href="https://www.facebook.com/mediennacht.bayreuth/" rel="external">Mediennacht 2020</a>.</figcaption>
             </figure>
         </article>
     </sfd:fragment>
+
     <sfd:text xml:id="CursedBroom">Cursed Broom</sfd:text>
-    <sfd:fragment xml:id="CursedBroom.content">
+    <sfd:fragment xml:id="CursedBroom.content" xml:space="preserve">
         <figure>
             <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/CursedBroom" alt="Cursed Broom" />
         </figure>
@@ -162,69 +121,44 @@
                 was created for a seminar of the Master's study of
                 <a href="https://computerspielwissenschaften.uni-bayreuth.de/" rel="external" target="_blank">Computerspielwissenschaften
                 </a>
-                at the University of Bayreuth. It is currently in development.
+                at the University of Bayreuth.
             </p>
+            <p>It shipped in 2024 to <a href="https://store.steampowered.com/app/1823030/Cursed_Broom/" rel="external">Steam</a>.</p>
         </article>
         <article>
             <h2>Technical Details</h2>
             <ul>
-                <li>
-                    Made with
-                    <sfd:lookup key="spec.unity" />
-                    .
-                </li>
+                <li> Made with <sfd:lookup key="spec.unity" />.</li>
             </ul>
         </article>
-        <article>
-            <h2>Credits</h2>
-            <ul>
-                <li>Daniel Schulz (game design and programming)</li>
-                <li>Tina Wolfrum (art and level design)</li>
-                <li>Nic Schilling (sound design and music)</li>
-            </ul>
-        </article>
+        <sfd:lookup key="CursedBroom.credits" />
         <article>
             <h2>Links</h2>
             <ul>
                 <li>
-                    <a href="https://store.steampowered.com/app/1823030/Cursed_Broom/" rel="external">
-                        <q>Cursed Broom</q>
-                        on Steam
-                    </a>
-                </li>
-                <li>
-                    <a href="http://cursedcreations.slothsoft.net/CursedBroom/" rel="external">Presskit</a>
+                    <a href="https://store.steampowered.com/app/1823030/Cursed_Broom/" rel="external"><q>Cursed Broom</q> on Steam</a>
                 </li>
             </ul>
         </article>
-        <!-- <article> <h2>Game Footage</h2> <figure> <video controls="controls"> <source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/TheCursedBroom.v070.mp4" type="video/mp4" /> </video> 
-            <figcaption> A playthrough of version 0.7.0. Beware the spoilers! </figcaption> </figure> </article> <article> <h2>Development Log</h2> <p>This section presents a playable version of every major milestone 
-            and some notes on which decisions went into making it.</p> <p>Note that a gamepad (preferably an Xbox-ish one) is required to play these.</p> <article> <h3>23.10.2021 - Milestone 9</h3> <p>This milestone 
-            focused on lots of changes to the backend that will make further development easier. First was, of course, a fix to the WebGL version of the game which broke v0.8.0. We also rewrote the character controller 
-            from scratch to get a more granular control of when all the good game juice stuff happens: Animations, sounds, rumble, particles, camera movement, and of course the movement of the avatar herself.</p> 
-            <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v090" alt="Cursed Broom v0.9.0" /> <figcaption> The new character controller uses Unity's Timeline to allow for frame-perfect 
-            tuning of effects. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.9.0/">Play v0.9.0 online</a> </p> </article> <article> <h3>27.03.2021 - Milestone 8</h3> <p>Our composer asked for a high-performance 
-            build of the game to use in an arcade he was working on. So, we added a graphics quality menu and used nifty multithreading to make the game run much faster. Sadly, this broke the browser build.</p> <figure> 
-            <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v080" alt="Cursed Broom v0.8.0" /> <figcaption> If you're ever in Bayreuth, come check out Cursed Broom on this here arcade 
-            machine! </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.8.0/">Play v0.8.0 online (broken)</a> </p> </article> <article> <h3>31.10.2020 - Milestone 7</h3> <p>For the final milestone, lots 
-            of polish was applied to the level design, the sound effects and the character controller.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v070" alt="Cursed Broom 
-            v0.7.0" /> <figcaption> Now with a proper main menu! </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.7.0/">Play v0.7.0 online</a> </p> </article> <article> <h3>03.10.2020 - Milestone 6</h3> 
-            <p>This milestone focused on improving the tilemap performance, polishing the particle systems, and adding the start of the 2nd level.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v060" 
-            alt="Cursed Broom v0.6.0" /> <figcaption> Completing the tutorial rewards you with some pretty flowers. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.6.0/">Play v0.6.0 online</a> </p> </article> 
-            <article> <h3>23.07.2020 - Milestone 5</h3> <p>Mechanically, we added a wall-jump and a dash, both available only while flying.</p> <p>Level design wise, we completed a draft of the tutorial level, and 
-            decided for the game structure to be about a vertical climb out of a cave and into the clouds.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v050" alt="Cursed 
-            Broom v0.5.0" /> <figcaption> The tutorial is all about emerging from darkness. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.5.0/">Play v0.5.0 online</a> </p> </article> <article> <h3>18.06.2020 
-            - Milestone 4</h3> <p>This milestone focused on making the ground/jump movement snappy, intuitive and fun. For this, the character controllers of Celeste's Madeline and Super Mario World's Mario were studied 
-            and approximated. Turns are now instant, even in mid-air, and there's some coyote time when walking off of platforms.</p> <p>There's also many more visuals and, finally, sound effects. And collectibles!</p> 
-            <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v040" alt="Cursed Broom v0.4.0" /> <figcaption> Brace for impact! </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.4.0/">Play 
-            v0.4.0 online</a> </p> </article> <article> <h3>04.06.2020 - Milestone 3</h3> <p>This milestone iterated the flight controls and tried to make the current avatar momentum matter a lot while mid-air. Sadly, 
-            the reliance on momentum made Maya very floaty.</p> <p>On the aesthetic side we added a lot of animations and visual effects, which improved game feel a lot!</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v030" 
-            alt="Cursed Broom v0.3.0" /> <figcaption> Ground movement aside, you can fly some nice sinusoidal curves. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.3.0/">Play v0.3.0 online</a> </p> 
-            </article> <article> <h3>28.05.2020 - Milestone 2</h3> <p>At this point Tina joined the project and brought a wonderful narration of a witch with a slightly malfunctioning broom.</p> <p>Gameplay introduced 
-            rotation during gliding, and a kinetic energy/potential energy translation similar to Mario's wing cap flight in Super Mario 64.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v020" 
-            alt="Cursed Broom v0.2.0" /> <figcaption> Also, particle systems. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.2.0/">Play v0.2.0 online</a> </p> </article> <article> <h3>14.05.2020 - Milestone 
-            1</h3> <p>The first prototype is the barest-bone implementation of a gliding ability. It's inspired by Knuckles' glide in Sonic 3 and Mario's dive jump in Super Mario 64.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v010" 
-            alt="Cursed Broom v0.1.0" /> <figcaption> In retrospect, binding both jump and glide to "any key" might have been a mistake (i.e., analog joystick to move). </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.1.0/">Play 
-            v0.1.0 online</a> </p> </article> </article> -->
+        <!-- <article> <h2>Game Footage</h2> <figure> <video controls="controls"> <source src="/slothsoft@daniel-schulz.slothsoft.net/static/videos/TheCursedBroom.v070.mp4" type="video/mp4" /> </video> <figcaption> A playthrough of version 0.7.0. Beware the spoilers! </figcaption> </figure> </article> 
+            <article> <h2>Development Log</h2> <p>This section presents a playable version of every major milestone and some notes on which decisions went into making it.</p> <p>Note that a gamepad (preferably an Xbox-ish one) is required to play these.</p> <article> <h3>23.10.2021 - Milestone 9</h3> <p>This milestone 
+            focused on lots of changes to the backend that will make further development easier. First was, of course, a fix to the WebGL version of the game which broke v0.8.0. We also rewrote the character controller from scratch to get a more granular control of when all the good game juice stuff happens: Animations, 
+            sounds, rumble, particles, camera movement, and of course the movement of the avatar herself.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v090" alt="Cursed Broom v0.9.0" /> <figcaption> The new character controller uses Unity's Timeline to allow for frame-perfect 
+            tuning of effects. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.9.0/">Play v0.9.0 online</a> </p> </article> <article> <h3>27.03.2021 - Milestone 8</h3> <p>Our composer asked for a high-performance build of the game to use in an arcade he was working on. So, we added a graphics quality 
+            menu and used nifty multithreading to make the game run much faster. Sadly, this broke the browser build.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v080" alt="Cursed Broom v0.8.0" /> <figcaption> If you're ever in Bayreuth, come check out Cursed Broom 
+            on this here arcade machine! </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.8.0/">Play v0.8.0 online (broken)</a> </p> </article> <article> <h3>31.10.2020 - Milestone 7</h3> <p>For the final milestone, lots of polish was applied to the level design, the sound effects and the character 
+            controller.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v070" alt="Cursed Broom v0.7.0" /> <figcaption> Now with a proper main menu! </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.7.0/">Play v0.7.0 online</a> </p> </article> <article> <h3>03.10.2020 
+            - Milestone 6</h3> <p>This milestone focused on improving the tilemap performance, polishing the particle systems, and adding the start of the 2nd level.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v060" alt="Cursed Broom v0.6.0" /> <figcaption> Completing 
+            the tutorial rewards you with some pretty flowers. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.6.0/">Play v0.6.0 online</a> </p> </article> <article> <h3>23.07.2020 - Milestone 5</h3> <p>Mechanically, we added a wall-jump and a dash, both available only while flying.</p> <p>Level design 
+            wise, we completed a draft of the tutorial level, and decided for the game structure to be about a vertical climb out of a cave and into the clouds.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v050" alt="Cursed Broom v0.5.0" /> <figcaption> The tutorial 
+            is all about emerging from darkness. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.5.0/">Play v0.5.0 online</a> </p> </article> <article> <h3>18.06.2020 - Milestone 4</h3> <p>This milestone focused on making the ground/jump movement snappy, intuitive and fun. For this, the character controllers 
+            of Celeste's Madeline and Super Mario World's Mario were studied and approximated. Turns are now instant, even in mid-air, and there's some coyote time when walking off of platforms.</p> <p>There's also many more visuals and, finally, sound effects. And collectibles!</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v040" 
+            alt="Cursed Broom v0.4.0" /> <figcaption> Brace for impact! </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.4.0/">Play v0.4.0 online</a> </p> </article> <article> <h3>04.06.2020 - Milestone 3</h3> <p>This milestone iterated the flight controls and tried to make the current avatar momentum 
+            matter a lot while mid-air. Sadly, the reliance on momentum made Maya very floaty.</p> <p>On the aesthetic side we added a lot of animations and visual effects, which improved game feel a lot!</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v030" alt="Cursed 
+            Broom v0.3.0" /> <figcaption> Ground movement aside, you can fly some nice sinusoidal curves. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.3.0/">Play v0.3.0 online</a> </p> </article> <article> <h3>28.05.2020 - Milestone 2</h3> <p>At this point Tina joined the project and brought a wonderful 
+            narration of a witch with a slightly malfunctioning broom.</p> <p>Gameplay introduced rotation during gliding, and a kinetic energy/potential energy translation similar to Mario's wing cap flight in Super Mario 64.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v020" 
+            alt="Cursed Broom v0.2.0" /> <figcaption> Also, particle systems. </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.2.0/">Play v0.2.0 online</a> </p> </article> <article> <h3>14.05.2020 - Milestone 1</h3> <p>The first prototype is the barest-bone implementation of a gliding ability. It's 
+            inspired by Knuckles' glide in Sonic 3 and Mario's dive jump in Super Mario 64.</p> <figure> <img src="/slothsoft@daniel-schulz.slothsoft.net/static/images/TheCursedBroom.v010" alt="Cursed Broom v0.1.0" /> <figcaption> In retrospect, binding both jump and glide to "any key" might have been a mistake 
+            (i.e., analog joystick to move). </figcaption> </figure> <p> <a href="/Builds/TheCursedBroom/0.1.0/">Play v0.1.0 online</a> </p> </article> </article> -->
     </sfd:fragment>
 </sfd:dictionary>

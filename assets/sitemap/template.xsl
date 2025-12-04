@@ -19,12 +19,7 @@
                 <page name="PowerFantasyVR" redirect="/Games/PowerFantasyVR" />
             </page>
 
-            <page name="Games" ref="pages/default" status-active="" status-public="">
-                <page name="Tetris" ref="pages/tetris" status-active="" />
-                <page name="PowerFantasyVR" title="Power Fantasy VR" ref="pages/default" status-active="" status-public="" />
-                <page name="TrialOfTwo" title="Trial of Two" ref="pages/default" status-active="" status-public="" />
-                <page name="CursedBroom" title="Cursed Broom" ref="pages/default" status-active="" status-public="" />
-            </page>
+            <xsl:apply-templates select="*[@name = 'games']" />
 
             <xsl:apply-templates select="*[@name = 'jam-games']" />
 
@@ -72,14 +67,14 @@
         </xsl:for-each>
     </xsl:template>
 
-    <xsl:template match="*[@name = 'game-jams']">
-        <xsl:for-each select=".//games">
-            <page name="GameJams" ref="pages/default" status-active="" status-public="">
-                <xsl:for-each select="game">
-                    <page name="{@name}" ref="pages/default" status-active="" status-public="" />
-                </xsl:for-each>
-            </page>
-        </xsl:for-each>
+    <xsl:template match="*[@name = 'games']">
+        <page name="Games" ref="pages/default" status-active="" status-public="">
+            <xsl:for-each select=".//sfm:document-info">
+                <xsl:sort select=".//ssp:release-date" data-type="number" />
+                <xsl:variable name="title" select=".//ssp:title" />
+                <page name="{@name}" title="{$title}" ref="pages/default" status-active="" status-public="" />
+            </xsl:for-each>
+        </page>
     </xsl:template>
 
     <xsl:template match="*[@name = 'jam-games']">

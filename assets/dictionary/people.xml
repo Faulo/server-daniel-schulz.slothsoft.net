@@ -1,6 +1,6 @@
 
 <sfd:dictionary xmlns="http://www.w3.org/1999/xhtml" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" version="1.0">
-    <sfd:entry xml:id="A·B">
+    <sfd:entry xml:id="DanielSchulz">
         <a href="/AboutMe/">Daniel Schulz</a>
     </sfd:entry>
     <sfd:entry xml:id="ArdenOsthof">
@@ -209,5 +209,14 @@
     </sfd:entry>
     <sfd:entry xml:id="SaraKleyman">
         <a href="https://itch.io/profile/mewo00" rel="external" target="_blank">Sara Kleyman</a>
+    </sfd:entry>
+    <sfd:entry xml:id="StephanieDietzel">
+        <a href="https://www.linkedin.com/in/stephanie-dietzel-ab8a97273/" rel="external" target="_blank">Stephanie Dietzel</a>
+    </sfd:entry>
+    <sfd:entry xml:id="MagnusDrebenstedt">
+        <a href="https://www.linkedin.com/in/magnus-drebenstedt-a7a081230/" rel="external" target="_blank">Magnus Drebenstedt</a>
+    </sfd:entry>
+    <sfd:entry xml:id="NadineJachmann">
+        <a href="https://www.linkedin.com/in/nadine-jachmann-698686249/" rel="external" target="_blank">Nadine Jachmann</a>
     </sfd:entry>
 </sfd:dictionary>

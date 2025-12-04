@@ -15,9 +15,11 @@
         <fragment name="en-us">
             <use-template ref="/xsl/_dictionary" />
             <use-document ref="/dictionary/people" />
+            <use-document ref="/games?load=tree" />
         </fragment>
     </directory>
 
+    <resource-directory name="games" type="application/xml" />
     <resource-directory name="jam-games" type="application/xml" />
     <resource-directory name="jam-game-images" path="jam-games" type="image/png" />
     <resource-directory name="jam-game-videos" path="jam-games" type="video/*" />
@@ -28,13 +30,12 @@
         <use-document ref="/api/build" name="builds" />
         <use-document ref="/downloads" name="downloads" />
         <use-document ref="/resumes" name="resumes" />
+        <use-document ref="/games?load=tree" name="games" />
         <use-document ref="/jam-games?load=tree" name="jam-games" />
         <link-dictionary ref="/dictionary/home" />
     </directory>
 
     <resource-directory name="downloads" path="../data/downloads" type="*/*" />
-
-    <resource name="game-jams" type="application/xml" />
 
     <manifest-directory name="tetris" />
 

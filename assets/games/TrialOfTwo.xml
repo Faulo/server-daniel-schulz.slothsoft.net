@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://schema.slothsoft.net/schema/presskit" version="1.0">
+    <title>Trial of Two: The Dojo</title>
+    <release-date>2021</release-date>
+    <website>http://trialoftwo.slothsoft.net</website>
+    <press-can-request-copy>TRUE</press-can-request-copy>
+
+    <platforms>
+        <!-- <platform> <name>PC / Mac</name> <link>http://www.gamesite.com/</link> </platform> -->
+        <platform>
+            <name>Steam</name>
+            <link>https://store.steampowered.com/app/1580040/Trial_of_Two/</link>
+        </platform>
+        <!-- <platform> <name>Apple App Store</name> <link>http://www.itunes.com/</link> </platform> -->
+    </platforms>
+
+    <prices>
+        <!-- <price> <currency>USD</currency> <value>$1.99</value> </price> <price> <currency>EUR</currency> <value>€1.59</value> </price> <price> <currency>CAD</currency> <value>$1.99</value> </price> <price> <currency>GBP</currency> <value>£1.29</value> </price> -->
+    </prices>
+
+    <description>
+        <html:p>
+            <html:em>Trial of Two: The Dojo</html:em>
+            is a local co-op beat 'em up game with powerful, physics-based martial-arts combat. Its setting is a procedurally
+            generated dungeon also known as
+            <html:q>The Dojo</html:q>
+            .
+        </html:p>
+        <html:p>
+            The Dojo is a place to fight. It's a place that has been built to find the strongest, fastest and most
+            disciplined fighters in the world. But mostly, it has been built to forge the strongest bond of trust and power
+            between any friends who dare to enter The Dojo together. For outsiders, The Dojo seems like an arena, and they are
+            right. But it's more than that. It can be better described as a game. Whoever enters The Dojo also accepts its rules:
+        </html:p>
+        <html:ol>
+            <html:li>You live and die together</html:li>
+            <html:li>The dojo is ever-changing</html:li>
+            <html:li>Your weapon is squash</html:li>
+        </html:ol>
+        <html:p>
+            But beware: If the contestants fail to keep each other alive and both fall to their knees, The Dojo will be
+            forever
+            lost.
+        </html:p>
+    </description>
+
+    <history>
+        <html:p>
+            <html:em>Oilcatz</html:em>
+            started as a three-person team with an idea for their university graduation project: a synergetic two-player beat 'em
+            up you can play on the couch with your friends. In October 2019
+            <html:a href="#credits">Katharina Broswik</html:a>
+            ,
+            <html:a href="#credits">Robin Daraban</html:a>
+            and
+            <html:a href="#credits">Daniel Schulz</html:a>
+            invented
+            <html:em>Oilcatz</html:em>
+            as the unofficial name of this new project which would later be named
+            <html:em>Trial of Two: The Dojo</html:em>
+            in accordance with the martial arts theme and strong co-op spirit of the game idea.
+        </html:p>
+        <html:p>
+            With the newly mapped out concept another team member was acquired:
+            <html:a href="#credits">Lena Voß</html:a>
+            joined the team as project manager with experience from past projects. Just a few weeks later
+            <html:a href="#credits">Stephanie Dietzel</html:a>
+            took the position as 3D artist and animator for the targeted voxel art style. Up to this day the team is working on
+            the game not only as a graduation project, but also to strive for the release of the game expected in 2021.
+        </html:p>
+    </history>
+
+    <features>
+        <feature>A couch co-op experience for 2 friends kicking asses</feature>
+        <feature>Playing squash with your fists to destroy your foes</feature>
+        <feature>An ever-changing dungeon and permadeath for a new challenge every run</feature>
+        <feature>Intelligent fighting A.I. that will crush your spirits</feature>
+        <feature>Most accurate martial arts-based squash simulator on the market</feature>
+        <feature>Cute voxel art</feature>
+    </features>
+
+    <trailers>
+        <trailer>
+            <name>Trial of Two: The Dojo | Official Trailer</name>
+            <youtube>vM2ShgXisfs</youtube>
+        </trailer>
+    </trailers>
+
+    <awards>
+        <!-- <award> <description>Winner in this highly relevant contest.</description> <info>Award Location, 20 October, 1989</info> </award> <award> <description>Nomination for this prestigious award.</description> <info>Award Ceremony, 4 December, 1991</info> </award> <award> <description>Winner in 
+            this highly relevant contest.</description> <info>Award Location, 20 October, 1989</info> </award> <award> <description>Nomination for this prestigious award.</description> <info>Award Ceremony, 4 December, 1991</info> </award> -->
+    </awards>
+
+    <quotes>
+        <!-- <quote> <description>This is a rather insignificant quote by a highly important person.</description> <name>Person Name</name> <website>Website</website> <link>http://</link> </quote> <quote> <description>An extremely positive quote from a rather insignificant person. Also great.</description> 
+            <name>Some Guy</name> <website>This Page Is Visited By 12 Visitors A Month</website> <link>http://</link> </quote> <quote> <description>I pretend to love this game even though I do not actually understand it.</description> <name>Pretentious Bastard</name> <website>Artsy Page</website> <link>http://</link> 
+            </quote> <quote> <description>HOLY SHIT SO AMAZING</description> <name>Caps Guy</name> <website>Angry Review</website> <link>http://</link> </quote> -->
+    </quotes>
+
+    <additionals>
+        <additional>
+            <title>Game Database Schema</title>
+            <description>The proprietary XML schema used by Trial of Two's log files.</description>
+            <link>http://schema.slothsoft.net/trialoftwo/database/</link>
+        </additional>
+    </additionals>
+
+    <credits>
+        <credit>
+            <person>Katharina Broswik</person>
+            <website>https://twitter.com/xPetrichora</website>
+            <role>Project Management</role>
+            <role>Art Direction</role>
+            <role>2D Art</role>
+            <role>Level Design</role>
+            <role>Programming</role>
+            <role>Graphic Design</role>
+        </credit>
+        <credit>
+            <person>Robin Daraban</person>
+            <website>https://ninjacactusgames.itch.io/</website>
+            <role>Creative Direction</role>
+            <role>A.I. Design</role>
+            <role>Visual Effects</role>
+        </credit>
+        <credit>
+            <person>Stephanie Dietzel</person>
+            <website>https://www.artstation.com/stephdiy</website>
+            <role>3D Art</role>
+            <role>3D Animation</role>
+            <role>Character Design</role>
+        </credit>
+        <credit>
+            <person>Paul Redetzky</person>
+            <website>https://twitter.com/PaulRdy</website>
+            <role>Music</role>
+        </credit>
+        <credit>
+            <person>Daniel Schulz</person>
+            <website>http://daniel-schulz.slothsoft.net</website>
+            <role>Technical Direction</role>
+            <role>Combat Design</role>
+        </credit>
+        <credit>
+            <person>Lena Voß</person>
+            <website>http://klamueser.de</website>
+            <role>Project Management</role>
+        </credit>
+    </credits>
+
+    <thanks>
+        <thank>
+            <person>Ivette Schmidt</person>
+        </thank>
+        <thank>
+            <person>Magnus Drebenstedt</person>
+        </thank>
+        <thank>
+            <person>Peter Mentz</person>
+        </thank>
+        <thank>
+            <person>Sven Schäfer</person>
+        </thank>
+        <thank>
+            <person>Michael Kind</person>
+        </thank>
+        <thank>
+            <person>Marius Mühleck</person>
+        </thank>
+        <thank>
+            <person>Jan Milosch</person>
+        </thank>
+        <thank>
+            <person>Lisa Zumblick</person>
+        </thank>
+        <thank>
+            <person>Stefan Ensmann</person>
+        </thank>
+        <thank>
+            <person>Christian Keßler</person>
+        </thank>
+        <thank>
+            <person>Stefan Bernstein</person>
+        </thank>
+        <thank>
+            <person>Elisabeth Harzbecker</person>
+        </thank>
+        <thank>
+            <person>Tina Wolfrum</person>
+        </thank>
+        <thank>
+            <person>Justin Schwab</person>
+        </thank>
+        <thank>
+            <person>Annika Andrzejewska</person>
+        </thank>
+        <thank>
+            <person>Carl-Philipp Hellmuth</person>
+        </thank>
+        <thank>
+            <person>Miriam Kraus</person>
+        </thank>
+        <thank>
+            <person>Sebastian Kühn</person>
+        </thank>
+        <thank>
+            <person>Rose-Leonie Lachner</person>
+        </thank>
+        <thank>
+            <person>Theresa Wolfrum</person>
+        </thank>
+        <thank>
+            <person>Robert Ruchay</person>
+        </thank>
+        <thank>
+            <person>Frank Lerke</person>
+        </thank>
+        <thank>
+            <person>Linus Gärtig</person>
+        </thank>
+        <thank>
+            <person>Niko Ravnic</person>
+        </thank>
+        <thank>
+            <person>Andreas Burkhardtsmaier</person>
+        </thank>
+        <thank>
+            <person>Alexander Schmidt</person>
+        </thank>
+        <thank>
+            <person>Laura Rosinger</person>
+        </thank>
+        <thank>
+            <person>Gregor Sönnichsen</person>
+        </thank>
+        <thank>
+            <person>Nicolas Teichtweier</person>
+        </thank>
+        <thank>
+            <person>Jan-Niklas Blind</person>
+        </thank>
+        <thank>
+            <person>John Steven Beinecke</person>
+        </thank>
+        <thank>
+            <person>Andrej Kunkel</person>
+        </thank>
+        <thank>
+            <person>Monika Himmelsbach</person>
+        </thank>
+        <thank>
+            <person>Sebastian Raabe</person>
+        </thank>
+    </thanks>
+</game>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:ssp="http://schema.slothsoft.net/schema/presskit">
+<xsl:stylesheet version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:ssp="http://schema.slothsoft.net/schema/presskit">
 
     <xsl:import href="farah://slothsoft@schema/xsl/presskit.functions" />
+    <xsl:import href="farah://slothsoft@farah/xsl/dictionary" />
 
     <xsl:template match="/*">
         <sfd:dictionary version="1.0">
@@ -25,7 +26,7 @@
                     <xsl:for-each select="ssp:credits/ssp:credit">
                         <xsl:sort select="ssp:person" />
                         <dt>
-                            <sfd:lookup key="{ssp:person}" />
+                            <sfd:lookup key="{sfd:sanitize-key(ssp:person)}" />
                         </dt>
                         <xsl:for-each select="ssp:role">
                             <dd>

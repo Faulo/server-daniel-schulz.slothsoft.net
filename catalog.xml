@@ -5,7 +5,9 @@
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/dictionary/home/en-us" uri="assets/dictionary/home/en-us.xml"/>
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/dictionary/people" uri="assets/dictionary/people.xml"/>
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/dictionary/projects/en-us" uri="assets/dictionary/projects/en-us.xml"/>
-  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/game-jams" uri="assets/game-jams.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/games/CursedBroom" uri="assets/games/CursedBroom.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/games/PowerFantasyVR" uri="assets/games/PowerFantasyVR.xml"/>
+  <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/games/TrialOfTwo" uri="assets/games/TrialOfTwo.xml"/>
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/BackToTheChicken" uri="assets/jam-games/BackToTheChicken.xml"/>
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/BattleOfTheGods" uri="assets/jam-games/BattleOfTheGods.xml"/>
   <uri name="farah://slothsoft@daniel-schulz.slothsoft.net/jam-games/BloomingCommunity" uri="assets/jam-games/BloomingCommunity.xml"/>

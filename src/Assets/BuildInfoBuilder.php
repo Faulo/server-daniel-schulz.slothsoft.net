@@ -11,12 +11,12 @@ use Slothsoft\Farah\Module\Executable\ResultBuilderStrategy\DOMWriterResultBuild
 use DOMDocument;
 use DOMElement;
 
-class BuildInfoBuilder implements ExecutableBuilderStrategyInterface {
-
+final class BuildInfoBuilder implements ExecutableBuilderStrategyInterface {
+    
     public function buildExecutableStrategies(AssetInterface $context, FarahUrlArguments $args): ExecutableStrategies {
         $project = $args->get('project');
         $branch = $args->get('branch');
-
+        
         $closure = function (DOMDocument $targetDoc) use ($context, $args, $project, $branch): DOMElement {
             $rootNode = $targetDoc->createElement('builds');
             $rootNode->setAttribute('url', (string) $context->createUrl($args));

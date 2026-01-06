@@ -5,8 +5,8 @@ namespace Slothsoft\Server\DanielSchulz\Assets;
 use Slothsoft\Core\IO\Sanitizer\StringSanitizer;
 use Slothsoft\Farah\Module\Asset\ParameterFilterStrategy\AbstractMapParameterFilter;
 
-class BuildParameterFilter extends AbstractMapParameterFilter {
-
+final class BuildParameterFilter extends AbstractMapParameterFilter {
+    
     protected function createValueSanitizers(): array {
         return [
             'project' => new StringSanitizer(),

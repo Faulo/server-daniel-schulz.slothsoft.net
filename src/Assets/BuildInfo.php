@@ -5,14 +5,14 @@ namespace Slothsoft\Server\DanielSchulz\Assets;
 use Slothsoft\Core\DOMHelper;
 use Slothsoft\Core\FileSystem;
 
-class BuildInfo {
-
+final class BuildInfo {
+    
     const BUILD_DIRECTORY = 'Builds';
-
+    
     const INDEX_FILE = '/index.html';
-
+    
     const SETTINGS_FILE = '/Build/Game.json';
-
+    
     public static function loadBuilds(string $project, string $branch): iterable {
         foreach (FileSystem::scanDir(self::BUILD_DIRECTORY, FileSystem::SCANDIR_EXCLUDE_FILES) as $p) {
             foreach (FileSystem::scanDir(self::BUILD_DIRECTORY . DIRECTORY_SEPARATOR . $p, FileSystem::SCANDIR_EXCLUDE_FILES) as $b) {
@@ -26,22 +26,22 @@ class BuildInfo {
             }
         }
     }
-
+    
     public $project;
-
+    
     public $branch;
-
+    
     public $settings;
-
+    
     public $indexDocument;
-
+    
     public $unityVersion;
-
+    
     private function __construct(string $project, string $branch) {
         $this->project = $project;
         $this->branch = $branch;
     }
-
+    
     public function getAttributes(): iterable {
         yield 'project' => $this->project;
         yield 'branch' => $this->branch;
@@ -60,15 +60,15 @@ class BuildInfo {
             }
         }
     }
-
+    
     public function isValid(): bool {
         return file_exists($this->getIndexFile());
     }
-
+    
     private function getIndexFile(): string {
         return self::BUILD_DIRECTORY . "/$this->project/$this->branch" . self::INDEX_FILE;
     }
-
+    
     private function getSettings($textContent): array {
         $match = [];
         if (preg_match('~"(Build/.+\.json)"~', $textContent, $match)) {
@@ -91,7 +91,7 @@ class BuildInfo {
         }
         throw new \Exception('Unable to determine settings from index.html');
     }
-
+    
     private function parseSettings($json): array {
         $json = trim($json);
         $json = str_replace('buildUrl + "', '"Build', $json);
@@ -104,7 +104,7 @@ class BuildInfo {
         $json = preg_replace('~,\s+\}$~', '}', $json);
         return json_decode($json, true);
     }
-
+    
     private function load() {
         $this->indexDocument = @DOMHelper::loadDocument($this->getIndexFile(), true);
         $this->settings = $this->getSettings($this->indexDocument->textContent);

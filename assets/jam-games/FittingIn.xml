@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Global Game Jam 2026</title>
+	<site>Universität Bayreuth</site>
+	<theme>Mask</theme>
+	<start-date datetime="2026-01-30" />
+	<end-date datetime="2026-01-01" />
+	<website>https://globalgamejam.org/jam-sites/2026/universitat-bayreuth</website>
+	<games>
+		<game>
+			<title>Fitting In</title>
+			<description>A game about navigating the world without losing oneself.</description>
+			<additionals>
+				<additional>
+					<title>Play on itch.io</title>
+					<link>https://faulo.itch.io/fitting-in</link>
+				</additional>
+				<additional>
+					<title>GitHub repository</title>
+					<link>https://github.com/ggmini/GGJ2026</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>2D Art</role>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Gregory Munro</person>
+					<role>Programming</role>
+					<role>Level Design</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>

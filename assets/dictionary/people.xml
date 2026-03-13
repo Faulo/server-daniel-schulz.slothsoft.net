@@ -219,4 +219,7 @@
     <sfd:entry xml:id="NadineJachmann">
         <a href="https://www.linkedin.com/in/nadine-jachmann-698686249/" rel="external" target="_blank">Nadine Jachmann</a>
     </sfd:entry>
+    <sfd:entry xml:id="GregoryMunro">
+        <a href="https://github.com/ggmini" rel="external" target="_blank">Gregory Munro</a>
+    </sfd:entry>
 </sfd:dictionary>

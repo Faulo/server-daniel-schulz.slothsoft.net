@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\Server\DanielSchulz\Tests;
+namespace Slothsoft\Server\DanielSchulz;
 
 use Slothsoft\Farah\Http\MessageFactory;
 use Slothsoft\FarahTesting\Module\AbstractTestCase;

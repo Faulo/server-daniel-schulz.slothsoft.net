@@ -1,0 +1,26 @@
+name: daniel-schulz
+type: php
+docroot: html
+php_version: "8.5"
+webserver_type: apache-fpm
+xdebug_enabled: false
+database:
+    type: mariadb
+    version: "11.8"
+omit_containers:
+    - db
+composer_version: "2"
+web_environment:
+    - SERVER_NAME=daniel-schulz.ddev.site
+webimage_extra_packages:
+    - php${DDEV_PHP_VERSION}-ds
+    - php${DDEV_PHP_VERSION}-gd
+    - php${DDEV_PHP_VERSION}-imagick
+    - php${DDEV_PHP_VERSION}-imap
+    - php${DDEV_PHP_VERSION}-intl
+    - php${DDEV_PHP_VERSION}-mysqli
+    - php${DDEV_PHP_VERSION}-sockets
+    - php${DDEV_PHP_VERSION}-sqlite3
+    - php${DDEV_PHP_VERSION}-xsl
+    - php${DDEV_PHP_VERSION}-zip
+disable_upload_dirs_warning: true

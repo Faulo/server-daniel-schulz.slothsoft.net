@@ -1,0 +1,25 @@
+services:
+    web:
+        environment:
+            HTTP_EXPOSE: 8025:8025
+            HTTPS_EXPOSE: 8026:8025
+
+    farah:
+        container_name: ddev-${DDEV_SITENAME}-farah
+        image: faulo/farah:8.5
+        environment:
+            SERVER_NAME: ${DDEV_HOSTNAME}
+            HTTP_EXPOSE: 80:80
+            HTTPS_EXPOSE: 443:80
+            VIRTUAL_HOST: ${DDEV_HOSTNAME}
+        volumes:
+            - ../:/var/www
+            - ../.farah-vendor:/var/www/vendor
+        tmpfs:
+            - /var/www/cache:mode=1777
+        healthcheck:
+            test: [CMD-SHELL, curl --fail --silent http://localhost/ > /dev/null]
+            interval: 10s
+            timeout: 5s
+            retries: 30
+        restart: "no"

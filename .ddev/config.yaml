@@ -5,22 +5,23 @@ php_version: "8.5"
 webserver_type: apache-fpm
 xdebug_enabled: false
 database:
-    type: mariadb
-    version: "11.8"
-omit_containers:
-    - db
+  type: mariadb
+  version: "11.8"
 composer_version: "2"
+disable_upload_dirs_warning: true
 web_environment:
-    - SERVER_NAME=daniel-schulz.ddev.site
+  - SERVER_NAME=daniel-schulz.ddev.site
 webimage_extra_packages:
-    - php${DDEV_PHP_VERSION}-ds
-    - php${DDEV_PHP_VERSION}-gd
-    - php${DDEV_PHP_VERSION}-imagick
-    - php${DDEV_PHP_VERSION}-imap
-    - php${DDEV_PHP_VERSION}-intl
-    - php${DDEV_PHP_VERSION}-mysqli
+    - php${DDEV_PHP_VERSION}-ctype
+    - php${DDEV_PHP_VERSION}-curl
+    - php${DDEV_PHP_VERSION}-dom
+    - php${DDEV_PHP_VERSION}-fileinfo
+    - php${DDEV_PHP_VERSION}-iconv
+    - php${DDEV_PHP_VERSION}-mbstring
+    - php${DDEV_PHP_VERSION}-phar
     - php${DDEV_PHP_VERSION}-sockets
-    - php${DDEV_PHP_VERSION}-sqlite3
+    - php${DDEV_PHP_VERSION}-tokenizer
+    - php${DDEV_PHP_VERSION}-xmlwriter
     - php${DDEV_PHP_VERSION}-xsl
     - php${DDEV_PHP_VERSION}-zip
-disable_upload_dirs_warning: true
+

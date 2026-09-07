@@ -1,0 +1,1 @@
+FROM faulo/farah:8.5 AS farah

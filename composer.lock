@@ -673,6 +673,73 @@
             "time": "2025-10-13T14:40:30+00:00"
         },
         {
+            "name": "masterminds/html5",
+            "version": "2.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Masterminds/html5-php.git",
+                "reference": "a1e7a2f88ee13635d86fc61cfbdf2306a76ddfc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/a1e7a2f88ee13635d86fc61cfbdf2306a76ddfc7",
+                "reference": "a1e7a2f88ee13635d86fc61cfbdf2306a76ddfc7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6 || ^7 || ^8 || ^9 || ^10"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Masterminds\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Butcher",
+                    "email": "technosophos@gmail.com"
+                },
+                {
+                    "name": "Matt Farina",
+                    "email": "matt@mattfarina.com"
+                },
+                {
+                    "name": "Asmir Mustafic",
+                    "email": "goetas@gmail.com"
+                }
+            ],
+            "description": "An HTML5 parser and serializer.",
+            "homepage": "http://masterminds.github.io/html5-php",
+            "keywords": [
+                "HTML5",
+                "dom",
+                "html",
+                "parser",
+                "querypath",
+                "serializer",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://github.com/Masterminds/html5-php/issues",
+                "source": "https://github.com/Masterminds/html5-php/tree/2.11.0"
+            },
+            "time": "2026-08-18T06:18:41+00:00"
+        },
+        {
             "name": "matthiasmullie/minify",
             "version": "1.3.75",
             "source": {
@@ -1209,16 +1276,16 @@
         },
         {
             "name": "slothsoft/core",
-            "version": "1.14.26",
+            "version": "1.14.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-core.git",
-                "reference": "fdac4252d5299f6d01e8fed11f23d78c9d33df64"
+                "reference": "b57aa699cffc56e9902741b6654c5ba66aa63a3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/fdac4252d5299f6d01e8fed11f23d78c9d33df64",
-                "reference": "fdac4252d5299f6d01e8fed11f23d78c9d33df64",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-core/zipball/b57aa699cffc56e9902741b6654c5ba66aa63a3d",
+                "reference": "b57aa699cffc56e9902741b6654c5ba66aa63a3d",
                 "shasum": ""
             },
             "require": {
@@ -1278,38 +1345,40 @@
                 }
             ],
             "description": "Core stuff.",
-            "homepage": "http://farah.slothsoft.net/modules/core",
+            "homepage": "https://farah.slothsoft.net/modules/core",
             "keywords": [
                 "docs",
                 "slothsoft"
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-core/issues",
-                "source": "https://github.com/Faulo/slothsoft-core/tree/1.14.26"
+                "source": "https://github.com/Faulo/slothsoft-core/tree/1.14.27"
             },
-            "time": "2026-07-24T12:23:53+00:00"
+            "time": "2026-08-30T23:00:26+00:00"
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.28.4",
+            "version": "1.29.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "73dd7c474cb7203e534f662c04a5af6ad20ecfbc"
+                "reference": "1ef4b425dddb31bdc3dc0c11bf9d27351f3aa839"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/73dd7c474cb7203e534f662c04a5af6ad20ecfbc",
-                "reference": "73dd7c474cb7203e534f662c04a5af6ad20ecfbc",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/1ef4b425dddb31bdc3dc0c11bf9d27351f3aa839",
+                "reference": "1ef4b425dddb31bdc3dc0c11bf9d27351f3aa839",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
+                "ext-libxml": "*",
                 "ext-sockets": "*",
                 "ext-zlib": "*",
                 "guzzlehttp/psr7": "^2.9.0",
                 "laminas/laminas-http": "^2.23.0",
                 "laminas/laminas-router": "^3.18.0",
+                "masterminds/html5": "^2.11.0",
                 "matthiasmullie/minify": "^1.3.75",
                 "php": ">=8.2",
                 "php-ds/php-ds": "^1.7.0",
@@ -1359,7 +1428,7 @@
                 }
             ],
             "description": "Files and Resources and Hypertext: A content management system.",
-            "homepage": "http://farah.slothsoft.net/modules/farah",
+            "homepage": "https://faulo.github.io/slothsoft-farah/",
             "keywords": [
                 "docs",
                 "farah-module",
@@ -1367,9 +1436,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.28.4"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.29.2"
             },
-            "time": "2026-07-04T20:59:19+00:00"
+            "time": "2026-09-04T21:39:02+00:00"
         },
         {
             "name": "slothsoft/schema",
@@ -1824,73 +1893,6 @@
                 }
             ],
             "time": "2026-01-05T06:47:08+00:00"
-        },
-        {
-            "name": "masterminds/html5",
-            "version": "2.11.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Masterminds/html5-php.git",
-                "reference": "a1e7a2f88ee13635d86fc61cfbdf2306a76ddfc7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/a1e7a2f88ee13635d86fc61cfbdf2306a76ddfc7",
-                "reference": "a1e7a2f88ee13635d86fc61cfbdf2306a76ddfc7",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "php": ">=7.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6 || ^7 || ^8 || ^9 || ^10"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Masterminds\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matt Butcher",
-                    "email": "technosophos@gmail.com"
-                },
-                {
-                    "name": "Matt Farina",
-                    "email": "matt@mattfarina.com"
-                },
-                {
-                    "name": "Asmir Mustafic",
-                    "email": "goetas@gmail.com"
-                }
-            ],
-            "description": "An HTML5 parser and serializer.",
-            "homepage": "http://masterminds.github.io/html5-php",
-            "keywords": [
-                "HTML5",
-                "dom",
-                "html",
-                "parser",
-                "querypath",
-                "serializer",
-                "xml"
-            ],
-            "support": {
-                "issues": "https://github.com/Masterminds/html5-php/issues",
-                "source": "https://github.com/Masterminds/html5-php/tree/2.11.0"
-            },
-            "time": "2026-08-18T06:18:41+00:00"
         },
         {
             "name": "myclabs/deep-copy",

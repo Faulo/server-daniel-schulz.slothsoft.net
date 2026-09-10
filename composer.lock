@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c36d0e0cd73748e2057149eb3758e12",
+    "content-hash": "88e8e1784b496402989c3aba0fda32fb",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -1358,16 +1358,16 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.29.3",
+            "version": "1.29.4-rc.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "0e611e2a148039a63d5672686130f00afe380d7f"
+                "reference": "1a851e37086bd21adcf6168d3b720bf24096c789"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/0e611e2a148039a63d5672686130f00afe380d7f",
-                "reference": "0e611e2a148039a63d5672686130f00afe380d7f",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/1a851e37086bd21adcf6168d3b720bf24096c789",
+                "reference": "1a851e37086bd21adcf6168d3b720bf24096c789",
                 "shasum": ""
             },
             "require": {
@@ -1436,9 +1436,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.29.3"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.29.4-rc.1"
             },
-            "time": "2026-09-09T21:06:21+00:00"
+            "time": "2026-09-10T15:38:33+00:00"
         },
         {
             "name": "slothsoft/schema",
@@ -5403,7 +5403,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "slothsoft/farah": 5
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},

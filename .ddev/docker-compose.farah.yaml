@@ -1,7 +1,8 @@
 services:
-    web:
-        environment:
-            MYSQL_HOST: db
-            MYSQL_USER: root
-            MYSQL_PASSWORD: root
+  web:
+    environment:
+      FARAH_AUTOLOAD_FILE: "/var/www/html/vendor/autoload.php"
+      MYSQL_HOST: db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
 

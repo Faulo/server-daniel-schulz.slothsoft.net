@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
 	<title>Franken Game Jam 2026</title>
-	<site>LAGARDE 1</site>
+	<site>LAGARDE 1 Bamberg</site>
 	<theme>natural intelligence</theme>
 	<start-date datetime="2026-11-13" />
 	<end-date datetime="2026-11-15" />
@@ -9,7 +9,7 @@
 	<games>
 		<game>
 			<title>Dirigente!</title>
-			<description>A game about the need for sheep.</description>
+			<description>A game about doing what you love anyways.</description>
 			<additionals>
 				<additional>
 					<title>Play on itch.io</title>
@@ -28,7 +28,7 @@
 				</credit>
 				<credit>
 					<person>Nico Preuß</person>
-					<role>Sound Design</role>
+					<role>Music</role>
 					<role>Voice Acting</role>
 					<role>Programming</role>
 				</credit>

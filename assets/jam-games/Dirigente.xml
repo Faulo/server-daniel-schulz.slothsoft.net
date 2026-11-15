@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jam xmlns="http://schema.slothsoft.net/schema/presskit" xmlns:html="http://www.w3.org/1999/xhtml" version="1.1">
+	<title>Franken Game Jam 2026</title>
+	<site>LAGARDE 1</site>
+	<theme>natural intelligence</theme>
+	<start-date datetime="2026-11-13" />
+	<end-date datetime="2026-11-15" />
+	<website>https://itch.io/jam/franken-game-jam-2026/entries</website>
+	<games>
+		<game>
+			<title>Dirigente!</title>
+			<description>A game about the need for sheep.</description>
+			<additionals>
+				<additional>
+					<title>Play on itch.io</title>
+					<link>https://raevren.itch.io/dirigente</link>
+				</additional>
+				<additional>
+					<title>GitHub repository</title>
+					<link>https://github.com/Raevren/frankengamejam2026</link>
+				</additional>
+			</additionals>
+			<credits>
+				<credit>
+					<person>Johanna Burger</person>
+					<role>Art</role>
+					<role>Marketing</role>
+				</credit>
+				<credit>
+					<person>Nico Preuß</person>
+					<role>Sound Design</role>
+					<role>Voice Acting</role>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Pascal</person>
+					<role>Programming</role>
+					<role>Tech Art</role>
+				</credit>
+				<credit>
+					<person>Daniel Schulz</person>
+					<role>Programming</role>
+				</credit>
+				<credit>
+					<person>Selina</person>
+					<role>Art</role>
+					<role>Tech Art</role>
+				</credit>
+			</credits>
+		</game>
+	</games>
+</jam>
